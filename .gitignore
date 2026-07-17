@@ -4,3 +4,4 @@
 # EXCEPT these specific files
 !.gitignore
 !Morning_Briefing.md
+!README.md
