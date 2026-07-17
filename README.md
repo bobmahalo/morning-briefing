@@ -1,5 +1,7 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-07-17 | 03:48 AM*
+*Date: 2026-07-17 | 05:22 AM*
+
+> **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
 
 > **Report Overview:** The Antigravity Morning Briefing is an automated, multi-engine daily report. It combines independent algorithmic scans across structural market health, deep value opportunities, and volatility metrics to provide a comprehensive, unbiased overview of the market's current state and actionable trade candidates.
@@ -21,9 +23,9 @@
 ---
 
 ### 🪙 Metals Macro-Barometer
-* **GOLD (GC=F):** `$3,990.40` | 1M: `-8.5%` | 6M: `-13.6%` | 1Y: `+17.3%`
-* **SILVER (SI=F):** `$55.38` | 1M: `-21.7%` | 6M: `-39.7%` | 1Y: `+41.6%`
-* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `72.0`
+* **GOLD (GC=F):** `$4,011.60` | 1M: `-8.0%` | 6M: `-13.1%` | 1Y: `+17.9%`
+* **SILVER (SI=F):** `$56.15` | 1M: `-20.6%` | 6M: `-38.9%` | 1Y: `+43.6%`
+* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `71.4`
 
 ---
 
@@ -47,9 +49,9 @@
 > **Methodology:** A market-neutral volatility capture strategy. This engine continuously analyzes major indices and highly liquid tickers to identify environments where Implied Volatility (IV)—the market's expected future movement—is significantly overpriced relative to Historical Volatility. When fear drives options premiums to irrational levels, the engine constructs Iron Condors by selling both out-of-the-money calls and puts to define a mathematical "probability channel." This generates steady, defined-risk income that profits through theta decay, specifically designed for choppy or sideways markets where the underlying asset simply bleeds out the excessive premium.
 | Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
 |--------|----|--------|------------|-------------|---------|
-| **ETN** | $388.89 | 2026-08-21 | 330.0/300.0 | 460.0/490.0 | $0.65 |
-| **NEE** | $90.64 | 2026-08-21 | 82.5/77.5 | 100.0/105.0 | $0.31 |
-| **VST** | $149.57 | 2026-08-21 | 125.0/110.0 | 185.0/200.0 | $0.96 |
+| **ETN** | $398.47 | 2026-08-21 | 330.0/300.0 | 460.0/490.0 | $0.65 |
+| **NEE** | $89.97 | 2026-08-21 | 82.5/77.5 | 100.0/105.0 | $0.31 |
+| **VST** | $154.34 | 2026-08-21 | 125.0/110.0 | 185.0/200.0 | $0.96 |
 
 ## 💵 4. SPY Covered Calls
 *Income generation on core holdings.*
