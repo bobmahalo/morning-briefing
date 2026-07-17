@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-07-17 | 05:22 AM*
+*Date: 2026-07-17 | 05:53 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -23,8 +23,8 @@
 ---
 
 ### 🪙 Metals Macro-Barometer
-* **GOLD (GC=F):** `$4,011.60` | 1M: `-8.0%` | 6M: `-13.1%` | 1Y: `+17.9%`
-* **SILVER (SI=F):** `$56.15` | 1M: `-20.6%` | 6M: `-38.9%` | 1Y: `+43.6%`
+* **GOLD (GC=F):** `$4,018.80` | 1M: `-7.8%` | 6M: `-12.9%` | 1Y: `+18.1%`
+* **SILVER (SI=F):** `$56.26` | 1M: `-20.4%` | 6M: `-38.8%` | 1Y: `+43.9%`
 * **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `71.4`
 
 ---
@@ -32,6 +32,7 @@
 ## 🥇 1. The Gold Standard
 *Passed 14-day pipeline survival with 0.00% Max Drawdown.*
 > **Methodology:** This is the ultimate resilience filter. Tickers in this list have survived our stringent 14-day master pipeline—a gauntlet spanning Deep Value, Growth, Survival, and Governance engines—and have remained structurally bulletproof, experiencing a 0.00% Max Drawdown since their discovery. By tracking historical holding periods across a rolling two-week window, this engine ignores broader market noise and isolates assets that are under heavy, sustained institutional accumulation. If the broader market experiences a violent red day and these specific tickers refuse to break support, it confirms the presence of massive institutional buy walls.
+
 | Ticker | Current Price | First Seen | Days Survived | Drawdown % | Historical Context |
 |--------|---------------|------------|---------------|------------|--------------------|
 | **EXEL** | $55.68 | 2026-03-20 | 50 | 0.0% | 1W: $56.50 | 6M: $43.96 | 1Y: $44.87 | 5Y: $16.30 | Context: Mid-Range |
@@ -40,6 +41,7 @@
 ## 💎 2. Top Conviction Tickers & CSP
 *The highest conviction plays from the master pipeline.*
 > **Methodology:** The absolute apex of the Antigravity pipeline. These tickers have survived up to seven distinct algorithmic gates. They must pass **Deep Value** scoring (EV/EBITDA, exceptional ROIC), **Growth** metrics (favorable PEG ratios, sustained Sales Growth), **Survival** checks (Altman Z-Score to eliminate bankruptcy risk and falling knives), and **Governance** tracking (heavy insider buying and solid board integrity). Once these world-class, fundamentally pristine companies are isolated, the options engine analyzes their derivatives chain. We locate the most lucrative Cash-Secured Puts (CSPs), allowing us to safely harvest high-yield premium. In essence, we are getting paid handsomely to wait for a discount entry on the market's strongest companies.
+
 | Ticker | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
 |--------|--------|----------|--------|-------------|--------|--------------------|
 | **TJX** | $150.00 | $155.0 | 2026-08-21 | 15.3% | 6.2% | 1W: $151.34 | 6M: $156.42 | 1Y: $120.69 | 5Y: $60.46 | Context: Testing 2026 Levels |
@@ -47,15 +49,17 @@
 ## 🦅 3. Iron Condors
 *Current neutral/income plays based on index volatility.*
 > **Methodology:** A market-neutral volatility capture strategy. This engine continuously analyzes major indices and highly liquid tickers to identify environments where Implied Volatility (IV)—the market's expected future movement—is significantly overpriced relative to Historical Volatility. When fear drives options premiums to irrational levels, the engine constructs Iron Condors by selling both out-of-the-money calls and puts to define a mathematical "probability channel." This generates steady, defined-risk income that profits through theta decay, specifically designed for choppy or sideways markets where the underlying asset simply bleeds out the excessive premium.
+
 | Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
 |--------|----|--------|------------|-------------|---------|
-| **ETN** | $398.47 | 2026-08-21 | 330.0/300.0 | 460.0/490.0 | $0.65 |
-| **NEE** | $89.97 | 2026-08-21 | 82.5/77.5 | 100.0/105.0 | $0.31 |
-| **VST** | $154.34 | 2026-08-21 | 125.0/110.0 | 185.0/200.0 | $0.96 |
+| **ETN** | $401.12 | 2026-08-21 | 330.0/300.0 | 460.0/490.0 | $0.65 |
+| **NEE** | $89.56 | 2026-08-21 | 82.5/77.5 | 100.0/105.0 | $0.31 |
+| **VST** | $154.92 | 2026-08-21 | 125.0/110.0 | 185.0/200.0 | $0.96 |
 
 ## 💵 4. SPY Covered Calls
 *Income generation on core holdings.*
 > **Methodology:** An automated dividend generator for core market exposure. This engine leverages Black-Scholes modeling alongside the current VIX and Market Regime data to calculate the exact expected 1-day and 7-day standard deviation moves of the S&P 500. It then recommends selling call options precisely outside of this expected move. Rather than blindly selling calls and risking assignment on a random spike, this strategy safely harvests upside premium on long-term ETF holdings without capping realistic growth, dynamically adapting its strikes based on whether the current market regime is calm or chaotic.
+
 | Ticker | SP | Expiry | Strike | Premium (Est) |
 |--------|----|--------|--------|---------------|
 | **SPY** | - | - | - | No Entry Today |
@@ -103,6 +107,7 @@ Fetching VIX...
 ## 🛡️ 6. Low Risk OptionsOS Summary
 *High-liquidity Buffett compounders for safe premium generation.*
 > **Methodology:** The "Buffett Compounders" scan. This module parses fundamental databases for highly liquid, wide-moat mega-caps that exhibit slow, unshakeable growth. It analyzes Piotroski F-Scores (measuring 9 distinct accounting criteria for pristine financial health), precise Valuation multiples, and trend strength (ADX) to confirm safety. If the options premiums on these stalwarts are rich enough, the engine identifies perfectly safe strikes far out of the money. We write premium against these unshakeable businesses, prioritizing strict capital preservation above all else.
+
 | Ticker | Price | Valuation (EV/EBITDA) | Piotroski | Trend (ADX) | Earnings Runway | Suggested Option Action |
 |---|---|---|---|---|---|---|
 | **INCY** | $98.22 | 10.30 | 7/9 | SIDEWAYS/CHOP (17.1) | 📅 33 days (2026-07-28) | No liquid/safe option found |
@@ -114,6 +119,7 @@ Fetching VIX...
 **ETF Ingestion Health Check:**
 - 🟢 **Online/Archived:** SPY, XLK, XLF, XLV, XLE, XAR, XLY, XLP, XLI, XLB, XLU, XLRE, XLC
 - 🔴 **Offline/Blocked (API changes):** QQQ, IWM, SOXX, TLT
+
 
 | Ticker | Current Price | Company | Action | 1-Day Delta | 1-Week Delta | 2-Week Delta | 1-Month Delta | 6-Month Delta | Funds Holding |
 |--------|---------------|---------|--------|-------------|--------------|--------------|---------------|---------------|---------------|
