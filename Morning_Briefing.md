@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-07-17 | 05:21 PM*
+*Date: 2026-07-17 | 05:25 PM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -136,5 +136,5 @@ Fetching VIX...
 
 ---
 <div align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fbobmahalo.github.io%2Fmorning-briefing&title=Visitors" alt="Hits"/>
+  <img src="https://komarev.com/ghpvc/?username=bobmahalo-morning-briefing&label=Views" alt="Hits"/>
 </div>
