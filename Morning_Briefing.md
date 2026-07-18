@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-07-17 | 05:05 PM*
+*Date: 2026-07-17 | 05:07 PM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -114,7 +114,7 @@ Fetching VIX...
 
 ## 🌊 7. Institutional Flow (ETF Dissector)
 *Cross-fund accumulation and shedding from major ETF Anchors.*
-> **Methodology:** This tracks the actual buying and selling of massive, market-moving ETFs (like SPY or QQQ). We filter out the daily noise and look at the 1-Week and 1-Month trends. If a specific stock is being consistently accumulated or dumped across multiple funds over several weeks, it reveals a structural rotation by large institutions, allowing us to spot the trend early.
+> **Methodology:** This tracks the actual buying and selling of massive, market-moving ETFs (like SPY and XLK). We filter out the daily noise and look at the 1-Week and 1-Month trends. If a specific stock is being consistently accumulated or dumped across multiple funds over several weeks, it reveals a structural rotation by large institutions, allowing us to spot the trend early.
 
 **ETF Ingestion Health Check:**
 - 🟢 **Online/Archived:** SPY, XLK, XLF, XLV, XLE, XAR, XLY, XLP, XLI, XLB, XLU, XLRE, XLC
