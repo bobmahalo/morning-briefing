@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-07-21 | 03:48 AM*
+*Date: 2026-07-22 | 03:57 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -23,9 +23,9 @@
 ---
 
 ### 🪙 Metals Macro-Barometer
-* **GOLD (GC=F):** `$4,057.00` | 1M: `-3.0%` | 6M: `-14.8%` | 1Y: `+19.5%`
-* **SILVER (SI=F):** `$58.73` | 1M: `-10.4%` | 6M: `-37.7%` | 1Y: `+49.5%`
-* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `69.1`
+* **GOLD (GC=F):** `$4,150.40` | 1M: `+0.5%` | 6M: `-14.1%` | 1Y: `+23.1%`
+* **SILVER (SI=F):** `$60.47` | 1M: `-2.5%` | 6M: `-34.4%` | 1Y: `+55.0%`
+* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.6`
 
 ---
 
@@ -35,8 +35,8 @@
 
 | Ticker | Current Price | First Seen | Days Survived | Drawdown % | Historical Context |
 |--------|---------------|------------|---------------|------------|--------------------|
-| **EXEL** | $55.53 | 2026-03-20 | 50 | 0.0% | 1W: $55.77 | 6M: $43.78 | 1Y: $44.26 | 5Y: $16.94 | Context: Mid-Range |
-| **CRUS** | $136.79 | 2026-03-20 | 18 | 0.0% | 1W: $137.36 | 6M: $125.65 | 1Y: $104.63 | 5Y: $84.50 | Context: Testing 2024 Levels |
+| **EXEL** | $56.12 | 2026-03-20 | 50 | 0.0% | 1W: $55.55 | 6M: $44.81 | 1Y: $44.47 | 5Y: $16.73 | Context: Mid-Range |
+| **CRUS** | $139.42 | 2026-03-20 | 18 | 0.0% | 1W: $139.07 | 6M: $131.29 | 1Y: $104.31 | 5Y: $84.42 | Context: Testing 2024 Levels |
 
 ## 💎 2. Top Conviction Tickers & CSP
 *The highest conviction plays from the master pipeline.*
@@ -52,10 +52,21 @@
 
 | Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
 |--------|----|--------|------------|-------------|---------|
-| **NEE** | $87.81 | 2026-09-18 | 77.5/70.0 | 97.5/105.0 | $0.43 |
-| **ETN** | $405.66 | 2026-09-18 | 340.0/300.0 | 500.0/540.0 | $0.2 |
-| **VST** | $160.78 | 2026-09-18 | 130.0/125.0 | 210.0/215.0 | $0.33 |
-| **SPY (Gamma IC)** | $744.54 | 30-45 DTE | < $735.00 | > $770.00 | Data-Driven |
+| **NEE** | $88.86 | 2026-09-18 | 80.0/77.5 | 97.5/100.0 | $0.04 |
+| **VST** | $165.87 | 2026-09-18 | 135.0/130.0 | 210.0/215.0 | $0.32 |
+| **ETN** | $411.73 | 2026-09-18 | 340.0/310.0 | 500.0/530.0 | $0.6 |
+| **DUK** | $126.99 | 2026-09-18 | 115.0/110.0 | 140.0/145.0 | $0.05 |
+| **SPY (Gamma IC)** | $748.42 | 30-45 DTE | < $735.00 | > $770.00 | Data-Driven |
+
+## 🦋 3.5 The Macro-Shock BWB (SPY 0-DTE)
+*An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
+> **Methodology:** The engine calculates the daily Expected Move using the VIX, and then targets the exact "Gamma Wall" where market makers have massive options positions. We set our Max Profit trap precisely at that wall, and buy a protective "broken wing" further down to strictly cap our risk in the event of a sudden market shock.
+
+| Ticker | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
+|--------|--------|------------------|----------------|-------------------|--------------|
+| **SPY** | 0-DTE | $747.00 | $745.00 | $741.00 | Net Credit |
+
+> **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
 
 ## 💵 4. SPY Covered Calls
 *Income generation on core holdings.*
@@ -63,37 +74,37 @@
 
 | Ticker | SP | Expiry | Strike | Premium (Est) |
 |--------|----|--------|--------|---------------|
-| **SPY** | $746.31 | 1-Day | $752 | $36 |
+| **SPY** | $747.05 | 1-Day | $753 | $23 |
 
 ```text
 Fetching SPY data from Alpaca...
 Fetching VIX...
 
 ========================================================
-   SPY DAILY SIGNAL — Tuesday, July 21, 2026
+   SPY DAILY SIGNAL — Wednesday, July 22, 2026
 ========================================================
-  SPY Close       : $    744.49
-  SPY Open        : $    746.31
-  Prior SMA-40    : $    745.90
-  VIX             : 17.7    ✅ CALM regime
-  Hist Vol (ann)  : 11.4%
+  SPY Close       : $    748.14
+  SPY Open        : $    747.05
+  Prior SMA-40    : $    746.04
+  VIX             : 17.2    ✅ CALM regime
+  Hist Vol (ann)  : 10.3%
 ========================================================
-  EXPECTED MOVE ESTIMATES (VIX: 17.7%):
+  EXPECTED MOVE ESTIMATES (VIX: 17.2%):
     Daily (1-Day DTE):
-      - IV-Based (Calendar 365) : ±$  6.90  (0.93%)
-      - IV-Based (Trading 252)  : ±$  8.30  (1.11%)
-      - ATM Straddle (0.85x BS) : ±$  5.63  (0.76%)
+      - IV-Based (Calendar 365) : ±$  6.74  (0.90%)
+      - IV-Based (Trading 252)  : ±$  8.11  (1.08%)
+      - ATM Straddle (0.85x BS) : ±$  5.50  (0.73%)
     Weekly (7-Day DTE):
-      - IV-Based (Calendar 365) : ±$ 18.25  (2.45%)
-      - ATM Straddle (0.85x BS) : ±$ 12.38  (1.66%)
+      - IV-Based (Calendar 365) : ±$ 17.82  (2.38%)
+      - ATM Straddle (0.85x BS) : ±$ 12.09  (1.62%)
 ========================================================
   POSITION : IN CASH
 ========================================================
   🟢 CONDITIONS MET — enter today
-     BUY 100 SPY at open  ~$746.31
+     BUY 100 SPY at open  ~$747.05
      Suggested Strikes:
-       - Regime-based  : $752     (Est Prem: ~$36, OTM: 0.75%, ✅ CALM)
-       - Expected Move : $752     (Est Prem: ~$36, OTM: 0.76%)
+       - Regime-based  : $753     (Est Prem: ~$23, OTM: 0.75%, ✅ CALM)
+       - Expected Move : $753     (Est Prem: ~$23, OTM: 0.80%)
 ========================================================
   State saved  →  ~/spy_backtest/state.json
 ========================================================
@@ -101,11 +112,11 @@ Fetching VIX...
 
 ## 🛑 5. Active LEAPS Summary
 > **Methodology:** This is a strategy for amplifying returns while strictly limiting risk. Instead of buying 100 shares of an expensive stock outright, we look for deep, long-term options (LEAPS) that mimic owning the stock but cost a fraction of the price. This frees up capital and ensures that, even in a worst-case market crash, the absolute maximum you can lose is strictly capped to the smaller amount you paid for the contract.
-- **AAPL** | 2027-06-17 **$230C** | 💰 Cost: $107.92 | ⚡ Lev: 3.0x | 🛡 Prem: 4.46% (Δ 0.90)
-- **AAPL** | 2027-06-17 **$220C** | 💰 Cost: $116.55 | ⚡ Lev: 2.78x | 🛡 Prem: 4.04% (Δ 0.92)
-- **AMZN** | 2027-06-17 **$165C** | 💰 Cost: $95.18 | ⚡ Lev: 2.6x | 🛡 Prem: 4.98% (Δ 0.91)
-- **AMZN** | 2027-07-16 **$165C** | 💰 Cost: $96.17 | ⚡ Lev: 2.58x | 🛡 Prem: 5.38% (Δ 0.91)
-- **NVDA** | 2027-06-17 **$130C** | 💰 Cost: $86.53 | ⚡ Lev: 2.39x | 🛡 Prem: 4.6% (Δ 0.91)
+- **AAPL** | 2027-06-17 **$230C** | 💰 Cost: $110.22 | ⚡ Lev: 2.96x | 🛡 Prem: 4.32% (Δ 0.90)
+- **AAPL** | 2027-09-17 **$225C** | 💰 Cost: $118.05 | ⚡ Lev: 2.76x | 🛡 Prem: 5.18% (Δ 0.90)
+- **AMZN** | 2027-06-17 **$165C** | 💰 Cost: $92.30 | ⚡ Lev: 2.65x | 🛡 Prem: 5.08% (Δ 0.91)
+- **AMZN** | 2027-07-16 **$165C** | 💰 Cost: $93.12 | ⚡ Lev: 2.63x | 🛡 Prem: 5.42% (Δ 0.90)
+- **LLY** | 2027-06-17 **$760C** | 💰 Cost: $446.80 | ⚡ Lev: 2.59x | 🛡 Prem: 4.19% (Δ 0.90)
 
 ## 🛡️ 6. Low Risk OptionsOS Summary
 *High-liquidity Buffett compounders for safe premium generation.*
@@ -126,16 +137,16 @@ Fetching VIX...
 
 | Ticker | Current Price | Company | Action | 1-Day Delta | 1-Week Delta | 2-Week Delta | 1-Month Delta | 6-Month Delta | Funds Holding |
 |--------|---------------|---------|--------|-------------|--------------|--------------|---------------|---------------|---------------|
-| **-** | N/A | SSI US GOV MONEY MAR | 🟢 Accum | +21,572,894 | +130,484,610 | +256,987,565 | [Aggregating...] | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
-| **NVDA** | $206.50 | NVIDIA CORP | 🟢 Accum | +679,935 | +2,360,301 | +4,802,849 | [Aggregating...] | [Aggregating...] | SPY, XLK |
-| **AAPL** | $323.05 | APPLE INC | 🟢 Accum | +412,317 | +1,431,309 | +2,912,477 | [Aggregating...] | [Aggregating...] | SPY, XLK |
-| **XOM** | $150.43 | EXXONMOBIL HOLDINGS  | 🟢 Accum | +369,756 | +607,644 | +209,860 | [Aggregating...] | [Aggregating...] | SPY, XLE |
-| **KMI** | $32.47 | KINDER MORGAN INC | 🟢 Accum | +294,196 | +389,356 | -143,028 | [Aggregating...] | [Aggregating...] | SPY, XLE |
-| **BAC** | $60.53 | BANK OF AMERICA CORP | 🔴 Shed | -208,881 | +1,410,420 | +2,163,907 | [Aggregating...] | [Aggregating...] | SPY, XLF |
-| **WBD** | $25.83 | WARNER BROS DISCOVER | 🔴 Shed | -155,184 | +45,872 | -761,888 | [Aggregating...] | [Aggregating...] | SPY, XLC |
-| **CMCSA** | $23.75 | COMCAST CORP CLASS A | 🔴 Shed | -154,704 | +122,888 | -691,998 | [Aggregating...] | [Aggregating...] | SPY, XLC |
-| **KVUE** | $18.83 | KENVUE INC | 🔴 Shed | -124,887 | +75,922 | +796,383 | [Aggregating...] | [Aggregating...] | SPY, XLP |
-| **ACHR** | $5.29 | ARCHER AVIATION INC  | 🔴 Shed | -108,645 | -217,290 | -507,003 | [Aggregating...] | [Aggregating...] | XAR |
+| **-** | N/A | SSI US GOV MONEY MAR | 🟢 Accum | +37,908,330 | +82,021,549 | +227,409,435 | [Aggregating...] | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
+| **BAC** | $61.54 | BANK OF AMERICA CORP | 🟢 Accum | +278,395 | +1,631,986 | +1,727,104 | [Aggregating...] | [Aggregating...] | SPY, XLF |
+| **PSA** | $310.08 | PUBLIC STORAGE | 🟢 Accum | +180,724 | +205,981 | +223,087 | [Aggregating...] | [Aggregating...] | SPY, XLRE |
+| **WFC** | $87.02 | WELLS FARGO + CO | 🟢 Accum | +130,345 | +764,727 | +809,310 | [Aggregating...] | [Aggregating...] | SPY, XLF |
+| **JPM** | $346.63 | JPMORGAN CHASE + CO | 🟢 Accum | +114,045 | +669,572 | +708,660 | [Aggregating...] | [Aggregating...] | SPY, XLF |
+| **NVDA** | $207.98 | NVIDIA CORP | 🔴 Shed | -1,219,291 | +1,584,211 | +2,775,669 | [Aggregating...] | [Aggregating...] | SPY, XLK |
+| **AAPL** | $325.89 | APPLE INC | 🔴 Shed | -739,995 | +960,075 | +1,682,609 | [Aggregating...] | [Aggregating...] | SPY, XLK |
+| **T** | $23.09 | AT+T INC | 🔴 Shed | -468,126 | +113,253 | -325,473 | [Aggregating...] | [Aggregating...] | SPY, XLC |
+| **AMZN** | $244.99 | AMAZON.COM INC | 🔴 Shed | -435,310 | +690,844 | +1,120,926 | [Aggregating...] | [Aggregating...] | SPY, XLY |
+| **MSFT** | $391.40 | MICROSOFT CORP | 🔴 Shed | -377,052 | +482,692 | +848,100 | [Aggregating...] | [Aggregating...] | SPY, XLK |
 
 ---
 <div align="center">
