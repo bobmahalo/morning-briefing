@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-06 | 03:45 AM*
+*Date: 2026-08-07 | 03:50 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -7,15 +7,15 @@
 > **Report Overview:** This daily briefing combines multiple automated scans to give you a clear, unbiased picture of the market. It checks the overall health of the financial system, finds deeply undervalued companies, and highlights specific trade opportunities based on actual market data, not opinions.
 
 ## 📡 MACRO EVENT RADAR (45-Day Outlook)
-> ⚠️ Non-Farm Payrolls (NFP) & Unemployment TOMORROW (2026-08-07)
-> ⚠️ Core CPI Inflation Data in 6 Days (2026-08-12)
-> ⚠️ Non-Farm Payrolls (NFP) & Unemployment in 29 Days (2026-09-04)
-> ⚠️ Core CPI Inflation Data in 36 Days (2026-09-11)
-> ⚠️ FOMC Rate Decision & Press Conference in 41 Days (2026-09-16)
+> ⚠️ Non-Farm Payrolls (NFP) & Unemployment TODAY (2026-08-07)
+> ⚠️ Core CPI Inflation Data in 5 Days (2026-08-12)
+> ⚠️ Non-Farm Payrolls (NFP) & Unemployment in 28 Days (2026-09-04)
+> ⚠️ Core CPI Inflation Data in 35 Days (2026-09-11)
+> ⚠️ FOMC Rate Decision & Press Conference in 40 Days (2026-09-16)
 
 ---
 
-# 🌤️ Today's Market Weather: 🟡 YELLOW (Neutral / Transition) (Score: 48.3)
+# 🌤️ Today's Market Weather: 🟡 YELLOW (Neutral / Transition) (Score: 51.7)
 **State:** Neutral / Transition
 **Suggested Cash/T-Bill Allocation:** 30.0%
 
@@ -25,16 +25,16 @@
 - **Volatility (VIX/SKEW)**: 🟡 YELLOW (Neutral / Transition) (45.0)
 - **Credit (JNK/TLT)**: 🟢 GREEN (Risk-On / Euphoria) (70.0)
 - **Macro (Copper/Gold)**: 🔴 RED (Risk-Off / Contraction) (30.0)
-- **Currency & Speculation**: 🟢 GREEN (Risk-On / Euphoria) (70.0)
+- **Currency & Speculation**: 🟢 GREEN (Risk-On / Euphoria) (90.0)
 - **Structural Gravity**: 🔴 RED (Risk-Off / Contraction) (10.0)
 - **Options & Breadth**: 🟢 GREEN (Risk-On / Euphoria) (65.0)
 
 ---
 
 ### 🪙 Metals Macro-Barometer
-* **GOLD (GC=F):** `$4,320.70` | 1M: `+4.6%` | 6M: `-11.1%` | 1Y: `+25.6%`
-* **SILVER (SI=F):** `$62.10` | 1M: `+2.9%` | 6M: `-18.9%` | 1Y: `+61.6%`
-* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `69.6`
+* **GOLD (GC=F):** `$4,424.00` | 1M: `+7.8%` | 6M: `-10.6%` | 1Y: `+31.9%`
+* **SILVER (SI=F):** `$64.57` | 1M: `+8.0%` | 6M: `-15.9%` | 1Y: `+71.4%`
+* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.5`
 
 ---
 
@@ -44,7 +44,7 @@
 
 | Ticker | Current Price | First Seen | Days Survived | Drawdown % | Historical Context |
 |--------|---------------|------------|---------------|------------|--------------------|
-| **EXEL** | $56.70 | 2026-03-20 | 50 | 0.0% | 1W: $55.97 | 6M: $42.37 | 1Y: $37.71 | 5Y: $17.25 | Context: Testing 52W Highs |
+| **EXEL** | $52.20 | 2026-03-20 | 50 | 0.0% | 1W: $53.03 | 6M: $43.90 | 1Y: $37.39 | 5Y: $17.55 | Context: Mid-Range |
 
 ## 💎 2. Top Conviction Tickers & CSP
 *The highest conviction plays from the master pipeline.*
@@ -52,7 +52,7 @@
 
 | Ticker | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
 |--------|--------|----------|--------|-------------|--------|--------------------|
-| No tickers met the premium/risk threshold today. Cash is a position. | - | - | - | - | - | - |
+| **PLTR** | $157.50 | $130.0 | 2026-08-21 | 54.6% | 6.4% | 1W: $123.06 | 6M: $135.90 | 1Y: $182.20 | 5Y: $22.93 | Context: Testing 2026 Levels |
 
 ## 🦅 3. Iron Condors
 *Current neutral/income plays based on index volatility.*
@@ -60,12 +60,13 @@
 
 | Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
 |--------|----|--------|------------|-------------|---------|
-| **STX** | $837.66 | 2026-09-18 | 600.0/550.0 | 1170.0/1220.0 | $0.6 |
-| **NEE** | $85.91 | 2026-09-18 | 80.0/77.5 | 92.5/95.0 | $0.13 |
-| **ETN** | $447.28 | 2026-09-18 | 390.0/370.0 | 520.0/540.0 | $0.9 |
-| **VST** | $140.58 | 2026-09-18 | 120.0/115.0 | 180.0/185.0 | $0.48 |
-| **SPY (Gamma IC)** | $770.91 | 30-45 DTE | < $760.00 | > $785.00 | Data-Driven |
-| **$SPX (Gamma IC)** | $7731.97 | 30-45 DTE | < $7500.00 | > $7900.00 | Data-Driven |
+| **VST** | $138.70 | 2026-09-18 | 120.0/115.0 | 170.0/175.0 | $0.8 |
+| **WDC** | $438.14 | 2026-09-18 | 340.0/330.0 | 620.0/630.0 | $0.95 |
+| **STX** | $803.01 | 2026-09-18 | 620.0/570.0 | 1170.0/1220.0 | $0.8 |
+| **ETN** | $453.05 | 2026-09-18 | 400.0/380.0 | 520.0/540.0 | $0.8 |
+| **DUK** | $123.16 | 2026-09-18 | 115.0/105.0 | 130.0/140.0 | $0.05 |
+| **SPY (Gamma IC)** | $771.63 | 30-45 DTE | < $760.00 | > $790.00 | Data-Driven |
+| **$SPX (Gamma IC)** | $7741.39 | 30-45 DTE | < $7500.00 | > $7900.00 | Data-Driven |
 
 ## 🦋 3.5 The Macro-Shock BWB (SPY 0-DTE)
 *An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
@@ -73,7 +74,7 @@
 
 | Ticker | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
 |--------|--------|------------------|----------------|-------------------|--------------|
-| **SPY** | 0-DTE | $766.00 | $764.00 | $760.00 | Net Credit |
+| **SPY** | 0-DTE | $772.00 | $770.00 | $766.00 | Net Credit |
 
 > **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
 
@@ -91,11 +92,8 @@
 
 | Ticker | Days to ER | IV Ramp | Phase | Historical Edge | Suggested Play |
 |--------|------------|---------|-------|-----------------|----------------|
-| **PRDO** | 0 Days | 📈 73% `[█████░░░]` | Sell Zone | N/A | **SELL** $35/$40 Call Spread (Or CC) |
-| **G** | 0 Days | 📈 67% `[█████░░░]` | Sell Zone | N/A | **SELL** $40/$45 Call Spread (Or CC) |
-| **SEZL** | 0 Days | 📈 108% `[████████]` | Sell Zone | N/A | **SELL** $175/$180 Call Spread (Or CC) |
-| **INTU** | 19 Days | 📈 75% `[██████░░]` | Buy Zone | N/A | **BUY** $285 Put (Exp: 2026-09-25) |
-| **ULTA** | 21 Days | 📉 42% `[███░░░░░]` | Buy Zone | N/A | **BUY** $485 Put (Exp: 2026-09-25) |
+| **INTU** | 18 Days | 📈 92% `[███████░]` | Buy Zone | N/A | **BUY** $290 Put (Exp: 2026-09-25) |
+| **ULTA** | 20 Days | 📈 63% `[█████░░░]` | Buy Zone | N/A | **BUY** $485 Put (Exp: 2026-09-25) |
 
 ## 💵 4. SPY Covered Calls
 *Income generation on core holdings.*
@@ -103,38 +101,38 @@
 
 | Ticker | SP | Expiry | Strike | Premium (Est) |
 |--------|----|--------|--------|---------------|
-| **SPY** | $770.17 | 1-Day | $776 | $75 |
+| **SPY** | $771.00 | 1-Day | $777 | $71 |
 
 ```text
 Fetching SPY data from Alpaca...
 Fetching VIX...
 
 ========================================================
-   SPY DAILY SIGNAL — Thursday, August 06, 2026
+   SPY DAILY SIGNAL — Friday, August 07, 2026
 ========================================================
-  SPY Close       : $    770.39
-  SPY Open        : $    770.17
-  Prior SMA-40    : $    744.97
-  VIX             : 15.9    ✅ CALM regime
+  SPY Close       : $    771.40
+  SPY Open        : $    771.00
+  Prior SMA-40    : $    745.76
+  VIX             : 15.2    ✅ CALM regime
   Hist Vol (ann)  : 14.2%
 ========================================================
-  EXPECTED MOVE ESTIMATES (VIX: 15.9%):
+  EXPECTED MOVE ESTIMATES (VIX: 15.2%):
     Daily (1-Day DTE):
-      - IV-Based (Calendar 365) : ±$  6.41  (0.83%)
-      - IV-Based (Trading 252)  : ±$  7.72  (1.00%)
-      - ATM Straddle (0.85x BS) : ±$  5.23  (0.68%)
+      - IV-Based (Calendar 365) : ±$  6.14  (0.80%)
+      - IV-Based (Trading 252)  : ±$  7.39  (0.96%)
+      - ATM Straddle (0.85x BS) : ±$  5.01  (0.65%)
     Weekly (7-Day DTE):
-      - IV-Based (Calendar 365) : ±$ 16.96  (2.20%)
-      - ATM Straddle (0.85x BS) : ±$ 11.51  (1.49%)
+      - IV-Based (Calendar 365) : ±$ 16.24  (2.10%)
+      - ATM Straddle (0.85x BS) : ±$ 11.02  (1.43%)
 ========================================================
   POSITION : IN CASH
 ========================================================
   🟢 CONDITIONS MET — enter today
-     BUY 100 SPY at open  ~$770.17
+     BUY 100 SPY at open  ~$771.00
      Suggested Strikes:
-       - Regime-based  : $776     (Est Prem: ~$75, OTM: 0.75%, ✅ CALM)
-       - Expected Move : $775     (Est Prem: ~$97, OTM: 0.63%)
-       - Collar (Put)  : $765     (Est Cost: ~$82, Protection) *Optional
+       - Regime-based  : $777     (Est Prem: ~$71, OTM: 0.75%, ✅ CALM)
+       - Expected Move : $776     (Est Prem: ~$93, OTM: 0.65%)
+       - Collar (Put)  : $766     (Est Cost: ~$86, Protection) *Optional
 ========================================================
   State saved  →  ~/spy_backtest/state.json
 ========================================================
@@ -148,11 +146,11 @@ Fetching VIX...
 
 ## 🛑 6. Active LEAPS Summary
 > **Methodology:** This is a strategy for amplifying returns while strictly limiting risk. Instead of buying 100 shares of an expensive stock outright, we look for deep, long-term options (LEAPS) that mimic owning the stock but cost a fraction of the price. This frees up capital and ensures that, even in a worst-case market crash, the absolute maximum you can lose is strictly capped to the smaller amount you paid for the contract.
-- **TJX** | 2027-06-17 **$115C** | 💰 Cost: $50.20 | ⚡ Lev: 3.21x | 🛡 Prem: 2.59% (Δ 0.90)
-- **TJX** | 2027-06-17 **$110C** | 💰 Cost: $54.75 | ⚡ Lev: 2.94x | 🛡 Prem: 2.31% (Δ 0.92)
-- **GOOG** | 2027-06-17 **$250C** | 💰 Cost: $125.53 | ⚡ Lev: 2.86x | 🛡 Prem: 4.58% (Δ 0.90)
-- **GOOG** | 2027-06-17 **$245C** | 💰 Cost: $130.22 | ⚡ Lev: 2.76x | 🛡 Prem: 4.5% (Δ 0.91)
-- **NVDA** | 2027-06-17 **$140C** | 💰 Cost: $92.35 | ⚡ Lev: 2.41x | 🛡 Prem: 4.2% (Δ 0.91)
+- **TJX** | 2027-06-17 **$115C** | 💰 Cost: $49.35 | ⚡ Lev: 3.25x | 🛡 Prem: 2.5% (Δ 0.91)
+- **TJX** | 2027-06-17 **$110C** | 💰 Cost: $53.55 | ⚡ Lev: 2.99x | 🛡 Prem: 2.0% (Δ 0.92)
+- **GOOG** | 2027-06-17 **$245C** | 💰 Cost: $124.90 | ⚡ Lev: 2.84x | 🛡 Prem: 4.45% (Δ 0.91)
+- **GOOGL** | 2027-06-17 **$245C** | 💰 Cost: $126.53 | ⚡ Lev: 2.81x | 🛡 Prem: 4.57% (Δ 0.90)
+- **GOOG** | 2027-06-17 **$240C** | 💰 Cost: $129.18 | ⚡ Lev: 2.74x | 🛡 Prem: 4.25% (Δ 0.92)
 
 ## 🛡️ 7. Low Risk OptionsOS Summary
 *High-liquidity Buffett compounders for safe premium generation.*
@@ -165,21 +163,21 @@ Fetching VIX...
 ## 🧭 8. Sector Rotation (Macro Capital Flows)
 > **Methodology:** Values represent Relative Strength (RS) against the S&P 500 (SPY). A positive percentage means the sector outperformed the broader market over that timeframe. A negative percentage means it underperformed. This reveals where institutional money is structurally rotating.
 
-**Baseline SPY Performance:** 1-Week (+5.53%) | 1-Month (+2.95%) | 3-Month (+6.36%) | 6-Month (+11.64%)
+**Baseline SPY Performance:** 1-Week (+3.28%) | 1-Month (+2.64%) | 3-Month (+5.46%) | 6-Month (+13.86%)
 
 | Ticker   | Sector                  | Current Price | 1-Week RS | 1-Month RS | 3-Month RS | 6-Month RS | Status           |
 |----------|-------------------------|---------------|-----------|------------|------------|------------|------------------|
-| **XLE**  | Energy                  | $57.31        | -7.81%    | +1.93%     | -9.96%     | -0.72%     | 🟡 Transitioning  |
-| **XLK**  | Technology              | $185.91       | +6.08%    | +0.80%     | +5.89%     | +19.21%    | 🟢 Accumulating   |
-| **XLF**  | Financials              | $58.00        | -3.20%    | +0.53%     | +6.07%     | -3.29%     | 🟡 Transitioning  |
-| **XLB**  | Materials               | $52.64        | -3.79%    | -0.76%     | -4.20%     | -7.81%     | 🔴 Distributing   |
-| **XLI**  | Industrials             | $186.35       | -0.04%    | -0.78%     | +1.73%     | -1.33%     | 🔴 Distributing   |
-| **XLY**  | Consumer Discretionary  | $118.64       | +0.77%    | -1.89%     | -5.88%     | -13.58%    | 🟡 Transitioning  |
-| **XLRE** | Real Estate             | $45.20        | -7.18%    | -2.26%     | -4.03%     | -0.88%     | 🔴 Distributing   |
-| **XLP**  | Consumer Staples        | $85.33        | -7.85%    | -2.40%     | -4.85%     | -12.27%    | 🔴 Distributing   |
-| **XLC**  | Communication Services  | $110.87       | -4.29%    | -3.09%     | -10.47%    | -17.47%    | 🔴 Distributing   |
-| **XLV**  | Health Care             | $164.16       | -6.78%    | -3.12%     | +6.62%     | -5.11%     | 🔴 Distributing   |
-| **XLU**  | Utilities               | $43.66        | -8.31%    | -7.42%     | -12.20%    | -10.67%    | 🔴 Distributing   |
+| **XLB**  | Materials               | $52.60        | +1.02%    | +2.02%     | -3.13%     | -9.70%     | 🟢 Accumulating   |
+| **XLE**  | Energy                  | $57.21        | -7.22%    | +1.71%     | -3.22%     | -4.29%     | 🟡 Transitioning  |
+| **XLF**  | Financials              | $57.51        | -2.28%    | +0.91%     | +6.10%     | -5.94%     | 🟡 Transitioning  |
+| **XLY**  | Consumer Discretionary  | $119.62       | -0.24%    | -0.27%     | -5.68%     | -12.06%    | 🔴 Distributing   |
+| **XLI**  | Industrials             | $185.15       | -0.33%    | -0.41%     | +0.95%     | -3.89%     | 🔴 Distributing   |
+| **XLP**  | Consumer Staples        | $84.64        | -3.77%    | -0.91%     | -4.68%     | -16.49%    | 🔴 Distributing   |
+| **XLRE** | Real Estate             | $44.97        | -3.50%    | -0.96%     | -4.18%     | -4.79%     | 🔴 Distributing   |
+| **XLV**  | Health Care             | $164.30       | -2.20%    | -1.32%     | +8.07%     | -7.75%     | 🔴 Distributing   |
+| **XLK**  | Technology              | $187.73       | +3.78%    | -1.35%     | +5.17%     | +24.55%    | 🟡 Transitioning  |
+| **XLC**  | Communication Services  | $110.78       | -0.93%    | -2.39%     | -11.08%    | -18.53%    | 🔴 Distributing   |
+| **XLU**  | Utilities               | $43.21        | -5.86%    | -6.90%     | -9.71%     | -13.62%    | 🔴 Distributing   |
 
 ---
 *Engine built specifically for mapping institutional capital flows.*
@@ -195,16 +193,16 @@ Fetching VIX...
 
 | Ticker | Current Price | Company | Action | 1-Day Delta | 1-Week Delta | 2-Week Delta | 1-Month Delta | 6-Month Delta | Funds Holding |
 |--------|---------------|---------|--------|-------------|--------------|--------------|---------------|---------------|---------------|
-| **CRWD** | $209.86 | CROWDSTRIKE HOLDINGS | 🟢 Accum | -161,238 | -173,808 | -39,212 | +15,440,874 | [Aggregating...] | SPY, XLK |
-| **FERG** | $255.25 | FERGUSON ENTERPRISES | 🟢 Accum | -4,636 | +3,493,964 | +3,493,964 | +3,493,964 | [Aggregating...] | SPY, XLI |
-| **BAC** | $63.25 | BANK OF AMERICA CORP | 🟢 Accum | -1,014,129 | -814,638 | +416,682 | +3,087,629 | [Aggregating...] | SPY, XLF |
-| **WFC** | $89.17 | WELLS FARGO + CO | 🟢 Accum | -475,299 | -381,811 | +195,285 | +1,447,048 | [Aggregating...] | SPY, XLF |
-| **JPM** | $359.24 | JPMORGAN CHASE + CO | 🟢 Accum | -416,289 | -344,762 | +160,982 | +1,256,960 | [Aggregating...] | SPY, XLF |
-| **-** | N/A | SSI US GOV MONEY MAR | 🔴 Shed | -1,625,060,224 | -1,723,097,917 | -1,939,886,286 | -1,591,980,326 | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
-| **XOM** | $151.63 | EXXONMOBIL HOLDINGS  | 🔴 Shed | -515,584 | -898,591 | -1,345,203 | -1,088,567 | [Aggregating...] | SPY, XLE |
-| **APP** | $417.80 | APPLOVIN CORP CLASS  | 🔴 Shed | -33,468 | -1,232,714 | -1,197,098 | -1,137,718 | [Aggregating...] | SPY, XLC |
-| **KMI** | $31.12 | KINDER MORGAN INC | 🔴 Shed | -245,172 | -467,059 | -1,026,247 | -1,090,875 | [Aggregating...] | SPY, XLE |
-| **NVDA** | $219.22 | NVIDIA CORP | 🔴 Shed | -3,352,661 | -4,477,795 | -2,006,431 | +2,617,845 | [Aggregating...] | SPY, XLK |
+| **FERG** | $257.90 | FERGUSON ENTERPRISES | 🟢 Accum | +2,855 | +3,496,819 | +3,496,819 | +3,496,819 | [Aggregating...] | SPY, XLI |
+| **BAC** | $62.52 | BANK OF AMERICA CORP | 🟢 Accum | -201,572 | -1,359,670 | +80,132 | +2,170,859 | [Aggregating...] | SPY, XLF |
+| **WFC** | $86.25 | WELLS FARGO + CO | 🟢 Accum | -94,472 | -637,193 | +37,369 | +1,017,284 | [Aggregating...] | SPY, XLF |
+| **WBD** | $26.52 | WARNER BROS DISCOVER | 🟢 Accum | +31,199 | +849,362 | +442,310 | -69,127 | [Aggregating...] | SPY, XLC |
+| **JPM** | $354.02 | JPMORGAN CHASE + CO | 🟢 Accum | -82,698 | -568,464 | +22,630 | +880,815 | [Aggregating...] | SPY, XLF |
+| **-** | N/A | SSI US GOV MONEY MAR | 🔴 Shed | +17,025,982 | +154,314,902 | -1,876,184,457 | -1,642,440,804 | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
+| **NVDA** | $222.57 | NVIDIA CORP | 🔴 Shed | -572,173 | -5,374,952 | -3,505,078 | +1,237,783 | [Aggregating...] | SPY, XLK |
+| **APP** | $347.67 | APPLOVIN CORP CLASS  | 🔴 Shed | -5,004 | -1,242,494 | -1,213,758 | -1,152,686 | [Aggregating...] | SPY, XLC |
+| **AAPL** | $311.94 | APPLE INC | 🔴 Shed | -346,975 | -3,248,945 | -2,115,091 | +760,390 | [Aggregating...] | SPY, XLK |
+| **XOM** | $151.71 | EXXONMOBIL HOLDINGS  | 🔴 Shed | -55,313 | -1,226,472 | -1,437,878 | -632,392 | [Aggregating...] | SPY, XLE |
 
 ---
 ## 🚀 10. The Ignition Pad (Momentum & Squeezes)
