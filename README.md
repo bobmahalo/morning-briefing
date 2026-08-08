@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-08 | 10:19 AM*
+*Date: 2026-08-08 | 10:23 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -197,16 +197,16 @@ Fetching VIX...
 
 | Ticker | Current Price | Company | Action | 1-Day Delta | 1-Week Delta | 2-Week Delta | 1-Month Delta | 6-Month Delta | Funds Holding |
 |--------|---------------|---------|--------|-------------|--------------|--------------|---------------|---------------|---------------|
-| **FERG** | $256.69 | FERGUSON ENTERPRISES | 🟢 Accum | +2,855 | +3,496,819 | +3,496,819 | +3,496,819 | [Aggregating...] | SPY, XLI |
-| **BAC** | $63.17 | BANK OF AMERICA CORP | 🟢 Accum | -201,572 | -1,359,670 | +80,132 | +2,170,859 | [Aggregating...] | SPY, XLF |
-| **WFC** | $87.25 | WELLS FARGO + CO | 🟢 Accum | -94,472 | -637,193 | +37,369 | +1,017,284 | [Aggregating...] | SPY, XLF |
-| **WBD** | $26.78 | WARNER BROS DISCOVER | 🟢 Accum | +31,199 | +849,362 | +442,310 | -69,127 | [Aggregating...] | SPY, XLC |
-| **JPM** | $357.52 | JPMORGAN CHASE + CO | 🟢 Accum | -82,698 | -568,464 | +22,630 | +880,815 | [Aggregating...] | SPY, XLF |
-| **-** | N/A | SSI US GOV MONEY MAR | 🔴 Shed | +17,025,982 | +154,314,902 | -1,876,184,457 | -1,642,440,804 | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
-| **NVDA** | $223.96 | NVIDIA CORP | 🔴 Shed | -572,173 | -5,374,952 | -3,505,078 | +1,237,783 | [Aggregating...] | SPY, XLK |
-| **APP** | $346.80 | APPLOVIN CORP CLASS  | 🔴 Shed | -5,004 | -1,242,494 | -1,213,758 | -1,152,686 | [Aggregating...] | SPY, XLC |
-| **AAPL** | $313.33 | APPLE INC | 🔴 Shed | -346,975 | -3,248,945 | -2,115,091 | +760,390 | [Aggregating...] | SPY, XLK |
-| **XOM** | $153.04 | EXXONMOBIL HOLDINGS  | 🔴 Shed | -55,313 | -1,226,472 | -1,437,878 | -632,392 | [Aggregating...] | SPY, XLE |
+| **FERG** | $256.69 | FERGUSON ENTERPRISES | 🟢 Accum | 0 | +3,496,819 | +3,496,819 | +3,496,819 | [Aggregating...] | SPY, XLI |
+| **BAC** | $63.17 | BANK OF AMERICA CORP | 🟢 Accum | 0 | -1,359,670 | +80,132 | +2,430,632 | [Aggregating...] | SPY, XLF |
+| **WBD** | $26.78 | WARNER BROS DISCOVER | 🟢 Accum | 0 | +849,362 | +442,310 | +113,893 | [Aggregating...] | SPY, XLC |
+| **WFC** | $87.25 | WELLS FARGO + CO | 🟢 Accum | 0 | -637,193 | +37,369 | +1,139,033 | [Aggregating...] | SPY, XLF |
+| **CMCSA** | $25.36 | COMCAST CORP CLASS A | 🟢 Accum | 0 | +768,644 | +357,329 | +157,187 | [Aggregating...] | SPY, XLC |
+| **-** | N/A | SSI US GOV MONEY MAR | 🔴 Shed | 0 | +154,314,902 | -1,876,184,457 | -1,689,457,399 | [Aggregating...] | SPY, XAR, XLB, XLC, XLE, XLF, XLI, XLK, XLP, XLRE, XLU, XLV, XLY |
+| **NVDA** | $223.96 | NVIDIA CORP | 🔴 Shed | 0 | -5,374,952 | -3,505,078 | +2,107,848 | [Aggregating...] | SPY, XLK |
+| **APP** | $346.80 | APPLOVIN CORP CLASS  | 🔴 Shed | 0 | -1,242,494 | -1,213,758 | -1,143,694 | [Aggregating...] | SPY, XLC |
+| **XOM** | $153.04 | EXXONMOBIL HOLDINGS  | 🔴 Shed | 0 | -1,226,472 | -1,437,878 | -444,638 | [Aggregating...] | SPY, XLE |
+| **AAPL** | $313.33 | APPLE INC | 🔴 Shed | 0 | -3,248,945 | -2,115,091 | +1,288,006 | [Aggregating...] | SPY, XLK |
 
 ---
 ## 🚀 10. The Ignition Pad (Momentum & Squeezes)
