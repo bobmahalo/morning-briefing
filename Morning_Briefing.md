@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-08 | 09:26 AM*
+*Date: 2026-08-08 | 10:19 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -58,13 +58,12 @@
 *Current neutral/income plays based on index volatility.*
 > **Methodology:** This is a strategy used when the market is chopping sideways and people are overly fearful. When fear is high, the cost of options goes up. We take advantage of this by selling an "Iron Condor," which means we collect premium by betting that the stock will simply stay within a specific, wide price range by the expiration date.
 
-| Ticker              | SP       | Expiry     | Put Spread  | Call Spread | Premium     |
-|---------------------|----------|------------|-------------|-------------|-------------|
-| **ETN**             | $448.68  | 2026-09-18 | 390.0/370.0 | 520.0/540.0 | $0.3        |
-| **VST**             | $140.59  | 2026-09-18 | 115.0/110.0 | 165.0/170.0 | $0.73       |
-| **WDC**             | $434.30  | 2026-09-18 | 330.0/320.0 | 600.0/610.0 | $1.05       |
-| **SPY (Gamma IC)**  | $773.40  | 30-45 DTE  | < $760.00   | > $790.00   | Data-Driven |
-| **$SPX (Gamma IC)** | $7757.64 | 30-45 DTE  | N/A         | N/A         | Data-Driven |
+| Ticker             | SP      | Expiry     | Put Spread  | Call Spread | Premium     |
+|--------------------|---------|------------|-------------|-------------|-------------|
+| **ETN**            | $448.68 | 2026-09-18 | 390.0/370.0 | 520.0/540.0 | $0.3        |
+| **VST**            | $140.59 | 2026-09-18 | 115.0/110.0 | 165.0/170.0 | $0.73       |
+| **WDC**            | $434.30 | 2026-09-18 | 330.0/320.0 | 600.0/610.0 | $1.05       |
+| **SPY (Gamma IC)** | $773.40 | 30-45 DTE  | < $760.00   | > $790.00   | Data-Driven |
 
 ## 🦋 3.5 The Macro-Shock BWB (SPY 0-DTE)
 *An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
@@ -88,10 +87,17 @@
 > 
 > 👑 **The Kingmaker Flag:** If a stock displays a `⚠️ KINGMAKER` alert, it means our archive proves that when this specific stock drops on earnings, it historically drags the entire S&P 500 (SPY) down with it >85% of the time. When you see this, consider adding a 0-DTE SPY Bear Call Spread to capitalize on the macro ripple effect.
 
-| Ticker   | Days to ER | Avg EPS | Track Record (4Q)      | IV Ramp            | Phase    | Historical Edge | Suggested Play                     |
-|----------|------------|---------|------------------------|--------------------|----------|-----------------|------------------------------------|
-| **INTU** | 17 Days    | $3.59   | Beat, Beat, Beat, Beat | 📉 47% `[███░░░░░]` | Buy Zone | N/A             | **BUY** $290 Put (Exp: 2026-09-25) |
-| **ULTA** | 19 Days    | $6.18   | Beat, Beat, Miss, Beat | 📉 32% `[██░░░░░░]` | Buy Zone | N/A             | **BUY** $505 Put (Exp: 2026-09-25) |
+| Ticker   | Days to ER | Avg EPS | Track Record (4Q)      | IV Ramp             | Phase     | Historical Edge | Suggested Play                         |
+|----------|------------|---------|------------------------|---------------------|-----------|-----------------|----------------------------------------|
+| **USAR** | 2 Days     | $-0.13  | Beat, Miss, Miss, Beat | 📈 115% `[████████]` | Sell Zone | N/A             | **SELL** $21/$22 Call Spread (Or CC)   |
+| **FERG** | 2 Days     | $3.30   | Miss, Beat, Beat       | 📈 52% `[████░░░░]`  | Sell Zone | N/A             | **SELL** $270/$280 Call Spread (Or CC) |
+| **SMCI** | 3 Days     | $0.96   | Miss, Miss, Beat, Beat | 📈 127% `[████████]` | Sell Zone | N/A             | **SELL** $35/$36 Call Spread (Or CC)   |
+| **POET** | 3 Days     | $-0.07  | Miss, Miss, Miss, Miss | 📈 142% `[████████]` | Sell Zone | N/A             | **SELL** $10/$11 Call Spread (Or CC)   |
+| **TE**   | 4 Days     | $-0.10  | Miss, Miss, Miss, Beat | 📈 184% `[████████]` | Sell Zone | N/A             | **SELL** $7/$8 Call Spread (Or CC)     |
+| **NBIS** | 4 Days     | $-0.75  | Beat, Miss, Miss, Beat | 📈 145% `[████████]` | Sell Zone | N/A             | **SELL** $218/$220 Call Spread (Or CC) |
+| **INTU** | 17 Days    | $3.59   | Beat, Beat, Beat, Beat | 📉 47% `[███░░░░░]`  | Buy Zone  | N/A             | **BUY** $290 Put (Exp: 2026-09-25)     |
+| **NVDA** | 18 Days    | $2.08   | Beat, Beat, Beat, Beat | 📉 24% `[█░░░░░░░]`  | Buy Zone  | N/A             | **BUY** $200 Put (Exp: 2026-09-25)     |
+| **ULTA** | 19 Days    | $6.18   | Beat, Beat, Miss, Beat | 📉 32% `[██░░░░░░]`  | Buy Zone  | N/A             | **BUY** $505 Put (Exp: 2026-09-25)     |
 
 ## 💵 4. SPY Covered Calls
 *Income generation on core holdings.*
