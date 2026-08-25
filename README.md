@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-25 | 03:49 AM*
+*Date: 2026-08-25 | 04:57 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 ---
@@ -7,16 +7,16 @@
 > **Report Overview:** This daily briefing combines multiple automated scans to give you a clear, unbiased picture of the market. It checks the overall health of the financial system, finds deeply undervalued companies, and highlights specific trade opportunities based on actual market data, not opinions.
 
 ## 📡 MACRO EVENT RADAR (45-Day Outlook)
-> ⚠️ Non-Farm Payrolls (NFP) & Unemployment in 10 Days (2026-09-04)
-> ⚠️ PPI Inflation Data in 16 Days (2026-09-10)
-> ⚠️ Core CPI Inflation Data in 17 Days (2026-09-11)
-> ⚠️ FOMC Rate Decision & Press Conference in 22 Days (2026-09-16)
-> ⚠️ Quarterly OPEX (Triple Witching) in 24 Days (2026-09-18)
-> ⚠️ Non-Farm Payrolls (NFP) & Unemployment in 38 Days (2026-10-02)
+> ⚠️ in 10 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
+> ⚠️ in 16 Days PPI Inflation Data (2026-09-10)
+> ⚠️ in 17 Days Core CPI Inflation Data (2026-09-11)
+> ⚠️ in 22 Days FOMC Rate Decision & Press Conference (2026-09-16)
+> ⚠️ in 24 Days Quarterly OPEX (Triple Witching) (2026-09-18)
+> ⚠️ in 38 Days Non-Farm Payrolls (NFP) & Unemployment (2026-10-02)
 
 ---
 
-# 🌤️ Today's Market Weather: 🟡 YELLOW (Neutral / Transition) (Score: 50.0)
+# 🌤️ Today's Market Weather: 🟡 YELLOW (Neutral / Transition) (Score: 51.2)
 **State:** Neutral / Transition
 **Suggested Cash/T-Bill Allocation:** 30.0%
 
@@ -27,54 +27,42 @@
 - **Credit (JNK/TLT)**: 🟢 GREEN (Risk-On / Euphoria) (70.0)
 - **Macro (Copper/Gold)**: 🔴 RED (Risk-Off / Contraction) (30.0)
 - **Currency & Speculation**: 🟢 GREEN (Risk-On / Euphoria) (90.0)
-- **Structural Gravity**: 🔴 RED (Risk-Off / Contraction) (10.0)
+- **Structural Gravity**: 🔴 RED (Risk-Off / Contraction) (35.0)
 - **Options & Breadth**: 🟢 GREEN (Risk-On / Euphoria) (65.0)
 
 ---
 
 ### 🪙 Metals Macro-Barometer
-* **GOLD (GC=F):** `$4,674.20` | 1M: `+15.8%` | 6M: `-10.2%` | 1Y: `+37.3%`
-* **SILVER (SI=F):** `$67.75` | 1M: `+18.2%` | 6M: `-25.5%` | 1Y: `+75.1%`
-* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `69.0`
+* **GOLD (GC=F):** `$4,690.00` | 1M: `+16.2%` | 6M: `-9.9%` | 1Y: `+37.8%`
+* **SILVER (SI=F):** `$68.14` | 1M: `+18.9%` | 6M: `-25.1%` | 1Y: `+76.1%`
+* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.8`
 
 ---
 
 ## ——— PHASE 2: THE MONEY TRAIL ———
 
 ## 🧭 1. Sector Rotation (Macro Capital Flows)
-> **Methodology:** Values represent Relative Strength (RS) against the S&P 500 (SPY). A positive percentage means the sector outperformed the broader market over that timeframe. A negative percentage means it underperformed. This reveals where institutional money is structurally rotating.
-
-**Baseline SPY Performance:** 1-Week (-0.15%) | 1-Month (+3.68%) | 3-Month (+2.10%) | 6-Month (+11.49%)
-
-| Ticker   | Sector                  | Current Price | RSI (14d) | 1-Week RS | 1-Month RS | 3-Month RS | 6-Month RS | Status                         |
-|----------|-------------------------|---------------|-----------|-----------|------------|------------|------------|--------------------------------|
-| **XLV**  | Health Care             | $174.72       | 68.5      | +3.09%    | +3.24%     | +15.55%    | -0.82%     | 🟢 Accumulating                 |
-| **XLE**  | Energy                  | $62.37        | 61.6      | -1.91%    | +3.19%     | +5.72%     | +1.71%     | 🟡 Transitioning                |
-| **XLY**  | Consumer Discretionary  | $118.26       | 54.4      | +1.78%    | +3.01%     | -3.09%     | -10.19%    | 🟢 Accumulating                 |
-| **XLK**  | Technology              | $182.38       | 48.5      | -1.60%    | +0.95%     | -3.59%     | +18.49%    | 🟡 Transitioning                |
-| **XLC**  | Communication Services  | $112.62       | 56.4      | +2.08%    | +0.92%     | -4.63%     | -14.54%    | 🟢 Accumulating                 |
-| **XLB**  | Materials               | $53.26        | 58.4      | +3.01%    | -0.05%     | +2.36%     | -11.68%    | 🟡 Transitioning                |
-| **XLF**  | Financials              | $58.05        | 59.2      | +0.51%    | -1.63%     | +9.86%     | +2.38%     | 🟡 Transitioning                |
-| **XLP**  | Consumer Staples        | $86.52        | 55.2      | +1.25%    | -2.33%     | +1.36%     | -15.08%    | 🟡 Transitioning                |
-| **XLRE** | Real Estate             | $45.31        | 54.7      | +1.67%    | -4.67%     | -0.75%     | -7.88%     | 🟡 Transitioning                |
-| **XLI**  | Industrials             | $179.76       | 42.6      | -1.93%    | -5.56%     | +1.04%     | -9.92%     | 🔴 Distributing                 |
-| **XLU**  | Utilities               | $43.12        | 38.2      | -1.90%    | -9.29%     | -6.97%     | -20.13%    | 🔴 Distributing                 |
+| Ticker   | Sector                 | Price   | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
+|----------|------------------------|---------|----------|----------|----------|----------|----------|---------------------|
+| **XLE**  | Energy                 | $62.50  | 62.5     | -1.44%   | +3.68%   | +6.21%   | +2.24%   | ⚠️ WEAKENING        |
+| **XLV**  | Health Care            | $174.94 | 68.8     | +3.48%   | +3.65%   | +15.97%  | -0.38%   | 🚀 LEADING (Inflow)  |
+| **XLY**  | Consumer Discretionary | $117.81 | 52.8     | +1.65%   | +2.87%   | -3.20%   | -10.28%  | 🚀 LEADING (Inflow)  |
+| **XLC**  | Communication Services | $112.60 | 56.3     | +2.33%   | +1.18%   | -4.38%   | -14.26%  | 🚀 LEADING (Inflow)  |
+| **XLK**  | Technology             | $181.35 | 46.9     | -1.89%   | +0.64%   | -3.87%   | +18.05%  | ⚠️ WEAKENING        |
+| **XLB**  | Materials              | $53.37  | 59.4     | +3.48%   | +0.44%   | +2.84%   | -11.17%  | 🔴 LAGGING (Outflow) |
+| **XLF**  | Financials             | $57.97  | 58.3     | +0.64%   | -1.49%   | +9.98%   | +2.52%   | 🌱 IMPROVING         |
+| **XLP**  | Consumer Staples       | $86.41  | 54.6     | +1.38%   | -2.18%   | +1.50%   | -14.90%  | 🌱 IMPROVING         |
+| **XLRE** | Real Estate            | $45.33  | 55.0     | +1.98%   | -4.35%   | -0.44%   | -7.53%   | 🌱 IMPROVING         |
+| **XLI**  | Industrials            | $178.95 | 40.0     | -2.10%   | -5.73%   | +0.84%   | -10.08%  | 🔴 LAGGING (Outflow) |
+| **XLU**  | Utilities              | $43.28  | 39.8     | -1.28%   | -8.67%   | -6.36%   | -19.51%  | 🔴 LAGGING (Outflow) |
 
 ---
-*Engine built specifically for mapping institutional capital flows.*
 
 ## 🌊 2. Institutional Flow (ETF Dissector)
 *Cross-fund accumulation and shedding from major ETF Anchors.*
 > **Δ columns**: Net share change vs. the date X days ago (positive = accumulation).
 > **Methodology:** This tracks the actual buying and selling of massive, market-moving ETFs (like SPY and XLK). We filter out the daily noise and look at the 1-Week and 1-Month trends. If a specific stock is being consistently accumulated or dumped across multiple funds over several weeks, it reveals a structural rotation by large institutions, allowing us to spot the trend early.
 
-**ETF Ingestion Health Check:**
-- 🟢 **Online/Archived:** SPY, XLK, XLF, XLV, XLE, XAR, XLY, XLP, XLI, XLB, XLU, XLRE, XLC
-- 🔴 **Offline/Blocked (API changes):** QQQ, IWM, SOXX, TLT
-
-
-| Ticker | Current Price | Company | Action | 1-Day Delta | 1-Week Delta | 2-Week Delta | 1-Month Delta | 6-Month Delta | Funds Holding |
-|--------|---------------|---------|--------|-------------|--------------|--------------|---------------|---------------|---------------|
 | **VMC** | $275.23 | VULCAN MATERIALS CO | 🟢 Accum | -27,379 | +15,180,235 | +15,180,235 | +15,180,235 | [Aggregating...] | SPY, XLB |
 | **MMM** | $179.55 | 3M CO | 🟢 Accum | -81,082 | -233,969 | -137,570 | +15,165,482 | [Aggregating...] | SPY, XLI |
 | **INCY** | $129.71 | INCYTE CORP | 🟢 Accum | -243,470 | -308,739 | +3,882,305 | +4,072,378 | [Aggregating...] | SPY, XLV |
@@ -87,6 +75,7 @@
 | **WELL** | $240.18 | WELLTOWER INC | 🔴 Shed | -269,510 | -1,010,780 | -1,343,442 | -932,845 | [Aggregating...] | SPY, XLRE |
 
 ---
+
 ## 🚀 3. The Ignition Pad (Momentum & Squeezes)
 *High-RVOL anomalies, massive short squeezes, and zero-day gamma pins.*
 > **Methodology:** This engine bypasses the strict 'Vault' filters. It scans pre-market data for violent liquidity shocks (massive gaps, explosive relative volume) and cross-references them against Gamma Walls and Short Interest. These are highly aggressive, high-volatility plays.
@@ -94,6 +83,8 @@
 | Ticker                            | Price | Gap | Short Int | IV | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
 |-----------------------------------|-------|-----|-----------|----|---------|------------|-----------------|----------------|--------|
 | No momentum anomalies found today | —     | —   | —         | —  | —       | —          | —               | —              | —      |
+
+---
 
 ## ——— PHASE 3: THE VERDICT ———
 
@@ -172,6 +163,9 @@
 - **Kelly Reason:** REJECT: Negative Expected Value. Do not trade.
 
 ---
+
+---
+
 ## ——— PHASE 4: THE PLAYBOOK ———
 
 ### CATEGORY A: CORE & SAFETY
@@ -180,32 +174,36 @@
 *Passed 14-day pipeline survival with 0.00% Max Drawdown.*
 > **Methodology:** This list shows the most resilient companies in the market right now. To make this list, a stock must pass rigorous tests for value, growth, and financial safety, and then completely refuse to drop in price for two solid weeks—even on days when the rest of the market is red. When a stock holds its ground this strongly, it usually means massive institutions are quietly buying it.
 
-| Ticker   | Current Price | First Seen | Days Survived | Drawdown % | Historical Context                                                     |
-|----------|---------------|------------|---------------|------------|------------------------------------------------------------------------|
-| **EXEL** | $54.55        | 2026-03-20 | 50            | 0.0%       | 1W: $53.12 | 6M: $45.14 | 1Y: $37.90 | 5Y: $19.04 | Context: Mid-Range |
+| Ticker   | Current Price | First Seen | Days Survived | Drawdown % | Historical Context   |
+|----------|---------------|------------|---------------|------------|----------------------|
+| **EXEL** | $54.55        | 2026-03-20 | 50            | 0.0%       | Institutionally Held |
+
+---
 
 ## 🔮 Core 2: The Crystal Ball (Super Stars)
 *The elite survivors of the structural 'Look Back / Look Forward' fundamental gauntlet.*
 > **Methodology:** This engine runs weekly/monthly to isolate massive structural growth anomalies. It filters companies for Tier-1 Geographic HQs, Founder-Led vision, hyper-accelerating R&D Patent Velocity, Dark Hiring (NLP on SEC filings), and heavy 'Smart Money' whale accumulation. These are long-term conviction plays.
 
-> [!NOTE]
-> Crystal Ball results not found. Awaiting next monthly scan.
+| Ticker                                 | Crystal Ball Score | Verdict             | Historical Context |
+|----------------------------------------|--------------------|---------------------|--------------------|
+| No Crystal Ball anomalies active today | —                  | Awaiting next cycle | —                  |
+
+---
 
 ## 🛡️ Core 3: Low Risk OptionsOS Summary
 *High-liquidity Buffett compounders for safe premium generation.*
 > **Methodology:** This scans for massive, "wide-moat" companies that exhibit slow, unshakeable growth. It checks multiple accounting metrics to ensure their balance sheets are completely flawless. Because these stocks move so slowly and predictably, we can safely sell options far away from the current price to generate highly probable, low-risk income.
 
-| Ticker | Price | Valuation (EV/EBITDA) | Piotroski | Trend (ADX) | Earnings Runway | Suggested Option Action |
-|---|---|---|---|---|---|---|
-| **INCY** | $98.22 | 10.30 | 7/9 | SIDEWAYS/CHOP (17.1) | 📅 33 days (2026-07-28) | No liquid/safe option found |
+*No high-conviction low-risk triggers today. Cash remains allocated.*
+
+---
 
 ## 🛑 Core 4: Active LEAPS Summary
 > **Methodology:** This is a strategy for amplifying returns while strictly limiting risk. Instead of buying 100 shares of an expensive stock outright, we look for deep, long-term options (LEAPS) that mimic owning the stock but cost a fraction of the price. This frees up capital and ensures that, even in a worst-case market crash, the absolute maximum you can lose is strictly capped to the smaller amount you paid for the contract.
-- **AAPL** | 2027-09-17 **$220C** | 💰 Cost: $106.10 | ⚡ Lev: 2.93x | 🛡 Prem: 4.97% (Δ 0.91)
-- **AAPL** | 2027-09-17 **$215C** | 💰 Cost: $110.45 | ⚡ Lev: 2.81x | 🛡 Prem: 4.76% (Δ 0.92)
-- **GOOG** | 2027-09-17 **$230C** | 💰 Cost: $132.95 | ⚡ Lev: 2.6x | 🛡 Prem: 5.0% (Δ 0.91)
-- **GOOG** | 2027-09-17 **$225C** | 💰 Cost: $136.82 | ⚡ Lev: 2.53x | 🛡 Prem: 4.68% (Δ 0.92)
-- **QCOM** | 2027-09-17 **$85C** | 💰 Cost: $79.53 | ⚡ Lev: 2.02x | 🛡 Prem: 2.23% (Δ 0.90)
+
+*No active LEAPS signals triggered today.*
+
+---
 
 ### CATEGORY B: INDEX & VOLATILITY
 
@@ -213,17 +211,21 @@
 *Income generation on core holdings.*
 > **Methodology:** Think of this as an automated dividend for your long-term investments. Instead of blindly selling covered calls and risking your shares getting called away on a random spike, this calculates exactly how far the S&P 500 is mathematically expected to move this week. We then sell calls safely outside of that expected range, allowing us to collect extra income without capping realistic growth.
 
-| Ticker  | SP      | Expiry | Strike | Premium (Est) |
-|---------|---------|--------|--------|---------------|
-| **SPY** | $766.18 | 1-Day  | $772   | $60           |
+| Ticker  | SP      | Expiry | Strike  | Premium (Est) |
+|---------|---------|--------|---------|---------------|
+| **SPY** | $764.27 | 1-Day  | $770.00 | ~$1.45        |
+
+---
 
 ## 🦋 Index 2: The Iron Butterfly (Golden Config)
 *A non-directional, defensive premium collection setup optimized specifically for SPY.*
 > **Methodology:** This engine runs dynamically based on real-time volatility (VIX). It sells an At-The-Money (ATM) straddle to collect massive premium, and buys protective wings exactly 4.0x the Expected Move away to cap risk. Because the engine runs exactly when this report is generated, the strikes below are based on live, stable post-open pricing.
 
-| Ticker  | VIX  | DTE   | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
-|---------|------|-------|----------------|----------------------|-----------------|------------|
-| **SPY** | 15.8 | 0-DTE | $735           | $766                 | $797            | $31        |
+| Ticker  | VIX   | DTE   | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
+|---------|-------|-------|----------------|----------------------|-----------------|------------|
+| **SPY** | 15.83 | 0-DTE | $734           | $764                 | $794            | $30        |
+
+---
 
 ## 🦋 Index 3: The Macro-Shock BWB (SPY 0-DTE)
 *An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
@@ -231,9 +233,11 @@
 
 | Ticker  | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
 |---------|--------|------------------|----------------|-------------------|--------------|
-| **SPY** | 0-DTE  | $766.00          | $764.00        | $760.00           | Net Credit   |
+| **SPY** | 0-DTE  | $763.00          | $758.00        | $748.00           | Net Credit   |
 
 > **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
+
+---
 
 ## 🦅 Index 4: Iron Condors
 *Current neutral/income plays based on index volatility.*
@@ -241,7 +245,9 @@
 
 | Ticker             | SP      | Expiry    | Put Spread | Call Spread | Premium     |
 |--------------------|---------|-----------|------------|-------------|-------------|
-| **SPY (Gamma IC)** | $766.65 | 30-45 DTE | < $750.00  | > $800.00   | Data-Driven |
+| **SPY (Gamma IC)** | $764.27 | 30-45 DTE | < $735.00  | > $785.00   | Data-Driven |
+
+---
 
 ### CATEGORY C: DIRECTIONAL & CATALYSTS
 
@@ -253,6 +259,8 @@
 |-----------------------------------------------|--------|----------|--------|-------------|--------|--------------------|
 | No tickers met threshold. Cash is a position. | -      | -        | -      | -           | -      | -                  |
 
+---
+
 ## 💥 Catalyst 2: The Earnings Volatility Engine
 *A multi-phase options engine that plays the IV Ramp (Long Puts) and traps the IV Crush (Short Call Spreads).*
 > **Methodology:** In the **Buy Zone (> 14 days out)**, implied volatility is at its lowest, so we buy long options to ride the IV expansion. In the **Sell Zone (< 14 days out)**, IV is wildly inflated by gamblers. We stop buying and strictly sell premium (like Call Spreads) safely outside the expected move to profit off the inevitable IV crush the morning after earnings. 
@@ -261,22 +269,30 @@
 
 | Ticker   | Days to ER | Avg EPS | Track Record (4Q) | IV Ramp             | Phase     | Historical Edge | Suggested Play                         |
 |----------|------------|---------|-------------------|---------------------|-----------|-----------------|----------------------------------------|
-| **INTU** | 0 Days     | N/A     | N/A               | 📈 108% `[████████]` | Sell Zone | N/A             | **SELL** $368/$370 Call Spread (Or CC) |
-| **ULTA** | 2 Days     | N/A     | N/A               | 📈 115% `[████████]` | Sell Zone | N/A             | **SELL** $578/$580 Call Spread (Or CC) |
-| **KFY**  | 15 Days    | N/A     | N/A               | 📉 36% `[██░░░░░░]`  | Buy Zone  | N/A             | **BUY** $75 Put (Exp: 2026-10-16)      |
+| **INTU** | 0 Days     | -       | -                 | 📈 108% `[████████]` | Sell Zone | N/A             | **SELL** $368/$370 Call Spread (Or CC) |
+| **ULTA** | 2 Days     | -       | -                 | 📈 115% `[████████]` | Sell Zone | N/A             | **SELL** $578/$580 Call Spread (Or CC) |
+| **KFY**  | 15 Days    | -       | -                 | 📉 36% `[██░░░░░░]`  | Buy Zone  | N/A             | **BUY** $75 Put (Exp: 2026-10-16)      |
+
+---
 
 ## 🦎 Catalyst 3: The Jade Lizard (Zero Upside Risk)
 *A powerful, mathematically balanced setup that completely eliminates upside risk on strong stocks.*
 > **Methodology:** This strategy combines an Out-of-the-Money short put with an Out-of-the-Money short call spread. It is placed specifically so that the total premium collected is greater than the maximum loss of the call spread. The result? If the stock crashes, you buy a pristine company at a massive discount. If the stock stays flat, you keep the premium. If the stock rockets to the moon, you STILL keep the premium. Zero upside risk.
 
-> [!NOTE]
-> No viable Jade Lizard setups today.
+| Ticker  | Expiry  | Short Put | Short Call | Long Call | Net Credit | Upside Risk  | Max Downside Loss |
+|---------|---------|-----------|------------|-----------|------------|--------------|-------------------|
+| **SPY** | 45 Days | $718.00   | $795.00    | $800.00   | $5.50      | $0.00 (Zero) | $71,250.00        |
+
+> **Execution Note:** Enter as a single trade. Ensure the net credit received is strictly greater than the call spread width ($5.00).
+
+---
 
 ## 📉 Catalyst 4: The Gravity Engine (Bear Call Spreads)
 *Hunting irrational pumps and fundamentally broken companies. What goes up must come down.*
+
 > [!NOTE]
 > Gravity Engine found no actionable setups today.
 
-
 ---
+
 ![Hits](https://komarev.com/ghpvc/?username=bobmahalo-morning-briefing&label=Views)
