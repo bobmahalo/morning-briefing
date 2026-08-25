@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-25 | 06:02 AM*
+*Date: 2026-08-25 | 06:10 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -45,6 +45,7 @@
 ## ——— PHASE 2: THE MONEY TRAIL ———
 
 ## 🧭 1. Sector Rotation (Macro Capital Flows)
+
 | Ticker   | Sector                 | Price   | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
 |----------|------------------------|---------|----------|----------|----------|----------|----------|---------------------|
 | **XLV**  | Health Care            | $175.40 | 69.4     | +3.58%   | +3.75%   | +16.10%  | -0.29%   | 🚀 LEADING (Inflow)  |
