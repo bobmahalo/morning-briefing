@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-25 | 05:44 AM*
+*Date: 2026-08-25 | 05:45 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -8,7 +8,6 @@
 > **Report Overview:** This daily briefing combines multiple automated scans to give you a clear, unbiased picture of the market. It checks the overall health of the financial system, finds deeply undervalued companies, and highlights specific trade opportunities based on actual market data, not opinions.
 
 ## 📡 MACRO EVENT RADAR (45-Day Outlook)
-
 > ⚠️ in 10 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
 > ⚠️ in 16 Days PPI Inflation Data (2026-09-10)
 > ⚠️ in 17 Days Core CPI Inflation Data (2026-09-11)
@@ -37,17 +36,15 @@
 
 ### 🪙 Metals Macro-Barometer
 
-* **GOLD (GC=F):** `$4,690.00` • 1M: `+16.2%` • 6M: `-9.9%` • 1Y: `+37.8%`
-* **SILVER (SI=F):** `$68.14` • 1M: `+18.9%` • 6M: `-25.1%` • 1Y: `+76.1%`
-* **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* • Gold/Silver Ratio: `68.8`
+- **GOLD (GC=F):** `$4,690.00` | 1M: `+16.2%` | 6M: `-9.9%` | 1Y: `+37.8%`
+- **SILVER (SI=F):** `$68.14` | 1M: `+18.9%` | 6M: `-25.1%` | 1Y: `+76.1%`
+- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.8`
 
 ---
 
 ## ——— PHASE 2: THE MONEY TRAIL ———
 
 ## 🧭 1. Sector Rotation (Macro Capital Flows)
-
-
 | Ticker   | Sector                 | Price   | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
 |----------|------------------------|---------|----------|----------|----------|----------|----------|---------------------|
 | **XLE**  | Energy                 | $62.50  | 62.5     | -1.44%   | +3.68%   | +6.21%   | +2.24%   | ⚠️ WEAKENING        |
@@ -88,10 +85,9 @@
 
 > **Methodology:** This engine bypasses the strict 'Vault' filters. It scans pre-market data for violent liquidity shocks (massive gaps, explosive relative volume) and cross-references them against Gamma Walls and Short Interest. These are highly aggressive, high-volatility plays.
 
-
-| Ticker                            | Price | Gap | Short Int | IV | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
-|-----------------------------------|-------|-----|-----------|----|---------|------------|-----------------|----------------|--------|
-| No momentum anomalies found today | —     | —   | —         | —  | —       | —          | —               | —              | —      |
+| Ticker                            | Price | Gap | Short Int | IV  | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
+|-----------------------------------|-------|-----|-----------|-----|---------|------------|-----------------|----------------|--------|
+| No momentum anomalies found today | —     | —   | —         | —   | —       | —          | —               | —              | —      |
 
 ---
 
@@ -185,7 +181,6 @@
 
 > **Methodology:** This list shows the most resilient companies in the market right now. To make this list, a stock must pass rigorous tests for value, growth, and financial safety, and then completely refuse to drop in price for two solid weeks—even on days when the rest of the market is red. When a stock holds its ground this strongly, it usually means massive institutions are quietly buying it.
 
-
 | Ticker   | Current Price | First Seen | Days Survived | Drawdown % | Historical Context   |
 |----------|---------------|------------|---------------|------------|----------------------|
 | **EXEL** | $54.55        | 2026-03-20 | 50            | 0.0%       | Institutionally Held |
@@ -196,7 +191,6 @@
 *The elite survivors of the structural 'Look Back / Look Forward' fundamental gauntlet.*
 
 > **Methodology:** This engine runs weekly/monthly to isolate massive structural growth anomalies. It filters companies for Tier-1 Geographic HQs, Founder-Led vision, hyper-accelerating R&D Patent Velocity, Dark Hiring (NLP on SEC filings), and heavy 'Smart Money' whale accumulation. These are long-term conviction plays.
-
 
 | Ticker                                 | Crystal Ball Score | Verdict             | Historical Context |
 |----------------------------------------|--------------------|---------------------|--------------------|
@@ -228,7 +222,6 @@
 
 > **Methodology:** Think of this as an automated dividend for your long-term investments. Instead of blindly selling covered calls and risking your shares getting called away on a random spike, this calculates exactly how far the S&P 500 is mathematically expected to move this week. We then sell calls safely outside of that expected range, allowing us to collect extra income without capping realistic growth.
 
-
 | Ticker  | SP      | Expiry | Strike  | Premium (Est) |
 |---------|---------|--------|---------|---------------|
 | **SPY** | $764.27 | 1-Day  | $770.00 | ~$1.45        |
@@ -240,7 +233,6 @@
 
 > **Methodology:** This engine runs dynamically based on real-time volatility (VIX). It sells an At-The-Money (ATM) straddle to collect massive premium, and buys protective wings exactly 4.0x the Expected Move away to cap risk. Because the engine runs exactly when this report is generated, the strikes below are based on live, stable post-open pricing.
 
-
 | Ticker  | VIX   | DTE   | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
 |---------|-------|-------|----------------|----------------------|-----------------|------------|
 | **SPY** | 15.83 | 0-DTE | $734           | $765                 | $796            | $31        |
@@ -251,7 +243,6 @@
 *An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
 
 > **Methodology:** The engine calculates the daily Expected Move using the VIX, and then targets the exact "Gamma Wall" where market makers have massive options positions. We set our Max Profit trap precisely at that wall, and buy a protective "broken wing" further down to strictly cap our risk in the event of a sudden market shock.
-
 
 | Ticker  | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
 |---------|--------|------------------|----------------|-------------------|--------------|
@@ -266,7 +257,6 @@
 
 > **Methodology:** This is a strategy used when the market is chopping sideways and people are overly fearful. When fear is high, the cost of options goes up. We take advantage of this by selling an "Iron Condor," which means we collect premium by betting that the stock will simply stay within a specific, wide price range by the expiration date.
 
-
 | Ticker             | SP      | Expiry    | Put Spread | Call Spread | Premium     |
 |--------------------|---------|-----------|------------|-------------|-------------|
 | **SPY (Gamma IC)** | $764.27 | 30-45 DTE | < $735.00  | > $785.00   | Data-Driven |
@@ -279,7 +269,6 @@
 *The highest conviction plays from the master pipeline.*
 
 > **Methodology:** These are fundamentally pristine companies. They have passed every single test for financial health, including extremely low bankruptcy risk, consistent sales growth, and heavy insider buying. Once we find these elite companies, we look for opportunities to sell "Cash-Secured Puts" against them. This strategy allows us to get paid upfront simply for agreeing to buy these great companies at a steep discount.
-
 
 | Ticker                                        | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
 |-----------------------------------------------|--------|----------|--------|-------------|--------|--------------------|
@@ -294,7 +283,6 @@
 > 
 > 👑 **The Kingmaker Flag:** If a stock displays a `⚠️ KINGMAKER` alert, it means our archive proves that when this specific stock drops on earnings, it historically drags the entire S&P 500 (SPY) down with it >85% of the time. When you see this, consider adding a 0-DTE SPY Bear Call Spread to capitalize on the macro ripple effect.
 
-
 | Ticker   | Days to ER | Avg EPS | Track Record (4Q) | IV Ramp             | Phase     | Historical Edge | Suggested Play                         |
 |----------|------------|---------|-------------------|---------------------|-----------|-----------------|----------------------------------------|
 | **INTU** | 0 Days     | -       | -                 | 📈 108% `[████████]` | Sell Zone | N/A             | **SELL** $368/$370 Call Spread (Or CC) |
@@ -307,7 +295,6 @@
 *A powerful, mathematically balanced setup that completely eliminates upside risk on strong stocks.*
 
 > **Methodology:** This strategy combines an Out-of-the-Money short put with an Out-of-the-Money short call spread. It is placed specifically so that the total premium collected is greater than the maximum loss of the call spread. The result? If the stock crashes, you buy a pristine company at a massive discount. If the stock stays flat, you keep the premium. If the stock rockets to the moon, you STILL keep the premium. Zero upside risk.
-
 
 | Ticker  | Expiry  | Short Put | Short Call | Long Call | Net Credit | Upside Risk  | Max Downside Loss |
 |---------|---------|-----------|------------|-----------|------------|--------------|-------------------|
