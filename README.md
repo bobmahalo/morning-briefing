@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-25 | 05:45 AM*
+*Date: 2026-08-25 | 06:02 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -36,9 +36,9 @@
 
 ### 🪙 Metals Macro-Barometer
 
-- **GOLD (GC=F):** `$4,690.00` | 1M: `+16.2%` | 6M: `-9.9%` | 1Y: `+37.8%`
-- **SILVER (SI=F):** `$68.14` | 1M: `+18.9%` | 6M: `-25.1%` | 1Y: `+76.1%`
-- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.8`
+- **GOLD (GC=F):** `$4,707.70` | 1M: `+16.6%` | 6M: `-9.6%` | 1Y: `+38.3%`
+- **SILVER (SI=F):** `$68.70` | 1M: `+19.9%` | 6M: `-24.5%` | 1Y: `+77.6%`
+- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.5`
 
 ---
 
@@ -47,17 +47,17 @@
 ## 🧭 1. Sector Rotation (Macro Capital Flows)
 | Ticker   | Sector                 | Price   | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
 |----------|------------------------|---------|----------|----------|----------|----------|----------|---------------------|
-| **XLE**  | Energy                 | $62.50  | 62.5     | -1.44%   | +3.68%   | +6.21%   | +2.24%   | ⚠️ WEAKENING        |
-| **XLV**  | Health Care            | $174.94 | 68.8     | +3.48%   | +3.65%   | +15.97%  | -0.38%   | 🚀 LEADING (Inflow)  |
-| **XLY**  | Consumer Discretionary | $117.81 | 52.8     | +1.65%   | +2.87%   | -3.20%   | -10.28%  | 🚀 LEADING (Inflow)  |
-| **XLC**  | Communication Services | $112.60 | 56.3     | +2.33%   | +1.18%   | -4.38%   | -14.26%  | 🚀 LEADING (Inflow)  |
-| **XLK**  | Technology             | $181.35 | 46.9     | -1.89%   | +0.64%   | -3.87%   | +18.05%  | ⚠️ WEAKENING        |
-| **XLB**  | Materials              | $53.37  | 59.4     | +3.48%   | +0.44%   | +2.84%   | -11.17%  | 🔴 LAGGING (Outflow) |
-| **XLF**  | Financials             | $57.97  | 58.3     | +0.64%   | -1.49%   | +9.98%   | +2.52%   | 🌱 IMPROVING         |
-| **XLP**  | Consumer Staples       | $86.41  | 54.6     | +1.38%   | -2.18%   | +1.50%   | -14.90%  | 🌱 IMPROVING         |
-| **XLRE** | Real Estate            | $45.33  | 55.0     | +1.98%   | -4.35%   | -0.44%   | -7.53%   | 🌱 IMPROVING         |
-| **XLI**  | Industrials            | $178.95 | 40.0     | -2.10%   | -5.73%   | +0.84%   | -10.08%  | 🔴 LAGGING (Outflow) |
-| **XLU**  | Utilities              | $43.28  | 39.8     | -1.28%   | -8.67%   | -6.36%   | -19.51%  | 🔴 LAGGING (Outflow) |
+| **XLV**  | Health Care            | $175.40 | 69.4     | +3.58%   | +3.75%   | +16.10%  | -0.29%   | 🚀 LEADING (Inflow)  |
+| **XLE**  | Energy                 | $62.56  | 63.0     | -1.52%   | +3.61%   | +6.14%   | +2.16%   | ⚠️ WEAKENING        |
+| **XLY**  | Consumer Discretionary | $118.21 | 54.2     | +1.82%   | +3.05%   | -3.05%   | -10.13%  | 🚀 LEADING (Inflow)  |
+| **XLC**  | Communication Services | $112.87 | 57.2     | +2.40%   | +1.24%   | -4.33%   | -14.23%  | 🚀 LEADING (Inflow)  |
+| **XLK**  | Technology             | $181.79 | 47.6     | -1.83%   | +0.70%   | -3.82%   | +18.16%  | ⚠️ WEAKENING        |
+| **XLB**  | Materials              | $53.39  | 59.6     | +3.34%   | +0.30%   | +2.70%   | -11.34%  | 🔴 LAGGING (Outflow) |
+| **XLF**  | Financials             | $58.19  | 60.9     | +0.83%   | -1.30%   | +10.21%  | +2.74%   | 🌱 IMPROVING         |
+| **XLP**  | Consumer Staples       | $86.32  | 54.2     | +1.09%   | -2.48%   | +1.20%   | -15.21%  | 🌱 IMPROVING         |
+| **XLRE** | Real Estate            | $45.42  | 56.0     | +1.99%   | -4.35%   | -0.43%   | -7.54%   | 🌱 IMPROVING         |
+| **XLI**  | Industrials            | $178.99 | 40.1     | -2.26%   | -5.89%   | +0.68%   | -10.26%  | 🔴 LAGGING (Outflow) |
+| **XLU**  | Utilities              | $43.22  | 39.1     | -1.57%   | -8.97%   | -6.65%   | -19.81%  | 🔴 LAGGING (Outflow) |
 
 ---
 
