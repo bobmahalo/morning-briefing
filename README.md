@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-25 | 06:10 AM*
+*Date: 2026-08-25 | 06:11 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -8,6 +8,7 @@
 > **Report Overview:** This daily briefing combines multiple automated scans to give you a clear, unbiased picture of the market. It checks the overall health of the financial system, finds deeply undervalued companies, and highlights specific trade opportunities based on actual market data, not opinions.
 
 ## 📡 MACRO EVENT RADAR (45-Day Outlook)
+
 > ⚠️ in 10 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
 > ⚠️ in 16 Days PPI Inflation Data (2026-09-10)
 > ⚠️ in 17 Days Core CPI Inflation Data (2026-09-11)
@@ -36,9 +37,9 @@
 
 ### 🪙 Metals Macro-Barometer
 
-- **GOLD (GC=F):** `$4,707.70` | 1M: `+16.6%` | 6M: `-9.6%` | 1Y: `+38.3%`
-- **SILVER (SI=F):** `$68.70` | 1M: `+19.9%` | 6M: `-24.5%` | 1Y: `+77.6%`
-- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* | Gold/Silver Ratio: `68.5`
+- **GOLD (GC=F):** `$4,707.70` • 1M: `+16.6%` • 6M: `-9.6%` • 1Y: `+38.3%`
+- **SILVER (SI=F):** `$68.70` • 1M: `+19.9%` • 6M: `-24.5%` • 1Y: `+77.6%`
+- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* • Gold/Silver Ratio: `68.5`
 
 ---
 
@@ -46,19 +47,19 @@
 
 ## 🧭 1. Sector Rotation (Macro Capital Flows)
 
-| Ticker   | Sector                 | Price   | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
-|----------|------------------------|---------|----------|----------|----------|----------|----------|---------------------|
-| **XLV**  | Health Care            | $175.40 | 69.4     | +3.58%   | +3.75%   | +16.10%  | -0.29%   | 🚀 LEADING (Inflow)  |
-| **XLE**  | Energy                 | $62.56  | 63.0     | -1.52%   | +3.61%   | +6.14%   | +2.16%   | ⚠️ WEAKENING        |
-| **XLY**  | Consumer Discretionary | $118.21 | 54.2     | +1.82%   | +3.05%   | -3.05%   | -10.13%  | 🚀 LEADING (Inflow)  |
-| **XLC**  | Communication Services | $112.87 | 57.2     | +2.40%   | +1.24%   | -4.33%   | -14.23%  | 🚀 LEADING (Inflow)  |
-| **XLK**  | Technology             | $181.79 | 47.6     | -1.83%   | +0.70%   | -3.82%   | +18.16%  | ⚠️ WEAKENING        |
-| **XLB**  | Materials              | $53.39  | 59.6     | +3.34%   | +0.30%   | +2.70%   | -11.34%  | 🔴 LAGGING (Outflow) |
-| **XLF**  | Financials             | $58.19  | 60.9     | +0.83%   | -1.30%   | +10.21%  | +2.74%   | 🌱 IMPROVING         |
-| **XLP**  | Consumer Staples       | $86.32  | 54.2     | +1.09%   | -2.48%   | +1.20%   | -15.21%  | 🌱 IMPROVING         |
-| **XLRE** | Real Estate            | $45.42  | 56.0     | +1.99%   | -4.35%   | -0.43%   | -7.54%   | 🌱 IMPROVING         |
-| **XLI**  | Industrials            | $178.99 | 40.1     | -2.26%   | -5.89%   | +0.68%   | -10.26%  | 🔴 LAGGING (Outflow) |
-| **XLU**  | Utilities              | $43.22  | 39.1     | -1.57%   | -8.97%   | -6.65%   | -19.81%  | 🔴 LAGGING (Outflow) |
+| Ticker | Sector | Price | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **XLV** | Health Care | $175.40 | 69.4 | +3.58% | +3.75% | +16.10% | -0.29% | 🚀 LEADING (Inflow) |
+| **XLE** | Energy | $62.56 | 63.0 | -1.52% | +3.61% | +6.14% | +2.16% | ⚠️ WEAKENING |
+| **XLY** | Consumer Discretionary | $118.21 | 54.2 | +1.82% | +3.05% | -3.05% | -10.13% | 🚀 LEADING (Inflow) |
+| **XLC** | Communication Services | $112.87 | 57.2 | +2.40% | +1.24% | -4.33% | -14.23% | 🚀 LEADING (Inflow) |
+| **XLK** | Technology | $181.79 | 47.6 | -1.83% | +0.70% | -3.82% | +18.16% | ⚠️ WEAKENING |
+| **XLB** | Materials | $53.39 | 59.6 | +3.34% | +0.30% | +2.70% | -11.34% | 🔴 LAGGING (Outflow) |
+| **XLF** | Financials | $58.19 | 60.9 | +0.83% | -1.30% | +10.21% | +2.74% | 🌱 IMPROVING |
+| **XLP** | Consumer Staples | $86.32 | 54.2 | +1.09% | -2.48% | +1.20% | -15.21% | 🌱 IMPROVING |
+| **XLRE** | Real Estate | $45.42 | 56.0 | +1.99% | -4.35% | -0.43% | -7.54% | 🌱 IMPROVING |
+| **XLI** | Industrials | $178.99 | 40.1 | -2.26% | -5.89% | +0.68% | -10.26% | 🔴 LAGGING (Outflow) |
+| **XLU** | Utilities | $43.22 | 39.1 | -1.57% | -8.97% | -6.65% | -19.81% | 🔴 LAGGING (Outflow) |
 
 ---
 
@@ -86,9 +87,9 @@
 
 > **Methodology:** This engine bypasses the strict 'Vault' filters. It scans pre-market data for violent liquidity shocks (massive gaps, explosive relative volume) and cross-references them against Gamma Walls and Short Interest. These are highly aggressive, high-volatility plays.
 
-| Ticker                            | Price | Gap | Short Int | IV  | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
-|-----------------------------------|-------|-----|-----------|-----|---------|------------|-----------------|----------------|--------|
-| No momentum anomalies found today | —     | —   | —         | —   | —       | —          | —               | —              | —      |
+| Ticker | Price | Gap | Short Int | IV | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| No momentum anomalies found today | — | — | — | — | — | — | — | — | — |
 
 ---
 
@@ -182,9 +183,9 @@
 
 > **Methodology:** This list shows the most resilient companies in the market right now. To make this list, a stock must pass rigorous tests for value, growth, and financial safety, and then completely refuse to drop in price for two solid weeks—even on days when the rest of the market is red. When a stock holds its ground this strongly, it usually means massive institutions are quietly buying it.
 
-| Ticker   | Current Price | First Seen | Days Survived | Drawdown % | Historical Context   |
-|----------|---------------|------------|---------------|------------|----------------------|
-| **EXEL** | $54.55        | 2026-03-20 | 50            | 0.0%       | Institutionally Held |
+| Ticker | Current Price | First Seen | Days Survived | Drawdown % | Historical Context |
+| --- | --- | --- | --- | --- | --- |
+| **EXEL** | $54.55 | 2026-03-20 | 50 | 0.0% | Institutionally Held |
 
 ---
 
@@ -193,9 +194,9 @@
 
 > **Methodology:** This engine runs weekly/monthly to isolate massive structural growth anomalies. It filters companies for Tier-1 Geographic HQs, Founder-Led vision, hyper-accelerating R&D Patent Velocity, Dark Hiring (NLP on SEC filings), and heavy 'Smart Money' whale accumulation. These are long-term conviction plays.
 
-| Ticker                                 | Crystal Ball Score | Verdict             | Historical Context |
-|----------------------------------------|--------------------|---------------------|--------------------|
-| No Crystal Ball anomalies active today | —                  | Awaiting next cycle | —                  |
+| Ticker | Crystal Ball Score | Verdict | Historical Context |
+| --- | --- | --- | --- |
+| No Crystal Ball anomalies active today | — | Awaiting next cycle | — |
 
 ---
 
@@ -223,9 +224,9 @@
 
 > **Methodology:** Think of this as an automated dividend for your long-term investments. Instead of blindly selling covered calls and risking your shares getting called away on a random spike, this calculates exactly how far the S&P 500 is mathematically expected to move this week. We then sell calls safely outside of that expected range, allowing us to collect extra income without capping realistic growth.
 
-| Ticker  | SP      | Expiry | Strike  | Premium (Est) |
-|---------|---------|--------|---------|---------------|
-| **SPY** | $764.27 | 1-Day  | $770.00 | ~$1.45        |
+| Ticker | SP | Expiry | Strike | Premium (Est) |
+| --- | --- | --- | --- | --- |
+| **SPY** | $764.27 | 1-Day | $770.00 | ~$1.45 |
 
 ---
 
@@ -234,9 +235,9 @@
 
 > **Methodology:** This engine runs dynamically based on real-time volatility (VIX). It sells an At-The-Money (ATM) straddle to collect massive premium, and buys protective wings exactly 4.0x the Expected Move away to cap risk. Because the engine runs exactly when this report is generated, the strikes below are based on live, stable post-open pricing.
 
-| Ticker  | VIX   | DTE   | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
-|---------|-------|-------|----------------|----------------------|-----------------|------------|
-| **SPY** | 15.83 | 0-DTE | $734           | $765                 | $796            | $31        |
+| Ticker | VIX | DTE | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
+| --- | --- | --- | --- | --- | --- | --- |
+| **SPY** | 15.83 | 0-DTE | $734 | $765 | $796 | $31 |
 
 ---
 
@@ -245,9 +246,9 @@
 
 > **Methodology:** The engine calculates the daily Expected Move using the VIX, and then targets the exact "Gamma Wall" where market makers have massive options positions. We set our Max Profit trap precisely at that wall, and buy a protective "broken wing" further down to strictly cap our risk in the event of a sudden market shock.
 
-| Ticker  | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
-|---------|--------|------------------|----------------|-------------------|--------------|
-| **SPY** | 0-DTE  | $764.00          | $759.00        | $749.00           | Net Credit   |
+| Ticker | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
+| --- | --- | --- | --- | --- | --- |
+| **SPY** | 0-DTE | $764.00 | $759.00 | $749.00 | Net Credit |
 
 > **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
 
@@ -258,9 +259,9 @@
 
 > **Methodology:** This is a strategy used when the market is chopping sideways and people are overly fearful. When fear is high, the cost of options goes up. We take advantage of this by selling an "Iron Condor," which means we collect premium by betting that the stock will simply stay within a specific, wide price range by the expiration date.
 
-| Ticker             | SP      | Expiry    | Put Spread | Call Spread | Premium     |
-|--------------------|---------|-----------|------------|-------------|-------------|
-| **SPY (Gamma IC)** | $764.27 | 30-45 DTE | < $735.00  | > $785.00   | Data-Driven |
+| Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
+| --- | --- | --- | --- | --- | --- |
+| **SPY (Gamma IC)** | $764.27 | 30-45 DTE | < $735.00 | > $785.00 | Data-Driven |
 
 ---
 
@@ -271,9 +272,9 @@
 
 > **Methodology:** These are fundamentally pristine companies. They have passed every single test for financial health, including extremely low bankruptcy risk, consistent sales growth, and heavy insider buying. Once we find these elite companies, we look for opportunities to sell "Cash-Secured Puts" against them. This strategy allows us to get paid upfront simply for agreeing to buy these great companies at a steep discount.
 
-| Ticker                                        | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
-|-----------------------------------------------|--------|----------|--------|-------------|--------|--------------------|
-| No tickers met threshold. Cash is a position. | -      | -        | -      | -           | -      | -                  |
+| Ticker | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
+| --- | --- | --- | --- | --- | --- | --- |
+| No tickers met threshold. Cash is a position. | - | - | - | - | - | - |
 
 ---
 
@@ -284,11 +285,11 @@
 > 
 > 👑 **The Kingmaker Flag:** If a stock displays a `⚠️ KINGMAKER` alert, it means our archive proves that when this specific stock drops on earnings, it historically drags the entire S&P 500 (SPY) down with it >85% of the time. When you see this, consider adding a 0-DTE SPY Bear Call Spread to capitalize on the macro ripple effect.
 
-| Ticker   | Days to ER | Avg EPS | Track Record (4Q) | IV Ramp             | Phase     | Historical Edge | Suggested Play                         |
-|----------|------------|---------|-------------------|---------------------|-----------|-----------------|----------------------------------------|
-| **INTU** | 0 Days     | -       | -                 | 📈 108% `[████████]` | Sell Zone | N/A             | **SELL** $368/$370 Call Spread (Or CC) |
-| **ULTA** | 2 Days     | -       | -                 | 📈 115% `[████████]` | Sell Zone | N/A             | **SELL** $578/$580 Call Spread (Or CC) |
-| **KFY**  | 15 Days    | -       | -                 | 📉 36% `[██░░░░░░]`  | Buy Zone  | N/A             | **BUY** $75 Put (Exp: 2026-10-16)      |
+| Ticker | Days to ER | Avg EPS | Track Record (4Q) | IV Ramp | Phase | Historical Edge | Suggested Play |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **INTU** | 0 Days | - | - | 📈 108% `[████████]` | Sell Zone | N/A | **SELL** $368/$370 Call Spread (Or CC) |
+| **ULTA** | 2 Days | - | - | 📈 115% `[████████]` | Sell Zone | N/A | **SELL** $578/$580 Call Spread (Or CC) |
+| **KFY** | 15 Days | - | - | 📉 36% `[██░░░░░░]` | Buy Zone | N/A | **BUY** $75 Put (Exp: 2026-10-16) |
 
 ---
 
@@ -297,9 +298,9 @@
 
 > **Methodology:** This strategy combines an Out-of-the-Money short put with an Out-of-the-Money short call spread. It is placed specifically so that the total premium collected is greater than the maximum loss of the call spread. The result? If the stock crashes, you buy a pristine company at a massive discount. If the stock stays flat, you keep the premium. If the stock rockets to the moon, you STILL keep the premium. Zero upside risk.
 
-| Ticker  | Expiry  | Short Put | Short Call | Long Call | Net Credit | Upside Risk  | Max Downside Loss |
-|---------|---------|-----------|------------|-----------|------------|--------------|-------------------|
-| **SPY** | 45 Days | $719.00   | $796.00    | $801.00   | $5.50      | $0.00 (Zero) | $71,350.00        |
+| Ticker | Expiry | Short Put | Short Call | Long Call | Net Credit | Upside Risk | Max Downside Loss |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **SPY** | 45 Days | $719.00 | $796.00 | $801.00 | $5.50 | $0.00 (Zero) | $71,350.00 |
 
 > **Execution Note:** Enter as a single trade. Ensure the net credit received is strictly greater than the call spread width ($5.00).
 
