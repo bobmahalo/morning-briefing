@@ -1,5 +1,5 @@
 # 🌅 Antigravity Morning Briefing
-*Date: 2026-08-26 | 03:33 AM*
+*Date: 2026-08-27 | 03:41 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -9,12 +9,12 @@
 
 ## 📡 MACRO EVENT RADAR (45-Day Outlook)
 
-> ⚠️ in 9 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
-> ⚠️ in 15 Days PPI Inflation Data (2026-09-10)
-> ⚠️ in 16 Days Core CPI Inflation Data (2026-09-11)
-> ⚠️ in 21 Days FOMC Rate Decision & Press Conference (2026-09-16)
-> ⚠️ in 23 Days Quarterly OPEX (Triple Witching) (2026-09-18)
-> ⚠️ in 37 Days Non-Farm Payrolls (NFP) & Unemployment (2026-10-02)
+> ⚠️ in 8 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
+> ⚠️ in 14 Days PPI Inflation Data (2026-09-10)
+> ⚠️ in 15 Days Core CPI Inflation Data (2026-09-11)
+> ⚠️ in 20 Days FOMC Rate Decision & Press Conference (2026-09-16)
+> ⚠️ in 22 Days Quarterly OPEX (Triple Witching) (2026-09-18)
+> ⚠️ in 36 Days Non-Farm Payrolls (NFP) & Unemployment (2026-10-02)
 
 ---
 
@@ -37,9 +37,9 @@
 
 ### 🪙 Metals Macro-Barometer
 
-- **GOLD (GC=F):** `$4,666.30` • 1M: `+15.7%` • 6M: `-9.9%` • 1Y: `+36.0%`
-- **SILVER (SI=F):** `$68.18` • 1M: `+17.8%` • 6M: `-21.6%` • 1Y: `+74.0%`
-- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* • Gold/Silver Ratio: `68.4`
+- **GOLD (GC=F):** `$4,639.90` • 1M: `+13.2%` • 6M: `-11.3%` • 1Y: `+33.6%`
+- **SILVER (SI=F):** `$68.96` • 1M: `+17.2%` • 6M: `-25.6%` • 1Y: `+71.5%`
+- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* • Gold/Silver Ratio: `67.3`
 
 ---
 
@@ -49,17 +49,17 @@
 
 | Ticker | Sector | Price | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **XLE** | Energy | $61.74 | 57.3 | -2.41% | +3.94% | +6.36% | +2.11% | ⚠️ WEAKENING |
-| **XLK** | Technology | $181.77 | 47.6 | -0.53% | +2.95% | -3.42% | +16.70% | ⚠️ WEAKENING |
-| **XLV** | Health Care | $174.74 | 67.5 | -0.04% | +1.18% | +15.47% | +0.31% | ⚠️ WEAKENING |
-| **XLY** | Consumer Discretionary | $117.43 | 51.4 | -0.49% | +1.10% | -5.37% | -10.12% | ⚠️ WEAKENING |
-| **XLC** | Communication Services | $113.70 | 59.7 | +2.63% | +0.38% | -4.18% | -12.81% | 🔴 LAGGING (Outflow) |
-| **XLB** | Materials | $53.66 | 62.0 | +2.66% | -0.78% | +2.87% | -9.28% | 🌱 IMPROVING |
-| **XLF** | Financials | $58.10 | 59.3 | +1.57% | -2.43% | +11.01% | +1.60% | 🌱 IMPROVING |
-| **XLP** | Consumer Staples | $86.61 | 55.6 | +0.57% | -3.82% | +0.42% | -13.11% | 🌱 IMPROVING |
-| **XLRE** | Real Estate | $45.34 | 55.0 | +1.27% | -4.76% | -0.39% | -6.04% | 🌱 IMPROVING |
-| **XLI** | Industrials | $179.17 | 41.5 | -1.04% | -5.12% | +0.82% | -8.38% | 🔴 LAGGING (Outflow) |
-| **XLU** | Utilities | $43.49 | 42.7 | -0.71% | -7.76% | -5.63% | -18.58% | 🔴 LAGGING (Outflow) |
+| **XLK** | Technology | $186.83 | 55.5 | +1.24% | +6.79% | -1.88% | +20.98% | 🚀 LEADING (Inflow) |
+| **XLE** | Energy | $62.11 | 58.9 | -3.37% | +0.52% | +7.19% | +1.31% | ⚠️ WEAKENING |
+| **XLY** | Consumer Discretionary | $116.16 | 47.0 | -1.24% | -1.30% | -6.70% | -12.28% | 🔴 LAGGING (Outflow) |
+| **XLV** | Health Care | $172.16 | 59.8 | -0.93% | -1.82% | +12.24% | -2.15% | 🔴 LAGGING (Outflow) |
+| **XLB** | Materials | $53.20 | 57.1 | +0.69% | -2.55% | +1.72% | -11.14% | 🌱 IMPROVING |
+| **XLF** | Financials | $58.19 | 60.3 | +1.37% | -2.72% | +11.62% | -0.69% | 🌱 IMPROVING |
+| **XLC** | Communication Services | $111.45 | 51.2 | -0.10% | -3.61% | -6.34% | -16.03% | 🔴 LAGGING (Outflow) |
+| **XLI** | Industrials | $179.44 | 42.9 | -0.98% | -3.80% | +1.38% | -9.96% | 🔴 LAGGING (Outflow) |
+| **XLRE** | Real Estate | $44.92 | 48.8 | -1.15% | -7.64% | -0.72% | -8.56% | 🔴 LAGGING (Outflow) |
+| **XLP** | Consumer Staples | $85.36 | 49.2 | -0.76% | -7.67% | -0.77% | -15.46% | 🔴 LAGGING (Outflow) |
+| **XLU** | Utilities | $42.95 | 37.8 | -2.67% | -9.74% | -5.63% | -20.48% | 🔴 LAGGING (Outflow) |
 
 ---
 
@@ -237,7 +237,7 @@
 
 | Ticker | VIX | DTE | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
 | --- | --- | --- | --- | --- | --- | --- |
-| **SPY** | 15.72 | 0-DTE | $735 | $765 | $795 | $30 |
+| **SPY** | 15.04 | 0-DTE | $740 | $769 | $798 | $29 |
 
 ---
 
@@ -248,7 +248,7 @@
 
 | Ticker | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
 | --- | --- | --- | --- | --- | --- |
-| **SPY** | 0-DTE | $764.00 | $759.00 | $749.00 | Net Credit |
+| **SPY** | 0-DTE | $768.00 | $763.00 | $753.00 | Net Credit |
 
 > **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
 
@@ -300,7 +300,7 @@
 
 | Ticker | Expiry | Short Put | Short Call | Long Call | Net Credit | Upside Risk | Max Downside Loss |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **SPY** | 45 Days | $719.00 | $796.00 | $801.00 | $5.50 | $0.00 (Zero) | $71,350.00 |
+| **SPY** | 45 Days | $723.00 | $799.00 | $804.00 | $5.50 | $0.00 (Zero) | $71,750.00 |
 
 > **Execution Note:** Enter as a single trade. Ensure the net credit received is strictly greater than the call spread width ($5.00).
 
