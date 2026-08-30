@@ -1,5 +1,5 @@
 # 🪐 Antigravity V2: Market Mechanics Briefing
-*Date: 2026-08-30 | 07:51 AM*
+*Date: 2026-08-30 | 08:00 AM*
 
 > **Pipeline Architecture:** This is a deterministic, Software 1.0 fundamental anchor report. All tactical options suggestions have been explicitly excluded. This report strictly measures macro structural health, real-time momentum, and intrinsic value convergence.
 ---
@@ -24,47 +24,47 @@
 ## 2. Momentum Scanner (Daily Edge)
 > **Methodology:** Premarket ignition targets extracted directly from the Momentum Scanner. This section tracks high-velocity setups, looking at Pre-Market Volume, Relative Volume (RVOL), and Short Interest. High RVOL combined with high Short Interest often precedes violent intraday short squeezes or momentum continuation.
 
-**Source:** `momentum_auto.csv`
-| Ticker | Price | Gap_% | PM_Volume | Avg_Volume | PM_RVOL_% | Short_Interest_% |
-|---|---|---|---|---|---|---|
-| SMCI | 38.465 | 9.43 | 1767289 | 1553298 | 113.78 | 18.41 |
-| HOOD | 112.07 | 8.14 | 941282 | 823122 | 114.36 | 4.24 |
-| RIOT | 21.31 | 6.55 | 723716 | 552690 | 130.94 | 14.48 |
-| MARA | 11.79 | 5.46 | 1164230 | 2274752 | 51.18 | 32.66 |
-| AMD | 479.055 | 4.86 | 612564 | 291280 | 210.3 | 2.46 |
-| COIN | 187.225 | 4.4 | 253242 | 297389 | 85.16 | 10.42 |
-| SOFI | 19.01 | 4.31 | 1097784 | 927379 | 118.37 | 13.54 |
-| PLTR | 170.85 | -2.87 | 1042434 | 830791 | 125.47 | 3.18 |
-| NVDA | 213.0 | 2.17 | 3190154 | 3334636 | 95.67 | 1.23 |
+**Source:** Auto Scanner
+| Ticker | Price | Gap % | PM Volume | RVOL % | Short % |
+|---|---|---|---|---|---|
+| SMCI | $38.47 | +9.43% | 1,767,289 | 114% | 18.4% |
+| HOOD | $112.07 | +8.14% | 941,282 | 114% | 4.2% |
+| RIOT | $21.31 | +6.55% | 723,716 | 131% | 14.5% |
+| MARA | $11.79 | +5.46% | 1,164,230 | 51% | 32.7% |
+| AMD | $479.06 | +4.86% | 612,564 | 210% | 2.5% |
+| COIN | $187.22 | +4.40% | 253,242 | 85% | 10.4% |
+| SOFI | $19.01 | +4.31% | 1,097,784 | 118% | 13.5% |
+| PLTR | $170.85 | -2.87% | 1,042,434 | 125% | 3.2% |
+| NVDA | $213.00 | +2.17% | 3,190,154 | 96% | 1.2% |
 
-**Source:** `momentum_tv.csv`
-| Ticker | Description | Price | Price - Currency | Price change %, 1 day | Volume, 1 day | Relative volume, 1 day | Market capitalization |
-|---|---|---|---|---|---|---|---|
-| UMC | United Microelectronics Corporation (NEW) | 19.07 | USD | 0.2101944298476045 | 9121513 | 0.8914956314968207 | 46955277235.82813 |
-| QNRX | Quoin Pharmaceuticals, Ltd. | 5.155 | USD | -0.4826254826254724 | 33859 | 1.1681680334797324 | 10353393.0 |
-| BEKE | KE Holdings Inc | 17.73 | USD | -0.7834359261331871 | 3328378 | 0.7680611285071867 | 20463011101.235355 |
-| KLAR | Klarna Group plc | 14.01 | USD | -1.4074595355383606 | 6452967 | 0.5860790607167207 | 5288885822.0 |
-| GAP | Gap, Inc. (The) | 20.79 | USD | -1.7021276595744657 | 22901355 | 3.7875915027551113 | 7483962552.0 |
-| TNON | Tenon Medical, Inc. | 5.02 | USD | -3.646833013435708 | 165447 | 0.0258150676130646 | 3348575.9999999995 |
-| XPON | Expion360 Inc. | 7.97 | USD | -13.086150490730644 | 999000 | 0.0680863504492104 | 7669810.0 |
+**Source:** TradingView
+| Ticker | Price | 1D Change | Volume | RVOL | Market Cap |
+|---|---|---|---|---|---|
+| UMC | $19.07 | +0.21% | 9,121,513 | 0.89 | $47.0B |
+| QNRX | $5.16 | -0.48% | 33,859 | 1.17 | $10.4M |
+| BEKE | $17.73 | -0.78% | 3,328,378 | 0.77 | $20.5B |
+| KLAR | $14.01 | -1.41% | 6,452,967 | 0.59 | $5.3B |
+| GAP | $20.79 | -1.70% | 22,901,355 | 3.79 | $7.5B |
+| TNON | $5.02 | -3.65% | 165,447 | 0.03 | $3.3M |
+| XPON | $7.97 | -13.09% | 999,000 | 0.07 | $7.7M |
 
 ---
 
 ## 3. Deep Value Convergence (Weekend Scan)
 > **Methodology:** The Deep Value Screener is an unshakeable mathematical anchor. It runs DCF (Discounted Cash Flow) valuations, checks ROIC (Return on Invested Capital), and calculates the 9-point Piotroski F-Score for pristine financial health. The tickers below are the highest conviction fundamentally undervalued companies from the most recent weekend scan, providing a massive margin of safety.
 
-| Ticker |
-|---|
-| QCOM |
-| AAPL |
-| GOOG |
-| GOOGL |
-| LLY |
-| KLAC |
-| TJX |
-| KO |
-| COST |
-| AMAT |
+| Ticker | Live Price | 1W Change | F-Score | ROIC | Short % | Inst % | IV |
+|---|---|---|---|---|---|---|---|
+| **QCOM** | N/A | N/A | 5/9 | 85.5% | N/A | N/A | N/A |
+| **AAPL** | N/A | N/A | 7/9 | 81.4% | N/A | N/A | N/A |
+| **GOOG** | N/A | N/A | 5/9 | 47.4% | N/A | N/A | N/A |
+| **GOOGL** | N/A | N/A | 5/9 | 47.4% | N/A | N/A | N/A |
+| **LLY** | N/A | N/A | 6/9 | 47.2% | N/A | N/A | N/A |
+| **KLAC** | N/A | N/A | 7/9 | 49.5% | N/A | N/A | N/A |
+| **TJX** | N/A | N/A | 7/9 | 28.3% | N/A | N/A | N/A |
+| **KO** | N/A | N/A | 6/9 | 25.6% | N/A | N/A | N/A |
+| **COST** | N/A | N/A | 5/9 | 39.0% | N/A | N/A | N/A |
+| **AMAT** | N/A | N/A | 5/9 | 46.1% | N/A | N/A | N/A |
 ---
 
 ## 4. Macro Events Calendar
@@ -81,6 +81,4 @@
 ## 5. Earnings Countdown Radar (30-Day Window)
 > **Methodology:** Holding through earnings introduces severe IV crush and binary risk. This radar checks every active ticker on the Momentum and Deep Value lists. If a company announces earnings within 30 days (even unconfirmed estimates), it is flagged here.
 
-| Ticker | Days Away | Estimated Date | Status |
-|---|---|---|---|
-| COST | 25 | 2026-09-24 | 🟡 WARNING |
+*✅ ALL CLEAR. No active targets have earnings within the next 30 days.*
