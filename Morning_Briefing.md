@@ -1,5 +1,5 @@
 # 🪐 Antigravity V2: Market Mechanics Briefing
-*Date: 2026-08-30 | 08:00 AM*
+*Date: 2026-08-30 | 08:29 AM*
 
 > **Pipeline Architecture:** This is a deterministic, Software 1.0 fundamental anchor report. All tactical options suggestions have been explicitly excluded. This report strictly measures macro structural health, real-time momentum, and intrinsic value convergence.
 ---
@@ -25,6 +25,7 @@
 > **Methodology:** Premarket ignition targets extracted directly from the Momentum Scanner. This section tracks high-velocity setups, looking at Pre-Market Volume, Relative Volume (RVOL), and Short Interest. High RVOL combined with high Short Interest often precedes violent intraday short squeezes or momentum continuation.
 
 **Source:** Auto Scanner
+
 | Ticker | Price | Gap % | PM Volume | RVOL % | Short % |
 |---|---|---|---|---|---|
 | SMCI | $38.47 | +9.43% | 1,767,289 | 114% | 18.4% |
@@ -38,6 +39,7 @@
 | NVDA | $213.00 | +2.17% | 3,190,154 | 96% | 1.2% |
 
 **Source:** TradingView
+
 | Ticker | Price | 1D Change | Volume | RVOL | Market Cap |
 |---|---|---|---|---|---|
 | UMC | $19.07 | +0.21% | 9,121,513 | 0.89 | $47.0B |
@@ -53,22 +55,24 @@
 ## 3. Deep Value Convergence (Weekend Scan)
 > **Methodology:** The Deep Value Screener is an unshakeable mathematical anchor. It runs DCF (Discounted Cash Flow) valuations, checks ROIC (Return on Invested Capital), and calculates the 9-point Piotroski F-Score for pristine financial health. The tickers below are the highest conviction fundamentally undervalued companies from the most recent weekend scan, providing a massive margin of safety.
 
+
 | Ticker | Live Price | 1W Change | F-Score | ROIC | Short % | Inst % | IV |
 |---|---|---|---|---|---|---|---|
-| **QCOM** | N/A | N/A | 5/9 | 85.5% | N/A | N/A | N/A |
-| **AAPL** | N/A | N/A | 7/9 | 81.4% | N/A | N/A | N/A |
-| **GOOG** | N/A | N/A | 5/9 | 47.4% | N/A | N/A | N/A |
-| **GOOGL** | N/A | N/A | 5/9 | 47.4% | N/A | N/A | N/A |
-| **LLY** | N/A | N/A | 6/9 | 47.2% | N/A | N/A | N/A |
-| **KLAC** | N/A | N/A | 7/9 | 49.5% | N/A | N/A | N/A |
-| **TJX** | N/A | N/A | 7/9 | 28.3% | N/A | N/A | N/A |
-| **KO** | N/A | N/A | 6/9 | 25.6% | N/A | N/A | N/A |
-| **COST** | N/A | N/A | 5/9 | 39.0% | N/A | N/A | N/A |
-| **AMAT** | N/A | N/A | 5/9 | 46.1% | N/A | N/A | N/A |
+| **QCOM** | $164.19 | +3.57% | 5/9 | 85.5% | 3.48% | 83.37% | 84.87% |
+| **AAPL** | $319.70 | +3.02% | 7/9 | 81.4% | 0.80% | 66.40% | 72.35% |
+| **GOOG** | $342.88 | -0.50% | 5/9 | 47.4% | N/A | 62.26% | 71.59% |
+| **GOOGL** | $346.59 | -0.42% | 5/9 | 47.4% | 1.24% | 81.05% | 68.40% |
+| **LLY** | $1174.61 | -5.80% | 6/9 | 47.2% | 0.74% | 85.42% | 62.00% |
+| **KLAC** | $175.54 | -3.32% | 7/9 | 49.5% | 2.16% | 93.82% | 133.44% |
+| **TJX** | $135.12 | -3.97% | 7/9 | 28.3% | 1.79% | 94.91% | 55.81% |
+| **KO** | $89.66 | -2.53% | 6/9 | 25.6% | 0.92% | 68.36% | 59.65% |
+| **COST** | $945.47 | -2.67% | 5/9 | 39.0% | 1.66% | 74.49% | 51.68% |
+| **AMAT** | $461.67 | -4.65% | 5/9 | 46.1% | 1.50% | 86.32% | 91.91% |
 ---
 
 ## 4. Macro Events Calendar
 > **Methodology:** Fetches high-impact economic events (FOMC, CPI, PPI, NFP) scheduled for this week. These events introduce severe binary risk and mandate defensive posturing.
+
 
 | Event | Date |
 |---|---|
@@ -81,4 +85,7 @@
 ## 5. Earnings Countdown Radar (30-Day Window)
 > **Methodology:** Holding through earnings introduces severe IV crush and binary risk. This radar checks every active ticker on the Momentum and Deep Value lists. If a company announces earnings within 30 days (even unconfirmed estimates), it is flagged here.
 
-*✅ ALL CLEAR. No active targets have earnings within the next 30 days.*
+
+| Ticker | Days Away | Estimated Date | Status |
+|---|---|---|---|
+| **COST** | 25 | 2026-09-24 | 🟡 WARNING |
