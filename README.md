@@ -1,11 +1,11 @@
 # 🪐 Antigravity V2: Market Mechanics Briefing
-*Date: 2026-08-30 | 07:36 AM*
+*Date: 2026-08-30 | 07:51 AM*
 
 > **Pipeline Architecture:** This is a deterministic, Software 1.0 fundamental anchor report. All tactical options suggestions have been explicitly excluded. This report strictly measures macro structural health, real-time momentum, and intrinsic value convergence.
 ---
 
 ## 1. Macro Structural Health (Market Mood)
-> **Methodology:** The Market Mood Engine ignores simple price charts and instead monitors the "underground plumbing" of the financial system. For **Volatility (VIX/SKEW)**, it tracks institutional hedging. **Credit Liquidity (JNK/TLT)** monitors the appetite for High-Yield bonds. **Macro Velocity** compares Copper (industrial expansion) against Gold (safe haven) for a real-time pulse on global economic growth. **Currency & Speculation** tracks the US Dollar and Bitcoin. Finally, the **Buffett Indicator** measures total market cap against GDP. Together, these signals mathematically dictate the macro risk regime.
+> **Methodology:** The Market Mood Engine ignores simple price charts and instead monitors the "underground plumbing" of the financial system. **Volatility (VIX/SKEW)** tracks institutional hedging. **Credit (JNK/TLT)** monitors the appetite for High-Yield bonds. **Macro (Copper/Gold)** compares industrial expansion against safe havens. **Currency & Speculation** tracks the US Dollar and Bitcoin. **Structural Gravity** measures the Buffett Indicator (market cap vs GDP) and Federal Debt. Finally, **Options & Breadth** tracks VVIX (options panic) and SPHB/SPLV (retail risk appetite). Together, these signals mathematically dictate the macro risk regime.
 
 **State:** Neutral / Transition (Score: 52.5)
 **Overall Assessment:** 🟡 YELLOW (Neutral / Transition)
@@ -65,3 +65,22 @@
 | KO |
 | COST |
 | AMAT |
+---
+
+## 4. Macro Events Calendar
+> **Methodology:** Fetches high-impact economic events (FOMC, CPI, PPI, NFP) scheduled for this week. These events introduce severe binary risk and mandate defensive posturing.
+
+| Event | Date |
+|---|---|
+| ⚠️ ISM Manufacturing PMI | 2026-09-01 |
+| ⚠️ Average Hourly Earnings m/m | 2026-09-04 |
+| ⚠️ Non-Farm Employment Change | 2026-09-04 |
+| ⚠️ Unemployment Rate | 2026-09-04 |
+---
+
+## 5. Earnings Countdown Radar (30-Day Window)
+> **Methodology:** Holding through earnings introduces severe IV crush and binary risk. This radar checks every active ticker on the Momentum and Deep Value lists. If a company announces earnings within 30 days (even unconfirmed estimates), it is flagged here.
+
+| Ticker | Days Away | Estimated Date | Status |
+|---|---|---|---|
+| COST | 25 | 2026-09-24 | 🟡 WARNING |
