@@ -1,317 +1,67 @@
-# 🌅 Antigravity Morning Briefing
-*Date: 2026-08-28 | 03:38 AM*
+# 🪐 Antigravity V2: Market Mechanics Briefing
+*Date: 2026-08-30 | 07:36 AM*
 
-> **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
+> **Pipeline Architecture:** This is a deterministic, Software 1.0 fundamental anchor report. All tactical options suggestions have been explicitly excluded. This report strictly measures macro structural health, real-time momentum, and intrinsic value convergence.
+---
+
+## 1. Macro Structural Health (Market Mood)
+> **Methodology:** The Market Mood Engine ignores simple price charts and instead monitors the "underground plumbing" of the financial system. For **Volatility (VIX/SKEW)**, it tracks institutional hedging. **Credit Liquidity (JNK/TLT)** monitors the appetite for High-Yield bonds. **Macro Velocity** compares Copper (industrial expansion) against Gold (safe haven) for a real-time pulse on global economic growth. **Currency & Speculation** tracks the US Dollar and Bitcoin. Finally, the **Buffett Indicator** measures total market cap against GDP. Together, these signals mathematically dictate the macro risk regime.
+
+**State:** Neutral / Transition (Score: 52.5)
+**Overall Assessment:** 🟡 YELLOW (Neutral / Transition)
+
+| Metric | Score | Status |
+|--------|-------|--------|
+| **Volatility (VIX/SKEW)** | 50.0 | 🟡 YELLOW (Neutral / Transition) |
+| **Credit (JNK/TLT)** | 70.0 | 🟢 GREEN (Risk-On / Euphoria) |
+| **Macro (Copper/Gold)** | 30.0 | 🔴 RED (Risk-Off / Contraction) |
+| **Currency & Speculation** | 90.0 | 🟢 GREEN (Risk-On / Euphoria) |
+| **Structural Gravity** | 10.0 | 🔴 RED (Risk-Off / Contraction) |
+| **Options & Breadth** | 65.0 | 🟢 GREEN (Risk-On / Euphoria) |
 
 ---
 
-> **Report Overview:** This daily briefing combines multiple automated scans to give you a clear, unbiased picture of the market. It checks the overall health of the financial system, finds deeply undervalued companies, and highlights specific trade opportunities based on actual market data, not opinions.
+## 2. Momentum Scanner (Daily Edge)
+> **Methodology:** Premarket ignition targets extracted directly from the Momentum Scanner. This section tracks high-velocity setups, looking at Pre-Market Volume, Relative Volume (RVOL), and Short Interest. High RVOL combined with high Short Interest often precedes violent intraday short squeezes or momentum continuation.
 
-## 📡 MACRO EVENT RADAR (45-Day Outlook)
+**Source:** `momentum_auto.csv`
+| Ticker | Price | Gap_% | PM_Volume | Avg_Volume | PM_RVOL_% | Short_Interest_% |
+|---|---|---|---|---|---|---|
+| SMCI | 38.465 | 9.43 | 1767289 | 1553298 | 113.78 | 18.41 |
+| HOOD | 112.07 | 8.14 | 941282 | 823122 | 114.36 | 4.24 |
+| RIOT | 21.31 | 6.55 | 723716 | 552690 | 130.94 | 14.48 |
+| MARA | 11.79 | 5.46 | 1164230 | 2274752 | 51.18 | 32.66 |
+| AMD | 479.055 | 4.86 | 612564 | 291280 | 210.3 | 2.46 |
+| COIN | 187.225 | 4.4 | 253242 | 297389 | 85.16 | 10.42 |
+| SOFI | 19.01 | 4.31 | 1097784 | 927379 | 118.37 | 13.54 |
+| PLTR | 170.85 | -2.87 | 1042434 | 830791 | 125.47 | 3.18 |
+| NVDA | 213.0 | 2.17 | 3190154 | 3334636 | 95.67 | 1.23 |
 
-> ⚠️ in 7 Days Non-Farm Payrolls (NFP) & Unemployment (2026-09-04)
-> ⚠️ in 13 Days PPI Inflation Data (2026-09-10)
-> ⚠️ in 14 Days Core CPI Inflation Data (2026-09-11)
-> ⚠️ in 19 Days FOMC Rate Decision & Press Conference (2026-09-16)
-> ⚠️ in 21 Days Quarterly OPEX (Triple Witching) (2026-09-18)
-> ⚠️ in 35 Days Non-Farm Payrolls (NFP) & Unemployment (2026-10-02)
-
----
-
-# 🌤️ Today's Market Weather: 🟡 YELLOW (Neutral / Transition) (Score: 57.2)
-
-**State:** Neutral / Transition  
-**Suggested Cash/T-Bill Allocation:** 30.0%
-
-> **Methodology:** This section measures the true health of the market by looking under the hood. Instead of looking at simple stock charts, it monitors six core economic drivers: institutional fear (are big funds buying protection?), credit markets (are banks still lending?), industrial growth vs. safe havens (Copper vs. Gold), currency strength (the US Dollar), and overall market valuation. Together, these signals tell us whether it is safe to be aggressive in the stock market or if we should hold defensive cash.
-
-**Gauges:**
-- **Volatility (VIX/SKEW)**: 🟡 YELLOW (Neutral / Transition) (50.0)
-- **Credit (JNK/TLT)**: 🟢 GREEN (Risk-On / Euphoria) (70.0)
-- **Macro (Copper/Gold)**: 🔴 RED (Risk-Off / Contraction) (30.0)
-- **Currency & Speculation**: 🟢 GREEN (Risk-On / Euphoria) (90.0)
-- **Structural Gravity**: 🔴 RED (Risk-Off / Contraction) (35.0)
-- **Options & Breadth**: 🟢 GREEN (Risk-On / Euphoria) (80.0)
-
----
-
-### 🪙 Metals Macro-Barometer
-
-- **GOLD (GC=F):** `$4,652.10` • 1M: `+14.9%` • 6M: `-12.1%` • 1Y: `+31.1%`
-- **SILVER (SI=F):** `$71.61` • 1M: `+24.3%` • 6M: `-18.9%` • 1Y: `+74.3%`
-- **SIGNAL (6M Trend):** *Gold Outperforming Silver (Risk-Off / Safety)* • Gold/Silver Ratio: `65.0`
+**Source:** `momentum_tv.csv`
+| Ticker | Description | Price | Price - Currency | Price change %, 1 day | Volume, 1 day | Relative volume, 1 day | Market capitalization |
+|---|---|---|---|---|---|---|---|
+| UMC | United Microelectronics Corporation (NEW) | 19.07 | USD | 0.2101944298476045 | 9121513 | 0.8914956314968207 | 46955277235.82813 |
+| QNRX | Quoin Pharmaceuticals, Ltd. | 5.155 | USD | -0.4826254826254724 | 33859 | 1.1681680334797324 | 10353393.0 |
+| BEKE | KE Holdings Inc | 17.73 | USD | -0.7834359261331871 | 3328378 | 0.7680611285071867 | 20463011101.235355 |
+| KLAR | Klarna Group plc | 14.01 | USD | -1.4074595355383606 | 6452967 | 0.5860790607167207 | 5288885822.0 |
+| GAP | Gap, Inc. (The) | 20.79 | USD | -1.7021276595744657 | 22901355 | 3.7875915027551113 | 7483962552.0 |
+| TNON | Tenon Medical, Inc. | 5.02 | USD | -3.646833013435708 | 165447 | 0.0258150676130646 | 3348575.9999999995 |
+| XPON | Expion360 Inc. | 7.97 | USD | -13.086150490730644 | 999000 | 0.0680863504492104 | 7669810.0 |
 
 ---
 
-## ——— PHASE 2: THE MONEY TRAIL ———
-
-## 🧭 1. Sector Rotation (Macro Capital Flows)
-
-| Ticker | Sector | Price | RSI (14) | 1W Rel % | 1M Rel % | 3M Rel % | 6M Rel % | Capital Flow Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **XLK** | Technology | $187.80 | 56.4 | +1.61% | +2.77% | -3.75% | +22.79% | 🚀 LEADING (Inflow) |
-| **XLE** | Energy | $62.49 | 61.2 | -2.64% | +1.88% | +8.95% | -0.81% | ⚠️ WEAKENING |
-| **XLC** | Communication Services | $112.32 | 54.2 | -0.01% | +1.28% | -4.98% | -17.41% | ⚠️ WEAKENING |
-| **XLV** | Health Care | $171.12 | 57.0 | -2.84% | +0.55% | +12.42% | -5.74% | ⚠️ WEAKENING |
-| **XLY** | Consumer Discretionary | $116.79 | 49.4 | -1.88% | -0.19% | -5.44% | -12.61% | 🔴 LAGGING (Outflow) |
-| **XLB** | Materials | $53.57 | 59.9 | -0.78% | -0.36% | +2.66% | -12.26% | 🔴 LAGGING (Outflow) |
-| **XLF** | Financials | $58.08 | 58.3 | +0.21% | -2.21% | +10.53% | +0.38% | 🔴 LAGGING (Outflow) |
-| **XLI** | Industrials | $178.88 | 41.7 | -1.60% | -3.83% | +1.25% | -11.57% | 🔴 LAGGING (Outflow) |
-| **XLP** | Consumer Staples | $85.36 | 49.4 | -1.56% | -4.23% | +0.89% | -17.72% | 🔴 LAGGING (Outflow) |
-| **XLRE** | Real Estate | $44.68 | 45.8 | -1.72% | -5.47% | -0.50% | -10.64% | 🔴 LAGGING (Outflow) |
-| **XLU** | Utilities | $43.26 | 41.0 | +0.32% | -7.23% | -4.67% | -21.91% | 🔴 LAGGING (Outflow) |
-
----
-
-## 🌊 2. Institutional Flow (ETF Dissector)
-*Cross-fund accumulation and shedding from major ETF Anchors.*
-
-> **Δ columns**: Net share change vs. the date X days ago (positive = accumulation).  
-> **Methodology:** This tracks the actual buying and selling of massive, market-moving ETFs (like SPY and XLK). We filter out the daily noise and look at the 1-Week and 1-Month trends. If a specific stock is being consistently accumulated or dumped across multiple funds over several weeks, it reveals a structural rotation by large institutions, allowing us to spot the trend early.
-
-| **VMC** | $275.23 | VULCAN MATERIALS CO | 🟢 Accum | -27,379 | +15,180,235 | +15,180,235 | +15,180,235 | [Aggregating...] | SPY, XLB |
-| **MMM** | $179.55 | 3M CO | 🟢 Accum | -81,082 | -233,969 | -137,570 | +15,165,482 | [Aggregating...] | SPY, XLI |
-| **INCY** | $129.71 | INCYTE CORP | 🟢 Accum | -243,470 | -308,739 | +3,882,305 | +4,072,378 | [Aggregating...] | SPY, XLV |
-| **RCL** | $293.76 | ROYAL CARIBBEAN CRUI | 🟢 Accum | -7,945 | +2,051,497 | +2,051,497 | +2,051,497 | [Aggregating...] | SPY, XLY |
-| **CHRW** | $142.71 | C.H. ROBINSON WORLDW | 🟢 Accum | -10,092 | +1,544,681 | +1,555,928 | +1,622,118 | [Aggregating...] | SPY, XLI |
-| **BA** | $212.35 | BOEING CO/THE | 🔴 Shed | -574,860 | -2,116,927 | -2,826,912 | -1,950,432 | [Aggregating...] | SPY, XAR, XLI |
-| **NUE** | $245.36 | NUCOR CORP | 🔴 Shed | -1,311,600 | -1,517,912 | -1,547,628 | -1,638,196 | [Aggregating...] | SPY, XLB |
-| **XEL** | $77.09 | XCEL ENERGY INC | 🔴 Shed | -816,230 | -1,018,065 | -1,319,656 | -1,655,931 | [Aggregating...] | SPY, XLU |
-| **KMB** | $110.77 | KIMBERLY CLARK CORP | 🔴 Shed | -641,780 | -808,329 | -1,107,636 | -1,355,009 | [Aggregating...] | SPY, XLP |
-| **WELL** | $240.18 | WELLTOWER INC | 🔴 Shed | -269,510 | -1,010,780 | -1,343,442 | -932,845 | [Aggregating...] | SPY, XLRE |
-
----
-
-## 🚀 3. The Ignition Pad (Momentum & Squeezes)
-*High-RVOL anomalies, massive short squeezes, and zero-day gamma pins.*
-
-> **Methodology:** This engine bypasses the strict 'Vault' filters. It scans pre-market data for violent liquidity shocks (massive gaps, explosive relative volume) and cross-references them against Gamma Walls and Short Interest. These are highly aggressive, high-volatility plays.
-
-| Ticker | Price | Gap | Short Int | IV | Support | Resistance | Catalyst / Edge | Suggested Play | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| No momentum anomalies found today | — | — | — | — | — | — | — | — | — |
-
----
-
-## ——— PHASE 3: THE VERDICT ———
-
-## 🚢 4. The Harbor Master's Verdict (Matrix Orchestrator)
-*Automated daily trade menu based on massive Data Lake aggregation.*
-
-> **Methodology:** The Harbor Master ingests data from 14 independent bots (VIX, Dark Pools, Obligation Warehouse, StatArb, etc.) to calculate an overarching market Conviction Score. It then runs potential trade ideas through a strict Kelly Criterion sizing algorithm to determine exact position sizes for Conservative and Aggressive profiles.
-
-
-**Date:** 2026-08-25
-
-**Conviction Score:** 95/100 (Bullish [⚠️ HIGH OW ANOMALIES])
-
----
-
-## 🛡️ Profile: Conservative (Capital Preservation)
-
-### ❌ REJECTED: Index_Iron_Condor on SPY
-
-- **Logic:** Market Weather is Bullish [⚠️ HIGH OW ANOMALIES]. Running neutral/delta-hedged structure.
-
-- **Kelly Reason:** REJECT: Negative Expected Value. Do not trade.
-
-### ✅ APPROVED: Sector_Put_Sale on XLV
-
-- **Logic:** Institutional capital is accumulating. Selling Delta -0.44 put for premium decay.
-
-- **Win Probability:** 70.0% | **Risk/Reward:** 400/256.0
-
-- **Kelly Allocation:** $14,453.12 (36 Contracts)
-
-### ❌ REJECTED: Sector_Put_Sale on XLY
-
-- **Logic:** Institutional capital is accumulating. Selling Delta -0.44 put for premium decay.
-
-- **Kelly Reason:** REJECT: Negative Expected Value. Do not trade.
-
----
-
-
-## 🛡️ Profile: Aggressive (High Risk / Lotto)
-
-### ✅ APPROVED: Statistical_Arbitrage on KO_PEP
-
-- **Logic:** SHORT KO, BUY PEP based on Z-Score 2.422
-
-- **Win Probability:** 65.0% | **Risk/Reward:** 300/500
-
-- **Kelly Allocation:** $110,000.00 (366 Contracts)
-
-### ❌ REJECTED: Index_Iron_Condor on SPY
-
-- **Logic:** Market Weather is Bullish [⚠️ HIGH OW ANOMALIES]. Running neutral/delta-hedged structure.
-
-- **Kelly Reason:** REJECT: Negative Expected Value. Do not trade.
-
-### ✅ APPROVED: Short_Squeeze_Lotto on GME
-
-- **Logic:** Massive short interest and incoming wall. Selected Delta 0.31 contract.
-
-- **Win Probability:** 35.0% | **Risk/Reward:** 80.0/640.0
-
-- **Kelly Allocation:** $67,187.50 (839 Contracts)
-
-### ✅ APPROVED: Sector_Put_Sale on XLV
-
-- **Logic:** Institutional capital is accumulating. Selling Delta -0.44 put for premium decay.
-
-- **Win Probability:** 70.0% | **Risk/Reward:** 400/256.0
-
-- **Kelly Allocation:** $57,812.50 (144 Contracts)
-
-### ❌ REJECTED: Sector_Put_Sale on XLY
-
-- **Logic:** Institutional capital is accumulating. Selling Delta -0.44 put for premium decay.
-
-- **Kelly Reason:** REJECT: Negative Expected Value. Do not trade.
-
----
-
----
-
-## ——— PHASE 4: THE PLAYBOOK ———
-
-### CATEGORY A: CORE & SAFETY
-
-## 🥇 Core 1: The Gold Standard
-*Passed 14-day pipeline survival with 0.00% Max Drawdown.*
-
-> **Methodology:** This list shows the most resilient companies in the market right now. To make this list, a stock must pass rigorous tests for value, growth, and financial safety, and then completely refuse to drop in price for two solid weeks—even on days when the rest of the market is red. When a stock holds its ground this strongly, it usually means massive institutions are quietly buying it.
-
-| Ticker | Current Price | First Seen | Days Survived | Drawdown % | Historical Context |
-| --- | --- | --- | --- | --- | --- |
-| **EXEL** | $54.55 | 2026-03-20 | 50 | 0.0% | Institutionally Held |
-
----
-
-## 🔮 Core 2: The Crystal Ball (Super Stars)
-*The elite survivors of the structural 'Look Back / Look Forward' fundamental gauntlet.*
-
-> **Methodology:** This engine runs weekly/monthly to isolate massive structural growth anomalies. It filters companies for Tier-1 Geographic HQs, Founder-Led vision, hyper-accelerating R&D Patent Velocity, Dark Hiring (NLP on SEC filings), and heavy 'Smart Money' whale accumulation. These are long-term conviction plays.
-
-| Ticker | Crystal Ball Score | Verdict | Historical Context |
-| --- | --- | --- | --- |
-| No Crystal Ball anomalies active today | — | Awaiting next cycle | — |
-
----
-
-## 🛡️ Core 3: Low Risk OptionsOS Summary
-*High-liquidity Buffett compounders for safe premium generation.*
-
-> **Methodology:** This scans for massive, "wide-moat" companies that exhibit slow, unshakeable growth. It checks multiple accounting metrics to ensure their balance sheets are completely flawless. Because these stocks move so slowly and predictably, we can safely sell options far away from the current price to generate highly probable, low-risk income.
-
-*No high-conviction low-risk triggers today. Cash remains allocated.*
-
----
-
-## 🛑 Core 4: Active LEAPS Summary
-
-> **Methodology:** This is a strategy for amplifying returns while strictly limiting risk. Instead of buying 100 shares of an expensive stock outright, we look for deep, long-term options (LEAPS) that mimic owning the stock but cost a fraction of the price. This frees up capital and ensures that, even in a worst-case market crash, the absolute maximum you can lose is strictly capped to the smaller amount you paid for the contract.
-
-*No active LEAPS signals triggered today.*
-
----
-
-### CATEGORY B: INDEX & VOLATILITY
-
-## 💵 Index 1: SPY Covered Calls
-*Income generation on core holdings.*
-
-> **Methodology:** Think of this as an automated dividend for your long-term investments. Instead of blindly selling covered calls and risking your shares getting called away on a random spike, this calculates exactly how far the S&P 500 is mathematically expected to move this week. We then sell calls safely outside of that expected range, allowing us to collect extra income without capping realistic growth.
-
-| Ticker | SP | Expiry | Strike | Premium (Est) |
-| --- | --- | --- | --- | --- |
-| **SPY** | $764.27 | 1-Day | $770.00 | ~$1.45 |
-
----
-
-## 🦋 Index 2: The Iron Butterfly (Golden Config)
-*A non-directional, defensive premium collection setup optimized specifically for SPY.*
-
-> **Methodology:** This engine runs dynamically based on real-time volatility (VIX). It sells an At-The-Money (ATM) straddle to collect massive premium, and buys protective wings exactly 4.0x the Expected Move away to cap risk. Because the engine runs exactly when this report is generated, the strikes below are based on live, stable post-open pricing.
-
-| Ticker | VIX | DTE | Put Wing (Buy) | Short Body (Sell 2x) | Call Wing (Buy) | Wing Width |
-| --- | --- | --- | --- | --- | --- | --- |
-| **SPY** | 14.46 | 0-DTE | $744 | $772 | $800 | $28 |
-
----
-
-## 🦋 Index 3: The Macro-Shock BWB (SPY 0-DTE)
-*An asymmetrical, defined-risk setup designed to profit from slow drops and protect against flash crashes.*
-
-> **Methodology:** The engine calculates the daily Expected Move using the VIX, and then targets the exact "Gamma Wall" where market makers have massive options positions. We set our Max Profit trap precisely at that wall, and buy a protective "broken wing" further down to strictly cap our risk in the event of a sudden market shock.
-
-| Ticker | Expiry | Upper Wing (Buy) | Body (Sell 2x) | Broken Wing (Buy) | Target Entry |
-| --- | --- | --- | --- | --- | --- |
-| **SPY** | 0-DTE | $771.00 | $767.00 | $759.00 | Net Credit |
-
-> **Execution Note:** Look to fill this for a net credit in the first 15 minutes of the open. If it requires paying a debit, the math is broken for the day—skip the trade.
-
----
-
-## 🦅 Index 4: Iron Condors
-*Current neutral/income plays based on index volatility.*
-
-> **Methodology:** This is a strategy used when the market is chopping sideways and people are overly fearful. When fear is high, the cost of options goes up. We take advantage of this by selling an "Iron Condor," which means we collect premium by betting that the stock will simply stay within a specific, wide price range by the expiration date.
-
-| Ticker | SP | Expiry | Put Spread | Call Spread | Premium |
-| --- | --- | --- | --- | --- | --- |
-| **SPY (Gamma IC)** | $764.27 | 30-45 DTE | < $735.00 | > $785.00 | Data-Driven |
-
----
-
-### CATEGORY C: DIRECTIONAL & CATALYSTS
-
-## 💎 Catalyst 1: Top Conviction Tickers & CSP
-*The highest conviction plays from the master pipeline.*
-
-> **Methodology:** These are fundamentally pristine companies. They have passed every single test for financial health, including extremely low bankruptcy risk, consistent sales growth, and heavy insider buying. Once we find these elite companies, we look for opportunities to sell "Cash-Secured Puts" against them. This strategy allows us to get paid upfront simply for agreeing to buy these great companies at a steep discount.
-
-| Ticker | Strike | Max Pain | Expiry | Ann. Return | Safety | Historical Context |
-| --- | --- | --- | --- | --- | --- | --- |
-| No tickers met threshold. Cash is a position. | - | - | - | - | - | - |
-
----
-
-## 💥 Catalyst 2: The Earnings Volatility Engine
-*A multi-phase options engine that plays the IV Ramp (Long Puts) and traps the IV Crush (Short Call Spreads).*
-
-> **Methodology:** In the **Buy Zone (> 14 days out)**, implied volatility is at its lowest, so we buy long options to ride the IV expansion. In the **Sell Zone (< 14 days out)**, IV is wildly inflated by gamblers. We stop buying and strictly sell premium (like Call Spreads) safely outside the expected move to profit off the inevitable IV crush the morning after earnings. 
-> 
-> 👑 **The Kingmaker Flag:** If a stock displays a `⚠️ KINGMAKER` alert, it means our archive proves that when this specific stock drops on earnings, it historically drags the entire S&P 500 (SPY) down with it >85% of the time. When you see this, consider adding a 0-DTE SPY Bear Call Spread to capitalize on the macro ripple effect.
-
-| Ticker | Days to ER | Avg EPS | Track Record (4Q) | IV Ramp | Phase | Historical Edge | Suggested Play |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **INTU** | 0 Days | - | - | 📈 108% `[████████]` | Sell Zone | N/A | **SELL** $368/$370 Call Spread (Or CC) |
-| **ULTA** | 2 Days | - | - | 📈 115% `[████████]` | Sell Zone | N/A | **SELL** $578/$580 Call Spread (Or CC) |
-| **KFY** | 15 Days | - | - | 📉 36% `[██░░░░░░]` | Buy Zone | N/A | **BUY** $75 Put (Exp: 2026-10-16) |
-
----
-
-## 🦎 Catalyst 3: The Jade Lizard (Zero Upside Risk)
-*A powerful, mathematically balanced setup that completely eliminates upside risk on strong stocks.*
-
-> **Methodology:** This strategy combines an Out-of-the-Money short put with an Out-of-the-Money short call spread. It is placed specifically so that the total premium collected is greater than the maximum loss of the call spread. The result? If the stock crashes, you buy a pristine company at a massive discount. If the stock stays flat, you keep the premium. If the stock rockets to the moon, you STILL keep the premium. Zero upside risk.
-
-| Ticker | Expiry | Short Put | Short Call | Long Call | Net Credit | Upside Risk | Max Downside Loss |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **SPY** | 45 Days | $726.00 | $803.00 | $808.00 | $5.50 | $0.00 (Zero) | $72,050.00 |
-
-> **Execution Note:** Enter as a single trade. Ensure the net credit received is strictly greater than the call spread width ($5.00).
-
----
-
-## 📉 Catalyst 4: The Gravity Engine (Bear Call Spreads)
-*Hunting irrational pumps and fundamentally broken companies. What goes up must come down.*
-
-> [!NOTE]
-> Gravity Engine found no actionable setups today.
-
----
-
-![Hits](https://komarev.com/ghpvc/?username=bobmahalo-morning-briefing&label=Views)
+## 3. Deep Value Convergence (Weekend Scan)
+> **Methodology:** The Deep Value Screener is an unshakeable mathematical anchor. It runs DCF (Discounted Cash Flow) valuations, checks ROIC (Return on Invested Capital), and calculates the 9-point Piotroski F-Score for pristine financial health. The tickers below are the highest conviction fundamentally undervalued companies from the most recent weekend scan, providing a massive margin of safety.
+
+| Ticker |
+|---|
+| QCOM |
+| AAPL |
+| GOOG |
+| GOOGL |
+| LLY |
+| KLAC |
+| TJX |
+| KO |
+| COST |
+| AMAT |
