@@ -1,5 +1,5 @@
 # 🪐 Antigravity V2: Market Mechanics Briefing
-*Date: 2026-08-30 | 06:54 PM*
+*Date: 2026-08-31 | 03:58 AM*
 
 > **Pipeline Architecture:** This is a deterministic, Software 1.0 fundamental anchor report. All tactical options suggestions have been explicitly excluded. This report strictly measures macro structural health, real-time momentum, and intrinsic value convergence.
 
@@ -8,12 +8,12 @@
 ## 1. Macro Structural Health (Market Mood)
 > **Methodology:** The Market Mood Engine ignores simple price charts and instead monitors the "underground plumbing" of the financial system. **Volatility (VIX/SKEW)** tracks institutional hedging. **Credit (JNK/TLT)** monitors the appetite for High-Yield bonds. **Macro (Copper/Gold)** compares industrial expansion against safe havens. **Currency & Speculation** tracks the US Dollar and Bitcoin. **Structural Gravity** measures the Buffett Indicator (market cap vs GDP) and Federal Debt. Finally, **Options & Breadth** tracks VVIX (options panic) and SPHB/SPLV (retail risk appetite). Together, these signals mathematically dictate the macro risk regime.
 
-**State:** Neutral / Transition (Score: 52.5)
+**State:** Neutral / Transition (Score: 50.0)
 **Overall Assessment:** 🟡 YELLOW (Neutral / Transition)
 
 | Metric | Score | Status |
 |--------|-------|--------|
-| **Volatility (VIX/SKEW)** | 50.0 | 🟡 YELLOW (Neutral / Transition) |
+| **Volatility (VIX/SKEW)** | 35.0 | 🔴 RED (Risk-Off / Contraction) |
 | **Credit (JNK/TLT)** | 70.0 | 🟢 GREEN (Risk-On / Euphoria) |
 | **Macro (Copper/Gold)** | 30.0 | 🔴 RED (Risk-Off / Contraction) |
 | **Currency & Speculation** | 90.0 | 🟢 GREEN (Risk-On / Euphoria) |
@@ -30,27 +30,24 @@
 
 | Ticker | Price | Gap % | PM Volume | RVOL % | Short % |
 |---|---|---|---|---|---|
-| SMCI | $38.47 | +9.43% | 1,767,289 | 114% | 18.4% |
-| HOOD | $112.07 | +8.14% | 941,282 | 114% | 4.2% |
-| RIOT | $21.31 | +6.55% | 723,716 | 131% | 14.5% |
-| MARA | $11.79 | +5.46% | 1,164,230 | 51% | 32.7% |
-| AMD | $479.06 | +4.86% | 612,564 | 210% | 2.5% |
-| COIN | $187.22 | +4.40% | 253,242 | 85% | 10.4% |
-| SOFI | $19.01 | +4.31% | 1,097,784 | 118% | 13.5% |
-| PLTR | $170.85 | -2.87% | 1,042,434 | 125% | 3.2% |
-| NVDA | $213.00 | +2.17% | 3,190,154 | 96% | 1.2% |
+| RIOT | $18.98 | -9.23% | 965,347 | 167% | 14.5% |
+| MARA | $10.80 | -8.94% | 1,197,314 | 72% | 32.7% |
+| COIN | $178.53 | -6.43% | 287,683 | 110% | 10.4% |
+| SOFI | $18.04 | -5.89% | 1,485,860 | 151% | 13.5% |
+| HOOD | $104.17 | -5.12% | 579,617 | 132% | 4.2% |
+| AMC | $2.59 | -4.25% | 748,606 | 78% | 4.8% |
+| RIVN | $16.08 | -4.23% | 1,515,020 | 229% | 13.6% |
+| AMZN | $266.39 | +4.00% | 1,735,606 | 148% | 1.0% |
+| NVDA | $219.07 | -3.99% | 5,357,434 | 72% | 1.2% |
+| SMCI | $37.08 | -3.58% | 1,170,890 | 81% | 18.4% |
+| AMD | $465.61 | -2.32% | 369,817 | 84% | 2.5% |
 
 **Source:** TradingView
 
 | Ticker | Price | 1D Change | Volume | RVOL | Market Cap |
 |---|---|---|---|---|---|
-| UMC | $19.07 | +0.21% | 9,121,513 | 0.89 | $47.0B |
-| QNRX | $5.16 | -0.48% | 33,859 | 1.17 | $10.4M |
-| BEKE | $17.73 | -0.78% | 3,328,378 | 0.77 | $20.5B |
-| KLAR | $14.01 | -1.41% | 6,452,967 | 0.59 | $5.3B |
-| GAP | $20.79 | -1.70% | 22,901,355 | 3.79 | $7.5B |
-| TNON | $5.02 | -3.65% | 165,447 | 0.03 | $3.3M |
-| XPON | $7.97 | -13.09% | 999,000 | 0.07 | $7.7M |
+| MOVE | $11.49 | +2.96% | 58,568 | 0.70 | $317.7M |
+| WETO | $5.72 | -50.26% | 2,332,786 | 0.20 | $6.2M |
 
 
 ---
@@ -61,16 +58,16 @@
 
 | Ticker | Live Price | 1W Change | F-Score | ROIC | Short % | Inst % | IV |
 |---|---|---|---|---|---|---|---|
-| **QCOM** | $164.19 | +3.57% | 5/9 | 85.5% | 3.48% | 83.37% | 16.88% |
-| **AAPL** | $319.70 | +3.02% | 7/9 | 81.4% | 0.80% | 66.40% | 15.86% |
-| **GOOG** | $342.88 | -0.50% | 5/9 | 47.4% | N/A | 62.26% | 13.91% |
-| **GOOGL** | $346.59 | -0.42% | 5/9 | 47.4% | 1.24% | 81.05% | 21.06% |
-| **LLY** | $1174.61 | -5.80% | 6/9 | 47.2% | 0.74% | 85.42% | 13.81% |
-| **KLAC** | $175.54 | -3.32% | 7/9 | 49.5% | 2.16% | 93.82% | 26.73% |
-| **TJX** | $135.12 | -3.97% | 7/9 | 28.3% | 1.79% | 94.91% | 16.94% |
-| **KO** | $89.66 | -2.53% | 6/9 | 25.6% | 0.92% | 68.36% | 5.80% |
-| **COST** | $945.47 | -2.67% | 5/9 | 39.0% | 1.66% | 74.49% | 14.11% |
-| **AMAT** | $461.67 | -4.65% | 5/9 | 46.1% | 1.50% | 86.32% | 28.61% |
+| **QCOM** | $169.34 | +5.46% | 5/9 | 85.5% | 3.48% | 83.37% | 45.26% |
+| **AAPL** | $317.34 | +2.40% | 7/9 | 81.4% | 0.80% | 66.40% | 112.38% |
+| **GOOG** | $336.92 | -1.87% | 5/9 | 47.4% | N/A | 62.26% | 82.94% |
+| **GOOGL** | $340.52 | -1.86% | 5/9 | 47.4% | 1.24% | 81.05% | 112.92% |
+| **LLY** | $1149.00 | -6.88% | 6/9 | 47.2% | 0.74% | 85.42% | 77.34% |
+| **KLAC** | $176.01 | -4.00% | 7/9 | 49.5% | 2.16% | 93.82% | 133.07% |
+| **TJX** | $134.09 | -3.87% | 7/9 | 28.3% | 1.79% | 94.91% | 60.72% |
+| **KO** | $89.00 | -2.88% | 6/9 | 25.6% | 0.92% | 68.36% | 89.19% |
+| **COST** | $946.65 | -1.39% | 5/9 | 39.0% | 1.66% | 74.49% | 58.81% |
+| **AMAT** | $459.98 | -4.17% | 5/9 | 46.1% | 1.50% | 86.32% | 102.99% |
 
 ---
 
@@ -93,7 +90,7 @@
 
 | Ticker | Days Away | Estimated Date | Status |
 |---|---|---|---|
-| **COST** | 25 | 2026-09-24 | 🟡 WARNING |
+| **COST** | 24 | 2026-09-24 | 🟡 WARNING |
 
 ---
 
