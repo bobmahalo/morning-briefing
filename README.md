@@ -1,5 +1,5 @@
 # 🪐 Antigravity V2: Market Mechanics Briefing
-*Date: 2026-09-01 | 03:37 AM*
+*Date: 2026-09-01 | 04:21 AM*
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -7,10 +7,28 @@
 
 ---
 
-## 1. Macro Structural Health (Market Mood)
+## 1. Macro Events Calendar
+> **Methodology:** Fetches high-impact economic events (FOMC, CPI, PPI, NFP) scheduled for this week. These events introduce severe binary risk and mandate defensive posturing.
+
+
+| Event | Date |
+|---|---|
+| ⚠️ in 3 Days: Non-Farm Payrolls (NFP) | 2026-09-04 |
+| ⚠️ in 9 Days: PPI Inflation | 2026-09-10 |
+| ⚠️ in 10 Days: Core CPI Inflation | 2026-09-11 |
+| ⚠️ in 15 Days: FOMC Rate Decision | 2026-09-16 |
+| ⚠️ in 17 Days: Quarterly OPEX (Triple Witching) | 2026-09-18 |
+| ⚠️ in 31 Days: Non-Farm Payrolls (NFP) | 2026-10-02 |
+| ⚠️ in 42 Days: Core CPI Inflation | 2026-10-13 |
+| ⚠️ in 43 Days: PPI Inflation | 2026-10-14 |
+| ⚠️ in 45 Days: Monthly OPEX | 2026-10-16 |
+
+---
+
+## 2. Macro Structural Health (Market Mood)
 > **Methodology:** The Market Mood Engine ignores simple price charts and instead monitors the "underground plumbing" of the financial system. **Volatility (VIX/SKEW)** tracks institutional hedging. **Credit (JNK/TLT)** monitors the appetite for High-Yield bonds. **Macro (Copper/Gold)** compares industrial expansion against safe havens. **Currency & Speculation** tracks the US Dollar and Bitcoin. **Structural Gravity** measures the Buffett Indicator (market cap vs GDP) and Federal Debt. Finally, **Options & Breadth** tracks VVIX (options panic) and SPHB/SPLV (retail risk appetite). Together, these signals mathematically dictate the macro risk regime.
 
-**State:** Neutral / Transition (Score: 55.2)
+**State:** Neutral / Transition (Score: 54.8)
 **Overall Assessment:** 🟡 YELLOW (Neutral / Transition)
 
 | Metric | Score | Status |
@@ -25,7 +43,53 @@
 
 ---
 
-## 2. Momentum Scanner (Daily Edge)
+## 3. The Crystal Ball (Elite Convergence)
+> **Methodology:** The ultimate convergence filter. This engine takes the absolute top candidates from the Deep Value and Growth scanners and runs them through a ruthless gauntlet: Tier-1 Geographic HQ, Founder-Led Vision, Accelerating Patent R&D Velocity, and 'Smart Money' Whale Accumulation. Only massive structural anomalies survive.
+
+| Ticker | Crystal Ball Score | Verdict |
+|---|---|---|
+| **NVDA** | 3/4 | 🔍 POTENTIAL GEM |
+
+---
+
+## 4. Deep Value Convergence (Weekend Scan)
+> **Methodology:** The Deep Value Screener is an unshakeable mathematical anchor. It runs DCF (Discounted Cash Flow) valuations, checks ROIC (Return on Invested Capital), and calculates the 9-point Piotroski F-Score for pristine financial health. The tickers below are the highest conviction fundamentally undervalued companies from the most recent weekend scan, providing a massive margin of safety.
+
+
+| Ticker | Live Price | 1W Change | F-Score | ROIC | Short % | Inst % | IV |
+|---|---|---|---|---|---|---|---|
+| **QCOM** | $163.55 | -0.16% | 5/9 | 85.5% | 3.48% | 83.37% | 96.81% |
+| **AAPL** | $323.88 | +3.33% | 7/9 | 81.4% | 0.80% | 66.40% | 20.72% |
+| **GOOG** | $333.55 | -1.64% | 5/9 | 47.4% | N/A | 62.26% | 84.22% |
+| **GOOGL** | $336.87 | -1.50% | 5/9 | 47.4% | 1.24% | 81.05% | 73.40% |
+| **LLY** | $1172.72 | -1.40% | 6/9 | 47.2% | 0.74% | 85.42% | 76.02% |
+| **KLAC** | $169.01 | -8.06% | 7/9 | 49.5% | 2.16% | 93.82% | 166.60% |
+| **TJX** | $133.31 | -2.57% | 7/9 | 28.3% | 1.79% | 94.91% | 65.81% |
+| **KO** | $89.01 | -1.18% | 6/9 | 25.6% | 0.92% | 68.36% | 98.75% |
+| **COST** | $950.40 | -0.60% | 5/9 | 39.0% | 1.66% | 74.49% | 37.77% |
+| **AMAT** | $441.38 | -8.00% | 5/9 | 46.1% | 1.50% | 86.32% | 136.99% |
+
+---
+
+## 5. Growth & GARP (Growth at a Reasonable Price)
+> **Methodology:** The Growth Scanner looks for companies with high 5-year EPS growth projections but relatively low PEG ratios and fast payback periods. It strictly filters out stagnant companies and flags the ones aggressively capturing market share.
+
+| Ticker | Payback Yrs | 5Y Growth | P/E | PEG | Sales Growth |
+|---|---|---|---|---|---|
+| **LFST** | 5.1 | 172.49 | 94.0 | 0.32 | 26.08 |
+| **WDC** | 5.2 | 63.94 | 18.52 | 0.22 | 43.84 |
+| **RELY** | 5.3 | 61.98 | 18.94 | 0.4 | 20.23 |
+| **SNDK** | 5.8 | 55.28999999999999 | 20.87 | 0.11 | 371.59 |
+| **NVDA** | 6.0 | 63.38 | 27.78 | 0.22 | 105.85 |
+| **ASTH** | 6.3 | 77.5 | 46.5 | 0.25 | 48.52 |
+| **FSLR** | 6.4 | 27.47 | 12.51 | 0.32 | -3.73 |
+| **NE** | 6.6 | 74.17 | 49.45 | 0.27 | -15.2 |
+| **SEI** | 6.7 | 84.02 | 63.8 | 0.31 | 46.92 |
+| **STX** | 7.1 | 72.56 | 58.81 | 0.2 | 48.49 |
+
+---
+
+## 6. Momentum Scanner (Daily Edge)
 > **Methodology:** Premarket ignition targets extracted directly from the Momentum Scanner. This section tracks high-velocity setups, looking at Pre-Market Volume, Relative Volume (RVOL), and Short Interest. High RVOL combined with high Short Interest often precedes violent intraday short squeezes or momentum continuation.
 
 **Source:** Auto Scanner
@@ -52,62 +116,7 @@
 
 ---
 
-## 3. Deep Value Convergence (Weekend Scan)
-> **Methodology:** The Deep Value Screener is an unshakeable mathematical anchor. It runs DCF (Discounted Cash Flow) valuations, checks ROIC (Return on Invested Capital), and calculates the 9-point Piotroski F-Score for pristine financial health. The tickers below are the highest conviction fundamentally undervalued companies from the most recent weekend scan, providing a massive margin of safety.
-
-
-| Ticker | Live Price | 1W Change | F-Score | ROIC | Short % | Inst % | IV |
-|---|---|---|---|---|---|---|---|
-| **QCOM** | $163.11 | -0.37% | 5/9 | 85.5% | 3.48% | 83.37% | 19.06% |
-| **AAPL** | $317.35 | +1.22% | 7/9 | 81.4% | 0.80% | 66.40% | 11.47% |
-| **GOOG** | $331.79 | -2.16% | 5/9 | 47.4% | N/A | 62.26% | 17.87% |
-| **GOOGL** | $335.18 | -1.99% | 5/9 | 47.4% | 1.24% | 81.05% | 23.29% |
-| **LLY** | $1178.64 | -0.94% | 6/9 | 47.2% | 0.74% | 85.42% | 15.38% |
-| **KLAC** | $171.62 | -6.58% | 7/9 | 49.5% | 2.16% | 93.82% | 30.96% |
-| **TJX** | $134.27 | -1.87% | 7/9 | 28.3% | 1.79% | 94.91% | 20.26% |
-| **KO** | $89.29 | -0.88% | 6/9 | 25.6% | 0.92% | 68.36% | 6.54% |
-| **COST** | $945.98 | -1.06% | 5/9 | 39.0% | 1.66% | 74.49% | 15.35% |
-| **AMAT** | $445.91 | -7.05% | 5/9 | 46.1% | 1.50% | 86.32% | 32.56% |
-
----
-
-## 4. Growth & GARP (Growth at a Reasonable Price)
-> **Methodology:** The Growth Scanner looks for companies with high 5-year EPS growth projections but relatively low PEG ratios and fast payback periods. It strictly filters out stagnant companies and flags the ones aggressively capturing market share.
-
-| Ticker | Payback Yrs | 5Y Growth | P/E | PEG | Sales Growth |
-|---|---|---|---|---|---|
-| **LFST** | 5.1 | 172.49 | 94.0 | 0.32 | 26.08 |
-| **WDC** | 5.2 | 63.94 | 18.52 | 0.22 | 43.84 |
-| **RELY** | 5.3 | 61.98 | 18.94 | 0.4 | 20.23 |
-| **SNDK** | 5.8 | 55.28999999999999 | 20.87 | 0.11 | 371.59 |
-| **NVDA** | 6.0 | 63.38 | 27.78 | 0.22 | 105.85 |
-| **ASTH** | 6.3 | 77.5 | 46.5 | 0.25 | 48.52 |
-| **FSLR** | 6.4 | 27.47 | 12.51 | 0.32 | -3.73 |
-| **NE** | 6.6 | 74.17 | 49.45 | 0.27 | -15.2 |
-| **SEI** | 6.7 | 84.02 | 63.8 | 0.31 | 46.92 |
-| **STX** | 7.1 | 72.56 | 58.81 | 0.2 | 48.49 |
-
----
-
-## 5. Macro Events Calendar
-> **Methodology:** Fetches high-impact economic events (FOMC, CPI, PPI, NFP) scheduled for this week. These events introduce severe binary risk and mandate defensive posturing.
-
-
-| Event | Date |
-|---|---|
-| ⚠️ in 3 Days: Non-Farm Payrolls (NFP) | 2026-09-04 |
-| ⚠️ in 9 Days: PPI Inflation | 2026-09-10 |
-| ⚠️ in 10 Days: Core CPI Inflation | 2026-09-11 |
-| ⚠️ in 15 Days: FOMC Rate Decision | 2026-09-16 |
-| ⚠️ in 17 Days: Quarterly OPEX (Triple Witching) | 2026-09-18 |
-| ⚠️ in 31 Days: Non-Farm Payrolls (NFP) | 2026-10-02 |
-| ⚠️ in 42 Days: Core CPI Inflation | 2026-10-13 |
-| ⚠️ in 43 Days: PPI Inflation | 2026-10-14 |
-| ⚠️ in 45 Days: Monthly OPEX | 2026-10-16 |
-
----
-
-## 6. Earnings Countdown Radar (30-Day Window)
+## 7. Earnings Countdown Radar (30-Day Window)
 > **Methodology:** Holding through earnings introduces severe IV crush and binary risk. This radar checks every active ticker on the Momentum and Deep Value lists. If a company announces earnings within 30 days (even unconfirmed estimates), it is flagged here.
 
 
@@ -115,14 +124,5 @@
 |---|---|---|---|
 | **GME** | 7 | 2026-09-08 | 🔴 DANGER |
 | **COST** | 23 | 2026-09-24 | 🟡 WARNING |
-
----
-
-## 7. The Crystal Ball (Elite Convergence)
-> **Methodology:** The ultimate convergence filter. This engine takes the absolute top candidates from the Deep Value and Growth scanners and runs them through a ruthless gauntlet: Tier-1 Geographic HQ, Founder-Led Vision, Accelerating Patent R&D Velocity, and 'Smart Money' Whale Accumulation. Only massive structural anomalies survive.
-
-| Ticker | Crystal Ball Score | Verdict |
-|---|---|---|
-| **NVDA** | 3/4 | 🔍 POTENTIAL GEM |
 
 ---
