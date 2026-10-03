@@ -1,93 +1,156 @@
-# Yield Stacker Engine: Live Allocations
-**Generated:** 2026-10-02 18:45:21 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+# Antigravity V3 Universe Screening Intelligence Report
+**Universe:** SP1500 | **Scan Time:** 2026-10-03 15:09:02 UTC | **Engine:** Antigravity V3 Core
 
-> **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
+## 1. Executive Screening Funnel
 
-> **Methodology:** Cash Secured Puts on Deep Value survivors, collateralized by 4.5% Treasury Yield. 
-> Filtered for Absolute IV > 30% and Delta <= -0.15.
+| Screening Stage | Count | Percentage |
+| :--- | :---: | :---: |
+| **Total Universe Ingested** | `1506` | 100.0% |
+| **Liquid Pre-Filter Survivors** | `1488` | 98.8% |
+| **Quantitative Model Evaluated** | `343` | 23.1% |
+| **Deep Value Qualified (Layer 2)** | **`71`** | **20.7%** |
 
-## Yield-Stacked Opportunities
+## 2. Fundamental Value Allocations (Deep Value Qualified)
 
-| Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Stacked Monthly | Mean Tested |
-| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`DVA`** | $177.69 | $150.00 | 49 | -0.14 | 47.6% | $1.80 | **13.44%** | **1.12%** | N/A |
-| **`STT`** | $176.37 | $155.00 | 49 | -0.14 | 33.8% | $1.30 | **10.75%** | **0.90%** | N/A |
-| **`TFC`** | $46.47 | $40.00 | 49 | -0.12 | 33.9% | $0.30 | **10.09%** | **0.84%** | -7.1% (S/I Accel) |
-| **`DD`** | $130.51 | $115.00 | 49 | -0.15 | 35.3% | $0.85 | **10.01%** | **0.83%** | N/A |
-| **`CBOE`** | $273.61 | $235.00 | 42 | -0.13 | 42.9% | $1.35 | **9.49%** | **0.79%** | -4.9% (S/I Accel) |
-| **`DVN`** | $47.40 | $41.00 | 42 | -0.11 | 37.5% | $0.23 | **9.38%** | **0.78%** | N/A |
-| **`JBL`** | $305.62 | $260.00 | 42 | -0.12 | 44.5% | $1.35 | **9.01%** | **0.75%** | -4.1% (S/I Accel) |
-| **`NTRS`** | $171.53 | $150.00 | 49 | -0.14 | 35.1% | $0.90 | **8.97%** | **0.75%** | N/A |
-| **`OKE`** | $87.48 | $75.00 | 49 | -0.11 | 33.2% | $0.45 | **8.97%** | **0.75%** | N/A |
-| **`PYPL`** | $52.81 | $44.00 | 42 | -0.15 | 57.2% | $0.19 | **8.25%** | **0.69%** | N/A |
-| **`COR`** | $307.87 | $270.00 | 49 | -0.13 | 32.4% | $1.05 | **7.40%** | **0.62%** | N/A |
-| **`MRSH`** | $170.47 | $150.00 | 49 | -0.12 | 30.4% | $0.40 | **6.49%** | **0.54%** | -6.5% (S/I Accel) |
-| **`IVZ`** | $30.79 | $26.00 | 49 | -0.12 | 40.1% | $0.05 | **5.93%** | **0.49%** | N/A |
-| **`BDX`** | $176.55 | $145.00 | 49 | -0.10 | 44.7% | $0.25 | **5.78%** | **0.48%** | N/A |
-| **`COF`** | $195.30 | $170.00 | 42 | -0.14 | 39.4% | $0.20 | **5.52%** | **0.46%** | N/A |
-| **`FDS`** | $269.08 | $220.00 | 49 | -0.12 | 53.7% | $0.25 | **5.35%** | **0.45%** | N/A |
-| **`KMI`** | $30.97 | $27.00 | 42 | -0.09 | 30.3% | $0.01 | **4.82%** | **0.40%** | N/A |
-| **`RJF`** | $158.23 | $140.00 | 49 | -0.14 | 32.7% | $0.05 | **4.77%** | **0.40%** | N/A |
+| Ticker | Score | Sloan Ratio | EV/EBITDA | Sh. Yield | ROIC | 3Y Durability | Mom / FCF | Volatility |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **`PYPL`** | 85/100 | -3.11% | 7.46x | 14.18% | 19.04% | ✅ PASS | -17.24% | 45.02% |
+| **`L`** | 85/100 | -1.02% | 7.76x | 1.81% | 9.79% | ✅ PASS | 8.47% | 16.21% |
+| **`SCHL`** | 82/100 | 0.34% | 12.96x | 42.90% | 11.95% | ❌ FAIL | 36.63% | 34.99% |
+| **`BFH`** | 82/100 | -7.23% | N/A | 16.03% | N/A | ❌ FAIL | 97.50% | 40.30% |
+| **`VIRT`** | 97/100 | -0.03% | N/A | 8.83% | 17.35% | ✅ PASS | 94.86% | 36.15% |
+| **`FBP`** | 82/100 | -0.46% | N/A | 7.86% | N/A | ❌ FAIL | 32.28% | 24.83% |
+| **`CPF`** | 77/100 | -0.27% | N/A | 7.57% | N/A | ❌ FAIL | 29.18% | 23.91% |
+| **`FHI`** | 92/100 | 3.57% | 7.40x | 7.47% | 36.24% | ✅ PASS | 23.35% | 24.83% |
+| **`PB`** | 77/100 | -0.13% | N/A | 5.68% | N/A | ❌ FAIL | 12.90% | 21.96% |
+| **`CB`** | 92/100 | -1.49% | 10.09x | 4.72% | 16.13% | ✅ PASS | 23.39% | 19.59% |
+| **`CRUS`** | 82/100 | -6.56% | 10.12x | 4.06% | 23.35% | ✅ PASS | -11.03% | 36.64% |
+| **`HFWA`** | 77/100 | -0.14% | N/A | 3.95% | N/A | ❌ FAIL | 24.62% | 26.57% |
+| **`EWBC`** | 77/100 | -0.62% | N/A | 3.13% | N/A | ❌ FAIL | 25.79% | 24.78% |
+| **`PLMR`** | 92/100 | -5.35% | 12.30x | 3.05% | 21.26% | ✅ PASS | 17.18% | 34.96% |
+| **`CTS`** | 82/100 | -4.95% | 13.73x | 2.83% | 15.29% | ❌ FAIL | 42.86% | 35.36% |
+| **`GMED`** | 92/100 | -6.83% | 9.57x | 2.18% | 14.13% | ✅ PASS | 29.17% | 45.01% |
+| **`CBOE`** | 82/100 | -5.75% | 14.27x | 1.34% | 27.51% | ✅ PASS | 25.53% | 34.93% |
+| **`FIBK`** | 73/100 | 0.20% | N/A | 13.55% | N/A | ❌ FAIL | 23.80% | 26.41% |
+| **`ACGL`** | 88/100 | -1.65% | 5.83x | 10.92% | 19.39% | ✅ PASS | 9.96% | 20.86% |
+| **`STBA`** | 78/100 | -0.06% | N/A | 10.79% | N/A | ❌ FAIL | 38.59% | 22.07% |
+| **`TFC`** | 73/100 | 0.01% | N/A | 10.74% | N/A | ❌ FAIL | 18.24% | 24.62% |
+| **`SCSC`** | 78/100 | -2.29% | 9.94x | 7.87% | 10.90% | ❌ FAIL | 31.17% | 38.50% |
+| **`BDX`** | 88/100 | -4.58% | 10.50x | 7.62% | 5.06% | ✅ PASS | 25.61% | 25.76% |
+| **`HCSG`** | 93/100 | -3.82% | 9.48x | 6.41% | 29.52% | ✅ PASS | 33.19% | 40.75% |
+| **`CFR`** | 78/100 | -0.07% | N/A | 6.05% | N/A | ❌ FAIL | 32.32% | 20.63% |
+| **`STT`** | 78/100 | -0.00% | N/A | 5.99% | N/A | ❌ FAIL | 69.70% | 25.10% |
+| **`BEN`** | 93/100 | -0.72% | 11.25x | 5.92% | 5.35% | ✅ PASS | 46.44% | 27.82% |
+| **`SF`** | 73/100 | 1.11% | N/A | 5.59% | N/A | ❌ FAIL | 12.72% | 26.98% |
+| **`CATY`** | 78/100 | -0.79% | N/A | 5.52% | N/A | ❌ FAIL | 33.09% | 23.80% |
+| **`TDC`** | 73/100 | -18.28% | 7.19x | 5.07% | 103.88% | ❌ FAIL | 29.80% | 64.46% |
+| **`UCB`** | 73/100 | -0.04% | N/A | 4.63% | N/A | ❌ FAIL | 14.96% | 24.61% |
+| **`HOMB`** | 73/100 | 0.11% | N/A | 4.25% | N/A | ❌ FAIL | 10.02% | 21.01% |
+| **`NBTB`** | 73/100 | -0.29% | N/A | 3.79% | N/A | ❌ FAIL | 28.74% | 23.76% |
+| **`KNSL`** | 78/100 | -7.26% | 10.28x | 3.36% | 32.09% | ✅ PASS | -17.65% | 34.92% |
+| **`PAYC`** | 85/100 | -6.03% | 14.38x | 18.00% | 47.60% | ✅ PASS | 20.28% | 46.31% |
+| **`DVA`** | 90/100 | -7.15% | 9.19x | 14.36% | 19.95% | ✅ PASS | 38.50% | 44.55% |
+| **`HTH`** | 70/100 | 1.60% | N/A | 11.62% | N/A | ❌ FAIL | 19.94% | 22.51% |
+| **`T`** | 85/100 | -4.28% | 7.40x | 9.61% | 13.10% | ✅ PASS | 1.35% | 25.38% |
+| **`WKC`** | 75/100 | -3.97% | 7.03x | 9.40% | -2.32% | ❌ FAIL | 37.84% | 28.11% |
+| **`CFFN`** | 75/100 | 0.05% | N/A | 9.29% | N/A | ❌ FAIL | 47.53% | 24.02% |
+| **`COF`** | 70/100 | -3.11% | N/A | 9.04% | N/A | ❌ FAIL | 4.44% | 32.30% |
+| **`GNW`** | 70/100 | -0.25% | 9.39x | 8.31% | 4.95% | ❌ FAIL | 16.11% | 23.01% |
+| **`VOYA`** | 90/100 | -0.32% | 12.69x | 8.15% | 12.82% | ✅ PASS | 43.01% | 26.16% |
+| **`THC`** | 85/100 | -5.78% | 7.42x | 7.93% | 26.16% | ✅ PASS | 29.80% | 42.47% |
+| **`RJF`** | 70/100 | 0.71% | N/A | 6.90% | N/A | ❌ FAIL | 9.72% | 25.23% |
+| **`RDN`** | 70/100 | -8.04% | 5.47x | 6.31% | 13.20% | ❌ FAIL | 8.79% | 25.49% |
+| **`CNO`** | 90/100 | -1.05% | 8.07x | 6.23% | 8.00% | ✅ PASS | 45.05% | 20.88% |
+| **`SBSI`** | 70/100 | -0.79% | N/A | 5.92% | N/A | ❌ FAIL | 20.52% | 23.17% |
+| **`NGVT`** | 70/100 | -10.21% | 9.74x | 5.75% | 8.52% | ❌ FAIL | 26.94% | 36.30% |
+| **`MRSH`** | 75/100 | -1.84% | 13.16x | 5.55% | 17.66% | ✅ PASS | -4.81% | 26.54% |
+| **`IVZ`** | 75/100 | -7.55% | 12.29x | 5.32% | -0.76% | ❌ FAIL | 40.39% | 34.29% |
+| **`DD`** | 75/100 | -2.23% | 12.07x | 5.10% | -0.34% | ❌ FAIL | 33.35% | 30.46% |
+| **`NE`** | 90/100 | -10.11% | 8.42x | 4.97% | 5.59% | ✅ PASS | 63.35% | 41.55% |
+| **`OKE`** | 90/100 | -3.65% | 11.53x | 4.93% | 11.71% | ✅ PASS | 38.49% | 27.13% |
+| **`MGY`** | 70/100 | -19.46% | 5.66x | 4.90% | 22.09% | ❌ FAIL | 18.13% | 33.84% |
+| **`WRB`** | 75/100 | -3.67% | 10.08x | 4.35% | 20.03% | ✅ PASS | -7.19% | 22.38% |
+| **`NMIH`** | 85/100 | -1.33% | 5.84x | 3.94% | 17.14% | ✅ PASS | 23.61% | 25.15% |
+| **`KMI`** | 70/100 | -4.17% | 13.46x | 3.80% | 8.18% | ❌ FAIL | 15.50% | 20.93% |
+| **`DVN`** | 75/100 | -7.44% | 7.10x | 3.03% | 8.87% | ❌ FAIL | 43.84% | 34.66% |
+| **`COR`** | 85/100 | -2.62% | 12.77x | 2.49% | 27.87% | ✅ PASS | 12.23% | 32.25% |
+| **`IBOC`** | 70/100 | -0.33% | N/A | 2.02% | N/A | ❌ FAIL | 6.30% | 21.88% |
+| **`MTG`** | 82/100 | -0.00% | 6.46x | 16.08% | 16.26% | ✅ PASS | 16.97% | 25.18% |
+| **`ESNT`** | 82/100 | -2.02% | 6.07x | 13.57% | 13.86% | ✅ PASS | 15.53% | 24.19% |
+| **`MET`** | 82/100 | -1.57% | 13.83x | 6.87% | 12.22% | ✅ PASS | 23.91% | 23.68% |
+| **`PFG`** | 72/100 | -0.98% | 10.64x | 6.70% | N/A | ❌ FAIL | 45.53% | 22.89% |
+| **`NTRS`** | 72/100 | 0.95% | N/A | 6.36% | N/A | ❌ FAIL | 43.90% | 24.97% |
+| **`JXN`** | 72/100 | -1.58% | N/A | 6.07% | 0.55% | ❌ FAIL | 37.64% | 32.58% |
+| **`CNK`** | 82/100 | -7.96% | 10.03x | 4.57% | 17.05% | ✅ PASS | 25.46% | 40.45% |
+| **`WSBC`** | 72/100 | -0.14% | N/A | 4.55% | N/A | ❌ FAIL | 30.24% | 26.45% |
+| **`JBL`** | 72/100 | -4.18% | 13.58x | 2.98% | 28.25% | ❌ FAIL | 51.56% | 46.83% |
+| **`HUM`** | 77/100 | -2.20% | 10.45x | 1.24% | 7.10% | ✅ PASS | 44.84% | 46.82% |
+
+## 3. Disqualified Assets Summary
+
+> Total Disqualified: **272** assets failed institutional criteria.
+
+
+## 4. Options Desk (Actionable Cash Secured Puts)
+
+> Contracts filtered for ~$0.15 Delta (1 standard deviation out). Yields assume zero slippage execution at the **BID** price.
+
+| Ticker | Spot Price | Expiration | DTE | Strike | Delta | Bid Premium | IV | Annualized Yield |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **`HUM`** | $388.36 | 2026-11-20 | 48 | $310.00 | -0.15 | $5.50 | 65.30% | **13.49%** |
+| **`PAYC`** | $220.99 | 2026-11-20 | 48 | $185.00 | -0.14 | $2.10 | 48.81% | **8.63%** |
+| **`VIRT`** | $58.79 | 2026-11-20 | 48 | $50.00 | -0.14 | $0.55 | 44.63% | **8.36%** |
+| **`CRUS`** | $121.17 | 2026-11-20 | 48 | $100.00 | -0.13 | $1.10 | 49.08% | **8.36%** |
+| **`DVA`** | $178.69 | 2026-11-20 | 48 | $150.00 | -0.15 | $1.60 | 48.72% | **8.11%** |
+| **`COF`** | $194.72 | 2026-11-20 | 48 | $170.00 | -0.14 | $1.75 | 36.02% | **7.83%** |
+| **`SBSI`** | $30.73 | 2026-11-20 | 48 | $25.00 | -0.10 | $0.25 | 47.09% | **7.60%** |
+| **`PYPL`** | $52.80 | 2026-11-20 | 48 | $45.00 | -0.13 | $0.43 | 41.15% | **7.27%** |
+| **`TDC`** | $30.14 | 2026-11-20 | 48 | $22.50 | -0.10 | $0.20 | 72.29% | **6.76%** |
+| **`JBL`** | $304.41 | 2026-11-20 | 48 | $260.00 | -0.14 | $2.30 | 43.32% | **6.73%** |
+| **`CBOE`** | $271.26 | 2026-11-20 | 48 | $230.00 | -0.14 | $1.95 | 43.76% | **6.45%** |
+| **`STT`** | $175.96 | 2026-11-20 | 48 | $155.00 | -0.14 | $1.30 | 32.66% | **6.38%** |
+| **`CNK`** | $36.05 | 2026-11-20 | 48 | $30.00 | -0.15 | $0.25 | 50.89% | **6.34%** |
+| **`DD`** | $129.98 | 2026-11-20 | 48 | $115.00 | -0.15 | $0.85 | 35.27% | **5.62%** |
+| **`KMI`** | $31.07 | 2026-11-20 | 48 | $28.00 | -0.15 | $0.19 | 26.41% | **5.16%** |
+| **`MTG`** | $26.95 | 2026-11-20 | 48 | $22.50 | -0.10 | $0.15 | 37.97% | **5.07%** |
+| **`JXN`** | $131.53 | 2026-11-20 | 48 | $110.00 | -0.14 | $0.70 | 47.97% | **4.84%** |
+| **`TFC`** | $46.45 | 2026-11-20 | 48 | $40.00 | -0.11 | $0.25 | 33.24% | **4.75%** |
+| **`COR`** | $309.05 | 2026-11-20 | 48 | $270.00 | -0.13 | $1.50 | 34.40% | **4.22%** |
+| **`DVN`** | $47.65 | 2026-11-20 | 48 | $40.00 | -0.08 | $0.22 | 36.56% | **4.18%** |
+| **`OKE`** | $87.88 | 2026-11-20 | 48 | $75.00 | -0.10 | $0.40 | 33.25% | **4.06%** |
+| **`NTRS`** | $171.40 | 2026-11-20 | 48 | $150.00 | -0.14 | $0.80 | 35.28% | **4.06%** |
+| **`T`** | $24.30 | 2026-11-20 | 48 | $21.00 | -0.10 | $0.11 | 30.68% | **3.98%** |
+| **`MGY`** | $24.07 | 2026-11-20 | 48 | $20.00 | -0.15 | $0.10 | 51.40% | **3.80%** |
+| **`RDN`** | $32.57 | 2026-11-20 | 48 | $20.00 | -0.07 | $0.10 | 102.34% | **3.80%** |
+| **`CB`** | $330.89 | 2026-11-20 | 48 | $300.00 | -0.12 | $1.40 | 23.62% | **3.55%** |
+| **`SCHL`** | $36.20 | 2026-11-20 | 48 | $25.00 | -0.13 | $0.10 | 108.08% | **3.04%** |
+| **`MET`** | $94.43 | 2026-11-20 | 48 | $80.00 | -0.08 | $0.25 | 32.47% | **2.38%** |
+| **`THC`** | $258.62 | 2026-11-20 | 48 | $210.00 | -0.10 | $0.65 | 47.77% | **2.35%** |
+| **`SF`** | $70.28 | 2026-11-20 | 48 | $50.00 | -0.11 | $0.15 | 83.88% | **2.28%** |
+| **`WRB`** | $68.98 | 2026-11-20 | 48 | $60.00 | -0.15 | $0.15 | 38.77% | **1.90%** |
+| **`WSBC`** | $38.11 | 2026-11-20 | 48 | $25.00 | -0.13 | $0.05 | 119.10% | **1.52%** |
+| **`IVZ`** | $30.66 | 2026-11-20 | 48 | $26.00 | -0.12 | $0.05 | 38.67% | **1.46%** |
+| **`ACGL`** | $93.60 | 2026-11-20 | 48 | $80.00 | -0.12 | $0.15 | 39.04% | **1.43%** |
+| **`BEN`** | $32.81 | 2026-11-20 | 48 | $28.00 | -0.13 | $0.05 | 42.24% | **1.36%** |
+| **`BDX`** | $176.80 | 2026-11-20 | 48 | $145.00 | -0.10 | $0.25 | 44.79% | **1.31%** |
+| **`FIBK`** | $36.00 | 2026-11-20 | 48 | $30.00 | -0.11 | $0.05 | 41.32% | **1.27%** |
+| **`WKC`** | $35.85 | 2026-11-20 | 48 | $30.00 | -0.14 | $0.05 | 50.42% | **1.27%** |
+| **`NBTB`** | $51.53 | 2026-11-20 | 48 | $30.00 | -0.12 | $0.05 | 163.83% | **1.27%** |
+| **`HTH`** | $38.45 | 2026-11-20 | 48 | $30.00 | -0.08 | $0.05 | 52.34% | **1.27%** |
+| **`PLMR`** | $126.49 | 2026-11-20 | 48 | $100.00 | -0.11 | $0.15 | 56.28% | **1.14%** |
+| **`CFR`** | $155.04 | 2026-11-20 | 48 | $140.00 | -0.14 | $0.20 | 27.58% | **1.09%** |
+| **`MRSH`** | $170.06 | 2026-11-20 | 48 | $150.00 | -0.11 | $0.20 | 28.81% | **1.01%** |
+| **`CATY`** | $60.84 | 2026-11-20 | 48 | $40.00 | -0.14 | $0.05 | 128.66% | **0.95%** |
+| **`IBOC`** | $69.84 | 2026-11-20 | 48 | $50.00 | -0.15 | $0.05 | 105.83% | **0.76%** |
+| **`SCSC`** | $61.73 | 2026-11-20 | 48 | $50.00 | -0.15 | $0.05 | 62.56% | **0.76%** |
+| **`GMED`** | $75.60 | 2026-11-20 | 48 | $60.00 | -0.14 | $0.05 | 64.26% | **0.63%** |
+| **`BFH`** | $98.05 | 2026-11-20 | 48 | $80.00 | -0.14 | $0.05 | 56.57% | **0.48%** |
+| **`VOYA`** | $96.65 | 2026-11-20 | 48 | $85.00 | -0.14 | $0.05 | 34.82% | **0.45%** |
+| **`L`** | $106.03 | 2026-11-20 | 48 | $90.00 | -0.13 | $0.05 | 41.96% | **0.42%** |
+| **`EWBC`** | $126.21 | 2026-11-20 | 48 | $105.00 | -0.12 | $0.05 | 45.98% | **0.36%** |
+| **`RJF`** | $158.21 | 2026-11-20 | 48 | $140.00 | -0.14 | $0.05 | 32.76% | **0.27%** |
+| **`KNSL`** | $329.72 | 2026-11-20 | 48 | $280.00 | -0.14 | $0.05 | 46.27% | **0.14%** |
+
 
 ---
-*Antigravity V3 Core | Zero Discretion | Adversarial Validation*
-
-<details>
-<summary><b>📖 Antigravity V3: Quantitative Engine Methodology (Click to Expand)</b></summary>
-
-### Overview
-Antigravity V3 is built on a strict, adversarial quantitative framework designed to eliminate emotional trading, "vibe-based" investments, and manual screening fatigue. The core philosophy is absolute mathematical rigor: if a thesis cannot be mathematically proven against historical and current SEC/market data, the trade is rejected.
-
----
-
-### 1. The Architectural Philosophy: 4-Layer Separation
-
-To ensure the purity of the data and the math, the system enforces a strict 4-layer separation. This prevents "data bleed" (where a model might subconsciously favor an asset due to biased fetching) and ensures scalability.
-
-1. **Ingestion (The Oracles):** Pure data fetching and normalization. Connects to SEC EDGAR, market feeds, and options clearing houses. No math happens here.
-2. **Quantitative Models (The Brain):** Pure mathematical functions. Data goes in; objective scores, ratios, and risk metrics come out.
-3. **Strategy Desk (The Rules):** Takes the mathematical outputs and applies strict risk-management and contract-selection rules.
-4. **Reporting (The Eyes):** Formats the outputs into actionable intelligence (markdown reports, tables) without manipulating the underlying data.
-
----
-
-### 2. Core Evaluation Engines
-
-At the heart of the system are distinct quantitative models that evaluate equities from different philosophical angles. An asset must survive these engines to even be considered for capital allocation.
-
-#### Engine A: The Deep Value Model
-This model hunts for statistically underpriced companies with fortress-like balance sheets. It uses a weighted scoring system based on classic quantitative value investing:
-* **Altman Z-Score:** Evaluates the probability of bankruptcy. Companies that don't pass a baseline threshold are immediately discarded.
-* **Piotroski F-Score:** A 9-point scale measuring the trend of a company's financial health (profitability, leverage, liquidity, and operating efficiency).
-* **Return on Invested Capital (ROIC):** Measures how efficiently management uses capital to generate profits.
-* **Shareholder Yield:** Looks beyond just dividends, combining dividend yield, share buybacks, and debt paydown.
-
-#### Engine B: The "Munger" Reality Check
-Forked from the Deep Value model, this engine represents a hyper-strict, no-nonsense approach to capital allocation. It completely strips out any "momentum" rewards and focuses entirely on undeniable cash generation and durability.
-* **The Strict Gate:** Demands a Free Cash Flow (FCF) Yield of **>= 4.0%**. If a company isn't generating real cash relative to its valuation, it fails.
-* **Durability Over Hype:** Reallocates weight heavily toward the Piotroski F-Score and multi-year fundamental durability, ignoring short-term price action.
-
----
-
-### 3. The Filter Process & Execution Strategies
-
-Once the universe of equities is scored by the engines, they are passed through specific filters depending on the overarching strategy.
-
-#### The Multibagger Equity Filter (Growth + Fortress)
-This filter hunts for long-term equity holds by finding the rare intersection of Growth at a Reasonable Price (GARP) and extreme financial safety.
-* **Growth Requirement:** Minimum 3-Year Revenue CAGR > 15%. The business must be actively expanding.
-* **Safety Requirement:** Debt-to-Equity Ratio < 0.20. Growth cannot be fueled by reckless leverage.
-* **Result:** A highly curated list of companies that can weather macroeconomic storms while compounding aggressively.
-
-#### The Options Strategy Desk (Income & Acquisition)
-Antigravity doesn't treat options as speculative bets; it treats them as mathematical tools for yield generation or discounted asset acquisition.
-* **Mathematical Pre-Verification:** No contract is selected without first proving the mathematical edge (e.g., verifying the yield against the risk profile).
-* **Market Plumbing Integration:** Utilizes Net Gamma Exposure (GEX) and Expected Move metrics to place strikes intelligently. We avoid placing strikes inside high-gravity zones where market makers are likely to pin the price.
-* **Bid/Ask Discipline:** Strict enforcement of liquidity rules—sales are always calculated at the `bid`, and buys at the `ask`. No optimistic "mid-price" assumptions.
-
----
-
-### Conclusion
-The Antigravity V3 methodology is not about predicting the future; it is about exploiting mathematical certainty in the present. By forcing every asset through these adversarial models and unforgiving filters, the system guarantees that capital is only deployed when the quantitative odds are overwhelmingly in our favor.
-
-</details>
+*Antigravity V3 Institutional Screener | Zero Discretion | Adversarial Validation*
