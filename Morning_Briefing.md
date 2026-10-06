@@ -1,29 +1,29 @@
-## ⚠️ POTENTIAL VOLATILE RUNNERS ⚠️
-> **WARNING:** These are high-risk, fundamental turnarounds exhibiting institutional accumulation. Do NOT treat these as safe value plays. The 'Breakout Trigger' is the exact mechanical coil snap price.
+## ⚠️ POTENTIAL VOLATILE RUNNERS (OBV ACCUMULATION) ⚠️
+> **WARNING:** These are high-risk, fundamental turnarounds exhibiting institutional accumulation. Do NOT treat these as safe value plays. The 'Breakout Trigger' is the exact resistance ceiling. OBV Divergence flags hidden Dark Pool volume.
 
-| Ticker | Current Price | 52W High | Range Pos | Compression | Breakout Trigger |
-|--------|---------------|----------|-----------|-------------|------------------|
-| **KOP** | $46.47 | $52.9 | Top 77.2% | 72.6% Coiled | **$48.9** |
-| **DNOW** | $15.93 | $17.26 | Top 78.9% | 65.2% Coiled | **$16.88** |
-| **BAX** | $24.08 | $29.99 | Top 58.6% | 62.2% Coiled | **$27.28** |
-| **TRMB** | $59.45 | $84.42 | Top 31.6% | 59.5% Coiled | **$63.24** |
-| **GVA** | $119.5 | $161.77 | Top 34.9% | 44.9% Coiled | **$127.58** |
-| **GTM** | $3.76 | $12.31 | Top 12.5% | 42.0% Coiled | **$4.45** |
-| **PVH** | $76.82 | $100.7 | Top 42.0% | 41.6% Coiled | **$80.1** |
-| **MTX** | $65.86 | $84.07 | Top 40.1% | 30.0% Coiled | **$74.9** |
-| **OC** | $118.56 | $159.88 | Top 35.7% | 23.4% Coiled | **$153.0** |
-| **REXR** | $36.62 | $42.27 | Top 49.4% | 20.3% Coiled | **$39.99** |
-| **GILD** | $143.07 | $154.51 | Top 74.5% | 17.7% Coiled | **$157.28** |
-| **WAT** | $436.04 | $454.49 | Top 89.3% | 17.2% Coiled | **$463.58** |
-| **DAN** | $28.34 | $39.25 | Top 49.9% | -1.1% Coiled | **$32.95** |
-| **BILL** | $44.28 | $57.21 | Top 49.9% | -3.5% Coiled | **$51.91** |
-| **VNOM** | $41.15 | $49.61 | Top 47.0% | -48.4% Coiled | **$47.06** |
-| **KHC** | $21.98 | $27.65 | Top 22.5% | -60.8% Coiled | **$26.54** |
+| Ticker | Current Price | 52W High | Price Range % | OBV Range % | Stealth Status | Breakout Trigger |
+|--------|---------------|----------|---------------|-------------|----------------|------------------|
+| **WAT** | $438.55 | $454.49 | Top 90.7% | Top 92.5% | Neutral | **$463.58** |
+| **DNOW** | $16.12 | $17.26 | Top 82.0% | Top 91.5% | Neutral | **$16.88** |
+| **KOP** | $46.53 | $52.9 | Top 77.4% | Top 90.5% | Neutral | **$48.9** |
+| **BILL** | $44.52 | $57.21 | Top 50.8% | Top 78.4% | Accumulating | **$51.91** |
+| **BAX** | $24.25 | $29.99 | Top 59.8% | Top 70.2% | Accumulating | **$27.28** |
+| **DAN** | $28.28 | $39.25 | Bottom 49.7% | Top 65.9% | Neutral | **$32.95** |
+| **TRMB** | $60.83 | $84.42 | Bottom 35.4% | Top 61.2% | Neutral | **$63.24** |
+| **PVH** | $77.18 | $100.7 | Bottom 42.9% | Top 58.0% | Neutral | **$80.1** |
+| **KHC** | $22.1 | $27.65 | Bottom 24.2% | Top 54.1% | Neutral | **$26.54** |
+| **VNOM** | $41.32 | $49.61 | Bottom 48.0% | Top 48.8% | Neutral | **$47.06** |
+| **GTM** | $3.72 | $12.31 | Bottom 12.1% | Top 39.0% | Neutral | **$4.45** |
+| **GILD** | $144.55 | $154.51 | Top 77.8% | Top 36.4% | Neutral | **$157.28** |
+| **MTX** | $65.94 | $84.07 | Bottom 40.4% | Top 26.8% | Neutral | **$74.9** |
+| **GVA** | $120.04 | $161.77 | Bottom 35.7% | Top 23.7% | Neutral | **$127.58** |
+| **REXR** | $37.08 | $42.27 | Top 53.5% | Top 20.6% | ⚠️ Distribution (Selling) | **$39.99** |
+| **OC** | $119.5 | $159.88 | Bottom 37.2% | Top 6.9% | Neutral | **$153.0** |
 
 ---
 
 # Yield Stacker Engine: Live Allocations (V1.1)
-**Generated:** 2026-10-06 14:38:13 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+**Generated:** 2026-10-06 15:44:18 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -34,34 +34,33 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone | Capitulation |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`HUM`** | $402.01 | $320.00 | 45 | -0.14 | 64.7% | $5.40 | **18.19%** | 1301 | N/A | Premium (High) | --- |
-| **`THC`** | $260.40 | $220.00 | 45 | -0.14 | 46.3% | $2.60 | **14.09%** | 49 | N/A | Premium (High) | --- |
-| **`CRUS`** | $118.79 | $100.00 | 45 | -0.15 | 50.2% | $1.15 | **13.83%** | 86 | N/A | Deep Discount | --- |
-| **`JBL`** | $303.32 | $260.00 | 45 | -0.15 | 44.6% | $2.85 | **13.39%** | 514 | -4.9% (S/I Accel) | Discount Zone | --- |
-| **`DVA`** | $180.33 | $150.00 | 45 | -0.12 | 49.1% | $1.60 | **13.15%** | 40 | N/A | Premium (High) | --- |
-| **`CBOE`** | $278.77 | $240.00 | 45 | -0.14 | 42.5% | $2.55 | **13.12%** | 126 | -3.4% (S/I Accel) | Discount Zone | --- |
-| **`PAYC`** | $225.02 | $185.00 | 45 | -0.13 | 52.9% | $1.80 | **12.39%** | 2 | N/A | Premium (High) | --- |
-| **`COF`** | $197.07 | $170.00 | 45 | -0.12 | 38.0% | $1.55 | **11.90%** | 166 | N/A | Deep Discount | --- |
-| **`STT`** | $176.18 | $155.00 | 45 | -0.13 | 34.5% | $1.30 | **11.30%** | 6 | N/A | Premium (High) | --- |
-| **`TFC`** | $46.56 | $40.00 | 45 | -0.12 | 36.7% | $0.30 | **10.58%** | 246 | N/A | Discount Zone | --- |
-| **`MET`** | $98.78 | $87.50 | 45 | -0.13 | 30.5% | $0.65 | **10.53%** | 382 | N/A | Premium (High) | --- |
-| **`JXN`** | $135.22 | $115.00 | 45 | -0.14 | 45.1% | $0.80 | **10.14%** | 11 | N/A | Premium (High) | --- |
-| **`PYPL`** | $54.67 | $45.00 | 45 | -0.10 | 45.2% | $0.31 | **10.09%** | 3810 | N/A | Discount Zone | --- |
-| **`COR`** | $313.83 | $270.00 | 45 | -0.12 | 37.2% | $1.80 | **9.91%** | 14 | N/A | Premium (High) | --- |
-| **`T`** | $24.18 | $21.00 | 45 | -0.10 | 30.2% | $0.12 | **9.13%** | 1145 | N/A | Premium (High) | --- |
-| **`DD`** | $132.54 | $115.00 | 45 | -0.14 | 37.8% | $0.65 | **9.08%** | 154 | N/A | Premium (High) | --- |
-| **`BDX`** | $183.14 | $160.00 | 45 | -0.12 | 33.2% | $0.90 | **9.06%** | 46 | N/A | Premium (High) | --- |
-| **`DVN`** | $47.88 | $40.00 | 45 | -0.08 | 38.6% | $0.21 | **8.76%** | 418 | N/A | Premium (High) | --- |
-| **`SCHL`** | $37.41 | $30.00 | 45 | -0.09 | 52.6% | $0.15 | **8.56%** | 33 | N/A | Premium (High) | --- |
-| **`OKE`** | $88.72 | $75.00 | 45 | -0.08 | 33.0% | $0.30 | **7.74%** | 76 | N/A | Premium (High) | --- |
-| **`GMED`** | $76.10 | $60.00 | 45 | -0.08 | 54.2% | $0.15 | **6.53%** | 12 | N/A | Discount Zone | --- |
-| **`TDC`** | $30.04 | $22.50 | 45 | -0.10 | 72.3% | $0.05 | **6.30%** | 159 | N/A | Discount Zone | --- |
-| **`PLMR`** | $127.48 | $105.00 | 45 | -0.13 | 51.5% | $0.20 | **6.04%** | 1 | N/A | Premium (High) | --- |
-| **`FIBK`** | $35.80 | $30.00 | 45 | -0.12 | 42.3% | $0.05 | **5.85%** | 1 | N/A | Premium (High) | --- |
-| **`EWBC`** | $127.45 | $110.00 | 45 | -0.14 | 41.5% | $0.15 | **5.61%** | 24 | N/A | Premium (High) | --- |
-| **`VIRT`** | $63.16 | $50.00 | 45 | -0.07 | 48.1% | $0.05 | **5.31%** | 90 | N/A | Premium (High) | --- |
-| **`SF`** | $71.08 | $55.00 | 45 | -0.13 | 73.4% | $0.05 | **5.24%** | 208 | N/A | Deep Discount | --- |
-| **`KNSL`** | $333.43 | $280.00 | 45 | -0.13 | 45.8% | $0.10 | **4.79%** | 21 | N/A | Deep Discount | --- |
+| **`HUM`** | $398.98 | $320.00 | 45 | -0.14 | 63.9% | $6.10 | **19.96%** | 1301 | N/A | Premium (High) | --- |
+| **`TDC`** | $29.79 | $22.50 | 45 | -0.11 | 76.3% | $0.30 | **15.31%** | 159 | N/A | Discount Zone | --- |
+| **`CRUS`** | $118.63 | $100.00 | 45 | -0.13 | 47.0% | $1.25 | **14.64%** | 86 | N/A | Deep Discount | --- |
+| **`THC`** | $263.21 | $220.00 | 45 | -0.13 | 48.0% | $2.60 | **14.09%** | 49 | N/A | Premium (High) | --- |
+| **`DVA`** | $181.44 | $150.00 | 45 | -0.12 | 49.9% | $1.60 | **13.15%** | 40 | N/A | Premium (High) | --- |
+| **`JBL`** | $303.17 | $260.00 | 45 | -0.14 | 43.0% | $2.65 | **12.77%** | 514 | -4.9% (S/I Accel) | Discount Zone | --- |
+| **`PAYC`** | $225.47 | $185.00 | 45 | -0.12 | 53.4% | $1.80 | **12.39%** | 2 | N/A | Premium (High) | --- |
+| **`STT`** | $175.00 | $155.00 | 45 | -0.14 | 34.5% | $1.45 | **12.09%** | 6 | N/A | Premium (High) | --- |
+| **`TFC`** | $46.52 | $40.00 | 45 | -0.12 | 35.6% | $0.30 | **10.58%** | 246 | N/A | Discount Zone | --- |
+| **`COF`** | $197.57 | $170.00 | 45 | -0.11 | 36.9% | $1.25 | **10.46%** | 166 | N/A | Deep Discount | --- |
+| **`CBOE`** | $275.66 | $230.00 | 45 | -0.11 | 44.8% | $1.60 | **10.14%** | 70 | -3.4% (S/I Accel) | Discount Zone | --- |
+| **`JXN`** | $134.54 | $115.00 | 45 | -0.14 | 45.2% | $0.80 | **10.14%** | 11 | N/A | Premium (High) | --- |
+| **`PYPL`** | $54.81 | $45.00 | 45 | -0.08 | 43.0% | $0.31 | **10.09%** | 3810 | N/A | Discount Zone | --- |
+| **`COR`** | $313.66 | $270.00 | 45 | -0.12 | 36.9% | $1.75 | **9.76%** | 14 | N/A | Premium (High) | --- |
+| **`BDX`** | $182.17 | $160.00 | 45 | -0.12 | 33.0% | $1.00 | **9.57%** | 46 | N/A | Premium (High) | --- |
+| **`DD`** | $133.60 | $115.00 | 45 | -0.12 | 35.5% | $0.70 | **9.44%** | 154 | N/A | Premium (High) | --- |
+| **`DVN`** | $47.92 | $40.00 | 45 | -0.08 | 38.8% | $0.21 | **8.76%** | 418 | N/A | Premium (High) | --- |
+| **`T`** | $24.23 | $21.00 | 45 | -0.10 | 30.7% | $0.11 | **8.75%** | 1145 | N/A | Premium (High) | --- |
+| **`SCHL`** | $37.08 | $30.00 | 45 | -0.09 | 50.2% | $0.15 | **8.56%** | 33 | N/A | Premium (High) | --- |
+| **`OKE`** | $89.80 | $75.00 | 45 | -0.07 | 34.3% | $0.25 | **7.20%** | 76 | N/A | Premium (High) | --- |
+| **`GMED`** | $76.65 | $60.00 | 45 | -0.08 | 53.6% | $0.15 | **6.53%** | 12 | N/A | Discount Zone | --- |
+| **`PLMR`** | $127.30 | $105.00 | 45 | -0.13 | 52.1% | $0.20 | **6.04%** | 1 | N/A | Premium (High) | --- |
+| **`FIBK`** | $35.88 | $30.00 | 45 | -0.12 | 42.3% | $0.05 | **5.85%** | 1 | N/A | Premium (High) | --- |
+| **`EWBC`** | $127.59 | $110.00 | 45 | -0.14 | 41.4% | $0.15 | **5.61%** | 24 | N/A | Premium (High) | --- |
+| **`VIRT`** | $62.82 | $50.00 | 45 | -0.07 | 47.2% | $0.05 | **5.31%** | 90 | N/A | Premium (High) | --- |
+| **`SF`** | $70.52 | $55.00 | 45 | -0.13 | 73.2% | $0.05 | **5.24%** | 208 | N/A | Deep Discount | --- |
+| **`KNSL`** | $334.45 | $280.00 | 45 | -0.13 | 46.1% | $0.10 | **4.79%** | 21 | N/A | Deep Discount | --- |
 
 ---
 *Antigravity V3 Core | Zero Discretion | Adversarial Validation*
