@@ -1,5 +1,5 @@
 # Yield Stacker Engine: Live Allocations (V1.1)
-**Generated:** 2026-10-14 13:44:37 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+**Generated:** 2026-10-15 13:52:01 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -10,33 +10,32 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`GMED`** | $76.57 | $65.00 | 37 | -0.13 | 49.9% | $0.50 | **12.09%** | 1 | N/A | Discount Zone |
-| **`DVA`** | $184.21 | $155.00 | 37 | -0.14 | 53.6% | $1.00 | **10.86%** | 45 | N/A | Premium (High) |
-| **`DD`** | $129.45 | $115.00 | 37 | -0.14 | 35.0% | $0.70 | **10.50%** | 154 | -3.3% (S/I Accel) | Premium (High) |
-| **`CBOE`** | $297.54 | $260.00 | 44 | -0.14 | 40.0% | $1.55 | **9.45%** | 2 | N/A | Discount Zone |
-| **`TROW`** | $100.65 | $90.00 | 37 | -0.14 | 32.5% | $0.45 | **9.43%** | 48 | N/A | Discount Zone |
-| **`CFR`** | $150.15 | $135.00 | 37 | -0.15 | 31.7% | $0.65 | **9.25%** | 4 | N/A | Premium (High) |
-| **`FDS`** | $292.20 | $240.00 | 37 | -0.09 | 47.6% | $1.10 | **9.02%** | 170 | N/A | Premium (High) |
-| **`THC`** | $268.38 | $230.00 | 37 | -0.14 | 47.5% | $1.05 | **9.00%** | 613 | N/A | Premium (High) |
-| **`DVN`** | $49.92 | $44.00 | 44 | -0.14 | 36.3% | $0.23 | **8.84%** | 2 | N/A | Premium (High) |
-| **`OKE`** | $93.06 | $80.00 | 37 | -0.10 | 37.5% | $0.35 | **8.82%** | 1758 | N/A | Premium (High) |
-| **`SNX`** | $271.51 | $240.00 | 37 | -0.14 | 37.8% | $0.90 | **8.20%** | 38 | N/A | Premium (High) |
-| **`BHF`** | $47.77 | $40.00 | 37 | -0.14 | 63.9% | $0.15 | **8.20%** | 29 | N/A | Deep Discount |
-| **`SCHL`** | $39.17 | $30.00 | 37 | -0.07 | 60.3% | $0.10 | **7.79%** | 30 | N/A | Premium (High) |
-| **`PYPL`** | $55.97 | $48.00 | 44 | -0.13 | 41.3% | $0.19 | **7.78%** | 3 | N/A | Discount Zone |
-| **`RPM`** | $97.94 | $85.00 | 37 | -0.11 | 35.1% | $0.25 | **7.40%** | 80 | -6.3% (S/I Accel) | Deep Discount |
-| **`RRC`** | $42.26 | $37.00 | 37 | -0.13 | 39.1% | $0.10 | **7.17%** | 15 | N/A | Premium (High) |
-| **`CRUS`** | $107.61 | $90.00 | 37 | -0.09 | 45.2% | $0.20 | **6.69%** | 22 | N/A | Breakdown |
-| **`TDC`** | $30.50 | $22.50 | 37 | -0.10 | 81.7% | $0.05 | **6.69%** | 172 | N/A | Discount Zone |
-| **`NE`** | $43.65 | $37.50 | 37 | -0.12 | 45.6% | $0.05 | **5.82%** | 14 | N/A | Premium (High) |
-| **`VIRT`** | $56.95 | $40.00 | 37 | -0.08 | 83.3% | $0.05 | **5.73%** | 28 | N/A | Premium (High) |
-| **`BKR`** | $56.43 | $45.00 | 37 | -0.08 | 54.3% | $0.05 | **5.60%** | 153 | N/A | Discount Zone |
-| **`SCSC`** | $61.38 | $50.00 | 37 | -0.11 | 55.8% | $0.05 | **5.49%** | 3 | N/A | Premium (High) |
-| **`EEFT`** | $63.31 | $50.00 | 37 | -0.06 | 51.9% | $0.05 | **5.49%** | 3 | N/A | Breakdown |
-| **`SYF`** | $72.19 | $62.50 | 37 | -0.10 | 36.1% | $0.05 | **5.29%** | 46 | N/A | Discount Zone |
-| **`PLMR`** | $132.22 | $110.00 | 37 | -0.12 | 53.4% | $0.05 | **4.95%** | 2 | N/A | Premium (High) |
-| **`VST`** | $155.26 | $130.00 | 44 | -0.09 | 42.6% | $0.07 | **4.95%** | 7 | N/A | Deep Discount |
-| **`RJF`** | $156.18 | $140.00 | 37 | -0.14 | 33.2% | $0.05 | **4.85%** | 33 | -7.8% (S/I Accel) | Discount Zone |
+| **`VST`** | $148.89 | $125.00 | 43 | -0.14 | 52.9% | $1.70 | **16.04%** | 13 | N/A | Deep Discount |
+| **`CRUS`** | $109.66 | $90.00 | 36 | -0.11 | 52.5% | $0.70 | **12.39%** | 22 | N/A | Breakdown |
+| **`DD`** | $128.76 | $115.00 | 36 | -0.15 | 35.7% | $0.80 | **11.55%** | 154 | N/A | Premium (High) |
+| **`GMED`** | $77.35 | $65.00 | 36 | -0.12 | 51.9% | $0.45 | **11.52%** | 1 | N/A | Discount Zone |
+| **`VIRT`** | $55.45 | $45.00 | 36 | -0.11 | 57.3% | $0.30 | **11.26%** | 57 | N/A | Premium (High) |
+| **`DVA`** | $183.13 | $155.00 | 36 | -0.14 | 53.0% | $1.00 | **11.04%** | 45 | N/A | Premium (High) |
+| **`SYF`** | $71.43 | $62.50 | 36 | -0.12 | 38.5% | $0.35 | **10.18%** | 48 | N/A | Discount Zone |
+| **`VOYA`** | $93.71 | $82.50 | 36 | -0.13 | 39.2% | $0.45 | **10.03%** | 2 | -5.4% (S/I Accel) | Premium (High) |
+| **`CBOE`** | $305.01 | $265.00 | 43 | -0.14 | 42.0% | $1.70 | **9.95%** | 2 | N/A | Premium (High) |
+| **`OKE`** | $91.10 | $80.00 | 36 | -0.11 | 34.0% | $0.40 | **9.57%** | 1758 | N/A | Premium (High) |
+| **`RPM`** | $100.04 | $90.00 | 36 | -0.15 | 31.6% | $0.45 | **9.57%** | 16 | -3.7% (S/I Accel) | Deep Discount |
+| **`RS`** | $402.25 | $360.00 | 36 | -0.14 | 34.0% | $1.80 | **9.57%** | 2 | N/A | Premium (High) |
+| **`THC`** | $277.26 | $230.00 | 36 | -0.11 | 51.5% | $0.95 | **8.69%** | 613 | N/A | Premium (High) |
+| **`TROW`** | $100.25 | $90.00 | 36 | -0.13 | 32.6% | $0.35 | **8.44%** | 82 | N/A | Discount Zone |
+| **`FDS`** | $297.77 | $250.00 | 36 | -0.15 | 57.2% | $0.95 | **8.35%** | 77 | N/A | Premium (High) |
+| **`BHF`** | $48.02 | $40.00 | 36 | -0.15 | 62.6% | $0.15 | **8.30%** | 29 | N/A | Deep Discount |
+| **`DVN`** | $49.39 | $43.00 | 43 | -0.12 | 37.0% | $0.18 | **8.05%** | 1 | N/A | Premium (High) |
+| **`SCHL`** | $39.13 | $30.00 | 36 | -0.07 | 61.5% | $0.10 | **7.88%** | 30 | N/A | Premium (High) |
+| **`TDC`** | $30.28 | $22.50 | 36 | -0.10 | 77.9% | $0.05 | **6.75%** | 172 | N/A | Discount Zone |
+| **`ASTH`** | $38.02 | $25.00 | 36 | -0.11 | 123.4% | $0.05 | **6.53%** | 34 | N/A | Premium (High) |
+| **`FIBK`** | $34.45 | $30.00 | 36 | -0.15 | 42.2% | $0.05 | **6.19%** | 1 | -6.1% (S/I Accel) | Premium (High) |
+| **`SNX`** | $253.65 | $220.00 | 36 | -0.12 | 40.8% | $0.35 | **6.11%** | 5 | N/A | Premium (High) |
+| **`UTHR`** | $543.78 | $470.00 | 36 | -0.12 | 42.9% | $0.70 | **6.01%** | 106 | N/A | Premium (High) |
+| **`RRC`** | $41.30 | $37.00 | 36 | -0.14 | 36.0% | $0.05 | **5.87%** | 15 | N/A | Premium (High) |
+| **`BKR`** | $54.12 | $45.00 | 36 | -0.09 | 47.8% | $0.05 | **5.63%** | 153 | N/A | Discount Zone |
+| **`EWBC`** | $124.79 | $105.00 | 36 | -0.12 | 48.1% | $0.10 | **5.47%** | 4 | N/A | Premium (High) |
 
 ---
 
@@ -47,17 +46,16 @@
 
 | Ticker | Company Name | Price | Confluence | Best Tier | 52W Range | 1Y Ret | Whale Stealth | Status | Elastic Disparity | Associated Theme Anchors |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **ULS** | UL Solutions Inc. | $71.06 | **2 Anchors** | `T1` | `0.18` (18%) | -7.8% | **100/100** (1.00x) | `🟢 COILED` | **+458.0%** | `STX (+450.2%) [T1], DELL (+442.9%) [T1]` |
-| **TTWO** | TAKE TWO INTERACTIVE S | $204.96 | **2 Anchors** | `T2` | `0.22` (22%) | -20.5% | **80/100** (1.00x) | `🟢 COILED` | **+470.7%** | `STX via ULS [T2], DELL via ULS [T2]` |
+| **ULS** | UL Solutions Inc. | $71.88 | **2 Anchors** | `T1` | `0.20` (20%) | -6.5% | **100/100** (1.00x) | `🟢 COILED` | **+456.7%** | `STX (+450.2%) [T1], DELL (+442.9%) [T1]` |
 
 ## ⚡ High-Conviction Single-Theme Incubators (Confluence = 1)
 
 | Ticker | Company Name | Price | Tier | 52W Range | 1Y Ret | Whale Stealth | Status | Elastic Disparity | Primary Catalyst Lineage |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **MU** | MICRON TECHNOLOGY INC | $945.37 | `T1` | `0.71` (71%) | +405.9% | **100/100** (1.00x) | `🟡 ACCUMULATING` | **+1440.5%** | `SNDK (+1846.4%) [T1]` |
-| **IBP** | Installed Building Pro | $181.07 | `T2` | `0.02` (2%) | -28.4% | **100/100** (1.00x) | `🟢 COILED` | **+1874.8%** | `SNDK via UE [T2]` |
-| **ONTO** | ONTO INNOVATION INC. | $255.69 | `T1` | `0.51` (51%) | +96.1% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+515.9%** | `WDC (+612.0%) [T1]` |
-| **OCSL** | Oaktree Specialty Lend | $11.54 | `T2` | `0.51` (51%) | -0.2% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+364.2%** | `BE via BAM [T2]` |
+| **IBP** | Installed Building Pro | $185.64 | `T2` | `0.06` (6%) | -26.6% | **100/100** (1.00x) | `🟢 COILED` | **+1730.7%** | `SNDK via UE [T2]` |
+| **STX** | Seagate Technology Hol | $662.19 | `T1` | `0.49` (49%) | +203.6% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+402.2%** | `WDC (+605.8%) [T1]` |
+| **SBAC** | SBA COMMUNICATIONS COR | $184.51 | `T1` | `0.43` (43%) | -2.7% | **70/100** (1.00x) | `🟡 ACCUMULATING` | **+369.6%** | `MRVL (+366.9%) [T1]` |
+| **CSCO** | CISCO SYSTEMS, INC. | $110.25 | `T2` | `0.69` (69%) | +61.5% | **70/100** (1.00x) | `🟡 ACCUMULATING` | **+302.5%** | `BE via BAM [T2]` |
 
 > [!TIP]
 > **Execution Strategy:** For candidates exhibiting >150% Elastic Disparity and Green Light tape accumulation, 
