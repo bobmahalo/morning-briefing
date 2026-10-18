@@ -1,5 +1,5 @@
 # Yield Stacker Engine: Live Allocations (V1.1)
-**Generated:** 2026-10-18 15:55:32 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+**Generated:** 2026-10-18 15:59:37 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -11,24 +11,6 @@
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 > *No candidates met the minimum IV and Delta criteria.*
-
----
-
-# 📡 Incubation Radar: Forward Whale Accumulation (Asymmetric Supply-Chain Alpha)
-> **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
-
-## 🏛️ Cross-Thematic Bottlenecks (Confluence $\ge$ 2)
-
-*No candidates currently detected supplying 2 or more independent theme anchors.*
-
-## ⚡ High-Conviction Single-Theme Incubators (Confluence = 1)
-
-*No actionable candidates currently detected passing all 3 Trommel meshes (Discount + Liquidity + Whale Absorption).*
-
-> [!TIP]
-> **Execution Strategy:** For candidates exhibiting >150% Elastic Disparity and Green Light tape accumulation, 
-> prefer high-delta At-The-Money (ATM) or In-The-Money (ITM, Delta $\ge 0.70$) LEAPS to minimize theta decay while 
-> capitalizing on structural catch-up re-ratings.
 
 ---
 
