@@ -1,5 +1,5 @@
 # Yield Stacker Engine: Live Allocations (V1.1)
-**Generated:** 2026-10-18 15:59:37 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+**Generated:** 2026-10-18 16:49:32 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -18,7 +18,7 @@
 > **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,349` companies in SEC EDGAR).
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > 2%`).
 > - **The 4 Hunting Buckets:** `1_CASH` (Net Cash / NCAV / TBV floor) | `2_FCF` (>=10% FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal) | `4_INSIDER` (Cluster insider buying).
-> - **Stage 1 Convergence Filter:** Requires $\ge 2$ Hunting Buckets, `Piotroski F-Score >= 6`, `1Y Share Dilution <= +5.0%`, `SBC % OCF <= 30.0%`, `Altman Z >= 1.81` (or Net Cash $> 0$), `TTM Revenue >= $10M`, and `Market Cap >= $15M`.
+> - **Stage 1 Convergence Filter:** Requires >= 2 Hunting Buckets, `Piotroski F-Score >= 6`, `1Y Share Dilution <= +5.0%`, `SBC % OCF <= 30.0%`, `Altman Z >= 1.81` (or Net Cash > $0.00), `TTM Revenue >= $10M`, and `Market Cap >= $15M`.
 > - **Funnel Attrition:** Compresses `5,349` operating companies down to **`38` strict forensic survivors** (`99.3%` attrition rate).
 
 ## 🏆 Tier 1: Triple-Bucket Elite Convergence (`3/4` Buckets)
@@ -32,7 +32,7 @@
 | **`EXE`** | Expand Energy Corp | $90.80 | $21.0B | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`7/9`** | `2.66` (Grey) | -1.84 | **12.74%** | -$13.05 | -$24.96 | $83.78 | -2.79% | 0.95% | $368,020 | — |
 
 ## 🛡️ Tier 2: Sub-`$5.00` Liquid Balance-Sheet Cash Floors & Net-Nets
-> Micro- and small-cap deep-value qualifiers trading at or near $\le \$5.00/\text{sh}$ with liquid net cash floors, high FCF yields, or insider alignment:
+> Micro- and small-cap deep-value qualifiers trading at or near <= $5.00/sh with liquid net cash floors, high FCF yields, or insider alignment:
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
@@ -75,180 +75,91 @@
 *Antigravity V3 Core | Zero Discretion | Adversarial Validation*
 
 <details>
-<summary><b>📖 Antigravity V3: Quantitative Engine Methodology (Click to Expand)</b></summary>
+<summary><b>📖 Antigravity V3: Quantitative Engine & Execution Methodology (Click to Expand)</b></summary>
+<br>
 
-# Logic Engines: Quantitative Deep-Value & Forensic Architecture Methodology
-
-## 1. Executive Philosophy & Ground Rules
-
-The **Logic Engines** platform is a deterministic, zero-opinion fundamental and forensic research system covering the entire U.S. public equity market (`5,349` active `10-K`/`10-Q` operating companies). It was built under strict quantitative engineering constraints:
-
-1. **Zero LLM Opinions or Hallucinations:** No generated prose, no speculative forward DCF growth guessing, and no Wall Street analyst consensus targets. Every figure is computed deterministically from SEC EDGAR XBRL filings, Form 4 XML/OpenInsider ledgers, and exchange quotes.
-2. **The `"a = a"` Accounting Rule:** A financial statement line item is populated only when the SEC XBRL tag represents the exact accounting concept (governed by ranked priority lists in [`config/xbrl_aliases.yaml`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/config/xbrl_aliases.yaml)).
-3. **Full Provenance & Missing-Value Discipline:**
-   - `NR` (**Not Reported**): The company did not file the tag in the given period.
-   - `NA` (**Not Applicable**): The mathematical ratio cannot exist (e.g., CAGR from a negative base, or years-to-pay-debt when Free Cash Flow $\le 0$).
-   - `DERIVED`: Exact quarterly arithmetic implied by cumulative YTD filings ($\text{Q2} = \text{6M} - \text{Q1}$, $\text{Q3} = \text{9M} - \text{6M}$, $\text{Q4} = \text{FY} - \text{9M}$).
-4. **4-Layer Separation of Concerns:**
-   - **Layer 1 (`ingestion/`):** Bulk SEC archive streaming (`submissions.zip`, `companyfacts.zip`), exchange quote caching, OpenInsider/Form 4 ledger updates, 10-K Item 5 Registered Record Holder (DRS) extraction, and vectorized XBRL normalization.
-   - **Layer 2 (`models/`):** Pure mathematical statement assembly, ratio calculation, forensic scoring (Piotroski F, Altman Z, Beneish M), valuation/reverse-DCF math, and Wide-Net Hunting Bucket evaluation.
-   - **Layer 3 (`Strategies` / SQL & Python Sieves):** Multi-bucket convergence filtering, forensic health thresholds, and position-sizing rules.
-   - **Layer 4 (`reporting/`):** Markdown and CSV report rendering.
-
----
-
-## 2. The Local Data Lake Architecture (`data_lake/`)
+# Antigravity V3: Quantitative Engine & Execution Methodology
 
 ```text
-data_lake/
-├── bulk/
-│   ├── submissions.zip          # SEC nightly filing metadata & SIC/Exchange archive (~1.50 GB)
-│   ├── companyfacts.zip         # SEC nightly XBRL financial history archive (~1.35 GB)
-│   ├── quotes_cache.json        # Live Price, Market Cap, Sector & Industry for ~7,002 stocks (4h TTL)
-│   ├── insider_ledger.json      # Incremental OpenInsider/Form 4 open-market purchase ledger
-│   └── master_universe.sqlite   # Queryable SQLite database (5,349 operating companies x 68 columns)
-└── stocks/
-    ├── _cik_map.json            # SEC Ticker-to-CIK registry (10,443 symbols -> 8,013 primary common CIKs)
-    └── {TICKER}/                # Per-ticker deep-dive vault (populated when running run_ssr.py)
-        ├── manifest.json        # SHA-256 audit history & latest 10-K/10-Q accession tracker
-        ├── quote.json           # Cached single-stock exchange quote
-        ├── item5_record_holders.json # Multi-year 10-K Item 5 Registered Record Holder census
-        ├── insider_activity.json     # Ticker-specific Form 4 open-market P/S ledger
-        ├── facts.csv            # Normalized XBRL facts with accession & tag provenance
-        ├── statements/          # Annual (20Y), Quarterly (8Q), and TTM CSV statements
-        └── report/              # Single Stock Report ({TICKER}_SSR.md)
+Antigravity V3 System Architecture
+├── 1. Operating Philosophy ── Zero Discretion | "a = a" XBRL Provenance | Adversarial Sieve
+├── 2. 4-Layer Separation  ── Ingestion Oracles → Math Models → Strategy Desk → Clean Reporting
+├── 3. Engine 1 (Options)  ── Yield Stacker CSPs (Delta <= -0.15) + AMT Negative Gamma Shield
+├── 4. Engine 2 (Dark Pool)── Supply-Chain Recursive NLP (Depth 2) + OBV Polyfit Trend Score >= 70
+├── 5. Engine 3 (SEC Bulk) ── 5,349 Operating Equities → Vampire Quarantine → 4 Hunting Buckets
+├── 6. Forensic Scorecard  ── Piotroski F >= 6 | Altman Z >= 1.81 | Beneish M <= -1.78 | SBC <= 30%
+└── 7. Stage 3 Execution   ── 1%-2% ADDV Liquidity Caps | Tranche Entries | Hard Valuation Exits
 ```
 
 ---
 
-## 3. End-to-End Pipeline Methodology (The 4 Stages)
+## 1. Executive Philosophy & Ground Rules
 
-### Stage 1: Universe Hygiene (`ingestion/bulk_universe.py`)
-1. Starts with the full SEC `company_tickers.json` registry (`10,443` ticker symbols).
-2. **Primary Common Equity Filter (`is_primary_common_ticker`):** Strips preferred series (`-P`, `-PA`), warrants (`-WT`, `-W`), units (`-UN`, `-U`), and rights (`-RI`), collapsing multi-symbol issuers to **`8,013` primary common CIKs**.
-3. **Active Operating Company Filter:** Streams `CIK##########.json` directly from `submissions.zip` and `companyfacts.zip` in memory. Requires at least one active `10-K` or `10-Q` filing and valid GAAP XBRL financial statements, yielding **`5,349` active operating companies**.
+Antigravity V3 is an institutional-grade, zero-opinion quantitative research platform covering the entire U.S. public equity market (`5,349` active `10-K`/`10-Q` operating companies). It enforces strict quantitative engineering principles:
 
-### Stage 2: Share-Count & Accounting Guardrails (`models/valuation.py` & `models/wide_net_scoreboard.py`)
-Per-share deep-value screens frequently fail on raw SEC data due to dual-class share structures, reverse splits, or unit-scaling inconsistencies. Our engine enforces three mathematical guardrails:
-1. **Dual Share-Count Extraction:** Extracts both `dei:EntityCommonStockSharesOutstanding` (10-K/10-Q Cover Page exact share count) and `us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding`.
-2. **Dual-Class / Stale Cover-Page Fallback (`_resolve_best_shares`):** Automatically falls back to `Diluted_Shares_Outstanding` when `Cover_Page_Shares_Outstanding` is missing, pre-IPO (`< 10,000` shares), more than 1 period behind, or represents `< 15%` of diluted shares (which happens when a company tags only a small founder class on the cover page).
-3. **1,000x Unit-Scaling Reconciliation:** Cross-checks implied shares ($\text{Market Cap} / \text{Share Price}$) against reported XBRL shares. If the ratio falls between $500\times$ and $2,000\times$ (filers tagging shares in thousands instead of whole shares), the engine automatically scales share counts by $1,000\times$.
-
-### Stage 3: Step A — The "Dilution Vampire" Quarantine (`Is_Dilution_Vampire`)
-Before evaluating whether a stock looks statistically cheap, the engine quarantines companies that destroy shareholder equity through toxic financing or earnings manipulation. A company is flagged `Is_Dilution_Vampire = True` (`1,308` companies quarantined) if **any** of the following four conditions hold:
-1. **Heavy Share Printing While Burning Cash:** $\text{TTM Free Cash Flow} < 0$ **AND** $\text{1-Year Share Count Change} > +15.0\%$.
-2. **Massive Equity Issuance Relative to Size:** $\text{TTM Free Cash Flow} < 0$ **AND** $\frac{\text{TTM Stock Issued}}{\text{Market Cap}} \ge 10.0\%$.
-3. **Lethal Cash Runway with Active Dilution:** $\text{TTM Free Cash Flow} < 0$, $\text{TTM Stock Issued} > 0$, **AND** $\text{Total Cash} < |\text{TTM Free Cash Flow}|$ ($< 4$ quarters of cash runway remaining).
-4. **Cash Burn + Accrual Manipulation Alert:** $\text{TTM Operating Cash Flow} < 0$ **AND** $\text{Beneish M-Score} > -1.78$ (the forensic threshold indicating likely earnings manipulation).
-
-### Stage 4: Step B — The 4 "Hidden Gold" Hunting Buckets (`1,015` Non-Vampire Qualifiers)
-
-#### Bucket 1: Net Cash Floor & Graham Net-Nets (`Bucket_1_Net_Cash_Floor` — `253` stocks)
-Targets companies trading near or below their liquid balance-sheet backing.
-- **Exclusions:** Financials/REITs (`SIC 6000–6799`), Dilution Vampires, high-leverage balance sheets ($\text{Total Liabilities} / \text{Total Assets} \ge 0.75$), and companies with lethal cash burn ($\text{FCF} < 0$ with $< 2\text{ years}$ of cash).
-- **Floor Metrics Calculated Per Share:**
-  1. $\text{Net Cash (Ex-Debt) Per Share} = \frac{\text{Cash \& Short-Term Investments} - \text{Total Debt}}{\text{Shares}}$
-  2. $\text{Net Cash (After All Liabilities) Per Share} = \frac{\text{Cash \& Short-Term Investments} - \text{Total Liabilities}}{\text{Shares}}$
-  3. $\text{Graham NCAV Per Share} = \frac{\text{Total Current Assets} - \text{Total Liabilities}}{\text{Shares}}$
-  4. $\text{Tangible Book Value (TBV) Per Share} = \frac{\text{Stockholders' Equity} - \text{Goodwill} - \text{Intangibles}}{\text{Shares}}$
-- **Qualification Trigger:** At least one of:
-  - $\text{Net Cash (Ex-Debt) to Price Yield} \in [50\%, 500\%]$, **OR**
-  - $\text{Graham NCAV to Price Yield} \in [50\%, 500\%]$, **OR**
-  - $\text{Tangible Book to Price Yield} \in [80\%, 500\%]$.
-
-#### Bucket 2: High-FCF Deep Value Turnarounds (`Bucket_2_High_FCF_Turnaround` — `164` stocks)
-Targets cash-gushing operating businesses priced for distress that can rapidly self-liquidate their debt.
-- **Exclusions:** Financials/REITs and Dilution Vampires.
-- **Qualification Trigger:**
-  - $\text{FCF-to-Price Yield} = \frac{\text{TTM Free Cash Flow}}{\text{Market Cap}} \in [12.0\%, 250.0\%]$, **AND**
-  - $\text{Years of FCF to Extinguish Net Debt} = \frac{\max(0, \text{Total Debt} - \text{Total Cash})}{\text{TTM Free Cash Flow}} \le 4.0\text{ years}$ (equals $0.0\text{ years}$ if the company is already Net Cash positive).
-
-#### Bucket 3: Cannibal Share Buybacks (`Bucket_3_Cannibal_Buybacks` — `506` stocks)
-Targets profitable companies aggressively retiring their own float with real cash flow.
-- **Exclusions:** Dilution Vampires and reverse-split artifacts (drops $> 35\%$ in 1 year are excluded unless cash repurchases exceed $15\%$ of Market Cap).
-- **Qualification Trigger:**
-  - $\text{TTM Free Cash Flow} > 0$, **AND**
-  - $\text{TTM Cash Stock Buybacks} > \max(0, \text{TTM Stock Issued})$, **AND**
-  - $\text{1-Year Share Count Change} \in [-35.0\%, -3.0\%]$ **OR** $\text{5-Year Share Count CAGR} \in [-30.0\%, -3.0\%]$.
-
-#### Bucket 4: C-Suite & Cluster Insider Buying (`Bucket_4_Cluster_Insider_Buy` — `315` stocks)
-Targets companies where officers and directors are buying shares with their own cash in the open market (`Form 4 Code P` only; option grants and tax withholdings are stripped).
-- **Qualification Trigger:**
-  - **C-Suite Cluster Buying:** $\ge 2$ distinct C-Suite officers (CEO, CFO, COO, President, Chairman, EVP) buying on the open market over the trailing 12 months, **OR** $\ge 1$ C-Suite buyer alongside $\ge 3$ total unique insiders, **OR**
-  - **Multi-Insider Conviction:** $\ge 2$ unique insiders with Net Open-Market Purchases ($\text{Buys} - \text{Sells}$) $\ge \$50,000$.
+1. **Zero LLM Opinions or Hallucinations:** No AI prose, no forward speculative DCF guessing, and no Wall Street analyst consensus price targets. Every figure is deterministically derived from raw SEC EDGAR XBRL filings, Form 4 insider XML feeds, and exchange trade prints.
+2. **The "a = a" Accounting Principle:** A financial statement line item is populated only when an SEC XBRL tag maps directly to the specific GAAP accounting concept via ranked priority lists in `config/xbrl_aliases.yaml`.
+3. **Data Provenance & Missing Value Discipline:**
+   - `NR` (**Not Reported**): Tag was not filed by the company in the given period.
+   - `NA` (**Not Applicable**): Mathematical ratio cannot logically exist (e.g., CAGR from a negative base, or debt payback years when FCF <= 0).
+   - `DERIVED`: Arithmetic values calculated from cumulative YTD filings (Q2 = 6M - Q1, Q3 = 9M - 6M, Q4 = FY - 9M).
+4. **4-Layer Separation of Concerns:**
+   - **Layer 1 (Ingestion):** Bulk SEC EDGAR streaming, exchange quotes caching, OpenInsider/Form 4 ledgers, and 10-K Item 5 registered record holder (DRS) census.
+   - **Layer 2 (Models):** Mathematical statement assembly, financial ratios, forensic models (Piotroski, Altman, Beneish), and Wide-Net hunting bucket classification.
+   - **Layer 3 (Strategy & Execution):** Multi-bucket convergence filtering, forensic health gates, and position-sizing liquidity rules.
+   - **Layer 4 (Reporting):** Markdown briefings, institutional CSV exports, and live publication.
 
 ---
 
-## 4. Forensic & Valuation Metrics Glossary
+## 2. Core Evaluation Engines
 
-Every stock in the Master Universe is scored across three classic forensic models plus capital-allocation ratios:
-
-| Metric | Formula / Definition | Interpretation & Thresholds |
-| :--- | :--- | :--- |
-| **`Piotroski_F_Score`** (`0` to `9`) | 9 binary tests across **Profitability** (ROA $>0$, OCF $>0$, $\Delta$ROA $>0$, OCF $>$ NI), **Leverage/Liquidity** ($\Delta$Long-Term Debt $<0$, $\Delta$Current Ratio $>0$, No net share dilution), and **Operating Efficiency** ($\Delta$Gross Margin $>0$, $\Delta$Asset Turnover $>0$). | **`7–9`:** Strong improving fundamentals.<br>**`4–6`:** Neutral/Mixed.<br>**`0–3`:** Deteriorating fundamentals. |
-| **`Altman_Z_Score`** | $1.2 X_1 + 1.4 X_2 + 3.3 X_3 + 0.6 X_4 + 1.0 X_5$, where $X_1 = \text{Working Capital}/\text{Assets}$, $X_2 = \text{Retained Earnings}/\text{Assets}$, $X_3 = \text{EBIT}/\text{Assets}$, $X_4 = \text{Market Cap}/\text{Total Liabilities}$, $X_5 = \text{Revenue}/\text{Assets}$. | **`> 2.99` (`SAFE`):** Fortress balance sheet.<br>**`1.81 – 2.99` (`GREY`):** Moderate solvency.<br>**`< 1.81` (`DISTRESS`):** Elevated bankruptcy risk. |
-| **`Beneish_M_Score`** | 8-factor forensic accrual and receivables/margin index comparing current year vs. prior year. | **`<= -1.78` (`CLEAN`):** Normal accounting.<br>**`> -1.78` (`MANIPULATOR_RISK`):** Aggressive accruals / earnings manipulation warning. |
-| **`SBC_Pct_OCF_TTM`** | $\frac{\text{TTM Stock-Based Compensation}}{\text{TTM Operating Cash Flow}} \times 100$ | Measures how much of reported "cash flow" is actually management paying itself in stock. **`<= 25%`** is healthy; **`> 50%`** means FCF is largely an accounting illusion. |
-| **`Implied_10Y_FCF_CAGR_Pct`** | Reverse DCF solver ($10\%$ discount rate, $2.5\%$ terminal growth) solving for the 10-year annual FCF growth rate implied by the current Enterprise Value. | Negative implied growth (e.g., `-15%/yr`) means the market is pricing the business to shrink permanently; flat execution creates upside. |
-| **`Zero_Growth_Intrinsic_Price`** | Present value per share of current TTM Free Cash Flow as a zero-growth perpetuity ($10\%$ discount rate) adjusted for Net Cash / Net Debt. | If `Zero_Growth_Intrinsic_Price > Share_Price`, you are getting all future growth for free. |
-
----
-
-## 5. Guide to the Reports Generated
-
-### A. Market-Wide Bulk Scanner Outputs (`python3 run_bulk_scan.py`)
-1. **[`reports/Master_Universe_All_Stocks.csv`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/Master_Universe_All_Stocks.csv) & [`data_lake/bulk/master_universe.sqlite`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/data_lake/bulk/master_universe.sqlite) (`5,349` rows x `68` columns):**
-   - **What it is:** The complete, uncapped operating company encyclopedia. Contains every company (including Dilution Vampires and non-qualifiers).
-   - **When to use it:** Auditing why any ticker passed or failed a filter, or running custom SQL queries in `< 50ms` against `master_universe.sqlite`.
-2. **[`reports/Hunting_Buckets_Sub5_and_DeepValue.csv`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/Hunting_Buckets_Sub5_and_DeepValue.csv) (`1,015` rows x `68` columns):**
-   - **What it is:** Strictly non-vampire stocks (`Is_Dilution_Vampire == False`) that matched at least one Hunting Bucket (`Buckets_Count >= 1`), ranked by `Buckets_Count` descending, then `FCF_to_Price_Yield_Pct` descending.
-   - **When to use it:** Your primary Excel / Numbers / Google Sheets workbench for sorting and filtering candidates.
-3. **[`reports/Hunting_Buckets_Report.md`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/Hunting_Buckets_Report.md):**
-   - **What it is:** A formatted Markdown executive briefing showing universe summary counts by price tier (`<= $5.00`, `$5.01–$20.00`, `> $20.00`) and Top 40 leaderboards for each of the 4 buckets.
-   - **When to use it:** Quick visual scan after updating prices.
-
-### B. Single Stock Deep-Dive Outputs (`python3 run_ssr.py TICKER`)
-4. **`reports/{TICKER}_SSR.md` & `reports/{TICKER}_SSR_Summary.csv`:**
-   - **What it is:** A 10-section institutional-grade forensic dossier for a single stock:
-     - *Section 1:* Executive Snapshot, Dual Share-Count Audit, **10-K Item 5 Registered Record Holders (DRS) Multi-Year Census**, and **Form 4 Open-Market Insider Buying Table**.
-     - *Sections 2–4:* 20-Year Annual, 8-Quarter, and TTM Income Statement, Balance Sheet, and Cash Flow Statement.
-     - *Sections 5–6:* 5/10/15-Year CAGRs & Common-Size Statements (`% of Revenue` and `% of Assets`).
-     - *Section 7:* Profitability, ROIC/ROCE/ROE 5-Year Consistency, Liquidity, Solvency & Capital Allocation.
-     - *Section 8:* Accounting Forensics (Altman Z, Piotroski F, Beneish M, SBC % of OCF, Roll-Up Dilution Audit).
-     - *Section 9:* Inverted Yield Multiples, Synthetic Deleveraging, and Reverse DCF Implied Growth.
-     - *Section 10:* Plain-English Metric Key & XBRL Provenance Audit.
-
----
-
-## 6. Operational Update Cadence & CLI Commands
-
-| Task | Command | Runtime | Recommended Frequency |
+| Engine | Target Universe | Core Screening Criteria | Operational Playbook |
 | :--- | :--- | :--- | :--- |
-| **Fast Price & Insider Refresh** *(uses local SEC ZIPs, refreshes live Nasdaq prices & OpenInsider delta)* | `python3 run_bulk_scan.py --local-only` | `~83 sec` | **Weekly** (e.g., weekend triage) or any trading day after market close |
-| **Full SEC Nightly Bulk Refresh** *(re-downloads `submissions.zip` & `companyfacts.zip` if >24h old)* | `python3 run_bulk_scan.py` | `~4–6 min` | **Weekly** (or twice weekly during peak 10-Q/10-K earnings periods: Feb, May, Aug, Nov) |
-| **Single Stock 10-Section Dossier** *(fetches live SEC filings, Item 5 DRS holders & Form 4s for specific tickers)* | `python3 run_ssr.py TICKER1 TICKER2` *(or double-click `Run_Stock_Report.command`)* | `~3–5 sec / stock` | **On-Demand** before initiating any position |
+| **Section 1: Yield Stacker** | S&P 1500 deep-value survivors | • Absolute IV > 30% & Delta <= -0.15<br>• Collateralized by 4.5% Treasury floor yield<br>• AMT Macro: VIX Negative Gamma gate | Sell high-probability Cash-Secured Puts (CSPs) at the **bid** price beneath structural support levels |
+| **Section 2: Incubation Radar** | Parabolic theme supply-chain derivatives | • 52-week anchor expansion >= 100%<br>• Recursive SEC 10-K NLP traversal (Depth 2)<br>• Pure-play ceiling: Market Cap < $100B<br>• 20-day OBV polyfit accumulation score >= 70 | Accumulate overlooked physical component tollbooths pinned at base lows before breakout expansion |
+| **Section 3: SEC Convergence Radar** | All 5,349 U.S. operating companies | • Multi-Bucket Convergence (>= 2 Buckets)<br>• Dilution Vampire quarantine pass<br>• Piotroski F-Score >= 6<br>• Altman Z >= 1.81 or positive Net Cash | Accumulate micro- and small-cap deep-value mispricings under strict ADDV liquidity rules and valuation exits |
 
 ---
 
-## 7. The 3-Stage Position-Taking Funnel (From Screener to Portfolio)
+## 3. Section 3: SEC Deep-Value Convergence Architecture
 
-A single statistical screen should never be bought blindly. To move from `5,349` companies to high-conviction positions:
+### Step A: The "Dilution Vampire" Quarantine Sieve
+Before evaluating statistical cheapness, any company destroying shareholder equity through toxic financing or aggressive accrual games is quarantined. A company fails if **any** of the following hold:
+* **Cash-Burning Diluter:** TTM Free Cash Flow < 0 **AND** 1-Year Common Shares > +15.0%.
+* **Aggressive Share Printer:** TTM Free Cash Flow < 0 **AND** TTM Stock Issued >= 10.0% of Market Cap.
+* **Lethal Cash Runway:** TTM Free Cash Flow < 0, TTM Stock Issued > 0, **AND** Cash & Equivalents < |TTM Free Cash Flow| (< 4 quarters of runway).
+* **Accrual Manipulation Alert:** TTM Operating Cash Flow < 0 **AND** Beneish M-Score > -1.78.
 
-1. **Stage 1 — The Multi-Bucket Convergence & Forensic Sieve (`master_universe.sqlite`):**
-   - Require `Is_Dilution_Vampire == False`
-   - Require **Multi-Bucket Convergence (`Buckets_Count >= 2`)**
-   - Require **Piotroski F-Score $\ge 6$** (active fundamental improvement)
-   - Require **Altman Z-Score $\ge 1.81$ OR Positive Net Cash (Ex-Debt)**
-   - Require **Share Dilution Cap (`Share_Count_1Y_Change_Pct <= +5.0%`)**
-   - Require **Stock-Based Compensation Discipline (`SBC_Pct_OCF_TTM <= 30.0%`)**
-   - Require **Operating Scale (`Revenue_TTM_M >= $10M` and `Market_Cap_M >= $15M`)**
-   - *Result:* Compresses `5,349` stocks down to the top **~25–30 elite multi-factor candidates**.
-2. **Stage 2 — Deep-Dive SSR Audit (`run_ssr.py`):**
-   - Run `python3 run_ssr.py` on the Stage 1 shortlist.
-   - Verify multi-year operating margin stability, confirm Free Cash Flow is structural (not a one-time working-capital liquidation), and check Form 4 purchase prices relative to current market price.
-3. **Stage 3 — Position Sizing & Execution Discipline:**
-   - **Liquidity Cap:** Position size must never exceed $1\%–2\%$ of Average Daily Dollar Volume.
-   - **Basket Sizing for Net-Nets (`Bucket 1`):** Equal-weight smaller positions across a basket of qualifiers; exit as price approaches $100\%$ of Tangible Book / NCAV or if cash burn breaches $20\%$ of NCAV.
-   - **Core Sizing for Cannibal Compounders (`Bucket 2 + Bucket 3`):** Hold while FCF Yield $> 10\%$, ROIC exceeds cost of capital, and share count continues to shrink.
+### Step B: The 4 "Hidden Gold" Hunting Buckets
+1. **`1_CASH` (Liquid Net Cash & Graham Net-Nets):** Trades at or near liquid balance-sheet backing (Net Cash Ex-Debt Yield >= 50%, Graham NCAV Yield >= 50%, or Tangible Book Yield >= 80%). Financials, REITs, and balance sheets with Total Liabilities / Total Assets >= 0.75 are disqualified.
+2. **`2_FCF` (High-FCF Turnarounds):** Generates real cash (TTM FCF Yield >= 12.0%) with manageable debt (Net Debt payable in <= 4.0 years of FCF).
+3. **`3_BUYBACK` (Cannibal Share Repurchases):** Retires common equity with genuine cash flow (TTM FCF > 0, TTM Buybacks > Stock Issued, and 1-Year Shares down -3.0% to -35.0% or 5-Year CAGR down -3.0% to -30.0%).
+4. **`4_INSIDER` (C-Suite & Cluster Insider Buying):** Insiders buying in the open market with personal cash on Form 4 (Code P) >= 2 C-Suite officers over 12 months, or net open-market buying >= $50,000.
+
+---
+
+## 4. Forensic Accounting Matrix
+
+| Forensic Metric | Formula & Concept | Target Threshold | Distress / Trap Threshold | What It Prevents |
+| :--- | :--- | :-: | :-: | :--- |
+| **Piotroski F-Score** | 9 binary tests across Profitability, Leverage, Liquidity, and Operating Efficiency | **`7–9` (Elite)** | `0–3` (Deteriorating) | Eliminates companies with declining margins, liquidity crunches, or operational decay |
+| **Altman Z-Score** | 5-ratio multivariate solvency index measuring bankruptcy risk | **`> 2.99` (Safe)** | `< 1.81` (Distress) | Eliminates companies at elevated risk of Chapter 11 filing or debt restructuring |
+| **Beneish M-Score** | 8-factor index measuring receivables growth, gross margin decay, and asset quality | **`<= -1.78` (Clean)** | `> -1.78` (Manipulator Risk) | Exposes aggressive capitalization of expenses and accounting gimmicks |
+| **SBC % of OCF** | TTM Stock-Based Compensation divided by TTM Operating Cash Flow | **`<= 25%` (Healthy)** | `> 50%` (Dilution Mirage) | Disqualifies companies whose "operating cash flow" is artificial due to heavy stock grants |
+| **Implied FCF CAGR** | Reverse DCF solving for 10-year annual FCF growth priced into current Enterprise Value | **`< 0.0%/yr`** | `> +10.0%/yr` | Highlights assets where the market prices in permanent decay; flat execution provides upside |
+
+---
+
+## 5. Stage 3 Execution, Position Sizing & Portfolio Rules
+
+A statistical screen is never bought blindly. The 3-Stage Funnel governs execution:
+
+* **Stage 1 (Convergence Sieve):** Screen 5,349 companies down to ~35 survivors via multi-bucket convergence, forensic health gates, and operating scale filters ($10M+ revenue, $15M+ market cap).
+* **Stage 2 (SSR Dossier Audit):** Audit 20-year annual and 8-quarter statements in the Single Stock Report (`{TICKER}_SSR.md`). Dissect working capital fluctuations vs. operating earnings, confirm FCF is structural, and inspect 10-K Item 5 registered record holder (DRS) trends.
+* **Stage 3 (Position Sizing & Execution Discipline):**
+  - **ADDV Liquidity Cap:** Total position size is capped at **1.0%–2.0%** of 20-day Average Daily Dollar Volume to prevent market impact and illiquidity traps.
+  - **Tranche Allocation:** Accumulate in 3–4 equal tranches (e.g., 25% increments) using patient limit orders at structural support or discount zones.
+  - **Bucket 1 Exit Target (Net-Nets):** Take profits as price approaches **100% of Graham NCAV or Tangible Book Value**. Stop out immediately if operational burn erodes more than 20% of net current assets.
+  - **Buckets 2 & 3 Exit Target (Cannibal Compounders):** Hold as long as TTM FCF Yield > 10.0%, ROIC exceeds the cost of capital, and net share count continues to decrease year-over-year.
 
 </details>
