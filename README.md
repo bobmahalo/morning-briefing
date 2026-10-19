@@ -1,5 +1,5 @@
 # Yield Stacker Engine: Live Allocations (V1.1)
-**Generated:** 2026-10-18 16:49:32 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
+**Generated:** 2026-10-19 13:41:12 UTC | **Engine:** Antigravity V3 Core (Yield Stacker)
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
@@ -11,6 +11,36 @@
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 > *No candidates met the minimum IV and Delta criteria.*
+
+---
+
+# 📡 Incubation Radar: Forward Whale Accumulation (Asymmetric Supply-Chain Alpha)
+> **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
+
+## 🏛️ Cross-Thematic Bottlenecks (Confluence $\ge$ 2)
+
+| Ticker | Company Name | Price | Confluence | Best Tier | 52W Range | 1Y Ret | Whale Stealth | Status | Elastic Disparity | Associated Theme Anchors |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **ULS** | UL Solutions Inc. | $73.31 | **2 Anchors** | `T1` | `0.23` (23%) | -3.7% | **80/100** (1.00x) | `🟢 COILED` | **+453.9%** | `STX (+450.2%) [T1], DELL (+442.9%) [T1]` |
+| **TTWO** | TAKE TWO INTERACTIVE S | $205.12 | **2 Anchors** | `T2` | `0.22` (22%) | -21.8% | **70/100** (1.00x) | `🟢 COILED` | **+472.0%** | `STX via ULS [T2], DELL via ULS [T2]` |
+
+## ⚡ High-Conviction Single-Theme Incubators (Confluence = 1)
+
+| Ticker | Company Name | Price | Tier | 52W Range | 1Y Ret | Whale Stealth | Status | Elastic Disparity | Primary Catalyst Lineage |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **UE** | Urban Edge Properties | $19.35 | `T1` | `0.27` (27%) | +0.4% | **100/100** (1.00x) | `🟢 COILED` | **+1548.8%** | `SNDK (+1549.2%) [T1]` |
+| **IBP** | Installed Building Pro | $183.44 | `T2` | `0.04` (4%) | -28.6% | **100/100** (1.00x) | `🟢 COILED` | **+1577.8%** | `SNDK via UE [T2]` |
+| **MU** | MICRON TECHNOLOGY INC | $908.84 | `T1` | `0.67` (67%) | +340.0% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+1209.2%** | `SNDK (+1549.2%) [T1]` |
+| **SBAC** | SBA COMMUNICATIONS COR | $185.81 | `T1` | `0.45` (45%) | -3.6% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+370.5%** | `MRVL (+366.9%) [T1]` |
+| **BILL** | BILL Holdings, Inc. | $45.79 | `T1` | `0.56` (56%) | -12.8% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+376.8%** | `BE (+364.0%) [T1]` |
+| **CSCO** | CISCO SYSTEMS, INC. | $107.54 | `T2` | `0.64` (64%) | +55.0% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+309.0%** | `BE via BAM [T2]` |
+| **OCSL** | Oaktree Specialty Lend | $11.48 | `T2` | `0.49` (49%) | -2.1% | **80/100** (1.00x) | `🟡 ACCUMULATING` | **+366.1%** | `BE via BAM [T2]` |
+| **AXP** | AMERICAN EXPRESS CO | $313.07 | `T2` | `0.26` (26%) | -9.4% | **80/100** (1.00x) | `🟢 COILED` | **+373.4%** | `BE via BILL [T2]` |
+
+> [!TIP]
+> **Execution Strategy:** For candidates exhibiting >150% Elastic Disparity and Green Light tape accumulation, 
+> prefer high-delta At-The-Money (ATM) or In-The-Money (ITM, Delta $\ge 0.70$) LEAPS to minimize theta decay while 
+> capitalizing on structural catch-up re-ratings.
 
 ---
 
