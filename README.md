@@ -6,7 +6,53 @@
 > **Methodology:** Cash Secured Puts on Deep Value survivors, collateralized by 4.5% Treasury Yield. 
 > Filtered for Absolute IV > 30% and Delta <= -0.15.
 
-## Yield-Stacked Opportunities
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
+│ Macro Regime: 🟢 NORMAL REGIME (VIX: 17.65) | Treasury Cash Floor: 4.50%   │
+└────────────────────────────────────────────────────────────────────────────┘
+```
+
+- **🎯 Top Yield Stacker Pick:** `TDC` ($25.00 Strike, 31 DTE, **23.34%** Stacked Annual Yield)
+- **⚡ Top Supply-Chain Bottleneck:** `ULS` (UL Solutions — Confluence 2, Whale Stealth 100/100, Coiled)
+- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.78% FCF Yield, $27.16 Net Cash Floor)
+
+<details>
+<summary>💡 <b>How to Trade the 3 Engines in 60 Seconds (Click to Expand Guide)</b></summary>
+
+> **The 3 Engines Explained:**
+> 1. **Engine 1 (Yield Stacker CSPs):** Generates steady synthetic income by selling out-of-the-money puts on fundamental survivors, backed 100% by 4.5% Treasury bills. You collect option premium *and* Treasury interest.
+> 2. **Engine 2 (Incubation Radar):** Deep-learning NLP scanning SEC 10-K supply chain relationships to spot stealth institutional accumulation (dark pools) in key suppliers before the market re-rates them.
+> 3. **Engine 3 (Deep-Value Convergence):** Sifts 5,349 SEC operating filers through adversarial forensic accounting filters down to pristine balance sheets, executed via 3-tranche limit order ladders.
+
+</details>
+
+---
+
+## 🎯 Section 1: Yield-Stacked Opportunities (Live Options Allocations)
+<details>
+<summary>💡 <b>What is the Yield Stacker Engine? (How CSPs + Treasury Floor Work)</b></summary>
+
+> **The Double Stack Advantage:**
+> Instead of letting cash sit idle, your collateral sits in short-term U.S. Treasury bills earning ~4.5%.
+> Simultaneously, we sell out-of-the-money Cash-Secured Puts (Delta <= -0.15) on companies that already passed our balance-sheet screen.
+> - **If the stock stays flat or rises:** The option expires worthless. You keep the 4.5% Treasury yield PLUS the option premium.
+> - **If the stock drops below the strike:** You get assigned and buy an undervalued company at an even bigger discount.
+
+</details>
+
+<details>
+<summary>💡 <b>Yield Stacker Terminology Guide (Delta, Absolute IV, Fib Zone)</b></summary>
+
+> - **Delta (-0.10 to -0.15):** The statistical likelihood of assignment. A -0.14 delta means an ~86% probability that the put expires worthless and you keep the cash.
+> - **Absolute IV:** Implied Volatility. Higher IV means market anxiety is elevated, paying us inflated option premium.
+> - **Stacked Annual Yield:** The combined annualized return of the option premium added to the 4.5% Treasury floor.
+> - **Fib Zone:** Technical support zones (Discount Zone / Breakdown / Capitulation) indicating whether price is stretched or mean-reverting.
+
+</details>
+
+### 🏆 Top 5 Prime-Cut Allocations (Highest Stacked Yield)
+
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -15,6 +61,12 @@
 | **`CROX`** | $121.55 | $100.00 | 31 | -0.15 | 69.8% | $1.15 | **18.04%** | 306 | N/A | Premium (High) |
 | **`LKQ`** | $21.72 | $17.50 | 31 | -0.13 | 69.1% | $0.20 | **17.96%** | 103 | N/A | Breakdown |
 | **`VSXY`** | $89.21 | $75.00 | 31 | -0.13 | 57.7% | $0.80 | **17.06%** | 126 | N/A | Premium (High) |
+
+<details>
+<summary>🔎 <b>Click to Expand Full Option Chain (75 Opportunities Available)</b></summary>
+
+| Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | **`DVA`** | $189.18 | $160.00 | 31 | -0.14 | 55.6% | $1.50 | **15.54%** | 213 | N/A | Premium (High) |
 | **`SFM`** | $66.39 | $55.00 | 31 | -0.11 | 54.1% | $0.50 | **15.20%** | 1171 | N/A | Breakdown |
 | **`VST`** | $147.87 | $125.00 | 38 | -0.13 | 50.2% | $1.37 | **15.03%** | 15 | N/A | Deep Discount |
@@ -86,7 +138,30 @@
 | **`GPC`** | $127.91 | $115.00 | 31 | -0.13 | 32.7% | $0.05 | **5.01%** | 40 | N/A | Premium (High) |
 | **`ULTA`** | $604.28 | $540.00 | 38 | -0.13 | 30.6% | $0.05 | **4.59%** | 3 | N/A | Premium (High) |
 
+</details>
+
 ---
+
+# 📡 Section 2: Incubation Radar:
+<details>
+<summary>💡 <b>What is the Incubation Radar? (Supply-Chain NLP & Dark Pools)</b></summary>
+
+> **The Edge:**
+> Wall Street tracks companies individually. We track recursive supplier-customer graphs.
+> When mega-caps (Dell, Seagate, Microsoft) expand capex, the cash cascades into their Tier-1 and Tier-2 component suppliers.
+> We combine supply-chain graph recursion with Dark Pool volume tape reading (Whale Stealth >= 70) to catch accumulation *before* earnings releases.
+
+</details>
+
+<details>
+<summary>💡 <b>Whale Tape Terminology Guide (Coiled, Confluence, Elastic Disparity)</b></summary>
+
+> - **Confluence (>= 2):** The company is an essential supplier to **two or more** mega-trend anchors simultaneously (e.g. supplying both DELL and STX).
+> - **Whale Stealth (0-100):** Dark pool accumulation score based on On-Balance Volume (OBV) polynomial slope. Scores >= 70 indicate aggressive institutional absorption without price spiking.
+> - **Coiled Status:** Price is compressed near 52-week lows while institutional accumulation volume is expanding (a coiled spring).
+> - **Elastic Disparity:** The percentage gap between the supplier's performance and its primary anchor customer. High positive disparity indicates a catch-up re-rating is overdue.
+
+</details>
 
 # 📡 Incubation Radar: Forward Whale Accumulation (Asymmetric Supply-Chain Alpha)
 > **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
@@ -119,6 +194,30 @@
 ---
 
 # 🏛️ Section 3: Deep-Value & Multi-Bucket Convergence Radar
+<details>
+<summary>💡 <b>What is Multi-Bucket Convergence? (Vampire Sieve + 4 Hunting Buckets)</b></summary>
+
+> **The Funnel:** We scan all 5,349 SEC operating filers with adversarial accounting filters:
+> 1. **Step A Dilution Vampire Sieve:** Automatically eliminates companies burning cash while inflating share counts.
+> 2. **The 4 Hunting Buckets:**
+>    - `1_CASH`: Trading near or below net cash / Graham NCAV.
+>    - `2_FCF`: Trailing Free Cash Flow yield >= 10%.
+>    - `3_BUYBACK`: Shrinking share count via aggressive share repurchases.
+>    - `4_INSIDER`: Form 4 C-Suite open-market cluster purchases.
+> 3. **The Attrition:** Only 38 companies in the entire U.S. stock market survive all filters (99.3% elimination rate).
+
+</details>
+
+<details>
+<summary>💡 <b>The 10-K Forensic Scorecard Guide (Piotroski, Altman Z, Beneish M)</b></summary>
+
+> - **Piotroski F-Score (6/9 to 9/9):** Tests 9 fundamental health checks across profitability, leverage, liquidity, and operating efficiency. 9/9 represents a flawless operating turnaround.
+> - **Altman Z-Score (> 1.81):** Measures distance from bankruptcy based on working capital, retained earnings, and asset coverage. Safe zone is > 3.0; distress zone is < 1.81.
+> - **Beneish M-Score (< -1.78):** Mathematical probability that earnings are being manipulated or revenues artificially accelerated. Scores below -1.78 are deemed clean.
+> - **SBC % OCF (<= 30%):** Stock-Based Compensation as a percentage of Operating Cash Flow. Prevents management from paying themselves in stock while reporting 'profitable' cash flow.
+
+</details>
+
 > **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,349` companies in SEC EDGAR).
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > 2%`).
 > - **The 4 Hunting Buckets:** `1_CASH` (Net Cash / NCAV / TBV floor) | `2_FCF` (>=10% FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal) | `4_INSIDER` (Cluster insider buying).
@@ -130,9 +229,9 @@
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`STRT`** | Strattec Security Corp | $61.98 | $247.0M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`9/9`** | `4.58` (Safe) | -2.87 | **15.78%** | $27.16 | $43.74 | $59.88 | -4.24% | 7.14% | $0 | [STRT_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/STRT_SSR.md) |
-| **`UEIC`** | Universal Electronics In | $5.17 | $66.7M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.89` (Grey) | -3.36 | **12.35%** | $2.51 | $6.20 | $9.53 | -3.39% | 25.82% | $0 | [UEIC_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/UEIC_SSR.md) |
-| **`LOVE`** | Lovesac Co | $14.75 | $212.8M | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`7/9`** | `2.03` (Grey) | -3.09 | **21.29%** | -$1.61 | -$6.25 | $14.36 | -1.28% | 6.12% | $490,146 | [LOVE_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/LOVE_SSR.md) |
+| **`STRT`** | Strattec Security Corp | $61.98 | $247.0M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`9/9`** | `4.58` (Safe) | -2.87 | **15.78%** | $27.16 | $43.74 | $59.88 | -4.24% | 7.14% | $0 | [STRT Card](https://bobmahalo.github.io/Single-Stock-Scan/STRT.html) |
+| **`UEIC`** | Universal Electronics In | $5.17 | $66.7M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.89` (Grey) | -3.36 | **12.35%** | $2.51 | $6.20 | $9.53 | -3.39% | 25.82% | $0 | [UEIC Card](https://bobmahalo.github.io/Single-Stock-Scan/UEIC.html) |
+| **`LOVE`** | Lovesac Co | $14.75 | $212.8M | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`7/9`** | `2.03` (Grey) | -3.09 | **21.29%** | -$1.61 | -$6.25 | $14.36 | -1.28% | 6.12% | $490,146 | [LOVE Card](https://bobmahalo.github.io/Single-Stock-Scan/LOVE.html) |
 | **`EXE`** | Expand Energy Corp | $90.80 | $21.0B | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`7/9`** | `2.66` (Grey) | -1.84 | **12.74%** | -$13.05 | -$24.96 | $83.78 | -2.79% | 0.95% | $368,020 | — |
 
 ## 🛡️ Tier 2: Sub-`$5.00` Liquid Balance-Sheet Cash Floors & Net-Nets
@@ -140,27 +239,27 @@
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`CRWS`** | Crown Crafts Inc | $2.43 | $26.1M | `1_CASH` \| `2_FCF` | **`8/9`** | `2.52` (Grey) | -3.15 | **29.07%** | -$0.87 | $1.78 | $3.17 | +1.85% | 9.02% | $0 | [CRWS_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/CRWS_SSR.md) |
-| **`UEIC`** | Universal Electronics In | $5.17 | $66.7M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.89` (Grey) | -3.36 | **12.35%** | $2.51 | $6.20 | $9.53 | -3.39% | 25.82% | $0 | [UEIC_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/UEIC_SSR.md) |
-| **`DLTH`** | Duluth Holdings Inc. | $4.00 | $145.5M | `1_CASH` \| `2_FCF` | **`7/9`** | `2.38` (Grey) | -3.28 | **39.54%** | -$0.06 | -$0.99 | $4.87 | +4.98% | 4.34% | $0 | [DLTH_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/DLTH_SSR.md) |
-| **`IZEA`** | Izea Worldwide, Inc. | $2.31 | $40.2M | `1_CASH` \| `3_BUYBACK` | **`7/9`** | `2.17` (Grey) | -3.58 | **5.90%** | $2.67 | $2.57 | $2.58 | +2.40% | `NR` | $0 | [IZEA_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/IZEA_SSR.md) |
-| **`CRON`** | Cronos Group Inc. | $3.20 | $1.2B | `1_CASH` \| `3_BUYBACK` | **`7/9`** | `12.93` (Safe) | -1.89 | **4.23%** | $2.16 | $2.31 | $2.70 | -3.79% | 10.74% | $0 | [CRON_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/CRON_SSR.md) |
+| **`CRWS`** | Crown Crafts Inc | $2.43 | $26.1M | `1_CASH` \| `2_FCF` | **`8/9`** | `2.52` (Grey) | -3.15 | **29.07%** | -$0.87 | $1.78 | $3.17 | +1.85% | 9.02% | $0 | [CRWS Card](https://bobmahalo.github.io/Single-Stock-Scan/CRWS.html) |
+| **`UEIC`** | Universal Electronics In | $5.17 | $66.7M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.89` (Grey) | -3.36 | **12.35%** | $2.51 | $6.20 | $9.53 | -3.39% | 25.82% | $0 | [UEIC Card](https://bobmahalo.github.io/Single-Stock-Scan/UEIC.html) |
+| **`DLTH`** | Duluth Holdings Inc. | $4.00 | $145.5M | `1_CASH` \| `2_FCF` | **`7/9`** | `2.38` (Grey) | -3.28 | **39.54%** | -$0.06 | -$0.99 | $4.87 | +4.98% | 4.34% | $0 | [DLTH Card](https://bobmahalo.github.io/Single-Stock-Scan/DLTH.html) |
+| **`IZEA`** | Izea Worldwide, Inc. | $2.31 | $40.2M | `1_CASH` \| `3_BUYBACK` | **`7/9`** | `2.17` (Grey) | -3.58 | **5.90%** | $2.67 | $2.57 | $2.58 | +2.40% | `NR` | $0 | [IZEA Card](https://bobmahalo.github.io/Single-Stock-Scan/IZEA.html) |
+| **`CRON`** | Cronos Group Inc. | $3.20 | $1.2B | `1_CASH` \| `3_BUYBACK` | **`7/9`** | `12.93` (Safe) | -1.89 | **4.23%** | $2.16 | $2.31 | $2.70 | -3.79% | 10.74% | $0 | [CRON Card](https://bobmahalo.github.io/Single-Stock-Scan/CRON.html) |
 | **`SND`** | Smart Sand, Inc. | $5.06 | $214.5M | `1_CASH` \| `2_FCF` | **`6/9`** | `2.78` (Grey) | -3.20 | **16.14%** | -$0.11 | -$0.39 | $5.52 | -2.66% | 7.34% | $19,998 | — |
-| **`CULP`** | Culp Inc | $3.82 | $48.6M | `1_CASH` \| `4_INSIDER` | **`6/9`** | `2.86` (Grey) | -2.71 | **-2.68%** | $0.03 | $1.92 | $4.23 | +1.03% | `NR` | $65,188 | [CULP_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/CULP_SSR.md) |
+| **`CULP`** | Culp Inc | $3.82 | $48.6M | `1_CASH` \| `4_INSIDER` | **`6/9`** | `2.86` (Grey) | -2.71 | **-2.68%** | $0.03 | $1.92 | $4.23 | +1.03% | `NR` | $65,188 | [CULP Card](https://bobmahalo.github.io/Single-Stock-Scan/CULP.html) |
 
 ## 📈 Tier 3: Small-Cap High-Piotroski (`8/9`–`9/9`) Cannibal Compounders
 > Higher-liquidity compounders repurchasing up to `-15%` of their shares over the trailing year with elite Piotroski health scores:
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | FCF Yield | Net Cash/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`NRDS`** | Nerdwallet, Inc. | $10.03 | $640.7M | `2_FCF` \| `3_BUYBACK` | **`9/9`** | `6.43` (Safe) | **25.50%** | $0.97 | $2.67 | **-15.08%** | 16.80% | $0 | [NRDS_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/NRDS_SSR.md) |
-| **`SBH`** | Sally Beauty Holdings, I | $17.12 | $1.6B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.92` (Grey) | **15.05%** | -$6.90 | $3.02 | **-5.38%** | 6.12% | $0 | [SBH_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/SBH_SSR.md) |
+| **`NRDS`** | Nerdwallet, Inc. | $10.03 | $640.7M | `2_FCF` \| `3_BUYBACK` | **`9/9`** | `6.43` (Safe) | **25.50%** | $0.97 | $2.67 | **-15.08%** | 16.80% | $0 | [NRDS Card](https://bobmahalo.github.io/Single-Stock-Scan/NRDS.html) |
+| **`SBH`** | Sally Beauty Holdings, I | $17.12 | $1.6B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.92` (Grey) | **15.05%** | -$6.90 | $3.02 | **-5.38%** | 6.12% | $0 | [SBH Card](https://bobmahalo.github.io/Single-Stock-Scan/SBH.html) |
 | **`MMS`** | Maximus, Inc. | $60.24 | $3.2B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.98` (Grey) | **13.74%** | -$30.18 | -$9.87 | **-7.08%** | 7.48% | $0 | — |
 | **`PCRX`** | Pacira Biosciences, Inc. | $36.33 | $1.4B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.43` (Grey) | **12.40%** | -$2.81 | $9.20 | **-11.29%** | 29.83% | $0 | — |
-| **`ZUMZ`** | Zumiez Inc | $14.44 | $221.4M | `1_CASH` \| `3_BUYBACK` | **`8/9`** | `2.39` (Grey) | **11.33%** | $6.18 | $16.20 | **-10.63%** | 21.28% | $134,000 | [ZUMZ_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/ZUMZ_SSR.md) |
+| **`ZUMZ`** | Zumiez Inc | $14.44 | $221.4M | `1_CASH` \| `3_BUYBACK` | **`8/9`** | `2.39` (Grey) | **11.33%** | $6.18 | $16.20 | **-10.63%** | 21.28% | $134,000 | [ZUMZ Card](https://bobmahalo.github.io/Single-Stock-Scan/ZUMZ.html) |
 | **`APTV`** | Aptiv Plc | $45.19 | $9.4B | `3_BUYBACK` \| `4_INSIDER` | **`8/9`** | `2.47` (Grey) | **7.29%** | -$22.12 | $14.16 | **-4.65%** | 9.25% | $8,254,508 | — |
 | **`HOG`** | Harley-Davidson, Inc. | $27.59 | $2.9B | `1_CASH` \| `4_INSIDER` | **`8/9`** | `2.19` (Grey) | **-4.63%** | $1.55 | $29.11 | **-14.38%** | `NR` | $1,439,491 | — |
-| **`GCO`** | Genesco Inc | $37.42 | $404.9M | `1_CASH` \| `2_FCF` | **`7/9`** | `2.41` (Grey) | **18.24%** | $3.82 | $48.12 | **+0.23%** | 8.88% | $99,980 | [GCO_SSR.md](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/reports/GCO_SSR.md) |
+| **`GCO`** | Genesco Inc | $37.42 | $404.9M | `1_CASH` \| `2_FCF` | **`7/9`** | `2.41` (Grey) | **18.24%** | $3.82 | $48.12 | **+0.23%** | 8.88% | $99,980 | [GCO Card](https://bobmahalo.github.io/Single-Stock-Scan/GCO.html) |
 
 > [!WARNING]
 > **Forensic Sieve Alert (Why Stage 1 Quarantined 24 Multi-Bucket Traps):**
