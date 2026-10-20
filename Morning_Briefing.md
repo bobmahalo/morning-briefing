@@ -166,7 +166,7 @@
 # 📡 Incubation Radar: Forward Whale Accumulation (Asymmetric Supply-Chain Alpha)
 > **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
 
-## 🏛️ Cross-Thematic Bottlenecks (Confluence $\ge$ 2)
+## 🏛️ Cross-Thematic Bottlenecks (Confluence ≥ 2)
 
 | Ticker | Company Name | Price | Confluence | Best Tier | 52W Range | 1Y Ret | Whale Stealth | Status | Elastic Disparity | Associated Theme Anchors |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -188,7 +188,7 @@
 
 > [!TIP]
 > **Execution Strategy:** For candidates exhibiting >150% Elastic Disparity and Green Light tape accumulation, 
-> prefer high-delta At-The-Money (ATM) or In-The-Money (ITM, Delta $\ge 0.70$) LEAPS to minimize theta decay while 
+> prefer high-delta At-The-Money (ATM) or In-The-Money (ITM, Delta ≥ 0.70) LEAPS to minimize theta decay while 
 > capitalizing on structural catch-up re-ratings.
 
 ---
