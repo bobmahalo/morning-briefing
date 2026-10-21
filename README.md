@@ -27,6 +27,86 @@
 
 ---
 
+<!-- START_MACRO_PULSE_STRIP -->
+### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 14:31 UTC (Static)
+
+| **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **5,864.2** | **20,385.1** | **2,248.6** | **4.21%** | **$71.40** | **$2,720.50** | **$68,450** | **17.65** |
+| `+0.35% 🟢` | `+0.52% 🟢` | `-0.42% 🔴` | `+3 bps 🔴` | `-1.20% 🟢` | `+0.85% 🟢` | `+2.10% 🟢` | `-0.80 🟢` |
+
+### 🧭 Macro Regime & Economic Vitals
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ MACRO REGIME & SYSTEM LIQUIDITY RADAR                                        │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ • Macro Weather Phase: REFLATION (Growth Accelerating | Inflation Rising)    │
+│ • Fed Net Liquidity:   $6.28T (+$42B 30-Day Trend [Expanding])               │
+│ • Yield Curve (10Y-2Y): +16 bps (Bull Steepening - Late-Cycle Transition)    │
+│ • Allocation Posture:  65% Compounders | 15% Turnarounds | 20% Cash/T-Bill   │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Economic Vital | Current Level | Prior Period | Directional Trend | Economic Context |
+| :--- | :---: | :---: | :---: | :--- |
+| **Real GDP Growth** | **+2.8%** | +3.0% | 📈 Accelerating | Annualized real output; steady above-trend expansion |
+| **Core CPI Inflation** | **3.1%** | 3.2% | 📈 Accelerating | Ex-Food & Energy; persistent services inflation pressure |
+| **Core PCE Inflation** | **2.7%** | 2.8% | 📉 Moderating | Federal Reserve primary policy benchmark |
+| **Fed Funds Rate** | **4.75%–5.00%** | 5.00%–5.25% | 📉 Easing Cycle | Upper policy target; Fed rate-cutting cycle initiated |
+| **10Y - 2Y Spread** | **+16 bps** | -4 bps | 📈 Bull Steepening | Un-inversion from 2-year deep inversion as 2Y yields drop |
+| **Fed Net Liquidity** | **$6.28T** | $6.24T | 📈 +$42B 30D Trend | Bank reserve expansion via RRP absorption supporting market plumbing |
+
+<details>
+<summary>💡 <b>How to Read the Yield Curve & Fed Net Liquidity (Click to Expand Guide)</b></summary>
+
+> **The Treasury Yield Curve (10Y - 2Y Spread):**
+> The yield curve plots the interest rate of short-term vs. long-term U.S. government debt. In a healthy growing economy, longer-term debt pays higher yields than short-term debt (upward-sloping).
+> 
+> 1. **Inverted Curve (10Y - 2Y < 0 bps):**
+>    * *What it means:* Short-term rates exceed long-term rates. The bond market is pricing in aggressive monetary tightening and forecasting an eventual recession. Historically, an inverted yield curve has preceded every U.S. recession for the past 50 years.
+> 2. **Bull Steepening (Un-Inversion via Front-End Rate Cuts):**
+>    * *What it means:* The curve un-inverts as 2-Year yields plunge faster than 10-Year yields because the Federal Reserve has begun aggressively cutting interest rates in response to labor market or economic softening. This is the classic late-cycle transition where historical market volatility spikes as recessions materialize.
+> 3. **Bear Steepening (Term Premium & Fiscal Deficit Expansion):**
+>    * *What it means:* Long-term (10Y) yields surge faster than short-term (2Y) yields. Rather than Fed cuts, investors demand higher compensation (term premium) to absorb massive Treasury coupon supply or pricing in persistent fiscal deficits and inflation.
+> 4. **Normal Upward Sloping (10Y - 2Y > +50 bps):**
+>    * *What it means:* Baseline expansionary state where long-term lenders receive standard maturity risk premium. Favorable for cyclical credit and bank net interest margins.
+> 
+> ---
+> 
+> **Fed Net Liquidity (WALCL − TGA − ON RRP):**
+> Valuation models tell you what an asset is *worth*; liquidity tells you whether there is sufficient cash in the system to buy it.
+> $$\text{Net Liquidity} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
+> - **The Treasury General Account (TGA):** The government's checking account at the Fed. When the Treasury rebuilds cash via taxes or bond sales, dollars are sucked out of commercial bank reserves (liquidity drain).
+> - **Overnight Reverse Repo (ON RRP):** Money market funds parking cash at the Fed. When RRP balances drain into Treasuries, liquidity flows back into markets.
+> - **Net Expansion:** When Fed balance sheet expands or TGA/RRP drains, net liquidity expands—providing a structural tailwind for risk assets and small-cap value.
+
+</details>
+
+🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 14 Days: **FOMC Rate Decision & Press Conference** (2026-11-04) | ⚠️ in 14 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
+
+<details>
+<summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
+
+> **The Mechanics of Macro IV (Why Options Desks Care):**
+> Heading into high-impact catalysts (FOMC, CPI, OPEX, QRA), market participants aggressively buy option protection, driving Implied Volatility (IV) to expand. The moment uncertainty is resolved, volatility collapses into an immediate **IV Crush**.
+> For deep-value allocators, major macro catalysts create temporary liquidity air pockets—driving panic mispricings that fill our deterministic limit order tranches.
+
+| Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
+| :--- | :--- | :---: | :---: | :--- |
+| **2026-11-04** | FOMC Rate Decision & Press Conference | ⚠️ in 14 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 14 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 16 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | 📅 in 22 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | 📅 in 23 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 30 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 44 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+
+</details>
+<!-- END_MACRO_PULSE_STRIP -->
+
+---
+
 # 🎯 Section 1: Yield Stacker Engine (Live Allocations)
 > **Discipline:** Cash Secured Puts on Deep Value survivors, collateralized by 4.5% Treasury Yield floor.
 > Filtered for Absolute IV > 30% and Delta <= -0.15.
