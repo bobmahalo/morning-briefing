@@ -8,8 +8,8 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
-│ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Generated: 2026-10-21 12:19 UTC | Macro Regime: 🟡 REFLATION REGIME        │
+│ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                │
+│ Generated: 2026-10-21 12:36 UTC | Macro Regime: REFLATION REGIME           │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%     │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -32,7 +32,7 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 12:19 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 12:36 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -42,11 +42,11 @@
 ### 🧭 Macro Regime & Economic Vitals
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
-│ 🧭 MACRO REGIME & SYSTEM LIQUIDITY RADAR                                   │
+│ MACRO REGIME & SYSTEM LIQUIDITY RADAR                                      │
 ├────────────────────────────────────────────────────────────────────────────┤
-│ • Macro Weather Phase: 🟡 REFLATION (Growth Accelerating | Inflation Rising) │
-│ • Fed Net Liquidity:   $6.28T (+$42B 30-Day Trend 🟢 Expanding)            │
-│ • Yield Curve (10Y-2Y): +16 bps (Bull Steepening — Late-Cycle Transition)  │
+│ • Macro Weather Phase: REFLATION (Growth Accelerating | Inflation Rising)  │
+│ • Fed Net Liquidity:   $6.28T (+$42B 30-Day Trend [Expanding])             │
+│ • Yield Curve (10Y-2Y): +16 bps (Bull Steepening - Late-Cycle Transition)  │
 │ • Allocation Posture:  65% Compounders | 15% Turnarounds | 20% Cash/T-Bill │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
