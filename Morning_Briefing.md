@@ -4,10 +4,11 @@
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Macro Regime: 🟢 NORMAL REGIME (VIX: 16.94) | Treasury Cash Floor: 4.50% │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
+│ Generated: 2026-10-21 14:30 UTC | Macro Regime: REFLATION REGIME             │
+│ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 - **🎯 Top Yield Stacker Pick:** `CROX` ($97.50 Strike, 58 DTE, 13.9% Stacked Yield)
@@ -210,6 +211,18 @@
 > - **Altman Z-Score (> 1.81):** Measures distance from bankruptcy based on working capital, retained earnings, and asset coverage. Safe zone is > 3.0; distress zone is < 1.81.
 > - **Beneish M-Score (< -1.78):** Mathematical probability that earnings are being manipulated or revenues artificially accelerated. Scores below -1.78 are deemed clean.
 > - **SBC % OCF (<= 30%):** Stock-Based Compensation as a percentage of Operating Cash Flow. Prevents management from paying themselves in stock while reporting 'profitable' cash flow.
+
+</details>
+
+<details>
+<summary>💡 <b>Portfolio Weighting & Execution Disciplines (Munger / Graham Rules)</b></summary>
+
+> **Disciplined Capital Allocation:**
+> 1. **Tier 1: Core Operating Compounders (65%–70% Target Allocation):** High-conviction structural cash compounders (`STRT`, `NRDS`, `ZUMZ`). Clean operating income, expanding gross margins, zero net debt, and active share cannibalization. Time is your friend.
+> 2. **Tier 2: Micro-Turnarounds & Activist Catalysts (20%–25% Target Allocation):** Battered companies with proven catalysts (`LOVE`, `CRWS`)—verified open-market C-Suite cluster buys with personal cash or 13D activist involvement.
+> 3. **Tier 3: Graham Net-Nets & High-Risk Asset Plays (Capped Strictly at ≤ 5% Total):** Asymmetric cigar-butt liquidation plays (`UEIC`, `IZEA`, `DLTH`). Strictly capped to under 5% of portfolio capital to immunize the fund against operational cash burn while capturing multi-bagger re-rating upside.
+> 4. **Deterministic 3-Tranche Execution:** Tranche 1 (Market baseline 33.3%), Tranche 2 (Support retest -6.0%), Tranche 3 (Capitulation wick -12.5%).
+> 5. **ADDV Liquidity Guardrail:** Position sizes are calibrated against 30-day Average Daily Dollar Volume to ensure exit liquidity within 1–2 trading days without moving the tape.
 
 </details>
 
