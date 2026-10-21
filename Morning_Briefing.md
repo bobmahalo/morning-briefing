@@ -9,7 +9,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Generated: 2026-10-20 17:42 UTC            | Macro Regime: 🟢 NORMAL REGIME   │
+│ Generated: 2026-10-21 02:37 UTC            | Macro Regime: 🟢 NORMAL REGIME   │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%     │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
