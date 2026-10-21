@@ -9,7 +9,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Generated: 2026-10-21 12:18 UTC | Macro Regime: 🟡 REFLATION REGIME        │
+│ Generated: 2026-10-21 12:19 UTC | Macro Regime: 🟡 REFLATION REGIME        │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%     │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -32,7 +32,7 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 12:18 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 12:19 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -79,7 +79,7 @@
 > 
 > **Fed Net Liquidity (WALCL − TGA − ON RRP):**
 > Valuation models tell you what an asset is *worth*; liquidity tells you whether there is sufficient cash in the system to buy it.
-> $$	ext{Net Liquidity} = 	ext{Fed Total Assets (WALCL)} - 	ext{Treasury General Account (TGA)} - 	ext{Overnight Reverse Repo (ON RRP)}$$
+> $$\text{Net Liquidity} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
 > - **The Treasury General Account (TGA):** The government's checking account at the Fed. When the Treasury rebuilds cash via taxes or bond sales, dollars are sucked out of commercial bank reserves (liquidity drain).
 > - **Overnight Reverse Repo (ON RRP):** Money market funds parking cash at the Fed. When RRP balances drain into Treasuries, liquidity flows back into markets.
 > - **Net Expansion:** When Fed balance sheet expands or TGA/RRP drains, net liquidity expands—providing a structural tailwind for risk assets and small-cap value.
