@@ -9,7 +9,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Generated: 2026-10-21 02:37 UTC            | Macro Regime: 🟢 NORMAL REGIME   │
+│ Generated: 2026-10-21 05:51 UTC            | Macro Regime: 🟢 NORMAL REGIME   │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%     │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -27,6 +27,39 @@
 > 3. **Engine 3 (Deep-Value Convergence):** Sifts 5,349 SEC operating filers through adversarial forensic accounting filters down to pristine balance sheets, executed via 3-tranche limit order ladders.
 
 </details>
+
+---
+
+<!-- START_MACRO_PULSE_STRIP -->
+### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-21 05:51 UTC (Static)
+
+| **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **5,864.2** | **20,385.1** | **2,248.6** | **4.21%** | **$71.40** | **$2,720.50** | **$68,450** | **17.65** |
+| `+0.35% 🟢` | `+0.52% 🟢` | `-0.42% 🔴` | `+3 bps 🔴` | `-1.20% 🟢` | `+0.85% 🟢` | `+2.10% 🟢` | `-0.80 🟢` |
+
+🚨 **MACRO CATALYST COUNTDOWN:** 📅 in 15 Days: **FOMC Rate Decision & Press Conference** (2026-11-04) | 📅 in 15 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
+
+<details>
+<summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
+
+> **The Mechanics of Macro IV (Why Options Desks Care):**
+> Heading into high-impact catalysts (FOMC, CPI, OPEX, QRA), market participants aggressively buy option protection, driving Implied Volatility (IV) to expand. The moment uncertainty is resolved, volatility collapses into an immediate **IV Crush**.
+> For deep-value allocators, major macro catalysts create temporary liquidity air pockets—driving panic mispricings that fill our deterministic limit order tranches.
+
+| Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
+| :--- | :--- | :---: | :---: | :--- |
+| **2026-11-04** | FOMC Rate Decision & Press Conference | 📅 in 15 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | 📅 in 15 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 17 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | 📅 in 23 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | 📅 in 24 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 31 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 45 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+
+</details>
+<!-- END_MACRO_PULSE_STRIP -->
 
 ---
 
