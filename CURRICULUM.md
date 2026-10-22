@@ -108,9 +108,9 @@ Derived from the Darius Dale / 42 Macro framework, tracking growth momentum ($\D
 ## 4. Federal Reserve Net Liquidity Meter
 Asset prices do not correlate with GDP; they correlate with central bank plumbing:
 $$\text{Fed Net Liquidity} = \text{WALCL} - \text{TGA} - \text{ON RRP}$$
-* **`WALCL` (Fed Balance Sheet Assets):** Base money supply.
-* **`TGA` (Treasury General Account):** Cash sitting in the government's account at the Fed. When the Treasury collects taxes or issues bonds, cash moves out of commercial bank reserves into the TGA, draining private market liquidity.
-* **`ON RRP` (Overnight Reverse Repo):** Cash parked by money market funds at the Fed. When ON RRP declines, cash re-enters commercial banking reserves.
+* **`WALCL` (Fed Balance Sheet Assets):** Total assets held by the Federal Reserve (the expanding or contracting base of central bank credit).
+* **`TGA` (Treasury General Account):** Cash sitting in the federal government's checking account at the Fed. When the Treasury collects taxes or issues debt to primary dealers and investors, cash leaves private hands and enters the TGA, draining liquidity from financial markets until spent back into the economy.
+* **`ON RRP` (Overnight Reverse Repo Facility):** Cash parked by Money Market Funds (MMFs) and GSEs at the New York Fed. MMFs are non-bank financial institutions (they hold no reserve accounts at the Fed). When ON RRP declines, cash does **not** mechanically flow into commercial bank reserves; rather, MMFs reallocate internally into higher-yielding short-term paper (chiefly Treasury Bills $\le 13$ months and GSE discount notes). By absorbing massive Treasury Bill issuance directly from the ON RRP facility, MMFs act as a monetary shock absorber—allowing the Treasury to fund itself without draining commercial bank reserves.
 * **The Trend Rule:** When Net Liquidity 30-day delta is expanding ($> +\$20\text{B}$), equity dips are aggressively bought. When contracting, speculative small-caps experience severe multiple compression.
 
 ---
