@@ -4,10 +4,11 @@
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│ ☕ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD             │
-│ Macro Regime: 🟢 NORMAL REGIME (VIX: 16.76) | Treasury Cash Floor: 4.50% │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
+│ Generated: 2026-10-22 06:03 UTC | Macro Regime: REFLATION REGIME             │
+│ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 - **🎯 Top Yield Stacker Pick:** `INTU` ($280.00 Strike, 37 DTE, 18.2% Stacked Yield)
@@ -23,6 +24,86 @@
 > 3. **Engine 3 (Deep-Value Convergence):** Sifts 5,349 SEC operating filers through adversarial forensic accounting filters down to pristine balance sheets, executed via 3-tranche limit order ladders.
 
 </details>
+
+---
+
+<!-- START_MACRO_PULSE_STRIP -->
+### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-22 06:03 UTC (Static)
+
+| **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **7,757.2** | **26,702.9** | **2,781.0** | **5.15%** | **$99.16** | **$4,086.50** | **$82,709** | **16.68** |
+| `+0.58% 🟢` | `+1.05% 🟢` | `+0.27% 🟢` | `+3 bps 🔴` | `+2.07% 🔴` | `-1.53% 🔴` | `-0.28% 🔴` | `-0.63 🟢` |
+
+### 🧭 Macro Regime & Economic Vitals
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ MACRO REGIME & SYSTEM LIQUIDITY RADAR                                        │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ • Macro Weather Phase: REFLATION (Growth Accelerating | Inflation Rising)    │
+│ • Fed Net Liquidity:   $6.28T (+$42B 30-Day Trend [Expanding])               │
+│ • Yield Curve (10Y-2Y): +16 bps (Bull Steepening - Late-Cycle Transition)    │
+│ • Allocation Posture:  65% Compounders | 15% Turnarounds | 20% Cash/T-Bill   │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Economic Vital | Current Level | Prior Period | Directional Trend | Economic Context |
+| :--- | :---: | :---: | :---: | :--- |
+| **Real GDP Growth** | **+2.8%** | +3.0% | 📈 Accelerating | Annualized real output; steady above-trend expansion |
+| **Core CPI Inflation** | **3.1%** | 3.2% | 📈 Accelerating | Ex-Food & Energy; persistent services inflation pressure |
+| **Core PCE Inflation** | **2.7%** | 2.8% | 📉 Moderating | Federal Reserve primary policy benchmark |
+| **Fed Funds Rate** | **4.75%–5.00%** | 5.00%–5.25% | 📉 Easing Cycle | Upper policy target; Fed rate-cutting cycle initiated |
+| **10Y - 2Y Spread** | **+16 bps** | -4 bps | 📈 Bull Steepening | Un-inversion from 2-year deep inversion as 2Y yields drop |
+| **Fed Net Liquidity** | **$6.28T** | $6.24T | 📈 +$42B 30D Trend | Bank reserve expansion via RRP absorption supporting market plumbing |
+
+<details>
+<summary>💡 <b>How to Read the Yield Curve & Fed Net Liquidity (Click to Expand Guide)</b></summary>
+
+> **The Treasury Yield Curve (10Y - 2Y Spread):**
+> The yield curve plots the interest rate of short-term vs. long-term U.S. government debt. In a healthy growing economy, longer-term debt pays higher yields than short-term debt (upward-sloping).
+> 
+> 1. **Inverted Curve (10Y - 2Y < 0 bps):**
+>    * *What it means:* Short-term rates exceed long-term rates. The bond market is pricing in aggressive monetary tightening and forecasting an eventual recession. Historically, an inverted yield curve has preceded every U.S. recession for the past 50 years.
+> 2. **Bull Steepening (Un-Inversion via Front-End Rate Cuts):**
+>    * *What it means:* The curve un-inverts as 2-Year yields plunge faster than 10-Year yields because the Federal Reserve has begun aggressively cutting interest rates in response to labor market or economic softening. This is the classic late-cycle transition where historical market volatility spikes as recessions materialize.
+> 3. **Bear Steepening (Term Premium & Fiscal Deficit Expansion):**
+>    * *What it means:* Long-term (10Y) yields surge faster than short-term (2Y) yields. Rather than Fed cuts, investors demand higher compensation (term premium) to absorb massive Treasury coupon supply or pricing in persistent fiscal deficits and inflation.
+> 4. **Normal Upward Sloping (10Y - 2Y > +50 bps):**
+>    * *What it means:* Baseline expansionary state where long-term lenders receive standard maturity risk premium. Favorable for cyclical credit and bank net interest margins.
+> 
+> ---
+> 
+> **Fed Net Liquidity (WALCL − TGA − ON RRP):**
+> Valuation models tell you what an asset is *worth*; liquidity tells you whether there is sufficient cash in the system to buy it.
+> $$\text{Net Liquidity} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
+> - **The Treasury General Account (TGA):** The government's checking account at the Fed. When the Treasury rebuilds cash via taxes or bond sales, dollars are sucked out of commercial bank reserves (liquidity drain).
+> - **Overnight Reverse Repo (ON RRP):** Money market funds parking cash at the Fed. When RRP balances drain into Treasuries, liquidity flows back into markets.
+> - **Net Expansion:** When Fed balance sheet expands or TGA/RRP drains, net liquidity expands—providing a structural tailwind for risk assets and small-cap value.
+
+</details>
+
+🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 14 Days: **FOMC Rate Decision & Press Conference** (2026-11-04) | ⚠️ in 14 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
+
+<details>
+<summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
+
+> **The Mechanics of Macro IV (Why Options Desks Care):**
+> Heading into high-impact catalysts (FOMC, CPI, OPEX, QRA), market participants aggressively buy option protection, driving Implied Volatility (IV) to expand. The moment uncertainty is resolved, volatility collapses into an immediate **IV Crush**.
+> For deep-value allocators, major macro catalysts create temporary liquidity air pockets—driving panic mispricings that fill our deterministic limit order tranches.
+
+| Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
+| :--- | :--- | :---: | :---: | :--- |
+| **2026-11-04** | FOMC Rate Decision & Press Conference | ⚠️ in 14 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 14 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 16 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | 📅 in 22 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | 📅 in 23 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 30 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 44 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+
+</details>
+<!-- END_MACRO_PULSE_STRIP -->
 
 ---
 
@@ -213,6 +294,18 @@
 > - **Altman Z-Score (> 1.81):** Measures distance from bankruptcy based on working capital, retained earnings, and asset coverage. Safe zone is > 3.0; distress zone is < 1.81.
 > - **Beneish M-Score (< -1.78):** Mathematical probability that earnings are being manipulated or revenues artificially accelerated. Scores below -1.78 are deemed clean.
 > - **SBC % OCF (<= 30%):** Stock-Based Compensation as a percentage of Operating Cash Flow. Prevents management from paying themselves in stock while reporting 'profitable' cash flow.
+
+</details>
+
+<details>
+<summary>💡 <b>Portfolio Weighting & Execution Disciplines (Munger / Graham Rules)</b></summary>
+
+> **Disciplined Capital Allocation:**
+> 1. **Tier 1: Core Operating Compounders (65%–70% Target Allocation):** High-conviction structural cash compounders (`STRT`, `NRDS`, `ZUMZ`). Clean operating income, expanding gross margins, zero net debt, and active share cannibalization. Time is your friend.
+> 2. **Tier 2: Micro-Turnarounds & Activist Catalysts (20%–25% Target Allocation):** Battered companies with proven catalysts (`LOVE`, `CRWS`)—verified open-market C-Suite cluster buys with personal cash or 13D activist involvement.
+> 3. **Tier 3: Graham Net-Nets & High-Risk Asset Plays (Capped Strictly at ≤ 5% Total):** Asymmetric cigar-butt liquidation plays (`UEIC`, `IZEA`, `DLTH`). Strictly capped to under 5% of portfolio capital to immunize the fund against operational cash burn while capturing multi-bagger re-rating upside.
+> 4. **Deterministic 3-Tranche Execution:** Tranche 1 (Market baseline 33.3%), Tranche 2 (Support retest -6.0%), Tranche 3 (Capitulation wick -12.5%).
+> 5. **ADDV Liquidity Guardrail:** Position sizes are calibrated against 30-day Average Daily Dollar Volume to ensure exit liquidity within 1–2 trading days without moving the tape.
 
 </details>
 
