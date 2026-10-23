@@ -1,6 +1,8 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
 **Generated:** 2026-10-23 13:40:55 UTC | **Engine:** Antigravity V3 Core (Triple-Engine System)
 
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
+
 > **🏛️ True Stock Ownership & Custody Education:** Holding shares in broker "Street Name" means you only hold a beneficial entitlement while Cede & Co. holds legal title. Learn how Direct Registration (DRS) protects your shares from broker insolvency and short-lending at **[WhyDRS.org](https://www.whydrs.org)** ([Advocacy](https://www.whydrs.org/advocacy) | [Free Resources](https://www.whydrs.org/free-resources)).
 
 > **Disclaimer:** *This report is for educational and informational purposes only and does not constitute financial advice. The author is not a licensed financial advisor. All investments carry risk, and you should conduct your own due diligence before making any financial decisions.*
@@ -8,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-23 13:40 UTC | Macro Regime: REFLATION REGIME             │
+│ Generated: 2026-10-23 15:59 UTC | Macro Regime: REFLATION REGIME             │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -36,12 +38,12 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-23 13:40 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-23 15:59 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7,619.4** | **25,913.6** | **2,784.0** | **4.97%** | **$101.68** | **$4,042.80** | **$81,791** | **20.08** |
-| `-0.57% 🔴` | `-0.37% 🔴` | `+0.11% 🟢` | `+1 bps 🔴` | `+2.22% 🔴` | `-0.43% 🔴` | `+0.59% 🟢` | `+1.05 🔴` |
+| **7,655.6** | **26,081.4** | **2,774.2** | **5.00%** | **$103.04** | **$4,013.50** | **$81,596** | **19.36** |
+| `-0.10% 🔴` | `+0.28% 🟢` | `-0.35% 🔴` | `+5 bps 🔴` | `+3.59% 🔴` | `-1.16% 🔴` | `+0.35% 🟢` | `+0.33 🔴` |
 
 ### 🧭 Macro Regime & Economic Vitals
 ```text
