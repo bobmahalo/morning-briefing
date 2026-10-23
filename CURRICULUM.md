@@ -101,16 +101,23 @@ Derived from the Darius Dale / 42 Macro framework, tracking growth momentum ($\D
   * If $\text{Spread} < 0$: `🔴 Inverted (Late-Cycle Inversion / Recession Warning)`
   * If $\text{Prior Spread} < 0$ and $\text{Current Spread} \ge 0$: `🟡 Bull Steepening — Late-Cycle Transition`
   * If $\text{Spread} \ge 40\text{ bps}$: `🟢 Normal Upward Sloping — Expansionary`
-* **The Economic Insight:** Inversions do not cause recessions; they predict them. The crisis occurs when the curve **un-inverts (Bull Steepening)** because the Federal Reserve is forced to aggressively cut short-term rates (2-year yield collapsing faster than the 10-year yield) to rescue failing credit markets or combat surging unemployment.
+* **The Economic Insight:** Inversions do not cause recessions; they predict them. The danger window historically occurs when the curve **un-inverts (Bull Steepening)**:
+  * *Phase 1 (Orderly Duration Rotation):* As economic momentum stalls, rate-hike risk disappears. Investors extend duration into longer maturities to lock in yields, stabilizing or lowering the long end while the 2-year yield remains anchored to prevailing Fed policy.
+  * *Phase 2 (The Policy Pivot):* As growth softens or financial stress emerges, the Federal Reserve pivots to rate cuts. The front end of the curve declines faster than the long end, completing the un-inversion. In the modern post-2000 regime, Fed easing has overwhelmingly functioned as an acute crisis response rather than routine mid-cycle fine-tuning.
 
 ---
 
-## 4. Federal Reserve Net Liquidity Meter
+## 4. Federal Reserve Net Liquidity Meter & Reserve Plumbing
 Asset prices do not correlate with GDP; they correlate with central bank plumbing:
 $$\text{Fed Net Liquidity} = \text{WALCL} - \text{TGA} - \text{ON RRP}$$
-* **`WALCL` (Fed Balance Sheet Assets):** Total assets held by the Federal Reserve (the expanding or contracting base of central bank credit).
-* **`TGA` (Treasury General Account):** The federal government's operating checking account at the Fed. When the Treasury collects taxes or issues debt, cash moves out of private circulation and into the TGA, temporarily draining market liquidity until the government spends it back out into the real economy.
-* **`ON RRP` (Overnight Reverse Repo Facility):** Cash parked overnight at the Fed primarily by non-bank financial institutions (Money Market Funds and GSEs). Because cash sitting in the ON RRP facility is effectively idle at the central bank rather than circulating as private credit or commercial bank reserves, it is subtracted from total Fed assets to isolate active system liquidity. Facility usage fluctuates dynamically based on broader money market conditions—including prevailing Treasury bill supply and yields, private dealer repo rates on Wall Street, monetary policy expectations, and calendar balance-sheet reporting dates for commercial banks.
+* **What This Equation Actually Measures:** On the Federal Reserve's balance sheet liability ledger:
+  $$\text{Total Assets (WALCL)} \approx \text{Commercial Bank Reserves} + \text{Currency in Circulation} + \text{TGA} + \text{ON RRP}$$
+  Therefore, $\text{WALCL} - \text{TGA} - \text{ON RRP}$ serves as a daily market proxy for **Commercial Bank Reserve Balances** (the liquidity depository institutions hold at the Fed earning the IORB rate).
+* **The Component Roles:**
+  * **`WALCL` (Fed Balance Sheet Assets):** The total base of central bank credit.
+  * **`TGA` (Treasury General Account):** The federal government's checking account. When the Treasury collects taxes or issues debt, cash moves out of commercial bank reserves into the TGA, temporarily draining market liquidity until spent back into the real economy.
+  * **`ON RRP` (Overnight Reverse Repo Facility):** Cash parked overnight at the Fed primarily by non-bank financial institutions (Money Market Funds and GSEs). Because this cash sits outside commercial bank reserves, subtracting it isolates circulating bank liquidity.
+  * **The Systemic Canary (Standing Repo Facility — SRF):** While the ON RRP absorbs *surplus* non-bank cash, the SRF is the opposite: an emergency liquidity backstop created after the September 2019 repo spike allowing primary dealers and banks to borrow cash against Treasuries when reserves run dry. A sustained surge in SRF usage signals acute private funding distress.
 * **The Trend Rule:** When Net Liquidity 30-day delta is expanding ($> +\$20\text{B}$), equity dips are aggressively bought. When contracting, speculative small-caps experience severe multiple compression.
 
 ---
