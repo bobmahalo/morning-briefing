@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-23 15:59 UTC | Macro Regime: REFLATION REGIME             │
+│ Generated: 2026-10-23 16:29 UTC | Macro Regime: REFLATION REGIME             │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -38,12 +38,12 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-23 15:59 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-23 16:29 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ 100**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7,655.6** | **26,081.4** | **2,774.2** | **5.00%** | **$103.04** | **$4,013.50** | **$81,596** | **19.36** |
-| `-0.10% 🔴` | `+0.28% 🟢` | `-0.35% 🔴` | `+5 bps 🔴` | `+3.59% 🔴` | `-1.16% 🔴` | `+0.35% 🟢` | `+0.33 🔴` |
+| **7,642.1** | **26,025.2** | **2,778.3** | **4.99%** | **$103.27** | **$4,016.30** | **$81,419** | **19.28** |
+| `-0.28% 🔴` | `+0.06% 🟢` | `-0.21% 🔴` | `+4 bps 🔴` | `+3.82% 🔴` | `-1.09% 🔴` | `+0.13% 🟢` | `+0.25 🔴` |
 
 ### 🧭 Macro Regime & Economic Vitals
 ```text

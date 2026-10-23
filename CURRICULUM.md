@@ -156,7 +156,7 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
 ### 1. The Strategy Mandate
 We sell out-of-the-money Cash-Secured Puts (CSPs) **exclusively on companies that have already passed our forensic balance-sheet screens**. 
 * We demand elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay inflated insurance premiums.
-* We select Delta between $-0.10$ and $-0.15$ (~85% to 90% statistical probability of expiring worthless).
+* We select Delta between $-0.10$ and $-0.15$ (standard options market delta heuristic targeting ~85% to 90% probability of expiring OTM under normal market conditions).
 * Collateral is **never left uninvested**. It sits in 4-week to 13-week U.S. Treasury Bills earning risk-free interest.
 
 ### 2. The Core Mathematical Formulas
@@ -164,6 +164,7 @@ $$\text{Cash Collateral Required} = 100 \times K \quad (K = \text{Strike Price})
 $$\text{Premium Yield} = \frac{P_{\text{bid}}}{K} \quad (P_{\text{bid}} = \text{Exchange Bid Price, NEVER Midpoint})$$
 $$\text{Annualized Option Yield} = \left( \frac{P_{\text{bid}}}{K} \right) \times \left( \frac{365}{\text{DTE}} \right)$$
 $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasury}}$$
+*(Note: Represents the annualized income run-rate on committed collateral when held to expiration. It functions as an income harvest on target acquisition levels, not a guaranteed portfolio net return after assignment and market drawdowns).*
 
 ### 3. Asymmetric Payoff Walkthrough (`INTU` Example)
 * Spot Price: $\$334.36$ | Strike: $\$280.00$ ($16.3\%$ OTM) | DTE: $37$ days | Bid: $\$3.90$ | T-Bill: $4.50\%$
@@ -195,8 +196,8 @@ Wall Street analyzes companies as isolated silos. We map recursive supplier-cust
 
 ### 2. Core Metrics & Definitions
 * **Confluence ($\ge 2$):** The company is an essential supplier to two or more distinct mega-trend anchors simultaneously.
-* **Whale Stealth Score ($0–100$):** Measures institutional accumulation using the 20-day polynomial slope of On-Balance Volume (OBV). Scores $\ge 70$ reveal aggressive dark pool absorption without price breakout.
-* **`🟢 COILED` Status:** Confirms the stock is pinned in the bottom of its 52-week range ($\le 0.35$) while institutional accumulation volume is expanding (a compressed spring).
+* **Volume Accumulation Score ($0–100$):** Measures volume-weighted accumulation trend using the 20-day polynomial slope of On-Balance Volume (OBV). Scores $\ge 70$ identify sustained accumulation occurring within a tight trading range before price breakout.
+* **`🟢 COILED` Status:** Confirms the stock is pinned in the bottom of its 52-week range ($\le 0.35$) while volume accumulation is expanding (a compressed spring).
 * **Elastic Disparity:** The spread between the anchor's 1-year trailing gain and the supplier's trailing performance:
   $$\text{Elastic Disparity} = \text{Anchor Return}_{1\text{Y}} - \text{Supplier Return}_{1\text{Y}}$$
 
@@ -204,7 +205,7 @@ Wall Street analyzes companies as isolated silos. We map recursive supplier-cust
 > [!WARNING]
 > **Charlie Munger's Law of Supplier Economics:** A component supplier is rarely a 1:1 substitute for a monopoly anchor. Component suppliers have lower pricing power and customer concentration risk.
 > 
-> *The Quantitative Adjustment:* Instead of assuming the supplier catches up 100% to the single highest-performing anchor, we apply a **Supplier Transmission Factor ($\beta_{\text{sc}} \approx 0.35 - 0.50$)** against the **Blended Average** of its anchor customers:
+> *The Quantitative Adjustment:* Instead of assuming the supplier catches up 100% to the single highest-performing anchor, we apply an empirical **Supplier Transmission Factor ($\beta_{\text{sc}} \approx 0.35 - 0.50$)** against the **Blended Average** of its anchor customers as a conservative research heuristic:
 > $$\text{Realistic Target Catch-Up} = \beta_{\text{sc}} \times \left( \frac{1}{N} \sum_{i=1}^N \text{Anchor Return}_i \right)$$
 > Elastic Disparity is an indicator of **asymmetric coiled tension**, not a guaranteed price target.
 
@@ -271,7 +272,7 @@ Nine binary accounting checks across three core dimensions:
   1. $ROA > 0$: $\frac{\text{Net Income}}{\text{Total Assets}} > 0$
   2. $CFO > 0$: Operating Cash Flow $> 0$
   3. $\Delta ROA > 0$: Current year ROA higher than prior year
-  4. $\text{Accrual} > 0$: $CFO > \text{Net Income}$ (Cash earnings exceed accounting accruals)
+  4. $\text{Accrual Quality}$: $CFO > \text{Net Income}$ (Cash flow exceeds net income, reflecting negative/favorable accruals)
 * **Leverage & Liquidity:**
   5. $\Delta \text{Leverage} < 0$: Long-term debt ratio decreased
   6. $\Delta \text{Liquidity} > 0$: Current ratio increased
@@ -288,6 +289,7 @@ $$Z = 1.2 X_1 + 1.4 X_2 + 3.3 X_3 + 0.6 X_4 + 0.999 X_5$$
 * $X_4 = \frac{\text{Market Cap}}{\text{Total Liabilities}}$ (Equity cushion before insolvency)
 * $X_5 = \frac{\text{Sales}}{\text{Total Assets}}$ (Asset efficiency)
 * **Gates:** Safe $> 2.99$ | Grey $1.81–2.99$ | Distress $< 1.81$.
+*(Note: The classic Altman 1968 coefficients were calibrated on public manufacturing firms; for asset-light software or service firms, it serves as a conservative relative solvency screen rather than a universal bankruptcy predictor).*
 
 ### C. Beneish M-Score (Earnings Manipulation Probability)
 $$\begin{aligned}
@@ -295,18 +297,20 @@ M = &-4.84 + 0.920 \cdot \text{DSRI} + 0.528 \cdot \text{GMI} + 0.404 \cdot \tex
 &+ 0.115 \cdot \text{DEPI} - 0.172 \cdot \text{SGAI} + 4.037 \cdot \text{TATA} + 0.0327 \cdot \text{LVGI}
 \end{aligned}$$
 * Evaluates receivables bloat ($\text{DSRI}$), gross margin deterioration ($\text{GMI}$), capitalization of expenses ($\text{AQI}$), and accruals ($\text{TATA}$).
-* **Gate:** Must be $\le -1.78$. Scores above $-1.78$ indicate high mathematical likelihood of accounting manipulation.
+* **Gate:** Must be $\le -1.78$. Scores above $-1.78$ indicate elevated statistical risk of aggressive accounting or manipulation, triggering mandatory manual footnote investigation.
 
 ### D. Stock-Based Compensation as % of OCF
 $$\text{SBC \% of OCF} = \frac{\text{TTM Stock-Based Compensation}}{\text{TTM Operating Cash Flow}} \times 100 \le 30.0\%$$
+*(Strictly enforced only when $\text{TTM OCF} > 0$; companies with zero or negative operating cash flow automatically fail the quality sieve and are quarantined).*
 
 ---
 
-## 4. Hard Downside Margin of Safety Formulas
+## 4. Balance-Sheet Downside Support & Liquidation Anchors
 $$\text{Net Cash Per Share} = \frac{\text{Cash \& Short Term Investments} - \text{Total Debt}}{\text{Diluted Shares}}$$
 $$\text{Graham NCAV Per Share} = \frac{\text{Current Assets} - \text{Total Liabilities} - \text{Preferred Stock}}{\text{Diluted Shares}}$$
 $$\text{Tangible Book Value Per Share} = \frac{\text{Total Equity} - \text{Goodwill} - \text{Intangibles}}{\text{Diluted Shares}}$$
 $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}}{\text{Market Capitalization}} \times 100$$
+*(Note: Net Cash and Graham NCAV serve as conservative margin-of-safety valuation anchors, not physical floors that prevent market price volatility. Liquidations in distress typically realize haircut values).*
 
 ---
 
@@ -316,7 +320,7 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 * **Formula:**
   $$\text{ADDV}_{30\text{d}} = \frac{1}{30} \sum_{i=1}^{30} (\text{Volume}_i \times \text{Close}_i)$$
   $$\text{Max Allowed Position Size (USD)} = \text{ADDV}_{30\text{d}} \times 0.02$$
-* **The Rule:** No position may exceed 2.0% of 30-day Average Daily Dollar Volume. This guarantees that if the thesis breaks, the fund can exit 100% of the position in 1–2 trading days without moving the tape.
+* **The Rule:** No position may exceed 2.0% of 30-day Average Daily Dollar Volume. This enforces an institutional liquidity budget to ensure our committed capital remains small relative to normal market volume, minimizing execution slippage and market impact under standard liquidity conditions.
 
 ---
 
@@ -339,35 +343,10 @@ Never chase market orders into thin liquidity. Positions are accumulated in thre
 
 ## 4. Deterministic Valuation Exits
 * **Target 1 (Scale 33%):** Set at **+30.0%** to de-risk capital and lock in intrinsic re-rating gains.
-* **Target 2 (Scale 33%):** Set at **+65.0%** to capture full zero-growth DCF intrinsic convergence.
+* **Target 2 (Scale 33%):** Set at **+65.0%** to capture extended intrinsic multiple re-rating toward conservative DCF fair-value bands.
 * **Hard Stop (-15% to -20%):** Structural degradation stop triggered immediately if operating cash flow turns negative for 2 consecutive quarters or net current asset burn exceeds 20%.
 * **Retail Exit Liquidity Trigger:** If 30-day volume surges to $\ge 3.0\times$ ADDV while price touches overhead resistance, sell 33%–50% directly into retail breakout FOMO.
 
 ---
 
-# MODULE 6: Implementation Tasks & Tactical Solutions
-
-Below are the 4 tactical fixes identified during our operational audit:
-
-### Task 1: Reconcile Sizing Engine with Hard Risk Ceilings
-* **Problem:** In [`strategies/position_sizing_and_execution.py`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/strategies/position_sizing_and_execution.py#L491-L494), the unconstrained allocation divides the entire tier percentage by the number of qualifying tickers:
-  `target_individual_pct = t_info["target_tier_pct"] / len(tickers)`
-  This caused 3 Tier-1 stocks to receive 22.5% ($22,500) each.
-* **Solution:** Modify the sizing engine to enforce:
-  $$\text{Target Weight} = \min(\text{target\_ticker\_pct}, \text{max\_ticker\_cap\_pct})$$
-  Any unallocated sleeve capital automatically defaults to `PortfolioExecutionPlan.cash_reserve_usd` (Treasury Dry Powder).
-
-### Task 2: Purge Zombie Supply-Chain Anchors (`SNDK`)
-* **Problem:** Legacy mergers (e.g. SanDisk acquired by Western Digital in 2016) persist in `macro_events.json` and recursive NLP graphs.
-* **Solution:** Filter all anchor tickers against `master_universe.sqlite` and active SEC filers. Map legacy acquired entities directly to their surviving parent ticker (`WDC`).
-
-### Task 3: Dynamic Live Feed for Treasury Floor Hook
-* **Problem:** `4.50%` is hardcoded across Section 1 and Section 3 formulas.
-* **Solution:** Ingest `^IRX` (13-week Treasury Bill Yield) dynamically via `benchmark_tape.py` and pass `vitals["treasury_cash_floor"]` directly into the Yield Stacker and Executive Dashboard.
-
-### Task 4: Fix Monospace Border Alignment in ASCII Boxes
-* **Problem:** Unicode emojis (e.g. `🟢`, `☕`) are counted as 1 character by Python `len()`, but render across **2 column widths** in browser monospace fonts, pushing the right border out by 1 column.
-* **Solution:** Standardize all box-rendering logic on the `visual_len()` function from [`models/macro_regime.py`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/models/macro_regime.py#L29-L38) or strip emojis out of ASCII preformatted blocks.
-
----
 *Antigravity V3 Core | Master Quantitative Operating Manual*
