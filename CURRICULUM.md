@@ -114,17 +114,20 @@ Derived from the Darius Dale / 42 Macro framework, tracking growth momentum ($\D
 ---
 
 ## 4. Federal Reserve Net Liquidity Meter & Reserve Plumbing
-Asset prices do not correlate with GDP; they correlate with central bank plumbing:
+Asset prices do not correlate with GDP; they correlate with central bank reserve plumbing:
 $$\text{Fed Net Liquidity} = \text{WALCL} - \text{TGA} - \text{ON RRP}$$
 * **What This Equation Actually Measures:** On the Federal Reserve's balance sheet liability ledger:
   $$\text{Total Assets (WALCL)} \approx \text{Commercial Bank Reserves} + \text{Currency in Circulation} + \text{TGA} + \text{ON RRP}$$
-  Therefore, $\text{WALCL} - \text{TGA} - \text{ON RRP}$ serves as a daily market proxy for **Commercial Bank Reserve Balances** (the liquidity depository institutions hold at the Fed earning the IORB rate).
-* **The Component Roles:**
-  * **`WALCL` (Fed Balance Sheet Assets):** The total base of central bank credit.
-  * **`TGA` (Treasury General Account):** The federal government's checking account. When the Treasury collects taxes or issues debt, cash moves out of commercial bank reserves into the TGA, temporarily draining market liquidity until spent back into the real economy.
-  * **`ON RRP` (Overnight Reverse Repo Facility):** Cash parked overnight at the Fed primarily by non-bank financial institutions (Money Market Funds and GSEs). Because this cash sits outside commercial bank reserves, subtracting it isolates circulating bank liquidity.
-  * **The Systemic Canary (Standing Repo Facility — SRF):** While the ON RRP absorbs *surplus* non-bank cash, the SRF is the opposite: an emergency liquidity backstop created after the September 2019 repo spike allowing primary dealers and banks to borrow cash against Treasuries when reserves run dry. A sustained surge in SRF usage signals acute private funding distress.
-* **The Trend Rule:** When Net Liquidity 30-day delta is expanding ($> +\$20\text{B}$), equity dips are aggressively bought. When contracting, speculative small-caps experience severe multiple compression.
+  Therefore, $\text{WALCL} - \text{TGA} - \text{ON RRP}$ is a balance-sheet accounting identity that isolates **Commercial Bank Reserve Balances** (the liquidity depository institutions hold at the Fed earning the **IORB** rate).
+* **The Component Roles & Institutional Mechanics:**
+  * **`WALCL` (Fed Balance Sheet Assets):** The total base of central bank credit (`SOMA` portfolio).
+  * **`TGA` (Treasury General Account):** The federal government's checking account at the Fed. When the Treasury collects taxes (e.g., April 15 or mid-month corporate tax dates) or settles net coupon issuance, cash moves out of commercial bank reserves into the TGA, draining bank reserves until spent.
+  * **`ON RRP` (Overnight Reverse Repo Facility — The Hard Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST` to `8:00 AM EST`) in segregated BoNY Tri-Party accounts by **Rule 2a-7 Government Money Market Funds (`90%–98%`)** and **GSEs (`0%–8%`)**. Commercial banks (`<0.01%`) never use `ON RRP` because **IORB** pays banks `+10 to +15 bps` more with zero Tri-Party fees.
+    * **Why `ON RRP` Moves (The Inverse `WAM` Rule):** Under SEC Rule 2a-7, Government MMFs cannot exceed a **60-day Weighted Average Maturity (`WAM`)** and can only hold cash, US Treasury/Agency debt ($\le 13\text{ months}$), and Tri-Party reverse repo—never equities. During rapid Fed rate hikes, MMFs compress `WAM` to `4–10 days` (piling into 1-day `ON RRP` to avoid duration losses on T-Bills). Once the Fed pauses or cuts, MMFs extend `WAM` to `35–46+ days` by rotating out of `ON RRP` into **1M–3M T-Bills**.
+    * **Why `ON RRP` Draining $\ne$ "Money Leaving MMFs for Stocks":** When `ON RRP` drains into newly issued T-Bills, the cash remains inside MMFs (whose AUM grew from `$5T` to `$7T–$8T+` while `ON RRP` drained from `$2.55T` to `~$0`). Its macro importance in the Net Liquidity formula is that **MMFs absorbing new T-Bill supply prevents that Treasury issuance from draining Commercial Bank Reserves** during Quantitative Tightening (`QT`).
+  * **The Systemic Canary (`SRF` — Standing Repo Facility vs. Turn-Date Noise):** While the `ON RRP` floor is rock-solid (MMFs have zero balance-sheet leverage limits), the `SRF` ceiling (`Upper Band FFR`, `8:15 AM` & `1:30 PM EST`) is porous because Primary Dealers and banks face strict monthly/quarterly balance-sheet limits (`SLR`/`GSIB`) and Fed trades do not net in `FICC/GSD`.
+    * *Operational Filter:* Ignore small **`$25M–$105M` SRF prints** when `BGCR < SRF Rate` (these are mandatory post-9/11 Fed backup-site plumbing tests) and ignore **1-day month-end/quarter-end spikes** (caused by dealers shedding non-nettable MMF repo to window-dress balance sheets). Only **sustained, multi-day non-turn SRF borrowing (`$5B–$100B+`) with `BGCR/SOFR` piercing the Upper Band** signals genuine reserve scarcity.
+* **The Trend Rule:** When Commercial Bank Reserves (proxied by Net Liquidity 30-day delta) are expanding ($> +\$20\text{B}$) or insulated from `QT` by MMF bill absorption, funding markets remain ample. Once `ON RRP` is exhausted (`~$0`), further `QT` or `TGA` rebuilds drain **Commercial Bank Reserves** dollar-for-dollar.
 
 ---
 
