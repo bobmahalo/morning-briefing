@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-24 18:09 UTC | Macro Regime: REFLATION REGIME             │
+│ Generated: 2026-10-24 18:15 UTC | Macro Regime: REFLATION REGIME             │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -88,9 +88,9 @@
 > $$\text{Net Liquidity} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
 > - **The Accounting Identity:** On the Fed's liability ledger, $\text{Assets} \approx \text{Commercial Bank Reserves} + \text{Currency} + \text{TGA} + \text{ON RRP}$. Deducting government cash (`TGA`) and non-bank money-market cash (`ON RRP`) isolates active **Commercial Bank Reserve Balances** (which earn `IORB`).
 > - **The Treasury General Account (TGA):** The government's checking account at the Fed. Tax receipts and net bond settlements move cash out of commercial bank reserves into the `TGA`.
-> - **Overnight Reverse Repo (ON RRP — The Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST`) in BoNY Tri-Party accounts by **Rule 2a-7 Government MMFs (`90%–98%`)** and **GSEs**—never commercial banks (`<0.01%`, as banks earn `+10–15 bps` more in `IORB`). MMFs compress their portfolio `WAM` ($\le 60\text{ days}$) into 1-day `ON RRP` during Fed rate-hike cycles to avoid duration losses, and extend `WAM` into 1M–3M T-Bills once the Fed pauses or cuts.
+> - **Overnight Reverse Repo (ON RRP — The Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST`) in BoNY Tri-Party accounts by **Rule 2a-7 Government MMFs (`90%–98%`)** and **GSEs**—rarely commercial banks (`<0.01%` historically, as banks earn `+10–15 bps` more in `IORB`). MMFs compress their portfolio `WAM` ($\le 60\text{ days}$) into 1-day `ON RRP` during Fed rate-hike cycles to avoid duration losses, and extend `WAM` into 1M–3M T-Bills once the Fed pauses or cuts.
 > - **Why ON RRP Draining Matters for Reserves (Not "Cash Pumped Into Stocks"):** MMFs are barred by SEC Rule 2a-7 from buying equities. When `ON RRP` drains into newly issued T-Bills, the cash stays inside MMFs—but by absorbing Treasury bill supply, MMFs prevent `QT` and deficit issuance from draining **Commercial Bank Reserves**. Once `ON RRP` is near `$0`, further `QT` or `TGA` rebuilds drain bank reserves dollar-for-dollar.
-> - **The Systemic Canary (Standing Repo Facility — SRF):** Injects cash at the Upper Band against Treasury/Agency collateral (`8:15 AM` & `1:30 PM EST`). Ignore small `$25M–$105M` prints (mandatory post-9/11 Fed backup plumbing tests) and 1-day month/quarter-end spikes (dealer `FICC/GSD` balance-sheet window dressing). Only **multi-day non-turn SRF usage (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** warns of acute bank reserve scarcity.
+> - **Standing Repo Facility (SRF) & Funding Conditions:** Injects cash at the Upper Band against Treasury/Agency collateral (`8:15 AM` & `1:30 PM EST`). Ignore small `$25M–$105M` prints (mandatory post-9/11 Fed backup plumbing tests) and 1-day month/quarter-end spikes (dealer `FICC/GSD` balance-sheet window dressing). Only **multi-day non-turn SRF usage (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** signals tighter bank reserve conditions.
 
 </details>
 
