@@ -176,7 +176,7 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
 * **Stacked Annual Yield:** $13.74\% + 4.50\% = \mathbf{18.24\%}$.
 * **The Two Outcomes:**
   * *Outcome 1 (Stock stays flat, rallies, or drops slightly):* Put expires worthless. You keep the $\$390$ premium plus $\$127$ in Treasury interest. Net gain: $\$517$ on $\$28,000$ in 37 days (18.24% annualized).
-  * *Outcome 2 (Stock plunges below $280):* You are assigned shares at a net cost basis of $\$280.00 - \$3.90 = \mathbf{\$276.10}$ (a **$17.4\%$ discount** to the original spot price), backed by cash already in your account.
+  * *Outcome 2 (Stock plunges below \$280):* You are assigned shares at a net cost basis of $\$280.00 - \$3.90 = \mathbf{\$276.10}$ (a **$17.4\%$ discount** to the original spot price), backed by cash already in your account.
 
 ---
 

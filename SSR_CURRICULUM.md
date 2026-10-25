@@ -383,7 +383,7 @@ $$\text{Volume Ratio} = \frac{\text{Mean Volume}_{20\text{d}}}{\text{Mean Volume
 
 # MODULE 3: Level 3 — Complete SEC EDGAR Financial Statements & Audit Vault
 
-Hidden behind a collapsible `<details>` drawer at the bottom of every Executive Card is the complete, unedited **10-Section SSR v1 Forensic Audit Vault** (`reporting/ssr_report.py`). Whenever a number in Level 1 or Level 2 looks too good to be true, open Level 3 to verify the raw SEC receipts:
+Hidden behind a collapsible `<details markdown="1">` drawer at the bottom of every Executive Card is the complete, unedited **10-Section SSR v1 Forensic Audit Vault** (`reporting/ssr_report.py`). Whenever a number in Level 1 or Level 2 looks too good to be true, open Level 3 to verify the raw SEC receipts:
 
 | Vault Section | What It Contains & How to Use It |
 | :--- | :--- |
@@ -478,7 +478,7 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 | **Interactive Double-Click Launcher** | Double-click [`Run_Executive_Card.command`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/Run_Executive_Card.command) and type one or more tickers (e.g., `STRT NRDS GME`). |
 | **CLI Single or Multi-Ticker Run + Web Publish** | `python3 run_ssr_v2.py STRT UEIC --publish` |
 | **Custom Position Size Override** | `python3 run_ssr_v2.py STRT --position-usd 5000` |
-| **Batch Refresh All 26 Published Cards** | `python3 scripts/batch_refresh_all_cards.py` |
+| **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (automatically discovers & updates all 34+ `{TICKER}.md` cards in `Single_Stock_Web`, including ad-hoc single stock scans) |
 
 ---
 
