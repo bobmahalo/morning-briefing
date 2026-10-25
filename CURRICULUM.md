@@ -55,9 +55,8 @@ Every morning, the system pulls price and previous close across 8 cross-asset be
 | Symbol | Benchmark | Role & Economic Rationale |
 | :--- | :--- | :--- |
 | **`^GSPC`** | **S&P 500 (SPX)** | Broad equity beta; institutional baseline benchmark. |
-| **`^IXIC`** | **NASDAQ 100** | High-duration tech valuation appetite; sensitive to real discount rates. |
+| **`^IXIC`** | **NASDAQ Composite** | High-duration tech valuation appetite; sensitive to real discount rates. |
 | **`^RUT`** | **Russell 2000** | Domestic small-cap credit transmission; high floating-rate debt vulnerability. |
-| **`^DJI`** | **Dow Jones Industrial** | Mature cyclical cash-flow giants and industrial bellwethers. |
 | **`^TNX`** | **US 10Y Treasury Yield** | The global risk-free discount rate ($WACC$ benchmark for all DCF models). |
 | **`CL=F`** | **WTI Crude Oil** | Upstream cost-push inflation and global physical demand barometer. |
 | **`GC=F`** | **Gold** | Real interest rate inverse proxy and sovereign fiat debasement hedge. |
@@ -103,31 +102,28 @@ Derived from the Darius Dale / 42 Macro framework, tracking growth momentum ($\D
 ## 3. Dynamic Yield Curve Slope & Un-Inversion Engine
 * **Formula:**
   $$\text{Spread (bps)} = (Y_{10\text{Y}} - Y_{2\text{Y}}) \times 100$$
-* **Dynamic Diagnosis Switching Logic:**
+* **Dynamic Two-Leg Diagnosis Logic ($\Delta Y_{10\text{Y}}$ vs. $\Delta Y_{2\text{Y}}$):**
   * If $\text{Spread} < 0$: `🔴 Inverted (Late-Cycle Inversion / Recession Warning)`
-  * If $\text{Prior Spread} < 0$ and $\text{Current Spread} \ge 0$: `🟡 Bull Steepening — Late-Cycle Transition`
+  * If $\Delta\text{Spread} > 0$ with $\Delta Y_{2\text{Y}} < \Delta Y_{10\text{Y}} \le 0$: `🟡 Bull Steepening — Late-Cycle Transition`
+  * If $\Delta\text{Spread} > 0$ with $\Delta Y_{10\text{Y}} > \Delta Y_{2\text{Y}} \ge 0$: `🟡 Bear Steepening — Long-End Term Premium Expansion`
   * If $\text{Spread} \ge 40\text{ bps}$: `🟢 Normal Upward Sloping — Expansionary`
-* **The Economic Insight:** Inversions do not cause recessions; they predict them. The danger window historically occurs when the curve **un-inverts (Bull Steepening)**:
-  * *Phase 1 (Orderly Duration Rotation):* As economic momentum stalls, rate-hike risk disappears. Investors extend duration into longer maturities to lock in yields, stabilizing or lowering the long end while the 2-year yield remains anchored to prevailing Fed policy.
-  * *Phase 2 (The Policy Pivot):* As growth softens or financial stress emerges, the Federal Reserve pivots to rate cuts. The front end of the curve declines faster than the long end, completing the un-inversion. In the modern post-2000 regime, Fed easing has overwhelmingly functioned as an acute crisis response rather than routine mid-cycle fine-tuning.
+* **The Economic Insight:** Inversions do not cause recessions; they precede late-cycle transitions. Evaluating both the 2-Year and 10-Year legs distinguishes a **Bull Steepener** (front-end yields falling as the Fed cuts into slowing growth) from a **Bear Steepener** (long-end yields rising due to fiscal term-premium pressure).
 
 ---
 
-## 4. Federal Reserve Net Liquidity Meter & Reserve Plumbing
-Asset prices do not correlate with GDP; they correlate with central bank reserve plumbing:
-$$\text{Fed Net Liquidity} = \text{WALCL} - \text{TGA} - \text{ON RRP}$$
-* **What This Equation Actually Measures:** On the Federal Reserve's balance sheet liability ledger:
+## 4. Federal Reserve Net Liquidity Proxy & Reserve Plumbing
+Asset prices correlate closely with central-bank balance-sheet plumbing:
+$$\text{Fed Net Liquidity Proxy} = \text{WALCL} - \text{TGA} - \text{ON RRP}$$
+* **What This Equation Measures:** On the Federal Reserve's liability ledger:
   $$\text{Total Assets (WALCL)} \approx \text{Commercial Bank Reserves} + \text{Currency in Circulation} + \text{TGA} + \text{ON RRP}$$
-  Therefore, $\text{WALCL} - \text{TGA} - \text{ON RRP}$ is a balance-sheet accounting identity that isolates **Commercial Bank Reserve Balances** (the liquidity depository institutions hold at the Fed earning the **IORB** rate).
+  Because Currency in Circulation (`~$2.3T`) moves slowly over 30-day windows, $\text{WALCL} - \text{TGA} - \text{ON RRP}$ serves as a high-frequency **Net Liquidity Proxy** tracking directional changes in **Commercial Bank Reserve Balances** (earning the **IORB** rate).
 * **The Component Roles & Institutional Mechanics:**
   * **`WALCL` (Fed Balance Sheet Assets):** The total base of central bank credit (`SOMA` portfolio).
-  * **`TGA` (Treasury General Account):** The federal government's checking account at the Fed. When the Treasury collects taxes (e.g., April 15 or mid-month corporate tax dates) or settles net coupon issuance, cash moves out of commercial bank reserves into the TGA, draining bank reserves until spent.
-  * **`ON RRP` (Overnight Reverse Repo Facility — The Hard Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST` to `8:00 AM EST`) in segregated BoNY Tri-Party accounts by **Rule 2a-7 Government Money Market Funds (`90%–98%`)** and **GSEs (`0%–8%`)**. Commercial banks (`<0.01%` historically) rarely use `ON RRP` because **IORB** pays banks `+10 to +15 bps` more with zero Tri-Party fees.
-    * **Why `ON RRP` Moves (The Inverse `WAM` Rule):** Under SEC Rule 2a-7, Government MMFs cannot exceed a **60-day Weighted Average Maturity (`WAM`)** and can only hold cash, US Treasury/Agency debt ($\le 13\text{ months}$), and Tri-Party reverse repo—never equities. During rapid Fed rate hikes, MMFs compress `WAM` to `4–10 days` (piling into 1-day `ON RRP` to avoid duration losses on T-Bills). Once the Fed pauses or cuts, MMFs extend `WAM` to `35–46+ days` by rotating out of `ON RRP` into **1M–3M T-Bills**.
-    * **Why `ON RRP` Draining $\ne$ "Money Leaving MMFs for Stocks":** When `ON RRP` drains into newly issued T-Bills, the cash remains inside MMFs (whose AUM grew from `$5T` to `$7T–$8T+` while `ON RRP` drained from `$2.55T` to `~$0`). Its macro importance in the Net Liquidity formula is that **MMFs absorbing new T-Bill supply prevents that Treasury issuance from draining Commercial Bank Reserves** during Quantitative Tightening (`QT`).
-  * **Standing Repo Facility (`SRF`) vs. Turn-Date Noise:** While the `ON RRP` floor is rock-solid (MMFs have zero balance-sheet leverage limits), the `SRF` ceiling (`Upper Band FFR`, `8:15 AM` & `1:30 PM EST`) is porous because Primary Dealers and banks face strict monthly/quarterly balance-sheet limits (`SLR`/`GSIB`) and Fed trades do not net in `FICC/GSD`.
-    * *Operational Filter:* Ignore small **`$25M–$105M` SRF prints** when `BGCR < SRF Rate` (these are mandatory post-9/11 Fed backup-site plumbing tests) and ignore **1-day month-end/quarter-end spikes** (caused by dealers shedding non-nettable MMF repo to window-dress balance sheets). Only **sustained, multi-day non-turn SRF borrowing (`$5B–$100B+`) with `BGCR/SOFR` piercing the Upper Band** signals genuine reserve scarcity.
-* **The Trend Rule:** When Commercial Bank Reserves (proxied by Net Liquidity 30-day delta) are expanding ($> +\$20\text{B}$) or insulated from `QT` by MMF bill absorption, funding markets remain ample. Once `ON RRP` is exhausted (`~$0`), further `QT` or `TGA` rebuilds drain **Commercial Bank Reserves** dollar-for-dollar.
+  * **`TGA` (Treasury General Account):** The federal government's checking account at the Fed (`±$50B–$100B` weekly tax and settlement swings are normal).
+  * **`ON RRP` (Overnight Reverse Repo Facility — The Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST` to `8:00 AM EST`) in segregated BoNY Tri-Party accounts by **Rule 2a-7 Government Money Market Funds (`90%–98%`)** and **GSEs (`0%–8%`)**. Commercial banks (`<0.01%` historically) rarely use `ON RRP` because **IORB** pays banks `+10 to +15 bps` more with zero Tri-Party fees.
+    * **Why `ON RRP` Moves (The Inverse `WAM` Rule):** Under SEC Rule 2a-7, Government MMFs cannot exceed a **60-day Weighted Average Maturity (`WAM`)** and can only hold cash, US Treasury/Agency debt ($\le 13\text{ months}$), and Tri-Party reverse repo—never equities. During rapid Fed rate hikes, MMFs compress `WAM` to `4–10 days` (piling into 1-day `ON RRP`). Once the Fed pauses or cuts, MMFs extend `WAM` to `35–46+ days` by rotating out of `ON RRP` into **1M–3M T-Bills**.
+    * **Why `ON RRP` & Reserve Management Matter:** When `ON RRP` drains into newly issued T-Bills, MMFs absorb Treasury supply so fiscal deficits do not drain **Commercial Bank Reserves**. Post-QT reserve-management T-Bill purchases (`~$40B/mo`) help stabilize ample bank reserves once `ON RRP` is depleted.
+  * **Standing Repo Facility (`SRF`) vs. Turn-Date Noise:** Ignore small **`$25M–$105M` SRF prints** when `BGCR < SRF Rate` (backup plumbing tests) and ignore **1-day month-end/quarter-end spikes** (dealer `FICC/GSD` balance-sheet window dressing). Only **sustained, multi-day non-turn SRF borrowing (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** signals tighter reserve conditions.
 
 ---
 
@@ -156,11 +152,11 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
                       TOTAL STACKED ANNUAL YIELD (10% - 25%+)
 ```
 
-### 1. The Strategy Mandate
-We sell out-of-the-money Cash-Secured Puts (CSPs) **exclusively on companies that have already passed our forensic balance-sheet screens**. 
-* We demand elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay inflated insurance premiums.
-* We select Delta between $-0.10$ and $-0.15$ (standard options market delta heuristic targeting ~85% to 90% probability of expiring OTM under normal market conditions).
-* Collateral is **never left uninvested**. It sits in 4-week to 13-week U.S. Treasury Bills earning risk-free interest.
+### 1. The Strategy Mandate (Independent Income Desk)
+Engine 1 operates as an **independent option-income strategy desk** across the liquid optionable S&P 1500 universe:
+* We filter for liquid option chains with elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay meaningful upfront put premiums.
+* We select out-of-the-money strikes (`Delta <= -0.15`, targeting `-0.10 to -0.15` Black-Scholes moneyness approximation).
+* Collateral is **never left uninvested**. It sits in 13-week U.S. Treasury Bills (`^IRX`, `~4.5%`) earning risk-free interest while backing the put obligation.
 
 ### 2. The Core Mathematical Formulas
 $$\text{Cash Collateral Required} = 100 \times K \quad (K = \text{Strike Price})$$
@@ -194,15 +190,14 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
                                            ELASTIC DISPARITY RE-RATING
 ```
 
-### 1. The Strategy Mandate
-Wall Street analyzes companies as isolated silos. We map recursive supplier-customer graphs extracted from SEC 10-K Item 1 disclosures. When mega-cap anchors expand capital expenditures by billions of dollars, cash cascades downstream into their component suppliers on a 1-to-2 quarter lag.
+### 1. The Strategy Mandate (Independent Supply-Chain Desk)
+Wall Street analyzes companies as isolated silos. Engine 2 maps recursive supplier-customer relationships extracted from SEC 10-K Item 1 disclosures, enforcing a **`< $100B` Pure-Play Market Cap Ceiling** (`MEGA_CAP_CUTOFF`) to filter out mega-cap conglomerate noise.
 
 ### 2. Core Metrics & Definitions
-* **Confluence ($\ge 2$):** The company is an essential supplier to two or more distinct mega-trend anchors simultaneously.
-* **Volume Accumulation Score ($0–100$):** Measures volume-weighted accumulation trend using the 20-day polynomial slope of On-Balance Volume (OBV). Scores $\ge 70$ identify sustained accumulation occurring within a tight trading range before price breakout.
-* **`🟢 COILED` Status:** Confirms the stock is pinned in the bottom of its 52-week range ($\le 0.35$) while volume accumulation is expanding (a compressed spring).
-* **Elastic Disparity:** The spread between the anchor's 1-year trailing gain and the supplier's trailing performance:
-  $$\text{Elastic Disparity} = \text{Anchor Return}_{1\text{Y}} - \text{Supplier Return}_{1\text{Y}}$$
+* **Confluence ($\ge 2$):** The company is disclosed as a supplier/partner across two or more distinct parabolic theme anchors simultaneously.
+* **OBV Stealth Score ($0–100$):** Measures volume-weighted accumulation pressure using the 20-day polynomial slope of On-Balance Volume (OBV). Scores $\ge 70$ identify positive volume slope occurring while price remains compressed.
+* **`🟢 COILED` Status:** Confirms the stock is consolidated in the bottom 35% of its 52-week range ($\le 0.35$) while OBV accumulation slopes upward.
+* **Raw Disparity vs. `0.35x` Catch-Up Gap:** The raw spread compares the anchor's 52-week expansion against the supplier's 1-year return; the displayed **`0.35x Catch-Up Gap`** applies the conservative `0.35x` transmission haircut directly in the table.
 
 ### 3. The Transmission Haircut: Addressing Overpromising
 > [!WARNING]
@@ -255,15 +250,15 @@ Before computing valuation multiples, every company must survive 4 mathematical 
 
 ---
 
-## 2. Step B: The 4 Hunting Buckets
-* **`1_CASH` (Liquid Balance-Sheet Backing):** Trades near or below liquid cash or net current assets:
-  $$\text{Net Cash Yield} \ge 50\% \quad \text{OR} \quad \text{Graham NCAV Yield} \ge 50\% \quad \text{OR} \quad \text{Tangible Book Yield} \ge 80\%$$
-* **`2_FCF` (High-FCF Turnarounds):** High structural cash generation with manageable debt:
-  $$\text{TTM FCF Yield} \ge 10.0\% \quad \text{AND} \quad \frac{\text{Total Debt} - \text{Cash}}{\text{TTM FCF}} \le 4.0\text{ years}$$
-* **`3_BUYBACK` (Cannibal Repurchases):** Retires common equity using genuine free cash flow:
-  $$\text{TTM FCF} > 0, \quad \text{TTM Repurchases} > \text{Stock Issued}, \quad \text{1Y Shares down } -3.0\% \text{ to } -35.0\%$$
+## 2. Step B: The 4 Hunting Buckets (Excluding Financials/REITs `SIC 6000–6799`)
+* **`1_CASH` / `1_TBV` (Balance-Sheet Backing):** Distinguishes liquid Net Cash / NCAV floors (`1_CASH`) from tangible asset / inventory book floors (`1_TBV`):
+  $$\text{1\_CASH: } \text{Net Cash Yield} \ge 50\% \text{ or } \text{Graham NCAV Yield} \ge 50\% \quad \Big| \quad \text{1\_TBV: } \text{Tangible Book Yield} \ge 80\%$$
+* **`2_FCF` (High-FCF Turnarounds):** High structural cash generation with rapid debt payback:
+  $$\text{TTM FCF Yield} \ge 12.0\% \quad \text{AND} \quad \frac{\text{Total Debt} - \text{Cash}}{\text{TTM FCF}} \le 4.0\text{ years}$$
+* **`3_BUYBACK` (Cannibal Repurchases Net of SBC):** Retires common equity using genuine free cash flow:
+  $$\text{TTM FCF} > 0, \quad \text{TTM Repurchases} > \text{Stock Issued}, \quad \text{1Y or 5Y Share Count down } -3.0\% \text{ to } -35.0\%$$
 * **`4_INSIDER` (C-Suite Skin in the Game):** Open-market purchases on SEC Form 4 (Transaction Code `P`):
-  $$\ge 2 \text{ C-Suite officers buying over 12 months} \quad \text{OR} \quad \text{Net open-market buying} \ge \$50,000$$
+  $$\ge 2 \text{ C-Suite officers buying over 12 months} \quad \text{OR} \quad (\ge 2 \text{ buyers and Net buying} \ge \$50,000)$$
 
 ---
 
@@ -294,13 +289,13 @@ $$Z = 1.2 X_1 + 1.4 X_2 + 3.3 X_3 + 0.6 X_4 + 0.999 X_5$$
 * **Gates:** Safe $> 2.99$ | Grey $1.81–2.99$ | Distress $< 1.81$.
 *(Note: The classic Altman 1968 coefficients were calibrated on public manufacturing firms; for asset-light software or service firms, it serves as a conservative relative solvency screen rather than a universal bankruptcy predictor).*
 
-### C. Beneish M-Score (Earnings Manipulation Probability)
+### C. Beneish M-Score (Earnings Manipulation Screening Flag)
 $$\begin{aligned}
 M = &-4.84 + 0.920 \cdot \text{DSRI} + 0.528 \cdot \text{GMI} + 0.404 \cdot \text{AQI} + 0.892 \cdot \text{SGI} \\
-&+ 0.115 \cdot \text{DEPI} - 0.172 \cdot \text{SGAI} + 4.037 \cdot \text{TATA} + 0.0327 \cdot \text{LVGI}
+&+ 0.115 \cdot \text{DEPI} - 0.172 \cdot \text{SGAI} + 4.679 \cdot \text{TATA} - 0.327 \cdot \text{LVGI}
 \end{aligned}$$
-* Evaluates receivables bloat ($\text{DSRI}$), gross margin deterioration ($\text{GMI}$), capitalization of expenses ($\text{AQI}$), and accruals ($\text{TATA}$).
-* **Gate:** Must be $\le -1.78$. Scores above $-1.78$ indicate elevated statistical risk of aggressive accounting or manipulation, triggering mandatory manual footnote investigation.
+* Evaluates receivables bloat ($\text{DSRI}$), gross margin deterioration ($\text{GMI}$), capitalization of expenses ($\text{AQI}$), leverage ($\text{LVGI}$), and total accruals to total assets ($\text{TATA}$).
+* **Gate:** Scores above $-1.78$ serve as an **Accounting Accrual Risk Flag**, triggering quarantine when operating cash flow is negative or requiring manual 10-K footnote verification.
 
 ### D. Stock-Based Compensation as % of OCF
 $$\text{SBC \% of OCF} = \frac{\text{TTM Stock-Based Compensation}}{\text{TTM Operating Cash Flow}} \times 100 \le 30.0\%$$
@@ -336,18 +331,21 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 
 ---
 
-## 3. The 3-Tranche Limit Order Accumulation Ladder
-Never chase market orders into thin liquidity. Positions are accumulated in three patient tranches:
-1. **Tranche 1 (Market 33.3%):** Immediate baseline execution upon passing Stage 2 forensic triage.
-2. **Tranche 2 (Limit -6.0%):** Patient limit order placed 6.0% below market to capture standard mean-reversion retests.
-3. **Tranche 3 (Limit -12.5%):** Capitulation limit order placed 12.5% below market to catch panic flushes, liquidity stop-runs, and market-wide downdrafts.
+## 3. The Volatility-Adjusted 3-Tranche Limit Order Ladder
+Positions are accumulated across three tranches scaled to 14-day Average True Range (`ATR%`) or 30-day Implied Volatility (`IV`), falling back to `-6.0%` and `-12.5%` baselines when volatility history is offline:
+1. **Tranche 1 (Baseline Entry — 33.3%):** Immediate baseline exposure upon passing Stage 2 forensic triage.
+2. **Tranche 2 (Support Retest Limit — 33.3%):** Patient limit order placed `-1.0x ATR%` (`-6.0%` baseline, bounded `[3.0%, 15.0%]`) below market to capture mean-reversion retests.
+3. **Tranche 3 (Capitulation Flush Limit — 33.4%):** Deep limit order placed `-2.0x ATR%` (`-12.5%` baseline, bounded `[1.5x Retest, 30.0%]`) below market to catch liquidity stop-runs and market-wide downdrafts.
 
 ---
 
-## 4. Deterministic Valuation Exits
-* **Target 1 (Scale 33%):** Set at **+30.0%** to de-risk capital and lock in intrinsic re-rating gains.
-* **Target 2 (Scale 33%):** Set at **+65.0%** to capture extended intrinsic multiple re-rating toward conservative DCF fair-value bands.
-* **Hard Stop (-15% to -20%):** Structural degradation stop triggered immediately if operating cash flow turns negative for 2 consecutive quarters or net current asset burn exceeds 20%.
+## 4. Valuation Exits & Multi-Trigger Stop Architecture
+* **Net-Nets & Sub-NCAV Arbitrage (`Tier 2`):** Target 1 scales 50% at `100% Graham NCAV`; Target 2 scales the remaining 50% at `Tangible Book Value` (enforcing a minimum `+15%` spread above Target 1).
+* **Compounders & Turnarounds (`Tiers 1 & 3`):** Continuous hold while `TTM FCF Yield >= 10.0%` and share count declines; scales out into `Zero-Growth Intrinsic Value` / `+30%` and `+65%` re-rating bands, or upon a **`>= 3.0x ADDV` Elevated Volume Exit Trigger**.
+* **Three-Tier Stop Discipline (Anchored to Filled VWAP):**
+  1. **Fundamental Thesis Break:** Exit if `TTM FCF Yield < 8.0%`, operating cash flow turns negative for 2 consecutive quarters, or quarterly operational burn erodes `> 20%` of Net Current Assets.
+  2. **Structural Price Stop:** `-15.0%` from VWAP for Compounders; `-20.0%` from VWAP for Net-Nets and Turnarounds.
+  3. **Mandatory Catastrophic Stop:** `-25.0%` from VWAP hard price floor that strictly overrides quarterly SEC filing lag.
 * **Retail Exit Liquidity Trigger:** If 30-day volume surges to $\ge 3.0\times$ ADDV while price touches overhead resistance, sell 33%–50% directly into retail breakout FOMO.
 
 ---
