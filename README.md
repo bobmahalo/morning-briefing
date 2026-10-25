@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-24 18:15 UTC | Macro Regime: REFLATION REGIME             │
+│ Generated: 2026-10-25 18:38 UTC | Macro Regime: REFLATION REGIME             │
 │ VIX: 17.65 | Treasury Floor: 4.50% | Core Compounder Allocation: 67.5%       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -19,13 +19,14 @@
 - **⚡ Top Supply-Chain Bottleneck:** `ULS` (UL Solutions — Confluence 2, Whale Stealth 100/100, Coiled)
 - **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor)
 
-<details>
+<details markdown="1">
 <summary>💡 <b>How to Trade the 3 Engines in 60 Seconds (Click to Expand Guide)</b></summary>
 
-> **The 3 Engines Explained:**
-> 1. **Engine 1 (Yield Stacker CSPs):** Generates steady synthetic income by selling out-of-the-money puts on fundamental survivors, backed 100% by 4.5% Treasury bills. You collect option premium *and* Treasury interest.
-> 2. **Engine 2 (Incubation Radar):** Deep-learning NLP scanning SEC 10-K supply chain relationships to spot stealth institutional accumulation (dark pools) in key suppliers before the market re-rates them.
-> 3. **Engine 3 (Deep-Value Convergence):** Sifts 5,349 SEC operating filers through adversarial forensic accounting filters down to pristine balance sheets, executed via 3-tranche limit order ladders.
+| Antigravity Engine | Core Strategy & Asset Class | Risk & Execution Discipline |
+| :--- | :--- | :--- |
+| **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on fundamental survivors, backed 100% by 13-week Treasury bills (`~4.5%`). | Collects option `bid` premium *plus* Treasury interest; if assigned, acquires undervalued equity at a further discount. |
+| **2. Incubation Radar** | Recursive SEC 10-K supply-chain NLP combined with Dark Pool institutional absorption (`Whale Stealth ≥ 70`). | Identifies Tier-1/Tier-2 bottleneck suppliers accumulating stealth institutional volume before earnings re-ratings. |
+| **3. Deep-Value Convergence** | Sifts `5,349` SEC operating filers through forensic accounting gates down to pristine balance sheets and net-nets. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing. |
 
 </details>
 
@@ -66,37 +67,36 @@
 | **10Y - 2Y Spread** | **+16 bps** | -4 bps | 📈 Bull Steepening | Un-inversion from 2-year deep inversion as 2Y yields drop |
 | **Fed Net Liquidity** | **$6.28T** | $6.24T | 📈 +$42B 30D Trend | Bank reserve expansion via RRP absorption supporting market plumbing |
 
-<details>
+<details markdown="1">
 <summary>💡 <b>How to Read the Yield Curve & Fed Net Liquidity (Click to Expand Guide)</b></summary>
 
-> **The Treasury Yield Curve (10Y - 2Y Spread):**
-> The yield curve plots the interest rate of short-term vs. long-term U.S. government debt. In a healthy growing economy, longer-term debt pays higher yields than short-term debt (upward-sloping).
-> 
-> 1. **Inverted Curve (10Y - 2Y < 0 bps):**
->    * *What it means:* Short-term rates exceed long-term rates. The bond market is pricing in aggressive monetary tightening and forecasting an eventual recession. Historically, an inverted yield curve has preceded every U.S. recession for the past 50 years.
-> 2. **Bull Steepening (Late-Cycle Un-Inversion & Duration Shift):**
->    * *What it means:* The curve un-inverts as economic momentum stalls and investors rotate duration into longer paper while anticipating Fed easing. As the Fed delivers rate cuts, the front-end yield falls faster than the long end, completing the classic late-cycle transition where historical market volatility spikes as downturns materialize.
-> 3. **Bear Steepening (Term Premium & Fiscal Deficit Expansion):**
->    * *What it means:* Long-term (10Y) yields surge faster than short-term (2Y) yields. Rather than Fed cuts, investors demand higher compensation (term premium) to absorb massive Treasury coupon supply or pricing in persistent fiscal deficits and inflation.
-> 4. **Normal Upward Sloping (10Y - 2Y > +50 bps):**
->    * *What it means:* Baseline expansionary state where long-term lenders receive standard maturity risk premium. Favorable for cyclical credit and bank net interest margins.
-> 
-> ---
-> 
-> **Fed Net Liquidity (WALCL − TGA − ON RRP):**
-> Valuation models tell you what an asset is *worth*; reserve plumbing tells you whether commercial bank balance sheets are expanding or contracting.
+> **The Treasury Yield Curve (10Y - 2Y Spread):** Plots short-term vs. long-term U.S. government borrowing costs to diagnose monetary cycle transitions.
+
+| Yield Curve Regime | Spread Condition | Economic & Market Transmission Mechanism |
+| :--- | :---: | :--- |
+| **1. Inverted Curve** | `10Y - 2Y < 0 bps` | Short-term rates exceed long-term rates as the bond market prices in restrictive monetary policy and future economic contraction. |
+| **2. Bull Steepening** | `Un-Inverting (2Y Drops)` | Front-end yields fall faster than long-end yields as the Fed cuts rates into slowing growth—completing the classic late-cycle transition. |
+| **3. Bear Steepening** | `10Y Surges Faster` | Long-term yields rise faster than short-term yields as investors demand higher term premium to absorb Treasury coupon supply and fiscal deficits. |
+| **4. Normal Upward Sloping** | `10Y - 2Y > +50 bps` | Baseline expansionary state where long-term lenders receive standard maturity risk premium; favorable for credit creation. |
+
+---
+
+> **Fed Net Liquidity ($\text{WALCL} - \text{TGA} - \text{ON RRP}$):** Valuation models tell you what an asset is *worth*; reserve plumbing tells you whether commercial bank balance sheets are expanding or contracting.
 > $$\text{Net Liquidity} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
-> - **The Accounting Identity:** On the Fed's liability ledger, $\text{Assets} \approx \text{Commercial Bank Reserves} + \text{Currency} + \text{TGA} + \text{ON RRP}$. Deducting government cash (`TGA`) and non-bank money-market cash (`ON RRP`) isolates active **Commercial Bank Reserve Balances** (which earn `IORB`).
-> - **The Treasury General Account (TGA):** The government's checking account at the Fed. Tax receipts and net bond settlements move cash out of commercial bank reserves into the `TGA`.
-> - **Overnight Reverse Repo (ON RRP — The Rate Floor):** Cash parked overnight (`12:45–1:15 PM EST`) in BoNY Tri-Party accounts by **Rule 2a-7 Government MMFs (`90%–98%`)** and **GSEs**—rarely commercial banks (`<0.01%` historically, as banks earn `+10–15 bps` more in `IORB`). MMFs compress their portfolio `WAM` ($\le 60\text{ days}$) into 1-day `ON RRP` during Fed rate-hike cycles to avoid duration losses, and extend `WAM` into 1M–3M T-Bills once the Fed pauses or cuts.
-> - **Why ON RRP Draining Matters for Reserves (Not "Cash Pumped Into Stocks"):** MMFs are barred by SEC Rule 2a-7 from buying equities. When `ON RRP` drains into newly issued T-Bills, the cash stays inside MMFs—but by absorbing Treasury bill supply, MMFs prevent `QT` and deficit issuance from draining **Commercial Bank Reserves**. Once `ON RRP` is near `$0`, further `QT` or `TGA` rebuilds drain bank reserves dollar-for-dollar.
-> - **Standing Repo Facility (SRF) & Funding Conditions:** Injects cash at the Upper Band against Treasury/Agency collateral (`8:15 AM` & `1:30 PM EST`). Ignore small `$25M–$105M` prints (mandatory post-9/11 Fed backup plumbing tests) and 1-day month/quarter-end spikes (dealer `FICC/GSD` balance-sheet window dressing). Only **multi-day non-turn SRF usage (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** signals tighter bank reserve conditions.
+
+| Plumbing Component | Ledger Role & Window | Commercial Bank Reserve Transmission |
+| :--- | :--- | :--- |
+| **Accounting Identity** | `WALCL − TGA − ON RRP` | On the Fed's liability ledger, $\text{Assets} \approx \text{Commercial Bank Reserves} + \text{Currency} + \text{TGA} + \text{ON RRP}$. Deducting `TGA` and `ON RRP` isolates active **Commercial Bank Reserve Balances** (earning `IORB`). |
+| **Treasury General Account (`TGA`)** | Government Checking Account | Tax receipts and net bond settlements move cash out of commercial bank reserves into the `TGA`; Treasury spending injects reserves back into banks. |
+| **Overnight Reverse Repo (`ON RRP`)** | `12:45–1:15 PM EST` Rate Floor | Cash parked overnight in BoNY Tri-Party accounts by **Rule 2a-7 Government MMFs (`90%–98%`)** and **GSEs**—rarely commercial banks (`<0.01%` historically, as banks earn `+10–15 bps` more in `IORB`). MMFs compress `WAM` ($\le 60\text{ days}$) into `ON RRP` during hike cycles and extend into T-Bills when hikes pause. |
+| **Why `ON RRP` Draining Matters** | T-Bill Supply Absorption | MMFs are barred by SEC Rule 2a-7 from buying equities. When `ON RRP` drains into T-Bills, MMFs absorb Treasury issuance so `QT` and deficits do not drain **Commercial Bank Reserves**. Once `ON RRP` is near `$0`, further `QT` or `TGA` rebuilds drain bank reserves dollar-for-dollar. |
+| **Standing Repo Facility (`SRF`)** | `8:15 AM & 1:30 PM EST` Ceiling | Injects cash at the Upper Band against Treasury/Agency collateral. Ignore small `$25M–$105M` backup plumbing tests and 1-day quarter-end dealer `FICC/GSD` window dressing; only **multi-day non-turn SRF usage (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** signals tighter bank reserve conditions. |
 
 </details>
 
-🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 11 Days: **FOMC Rate Decision & Press Conference** (2026-11-04) | ⚠️ in 11 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
+🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 10 Days: **FOMC Rate Decision & Press Conference** (2026-11-04) | ⚠️ in 10 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
 
-<details>
+<details markdown="1">
 <summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
 
 > **The Mechanics of Macro IV (Why Options Desks Care):**
@@ -105,13 +105,13 @@
 
 | Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
 | :--- | :--- | :---: | :---: | :--- |
-| **2026-11-04** | FOMC Rate Decision & Press Conference | ⚠️ in 11 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
-| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 11 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
-| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 13 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-11-12** | Core CPI Inflation Data | 📅 in 19 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-11-13** | PPI Wholesale Inflation | 📅 in 20 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
-| **2026-11-20** | Monthly OPEX | 📅 in 27 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
-| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 41 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-04** | FOMC Rate Decision & Press Conference | ⚠️ in 10 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 10 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 12 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | 📅 in 18 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | 📅 in 19 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 26 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 40 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
 
 </details>
 <!-- END_MACRO_PULSE_STRIP -->
@@ -122,24 +122,27 @@
 > **Discipline:** Cash Secured Puts on Deep Value survivors, collateralized by 4.5% Treasury Yield floor.
 > Filtered for Absolute IV > 30% and Delta <= -0.15.
 
-<details>
+<details markdown="1">
 <summary>💡 <b>What is the Yield Stacker Engine? (How CSPs + Treasury Floor Work)</b></summary>
 
-> **The Double Stack Advantage:**
-> Instead of letting cash sit idle, your collateral sits in short-term U.S. Treasury bills earning ~4.5%.
-> Simultaneously, we sell out-of-the-money Cash-Secured Puts (Delta <= -0.15) on companies that already passed our balance-sheet screen.
-> - **If the stock stays flat or rises:** The option expires worthless. You keep the 4.5% Treasury yield PLUS the option premium.
-> - **If the stock drops below the strike:** You get assigned and buy an undervalued company at an even bigger discount.
+> **The Double Stack Advantage:** Instead of letting cash sit idle, your collateral sits in short-term U.S. Treasury bills earning ~4.5% while simultaneously backing out-of-the-money Cash-Secured Puts (`Delta <= -0.15`) on balance-sheet survivors.
+
+| Outcome Scenario | Option Expiration Result | Portfolio Return & Capital Impact |
+| :--- | :---: | :--- |
+| **Stock Stays Flat or Rises** | Put expires worthless (`OTM`) | You keep the `~4.5%` Treasury bill yield **plus** 100% of the option `bid` premium. |
+| **Stock Drops Below Strike** | Assigned shares at Strike | You acquire a pre-vetted, undervalued company at your target discount minus the premium already collected. |
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>💡 <b>Yield Stacker Terminology Guide (Delta, Absolute IV, Fib Zone)</b></summary>
 
-> - **Delta (-0.10 to -0.15):** The statistical likelihood of assignment. A -0.14 delta means an ~86% probability that the put expires worthless and you keep the cash.
-> - **Absolute IV:** Implied Volatility. Higher IV means market anxiety is elevated, paying us inflated option premium.
-> - **Stacked Annual Yield:** The combined annualized return of the option premium added to the 4.5% Treasury floor.
-> - **Fib Zone:** Technical support zones (Discount Zone / Breakdown / Capitulation) indicating whether price is stretched or mean-reverting.
+| Options Metric | Target Range | Institutional Execution Meaning |
+| :--- | :---: | :--- |
+| **Delta** | `-0.10 to -0.15` | Statistical probability of assignment (`-0.14` delta implies an `~86%` probability the put expires worthless). |
+| **Absolute IV** | `Implied Volatility %` | Market anxiety priced into the option chain; elevated IV pays higher upfront put premium. |
+| **Stacked Annual Yield** | `Option Yield + T-Bill` | Combined annualized return of the option `bid` premium stacked on top of the 13-week Treasury floor. |
+| **Fib Zone** | `Discount / Capitulation` | Technical mean-reversion zone indicating whether spot price is compressed near support or extended. |
 
 </details>
 
@@ -153,7 +156,7 @@
 | **`ADBE`** | $271.16 | $230.00 | 42 | -0.13 | 44.9% | $2.10 | **12.43%** | 3 | N/A | Discount Zone |
 | **`NUE`** | $259.49 | $220.00 | 56 | -0.14 | 41.1% | $2.55 | **12.05%** | 560 | N/A | Premium (High) |
 
-<details>
+<details markdown="1">
 <summary>🔎 <b>Click to Expand Full Option Chain (55 Opportunities Available)</b></summary>
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
@@ -216,23 +219,27 @@
 # 📡 Section 2: Incubation Radar (Whale Dark Pool Accumulation)
 > **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
 
-<details>
+<details markdown="1">
 <summary>💡 <b>What is the Incubation Radar? (Supply-Chain NLP & Dark Pools)</b></summary>
 
-> **The Edge:**
-> Wall Street tracks companies individually. We track recursive supplier-customer graphs.
-> When mega-caps (Dell, Seagate, Microsoft) expand capex, the cash cascades into their Tier-1 and Tier-2 component suppliers.
-> We combine supply-chain graph recursion with Dark Pool volume tape reading (Whale Stealth >= 70) to catch accumulation *before* earnings releases.
+> **The Recursive Supply-Chain Edge:** When mega-cap anchors (Dell, Seagate, Microsoft) expand capital expenditures, revenue cascades into their Tier-1 and Tier-2 component suppliers before consensus analysts revise estimates.
+
+| Signal Layer | Data Source & Filter | How It Spots Early Accumulation |
+| :--- | :--- | :--- |
+| **1. 10-K Supply-Chain Graph** | SEC Item 1 / 1A / 7 Customer Disclosures | Maps recursive supplier-customer dependencies across multi-billion-dollar capex bottlenecks. |
+| **2. Whale Stealth Tape** | Dark Pool & OBV Polynomial Slope (`≥ 70`) | Detects quiet institutional absorption before price breaks out of consolidation. |
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>💡 <b>Whale Tape Terminology Guide (Coiled, Confluence, Elastic Disparity)</b></summary>
 
-> - **Confluence (>= 2):** The company is an essential supplier to **two or more** mega-trend anchors simultaneously (e.g. supplying both DELL and STX).
-> - **Whale Stealth (0-100):** Dark pool accumulation score based on On-Balance Volume (OBV) polynomial slope. Scores >= 70 indicate aggressive institutional absorption without price spiking.
-> - **Coiled Status:** Price is compressed near 52-week lows while institutional accumulation volume is expanding (a coiled spring).
-> - **Elastic Disparity:** The percentage gap between the supplier's performance and its primary anchor customer. High positive disparity indicates a catch-up re-rating is overdue.
+| Incubation Metric | Hurdle / Reading | Microstructure Interpretation |
+| :--- | :---: | :--- |
+| **Confluence** | `≥ 2 Anchors` | The company is an essential supplier to **two or more** mega-trend anchors simultaneously. |
+| **Whale Stealth** | `0 – 100` (`≥ 70` Strong) | Dark pool accumulation score derived from On-Balance Volume (OBV) slope without retail price chasing. |
+| **Coiled Status** | `Compressed Volatility` | Price is tightly consolidated near support while underlying institutional accumulation volume expands. |
+| **Elastic Disparity** | `% Lag vs. Anchor` | Performance gap between the supplier and its primary anchor customer indicating catch-up re-rating potential. |
 
 </details>
 
@@ -273,39 +280,42 @@
 > - **Stage 1 Convergence Filter:** Requires >= 2 Hunting Buckets, `Piotroski F-Score >= 6`, `1Y Share Dilution <= +5.0%`, `SBC % OCF <= 30.0%`, `Altman Z >= 1.81` (or Net Cash > $0.00), `TTM Revenue >= $10M`, and `Market Cap >= $15M`.
 > - **Funnel Attrition:** Compresses `5,349` operating companies down to **`38` strict forensic survivors** (`99.3%` attrition rate).
 
-<details>
+<details markdown="1">
 <summary>💡 <b>What is Multi-Bucket Convergence? (Vampire Sieve + 4 Hunting Buckets)</b></summary>
 
-> **The Funnel:** We scan all 5,349 SEC operating filers with adversarial accounting filters:
-> 1. **Step A Dilution Vampire Sieve:** Automatically eliminates companies burning cash while inflating share counts.
-> 2. **The 4 Hunting Buckets:**
->    - `1_CASH`: Trading near or below net cash / Graham NCAV.
->    - `2_FCF`: Trailing Free Cash Flow yield >= 10%.
->    - `3_BUYBACK`: Shrinking share count via aggressive share repurchases.
->    - `4_INSIDER`: Form 4 C-Suite open-market cluster purchases.
-> 3. **The Attrition:** Only 38 companies in the entire U.S. stock market survive all filters (99.3% elimination rate).
+| Convergence Funnel Stage | Quantitative Filter / Hurdle | Strategic Function |
+| :--- | :--- | :--- |
+| **Step A: Dilution Sieve** | Rejects `FCF < $0` AND `1Y Dilution > +2.0%` | Eliminates cash-burning companies subsidizing operations by diluting shareholders. |
+| **Bucket `1_CASH`** | Trading near or below Net Cash / Graham NCAV / TBV | Hard balance-sheet liquidation floor backstopping principal. |
+| **Bucket `2_FCF`** | Trailing Free Cash Flow Yield `≥ 10.0%` | High organic cash generation relative to market price. |
+| **Bucket `3_BUYBACK`** | Shrinking share count via share repurchases | Management retiring equity and increasing per-share intrinsic value. |
+| **Bucket `4_INSIDER`** | Form 4 C-Suite open-market cluster buying (`Code P`) | Executives deploying personal after-tax cash on the open market. |
+| **Funnel Attrition** | `5,349` Active Filers → `38` Survivors (`99.3%` Attrition) | Requires `≥ 2` Hunting Buckets plus mandatory Piotroski, Altman Z, and SBC gates. |
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>💡 <b>The 10-K Forensic Scorecard Guide (Piotroski, Altman Z, Beneish M)</b></summary>
 
-> - **Piotroski F-Score (6/9 to 9/9):** Tests 9 fundamental health checks across profitability, leverage, liquidity, and operating efficiency. 9/9 represents a flawless operating turnaround.
-> - **Altman Z-Score (> 1.81):** Measures distance from bankruptcy based on working capital, retained earnings, and asset coverage. Safe zone is > 3.0; distress zone is < 1.81.
-> - **Beneish M-Score (< -1.78):** Mathematical probability that earnings are being manipulated or revenues artificially accelerated. Scores below -1.78 are deemed clean.
-> - **SBC % OCF (<= 30%):** Stock-Based Compensation as a percentage of Operating Cash Flow. Prevents management from paying themselves in stock while reporting 'profitable' cash flow.
+| Forensic Model | Passing Hurdle | What It Verifies in SEC 10-K / 10-Q Filings |
+| :--- | :---: | :--- |
+| **Piotroski F-Score** | `6/9 to 9/9` | Tests 9 fundamental health checks across profitability, leverage, liquidity, and operating efficiency. |
+| **Altman Z-Score** | `> 1.81` (`> 2.99` Safe) | Measures solvency distance based on working capital, retained earnings, EBIT, and asset coverage. |
+| **Beneish M-Score** | `< -1.78 (Clean)` | Mathematical index detecting aggressive accruals or artificial revenue inflation (`> -1.78` = Manipulation Risk). |
+| **SBC % OCF** | `≤ 30.0%` | Stock-Based Compensation as a % of Operating Cash Flow; prevents executive stock handouts from masking burn. |
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>💡 <b>Portfolio Weighting & Execution Disciplines (Munger / Graham Rules)</b></summary>
 
-> **Disciplined Capital Allocation:**
-> 1. **Tier 1: Core Operating Compounders (65%–70% Target Allocation):** High-conviction structural cash compounders (`STRT`, `NRDS`, `ZUMZ`). Clean operating income, expanding gross margins, zero net debt, and active share cannibalization. Time is your friend.
-> 2. **Tier 2: Micro-Turnarounds & Activist Catalysts (20%–25% Target Allocation):** Battered companies with proven catalysts (`LOVE`, `CRWS`)—verified open-market C-Suite cluster buys with personal cash or 13D activist involvement.
-> 3. **Tier 3: Graham Net-Nets & High-Risk Asset Plays (Capped Strictly at ≤ 5% Total):** Asymmetric cigar-butt liquidation plays (`UEIC`, `IZEA`, `DLTH`). Strictly capped to under 5% of portfolio capital to immunize the fund against operational cash burn while capturing multi-bagger re-rating upside.
-> 4. **Deterministic 3-Tranche Execution:** Tranche 1 (Market baseline 33.3%), Tranche 2 (Support retest -6.0%), Tranche 3 (Capitulation wick -12.5%).
-> 5. **ADDV Liquidity Guardrail:** Position sizes are calibrated against 30-day Average Daily Dollar Volume to ensure exit liquidity within 1–2 trading days without moving the tape.
+| Portfolio Sleeve / Rule | Target Sleeve Weight | Per-Name Target / Cap | Core Allocation & Execution Discipline |
+| :--- | :---: | :---: | :--- |
+| **Tier 1: Core Compounders** | `65% – 70%` | `5.5%` / `7.0% Cap` | Structural cash compounders (`ROIC ≥ 15%`, `FCF Yield ≥ 10%`, zero net debt, active share buybacks). |
+| **Tier 3: Micro-Turnarounds** | `20% – 25%` | `2.8%` / `3.5% Cap` | Beaten-down operators with verified C-suite Form 4 open-market cluster buying or 13D catalysts. |
+| **Tier 2: Graham Net-Nets** | `≤ 5.0% Strict` | `1.0%` / `1.5% Cap` | Asymmetric liquidation plays ($P \le 0.67 \times \text{NCAV}$); capped to immunize the portfolio against burn. |
+| **3-Tranche Limit Ladders** | `33.3% / 33.3% / 33.4%` | `T1 Mkt / T2 -1x ATR / T3 -2x ATR` | Never market-buy 100% at once; let volatility pullbacks fill lower limit tranches automatically. |
+| **ADDV & Dry Powder Rules** | `≥ 10.0% Cash Floor` | `≤ 2.0% of 30d ADDV` | Caps position size to 1–2 days of volume; unallocated/trimmed capital stays in Treasury Bills. |
 
 </details>
 
@@ -412,9 +422,8 @@
 ---
 *Antigravity V3 Core | Zero Discretion | Adversarial Validation*
 
-<details>
+<details markdown="1">
 <summary><b>📖 Antigravity V3: Quantitative Engine & Execution Methodology (Click to Expand)</b></summary>
-<br>
 
 # Antigravity V3: Quantitative Engine & Execution Methodology
 
