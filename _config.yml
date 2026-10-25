@@ -2,5 +2,5 @@ theme: jekyll-theme-primer
 markdown: kramdown
 kramdown:
   input: GFM
-  parse_block_html: true
+  parse_block_html: false
   hard_wrap: false
