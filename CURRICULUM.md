@@ -269,7 +269,7 @@ Before computing valuation multiples, every company must survive 4 mathematical 
 
 ## 3. The Forensic Accounting Scorecard
 
-### A. Piotroski F-Score ($0 \text{ to } 9$)
+### A. Piotroski F-Score (0 to 9)
 Nine binary accounting checks across three core dimensions:
 * **Profitability:**
   1. $ROA > 0$: $\frac{\text{Net Income}}{\text{Total Assets}} > 0$
