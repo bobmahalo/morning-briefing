@@ -1,5 +1,5 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-10-27 16:32:57 UTC` | **Reconciliation Date:** `2026-10-27` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-10-27 16:45:44 UTC` | **Reconciliation Date:** `2026-10-27` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -8,7 +8,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-10-27 16:32 UTC | Reconciliation Date: 2026-10-27                 │
+│ Generated: 2026-10-27 16:45 UTC | Reconciliation Date: 2026-10-27                 │
 │ Total Portfolio NAV: $100,352.86 | Dry Powder: $86,935.00 (86.6%)       │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -24,16 +24,20 @@
 ## 🛡️ Active Holdings Matrix
 > Currently tracking **8 active/partially trimmed positions** under multi-tranche execution:
 
-| Ticker | Archetype | Age (Days) | Shares | Blended VWAP | Spot Close | Market Value | Unrealized P&L | Target 1 (+30%) | Target 2 (+65%) | Hard Stop | Catastrophic Stop |
-| :--- | :--- | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: | :---: |
-| **`STRT`** | `COMPOUNDER` | **2d** | 30 | $61.98 | $63.54 | $1,906.20 | **+$46.80 (+2.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
-| **`NRDS`** | `COMPOUNDER` | **2d** | 525 | $9.94 | $10.45 | $5,486.25 | **+$269.12 (+5.2%)** | $14.51 | $18.41 | $8.96 | `$7.46` |
-| **`ZUMZ`** | `COMPOUNDER` | **2d** | 262 | $13.96 | $13.93 | $3,649.66 | **$-8.07 (-0.2%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
-| **`UEIC`** | `NET_NET` | **2d** | 65 | $5.17 | $5.30 | $344.50 | **+$8.45 (+2.5%)** | $6.20 | $9.53 | $3.86 | `$3.88` |
-| **`IZEA`** | `NET_NET` | **2d** | 141 | $2.31 | $2.37 | $334.17 | **+$8.46 (+2.6%)** | $2.57 | $3.08 | $1.78 | `$1.73` |
-| **`LOVE`** | `TURNAROUND` | **2d** | 60 | $14.75 | $15.09 | $905.40 | **+$20.40 (+2.3%)** | $20.71 | $26.92 | $11.61 | `$11.06` |
-| **`CRWS`** | `TURNAROUND` | **2d** | 186 | $2.43 | $2.40 | $446.40 | **$-5.58 (-1.2%)** | $3.17 | $4.12 | $1.83 | `$1.82` |
-| **`DLTH`** | `QUARANTINED` | **2d** | 83 | $4.00 | $4.16 | $345.28 | **+$13.28 (+4.0%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
+| Ticker | Archetype | Age (Days) | Shares | Blended VWAP | Spot Close | Market Value | % NAV | Unrealized P&L | Target 1 (+30%) | Target 2 (+65%) | Hard Stop | Catastrophic Stop |
+| :--- | :--- | :---: | ---: | ---: | ---: | ---: | :---: | ---: | :---: | :---: | :---: | :---: |
+| **`STRT`** | `COMPOUNDER` | **2d** | 30 | $61.98 | $63.54 | $1,906.20 | **1.9%** | **+$46.80 (+2.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
+| **`NRDS`** | `COMPOUNDER` | **2d** | 525 | $9.94 | $10.45 | $5,486.25 | **5.5%** | **+$269.12 (+5.2%)** | $14.51 | $18.41 | $8.96 | `$7.46` |
+| **`ZUMZ`** | `COMPOUNDER` | **2d** | 262 | $13.96 | $13.93 | $3,649.66 | **3.6%** | **$-8.07 (-0.2%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
+| **`UEIC`** | `NET_NET` | **2d** | 65 | $5.17 | $5.30 | $344.50 | **0.3%** | **+$8.45 (+2.5%)** | $6.20 | $9.53 | $3.86 | `$3.88` |
+| **`IZEA`** | `NET_NET` | **2d** | 141 | $2.31 | $2.37 | $334.17 | **0.3%** | **+$8.46 (+2.6%)** | $2.57 | $3.08 | $1.78 | `$1.73` |
+| **`LOVE`** | `TURNAROUND` | **2d** | 60 | $14.75 | $15.09 | $905.40 | **0.9%** | **+$20.40 (+2.3%)** | $20.71 | $26.92 | $11.61 | `$11.06` |
+| **`CRWS`** | `TURNAROUND` | **2d** | 186 | $2.43 | $2.40 | $446.40 | **0.4%** | **$-5.58 (-1.2%)** | $3.17 | $4.12 | $1.83 | `$1.82` |
+| **`DLTH`** | `QUARANTINED` | **2d** | 83 | $4.00 | $4.16 | $345.28 | **0.3%** | **+$13.28 (+4.0%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
+| **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$86,935.00** | **86.6%** | **+$10.72/day** | — | — | — | `4.50% APY` |
+| **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$100,352.86** | **100.0%** | **+$352.86 (+0.35%)** | — | — | — | `🟢 HEALTHY` |
+
+> **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **4.50% APY** (`^IRX` benchmark / Schwab SWVXX equivalent), generating **+$10.72 / day** (+$3,912.07/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
 
 <details markdown="1">
 <summary>🔎 <b>Click to Expand Position-Level Audit Ledgers (Fills, VWAP Ratchets & Milestones)</b></summary>
