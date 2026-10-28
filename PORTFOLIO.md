@@ -1,5 +1,5 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-10-28 13:51:50 UTC` | **Reconciliation Date:** `2026-10-28` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-10-28 14:59:43 UTC` | **Reconciliation Date:** `2026-10-28` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -8,7 +8,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-10-28 13:51 UTC | Reconciliation Date: 2026-10-28            │
+│ Generated: 2026-10-28 14:59 UTC | Reconciliation Date: 2026-10-28            │
 │ Total Portfolio NAV: $100,457.04 | Dry Powder: $86,935.00 (86.5%)            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -34,10 +34,10 @@
 | **`LOVE`** | `TURNAROUND` | **3d** | 60 | $14.75 | $15.18 | $910.80 | **0.9%** | **+$25.80 (+2.9%)** | $20.71 | $26.92 | $11.61 | `$11.06` |
 | **`CRWS`** | `TURNAROUND` | **3d** | 186 | $2.43 | $2.45 | $455.70 | **0.5%** | **+$3.72 (+0.8%)** | $3.17 | $4.12 | $1.83 | `$1.82` |
 | **`DLTH`** | `QUARANTINED` | **3d** | 83 | $4.00 | $4.12 | $341.96 | **0.3%** | **+$9.96 (+3.0%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
-| **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$86,935.00** | **86.5%** | **+$10.72/day** | — | — | — | `4.50% APY` |
+| **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$86,935.00** | **86.5%** | **+$8.53/day** | — | — | — | `3.58% APY` |
 | **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$100,457.04** | **100.0%** | **+$457.04 (+0.46%)** | — | — | — | `🟢 HEALTHY` |
 
-> **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **4.50% APY** (`^IRX` benchmark / Schwab SWVXX equivalent), generating **+$10.72 / day** (+$3,912.07/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
+> **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **3.58% APY** (brokerage core money market cash sweep posted rate as of Oct-27-2026), generating **+$8.53 / day** (+$3,112.27/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
 
 <details markdown="1">
 <summary>🔎 <b>Click to Expand Position-Level Audit Ledgers (Fills, VWAP Ratchets & Milestones)</b></summary>
