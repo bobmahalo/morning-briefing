@@ -1,6 +1,6 @@
 # 🎓 The Antigravity Morning Briefing: Master Architecture & Quantitative Curriculum
 **Document:** Institutional Operating Manual & Morning Companion  
-**System:** Antigravity V3 Core (Triple-Engine System)  
+**System:** Antigravity V3 Core (Dual-Engine System)  
 **Methodology:** Zero Discretion | Adversarial Accounting | Deterministic Execution  
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
@@ -32,16 +32,15 @@ Every metric, ratio, and threshold exists to eliminate capital-destruction traps
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ LEVEL 1: THE TRIPLE ENGINE SCANS                                       │
+│ LEVEL 1: THE DUAL-ENGINE STRATEGY DESKS                                │
 │ 1. Yield Stacker (CSPs + T-Bills) ── Minimum 10%–20%+ Stacked Yield    │
-│ 2. Incubation Radar (Supply-Chain NLP + Dark Pools) ── Coiled Springs  │
-│ 3. Deep-Value Convergence (Dilution Sieve + 4 Buckets) ── 38 Survivors │
+│ 2. Deep-Value Convergence (Dilution Sieve + 4 Buckets) ── 38 Survivors │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ LEVEL 2: DETERMINISTIC STAGE 3 EXECUTION & SIZING                      │
-│ 1%–2% ADDV Liquidity Caps | 3-Tranche Limit Ladders | Valuation Exits  │
+│ LEVEL 2: $100K MODEL PORTFOLIO EXECUTION & LIFECYCLE                   │
+│ 1%–2% ADDV Caps | 3-Tranche Limit Ladders | MMF Dry Powder Accrual     │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -176,40 +175,7 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
 
 ---
 
-# MODULE 3: Engine 2 — The Incubation Radar (Supply-Chain NLP)
-
-```
-                       RECURSIVE SUPPLY-CHAIN TOLLBOOTHS
-┌──────────────────────────┐               ┌──────────────────────────┐
-│   MEGA-TREND ANCHORS     │ ──Capex Flow─►│   TIER-1/2 SUPPLIERS     │
-│   DELL, STX, MSFT        │               │   ULS, CRM, TTWO         │
-│   (Up +200% to +450%)    │               │   (Flat / Coiled Base)   │
-└──────────────────────────┘               └──────────────────────────┘
-                                                        │
-                                                        ▼
-                                           ELASTIC DISPARITY RE-RATING
-```
-
-### 1. The Strategy Mandate (Independent Supply-Chain Desk)
-Wall Street analyzes companies as isolated silos. Engine 2 maps recursive supplier-customer relationships extracted from SEC 10-K Item 1 disclosures, enforcing a **`< $100B` Pure-Play Market Cap Ceiling** (`MEGA_CAP_CUTOFF`) to filter out mega-cap conglomerate noise.
-
-### 2. Core Metrics & Definitions
-* **Confluence ($\ge 2$):** The company is disclosed as a supplier/partner across two or more distinct parabolic theme anchors simultaneously.
-* **OBV Stealth Score ($0–100$):** Measures volume-weighted accumulation pressure using the 20-day polynomial slope of On-Balance Volume (OBV). Scores $\ge 70$ identify positive volume slope occurring while price remains compressed.
-* **`🟢 COILED` Status:** Confirms the stock is consolidated in the bottom 35% of its 52-week range ($\le 0.35$) while OBV accumulation slopes upward.
-* **Raw Disparity vs. `0.35x` Catch-Up Gap:** The raw spread compares the anchor's 52-week expansion against the supplier's 1-year return; the displayed **`0.35x Catch-Up Gap`** applies the conservative `0.35x` transmission haircut directly in the table.
-
-### 3. The Transmission Haircut: Addressing Overpromising
-> [!WARNING]
-> **Charlie Munger's Law of Supplier Economics:** A component supplier is rarely a 1:1 substitute for a monopoly anchor. Component suppliers have lower pricing power and customer concentration risk.
-> 
-> *The Quantitative Adjustment:* Instead of assuming the supplier catches up 100% to the single highest-performing anchor, we apply an empirical **Supplier Transmission Factor ($\beta_{\text{sc}} \approx 0.35 - 0.50$)** against the **Blended Average** of its anchor customers as a conservative research heuristic:
-> $$\text{Realistic Target Catch-Up} = \beta_{\text{sc}} \times \left( \frac{1}{N} \sum_{i=1}^N \text{Anchor Return}_i \right)$$
-> Elastic Disparity is an indicator of **asymmetric coiled tension**, not a guaranteed price target.
-
----
-
-# MODULE 4: Engine 3 — Deep-Value & Multi-Bucket Convergence
+# MODULE 3: Engine 2 — Deep-Value & Multi-Bucket Convergence Radar
 
 ```
                       THE MULTI-BUCKET ADVERSARIAL SIEVE
@@ -312,7 +278,7 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 
 ---
 
-# MODULE 5: Stage 3 Execution, Position Sizing & Exits
+# MODULE 4: $100K Model Portfolio Execution & Capital Lifecycle Desk
 
 ## 1. ADDV Liquidity Guardrail
 * **Formula:**
@@ -322,18 +288,21 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 
 ---
 
-## 2. The Capital Allocation & Dry Powder Mandate
+## 2. Capital Allocation & The Dry Powder Mandate
 > [!IMPORTANT]
-> **The Disciplined Sizing Rule:** If Tier 1 has a 65.0% sleeve target and a 5.5% target per stock, and only 3 stocks pass our screens:
-> * We allocate $3 \times 5.5\% = 16.5\%$ of the portfolio across those 3 stocks.
-> * We **DO NOT** divide the remaining 48.5% across those 3 stocks.
-> * The remaining 48.5% **remains in the Treasury Floor Reserve as dry powder earning 4.5% risk-free interest**, waiting patiently for new qualifying pitches.
+> **The Disciplined Sizing Rule & Tobin's Separation Theorem:**
+> * We enforce a non-negotiable **10.0% Minimum Cash Floor ($10,000)** at all times.
+> * If Tier 1 has a 50.0% sleeve target and a 5.5% target per stock, and only 3 stocks pass our screens:
+>   * We allocate $3 \times 5.5\% = 16.5\%$ of the portfolio across those 3 stocks.
+>   * We **DO NOT** divide the remaining 33.5% across those 3 stocks.
+>   * The unallocated sleeve capital **remains in the Treasury Floor Reserve as dry powder earning 4.50% APY risk-free interest**, generating passive daily cash flow while waiting patiently for new qualifying pitches.
+> * **Automatic Ingestion Rule:** When a newly qualified Stage 3 candidate appears in the Morning Briefing, Option 15 (`reconcile_portfolio.py`) automatically evaluates available dry powder and sleeve ceilings. If compliant with the 10% floor, **it immediately establishes Tranche 1 (33.3% market entry)** and queues Tranches 2 and 3 as pending limit orders.
 
 ---
 
 ## 3. The Volatility-Adjusted 3-Tranche Limit Order Ladder
 Positions are accumulated across three tranches scaled to 14-day Average True Range (`ATR%`) or 30-day Implied Volatility (`IV`), falling back to `-6.0%` and `-12.5%` baselines when volatility history is offline:
-1. **Tranche 1 (Baseline Entry — 33.3%):** Immediate baseline exposure upon passing Stage 2 forensic triage.
+1. **Tranche 1 (Baseline Entry — 33.3%):** Immediate baseline market execution upon passing Stage 2 forensic triage.
 2. **Tranche 2 (Support Retest Limit — 33.3%):** Patient limit order placed `-1.0x ATR%` (`-6.0%` baseline, bounded `[3.0%, 15.0%]`) below market to capture mean-reversion retests.
 3. **Tranche 3 (Capitulation Flush Limit — 33.4%):** Deep limit order placed `-2.0x ATR%` (`-12.5%` baseline, bounded `[1.5x Retest, 30.0%]`) below market to catch liquidity stop-runs and market-wide downdrafts.
 
@@ -341,12 +310,25 @@ Positions are accumulated across three tranches scaled to 14-day Average True Ra
 
 ## 4. Valuation Exits & Multi-Trigger Stop Architecture
 * **Net-Nets & Sub-NCAV Arbitrage (`Tier 2`):** Target 1 scales 50% at `100% Graham NCAV`; Target 2 scales the remaining 50% at `Tangible Book Value` (enforcing a minimum `+15%` spread above Target 1).
-* **Compounders & Turnarounds (`Tiers 1 & 3`):** Continuous hold while `TTM FCF Yield >= 10.0%` and share count declines; scales out into `Zero-Growth Intrinsic Value` / `+30%` and `+65%` re-rating bands, or upon a **`>= 3.0x ADDV` Elevated Volume Exit Trigger**.
+* **Compounders & Turnarounds (`Tiers 1 & 3`):** Continuous hold while `TTM FCF Yield >= 10.0%` and share count declines; scales out into `Zero-Growth Intrinsic Value` / `+30%` (Target 1, triggering breakeven stop ratchet on remaining half) and `+65%` (Target 2, 100% cleanout).
 * **Three-Tier Stop Discipline (Anchored to Filled VWAP):**
   1. **Fundamental Thesis Break:** Exit if `TTM FCF Yield < 8.0%`, operating cash flow turns negative for 2 consecutive quarters, or quarterly operational burn erodes `> 20%` of Net Current Assets.
   2. **Structural Price Stop:** `-15.0%` from VWAP for Compounders; `-20.0%` from VWAP for Net-Nets and Turnarounds.
   3. **Mandatory Catastrophic Stop:** `-25.0%` from VWAP hard price floor that strictly overrides quarterly SEC filing lag.
 * **Retail Exit Liquidity Trigger:** If 30-day volume surges to $\ge 3.0\times$ ADDV while price touches overhead resistance, sell 33%–50% directly into retail breakout FOMO.
+
+---
+
+# MODULE 5: Architecture Integrity & Technical Debt Post-Mortem
+
+> [!NOTE]
+> **Engineering Case Study: Why the Incubation Radar Was Decommissioned (The Munger Law of Technical Debt):**
+> * Charlie Munger famously taught: *"Part of what you must learn is how to handle mistakes and new facts that change the odds. When you find yourself in a hole, stop digging."*
+> * The legacy "Incubation Radar" attempted to dynamically unearth hidden supply-chain bottleneck suppliers from SEC 10-K filings using regex and spaCy NLP.
+> * **The Regulatory Reality:** SEC Regulation S-K Item 101 only mandates disclosure of customers representing $>10\%$ of revenue; companies are legally exempt from disclosing small component suppliers. Scraping 10-Ks yielded mostly mega-cap conglomerates (`MSFT`, `AMD`) or zero suppliers.
+> * **Mathematical Over-Filtering:** Compounding 9 strict quantitative gates on an already sparse NLP pool mathematically yielded a $0.00\%$ pass rate, generating empty tables every morning while compute stalled.
+> * **The Executive Header Deception:** A static placeholder (`Top Bottleneck: ULS`) masked this reality, creating the illusion of an active recommendation where none existed.
+> * **The Decision:** Rather than carrying dead weight code and cosmetic illusions, the engine was permanently excised to keep the system lean, fast, and 100% actionable.
 
 ---
 
