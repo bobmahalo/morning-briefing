@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-10-28 13:51:00 UTC | **Engine:** Antigravity V3 Core (Triple-Engine System)
+**Generated:** 2026-10-28 14:38:49 UTC | **Engine:** Antigravity V3 Core (Triple-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,23 +10,21 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-28 13:51 UTC | Macro Regime: DEFLATION REGIME             │
+│ Generated: 2026-10-28 14:38 UTC | Macro Regime: DEFLATION REGIME             │
 │ VIX: 17.43 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 - **🎯 Top Yield Stacker Pick:** `CROX` ($97.50 Strike, 51 DTE, 17.0% Stacked Yield)
-- **⚡ Top Supply-Chain Bottleneck:** `ULS` (UL Solutions — Confluence 2, Whale Stealth 100/100, Coiled)
 - **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor)
 
 <details markdown="1">
-<summary>💡 <b>How to Trade the 3 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
+<summary>💡 <b>How to Trade the 2 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
 
 | Antigravity Engine | Core Strategy & Universe | Risk & Execution Discipline |
 | :--- | :--- | :--- |
 | **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on liquid S&P 1500 optionable equities, backed 100% by 13-week Treasury bills (`~4.5%`). | Collects option `bid` premium *plus* Treasury interest (contractual yield if unassigned); if assigned, acquires shares at strike minus premium. |
-| **2. Incubation Radar** | Recursive SEC 10-K supply-chain NLP (`< $100B` market cap ceiling) combined with OBV volume accumulation (`Stealth ≥ 70`). | Identifies Tier-1/Tier-2 bottleneck suppliers experiencing volume accumulation before downstream capex re-ratings. |
-| **3. Deep-Value Convergence** | Sifts `5,349` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing. |
+| **2. Deep-Value Convergence** | Sifts `5,349` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing in the $100K Model Portfolio. |
 
 </details>
 
@@ -246,50 +244,7 @@
 
 ---
 
-# 📡 Section 2: Incubation Radar (Whale Dark Pool Accumulation)
-> **Methodology:** Depth-2 Recursive SEC 10-K Supply-Chain Tollbooths filtered via 3-Layer Gated Trommel ($5+ price, $1M+ daily dollar volume, 52W range <= 0.85, and Whale Dark Pool Tape Reading >= 70).
-
-<details markdown="1">
-<summary>💡 <b>What is the Incubation Radar? (Supply-Chain NLP & OBV Accumulation)</b></summary>
-
-> **The Recursive Supply-Chain Edge:** When mega-cap anchors (Dell, Seagate, Nvidia) expand capital expenditures, demand can cascade into their Tier-1 and Tier-2 pure-play suppliers (`< $100B` market cap ceiling).
-
-| Signal Layer | Data Source & Filter | How It Spots Early Accumulation |
-| :--- | :--- | :--- |
-| **1. 10-K Supply-Chain Graph** | SEC Item 1 / 1A / 7 Customer Disclosures | Maps disclosed supplier-customer relationships across multi-billion-dollar capex themes (excluding `$100B+` mega-caps). |
-| **2. OBV Stealth Tape** | 20-Day OBV Polynomial Slope (`≥ 70`) | Measures positive On-Balance Volume accumulation pressure while price remains compressed in the lower 52-week range. |
-
-</details>
-
-<details markdown="1">
-<summary>💡 <b>Incubation Terminology Guide (Coiled, Confluence, 0.35x Catch-Up Gap)</b></summary>
-
-| Incubation Metric | Hurdle / Reading | Microstructure Interpretation |
-| :--- | :---: | :--- |
-| **Confluence** | `≥ 2 Anchors` | The company is disclosed in SEC 10-K filings alongside **two or more** parabolic theme anchors simultaneously. |
-| **OBV Stealth** | `0 – 100` (`≥ 70` Strong) | Volume accumulation score derived from 20-day On-Balance Volume (OBV) slope relative to price compression. |
-| **Coiled Status** | `52W Range ≤ 0.35` | Price is consolidated in the bottom 35% of its 52-week range while volume accumulation slopes upward. |
-| **0.35x Catch-Up Gap** | `0.35 × (Anchor Run - 1Y Ret)` | Heuristic `0.35x` haircut applied to the raw return gap between the anchor's 52-week expansion and the supplier's 1Y return. |
-
-</details>
-
-## 🏛️ Cross-Thematic Bottlenecks (Confluence ≥ 2)
-
-*No candidates currently detected supplying 2 or more independent theme anchors.*
-
-## ⚡ High-Conviction Single-Theme Incubators (Confluence = 1)
-
-*No actionable candidates currently detected passing all 3 Trommel meshes (Discount + Liquidity + Whale Absorption).*
-
-> [!TIP]
-> **Execution Strategy & Protective Stop:** We apply a conservative 0.35x Supplier Transmission Haircut to 
-> the blended anchor move to prevent anchoring to irrational targets. Accumulate on Green Light tape 
-> accumulation using ATM or Delta ≥ 0.70 LEAPS. Set a trailing protective stop at -10% from entry, 
-> or exit immediately if the Whale Stealth score breaks down beneath 60.
-
----
-
-# 🏛️ Section 3: Deep-Value & Multi-Bucket Convergence Radar
+# 🏛️ Section 2: Deep-Value & Multi-Bucket Convergence Radar
 > **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,349` companies in SEC EDGAR, excluding Financials/REITs `SIC 6000–6799`).
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > +15.0%` or `Stock Issuance ≥ 10%` of Market Cap).
 > - **The 4 Hunting Buckets:** `1_CASH` / `1_TBV` (Net Cash / NCAV / Tangible Book floor) | `2_FCF` (`≥ 12%` FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal `≤ -3%` net of SBC) | `4_INSIDER` (Cluster insider buying).
