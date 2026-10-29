@@ -255,6 +255,9 @@ Exit targets adapt dynamically to the stock's archetype so you don't hold a deca
 
 If a stock survives Level 1, Level 2 takes **30 seconds** to inspect the internal corporate plumbing across 7 forensic sections.
 
+> **⚡ Kramdown Tabular Dropdown Architecture:**  
+> All 7 Level 2 diagnostic sections feature collapsed-by-default `<details markdown="1">` drawers containing clean Markdown tables (`| :--- |`). This keeps the 10-Second Decision Card in Level 1 instantly actionable without visual clutter, while allowing institutional allocators to inspect 5-year capital allocation ledgers, historical valuation corridors, contractual debt maturity schedules, secondary bond tapes, and insider Form 4 transaction receipts with a single click.
+
 ---
 
 ## Section 1: The Cash Flow Engine (`models/working_capital_audit.py`)
@@ -301,6 +304,17 @@ Instead of relying on static debt-to-equity ratios, the engine models **Syntheti
    * **`COVERED_BY_ORGANIC_FCF`:** Cash + 2-year FCF capacity covers ≥ 100% of maturities. Zero refinancing dependency.
    * **`REFINANCING_DEPENDENCY_WARNING`:** Positive FCF, but internal liquidity leaves a deficit against maturities. Company must refinance or roll credit facilities.
    * **`ACUTE_MATURITY_WALL_DISTRESS`:** Negative FCF / cash burn with debt maturities exceeding liquid cash reserves. High risk of distress or dilution.
+4. **Secondary Corporate Bond Market Intelligence & The Credit Canary Engine (`scripts/test_bond_pull.py` & `data_lake/bonds/`):**
+   Contractual SEC 10-K footnote schedules tell us what management *owes*; the secondary corporate bond market reveals what institutional credit investors *believe* about management's ability to refinance. The engine integrates live public bond issues across CUSIPs, coupons, maturities, secondary trade prices, and yields:
+   * **Weighted Yield-to-Maturity (YTM):**
+     $$\text{Weighted YTM} = \sum_{i=1}^{N} \left( \frac{\text{Principal}_i}{\sum \text{Principal}} \times \text{YTM}_i \right)$$
+   * **Credit Spread / Option-Adjusted Spread (OAS in bps over Duration-Matched Treasuries):**
+     $$\text{Credit Spread (bps)} = (\text{Weighted YTM} - \text{Benchmark Treasury Yield}) \times 10,000$$
+   * **The Duration Discount vs. Credit Distress Canary Rule:**
+     * **Duration Discount (Benign):** When interest rates rise, long-duration corporate bonds naturally trade at discounts to par ($70\text{–}85\text{ cents on the dollar}$) simply due to interest rate duration math. If the credit spread remains tight ($< 150\text{ bps}$) and credit ratings remain prime investment grade (`A` / `BBB`), the discount is benign duration repricing—not insolvency risk.
+     * **Credit Canary (Distressed):** If secondary bond prices collapse into the $40\text{–}60\text{ cent}$ range while yields spike above $10\text{–}15\%$ and credit spreads blow out beyond $+500\text{ bps}$, institutional bondholders are pricing in severe default or restructuring probability. This acts as an unyielding **Credit Canary** that invalidates any optical "cheapness" in the equity.
+   * **Zero-Debt Equity Fallback (Cash Fortress):**
+     Companies operating with zero funded debt obligations (`CRUS`, `NRDS`) bypass bond tables gracefully. The engine renders an **Equity Shield & Cash Fortress** badge, confirming zero debt refinancing dependency and eliminating empty or broken report sections.
 
 ---
 

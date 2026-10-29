@@ -26,8 +26,8 @@ Every metric, ratio, and threshold exists to eliminate capital-destruction traps
 ```
                        ANTIGRAVITY SYSTEM TOPOLOGY
 ┌────────────────────────────────────────────────────────────────────────┐
-│ LEVEL 0: MACRO WEATHER & PLUMBING PULSE                                │
-│ Global Tape (8 Assets) | 4-Quadrant Macro Model | Yield Curve | Net Liq│
+│ LEVEL 0: MACRO WEATHER, PLUMBING PULSE & CREDIT HEALTH                 │
+│ Global Tape (8 Assets) | 4-Quadrant Macro | HY OAS Spread | Net Liq    │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     │
                                     ▼
@@ -43,6 +43,9 @@ Every metric, ratio, and threshold exists to eliminate capital-destruction traps
 │ 1%–2% ADDV Caps | 3-Tranche Limit Ladders | MMF Dry Powder Accrual     │
 └────────────────────────────────────────────────────────────────────────┘
 ```
+
+> **⚡ Kramdown Tabular Dropdown Architecture:**  
+> To solve the tension between exhaustive quantitative auditability and a 60-second executive reading experience, every dense reference table and deep-dive methodology guide is enclosed in a **Kramdown Tabular Dropdown Drawer** (`<details markdown="1">`). The main viewport delivers a clean, coffee-friendly dashboard while full underlying option chains (59+ contracts), 45-day catalyst schedules, and forensic scorecards remain accessible on demand without page clutter.
 
 ---
 
@@ -135,6 +138,22 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
 5. **Core CPI Inflation:** Monthly BLS consumer inflation report.
 6. **PPI Wholesale Inflation:** Monthly producer price leading indicator.
 7. **Treasury Quarterly Refunding Announcement (QRA):** First Wednesday of Feb, May, Aug, Nov (`get_first_wednesday`). Dictates whether debt is financed via short T-Bills or long-duration coupon bonds.
+
+---
+
+## 6. Systemic Credit Health & Credit Spread Regimes (ICE BofA High Yield OAS)
+* **Data Source & Oracle:** ICE BofA US High Yield Index Option-Adjusted Spread (`BAMLH0A0HYM2` via FRED / `ingestion/macro_vitals.py`).
+* **Formula & Definition:**
+  $$\text{HY OAS (bps)} = (Y_{\text{High Yield Index}} - Y_{\text{Duration-Matched Treasury}}) \times 10,000$$
+* **Why Credit Spreads Are the Premier Macro Canary:**
+  Credit markets are structurally dominated by sophisticated institutional lenders, bondholders, and collateralized loan desks. Unlike retail-heavy equity markets that can remain momentum-driven or narrative-obsessed for months, corporate credit desks demand immediate compensation for default risk and refinancing friction. When systemic liquidity tightens or corporate balance sheets begin to crack, **corporate bond credit spreads blow out weeks before equity indexes react**.
+* **The 3 Credit Spread Regimes (`models/macro_regime.py`):**
+  * **`🟢 BENIGN_SPREAD` ($< 350\text{ bps}$):** Credit transmission is smooth; borrowing costs are benign; capital markets are open for refinancing; low near-term corporate default risk. Accommodative for equity valuations.
+  * **`🟡 CAUTION_SPREAD` ($350\text{ to } 500\text{ bps}$):** Spreads are widening into historical median resistance; banks and bond investors begin rationing credit; lower-tier borrowers face higher rollover coupons.
+  * **`🔴 STRESS_SPREAD` ($> 500\text{ bps}$):** Acute credit distress; high-yield refinancing freezes; covenant breaches and corporate bankruptcies accelerate. Deep-value allocators halt aggressive cyclical exposure and enforce strict net cash / NCAV liquidation floors.
+* **Directional Spread Momentum ($\Delta\text{Spread}$):**
+  * $\Delta\text{Spread} \le -5\text{ bps}$: *Tightening credit conditions* (accommodative tailwind).
+  * $\Delta\text{Spread} \ge +10\text{ bps}$: *Widening credit conditions* (risk-off headwind).
 
 ---
 
@@ -316,6 +335,18 @@ Positions are accumulated across three tranches scaled to 14-day Average True Ra
   2. **Structural Price Stop:** `-15.0%` from VWAP for Compounders; `-20.0%` from VWAP for Net-Nets and Turnarounds.
   3. **Mandatory Catastrophic Stop:** `-25.0%` from VWAP hard price floor that strictly overrides quarterly SEC filing lag.
 * **Retail Exit Liquidity Trigger:** If 30-day volume surges to $\ge 3.0\times$ ADDV while price touches overhead resistance, sell 33%–50% directly into retail breakout FOMO.
+
+---
+
+## 5. Brokerage Sweep Yield, Settlement Accrual & Dynamic Cash Accounting
+* **Active Cash Row (`CASH_USD`):** Unallocated capital and position exit proceeds are tracked directly in the Active Matrix as `CASH_USD` and backed by the stateful double-entry SQLite ledger (`data_lake/portfolio_tracker.sqlite`).
+* **Empirical Sweep Yield Calibration:** Settled cash earns an active brokerage sweep yield calibrated to the empirical **3.58% annual rate** ($+\$8.53/\text{day}$ on $\$87,000$ cash reserves), providing a steady baseline income floor that stacks on top of investment gains.
+* **SEC Rule 15c6-1 ($T+1$) Settlement Accrual:**
+  * When a position is trimmed or fully closed (e.g., Target 1 50% scale-out or stop hit), the proceeds are tracked as **unsettled funds** for 1 trading session under SEC $T+1$ rules.
+  * Sweep interest begins accruing automatically on day $T+2$ upon cash settlement, perfectly reflecting physical brokerage cash sweep mechanics with zero simulated leakage.
+* **Dynamic Dry Powder Floor Formula:**
+  $$\text{Required Cash Floor} = \max(\$10,000.00, 10.0\% \times \text{Portfolio NAV})$$
+  As the portfolio compounds in net asset value, the absolute dollar value of the dry powder reserve scales proportionally, guaranteeing that the fund always retains sufficient liquidity to exploit deep market panics without forced selling.
 
 ---
 
