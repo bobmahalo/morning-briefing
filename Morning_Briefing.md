@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-10-28 14:38:49 UTC | **Engine:** Antigravity V3 Core (Triple-Engine System)
+**Generated:** 2026-10-29 13:43:25 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,13 +10,13 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-10-28 14:38 UTC | Macro Regime: DEFLATION REGIME             │
-│ VIX: 17.43 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
+│ Generated: 2026-10-29 13:43 UTC | Macro Regime: DEFLATION REGIME             │
+│ VIX: 16.99 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **🎯 Top Yield Stacker Pick:** `CROX` ($97.50 Strike, 51 DTE, 17.0% Stacked Yield)
-- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor)
+- **🎯 Top Yield Stacker Pick:** `VSXY` ($75.00 Strike, 50 DTE, 18.6% Stacked Yield)
+- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor, Piotroski 9/9)
 
 <details markdown="1">
 <summary>💡 <b>How to Trade the 2 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
@@ -32,12 +32,12 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-28 13:51 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-10-29 13:43 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ Comp**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7,721.7** | **26,448.5** | **2,821.6** | **4.99%** | **$101.95** | **$4,063.50** | **$80,335** | **17.43** |
-| `-0.01% 🔴` | `-0.11% 🔴` | `+0.10% 🟢` | `+0 bps ⚪` | `+2.05% 🔴` | `-0.27% 🔴` | `-0.58% 🔴` | `-0.09 🟢` |
+| **7,709.2** | **26,171.7** | **2,830.5** | **4.99%** | **$100.34** | **$4,031.80** | **$79,934** | **16.99** |
+| `-0.45% 🔴` | `-1.42% 🔴` | `+0.41% 🟢` | `-5 bps 🟢` | `-2.37% 🟢` | `-0.49% 🔴` | `-1.64% 🔴` | `+0.08 🔴` |
 
 ### 🧭 Macro Regime & Economic Vitals
 ```text
@@ -87,7 +87,7 @@
 
 </details>
 
-🚨 **MACRO CATALYST COUNTDOWN:** 🚨 TODAY: **FOMC Rate Decision & Press Conference** (2026-10-28) | ⚠️ in 7 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04)
+🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 6 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04) | ⚠️ in 8 Days: **Non-Farm Payrolls (NFP) & Unemployment** (2026-11-06)
 
 <details markdown="1">
 <summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
@@ -98,16 +98,15 @@
 
 | Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
 | :--- | :--- | :---: | :---: | :--- |
-| **2026-10-28** | FOMC Rate Decision & Press Conference | 🚨 TODAY | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
-| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 7 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
-| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 9 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-11-12** | Core CPI Inflation Data | 📅 in 15 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-11-13** | PPI Wholesale Inflation | 📅 in 16 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
-| **2026-11-20** | Monthly OPEX | 📅 in 23 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
-| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 37 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 42 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
-| **2026-12-10** | Core CPI Inflation Data | 📅 in 43 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-12-11** | PPI Wholesale Inflation | 📅 in 44 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | ⚠️ in 6 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 8 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | ⚠️ in 14 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | 📅 in 15 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 22 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 36 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 41 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-12-10** | Core CPI Inflation Data | 📅 in 42 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-12-11** | PPI Wholesale Inflation | 📅 in 43 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
 
 </details>
 <!-- END_MACRO_PULSE_STRIP -->
@@ -146,99 +145,70 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`CROX`** | $118.54 | $97.50 | 51 | -0.14 | 54.5% | $1.70 | **16.98%** | 28 | N/A | Premium (High) |
-| **`EXPE`** | $281.13 | $230.00 | 51 | -0.14 | 54.3% | $3.90 | **16.64%** | 280 | N/A | Premium (High) |
-| **`VST`** | $143.67 | $120.00 | 51 | -0.14 | 49.5% | $1.92 | **15.95%** | 1968 | N/A | Deep Discount |
-| **`VSXY`** | $93.97 | $70.00 | 51 | -0.11 | 69.7% | $1.05 | **15.24%** | 1653 | N/A | Premium (High) |
-| **`ADBE`** | $247.62 | $205.00 | 51 | -0.14 | 51.4% | $3.00 | **14.97%** | 206 | N/A | Discount Zone |
+| **`VSXY`** | $97.15 | $75.00 | 50 | -0.13 | 70.2% | $1.45 | **18.61%** | 96 | N/A | Premium (High) |
+| **`PLNT`** | $54.20 | $42.50 | 50 | -0.13 | 60.4% | $0.50 | **13.09%** | 8 | N/A | Deep Discount |
+| **`WFRD`** | $90.07 | $75.00 | 50 | -0.14 | 43.9% | $0.80 | **12.29%** | 31 | N/A | Discount Zone |
+| **`LOPE`** | $154.63 | $135.00 | 50 | -0.15 | 37.8% | $1.40 | **12.07%** | 1 | N/A | Deep Discount |
+| **`SFM`** | $50.08 | $40.00 | 50 | -0.11 | 50.3% | $0.40 | **11.80%** | 11 | N/A | Breakdown |
 
 <details markdown="1">
-<summary>🔎 <b>Click to Expand Full Option Chain (88 Opportunities Available)</b></summary>
+<summary>🔎 <b>Click to Expand Full Option Chain (59 Opportunities Available)</b></summary>
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Stacked Annual | Open Int | Mean Tested | Fib Zone |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`TDC`** | $34.69 | $27.50 | 51 | -0.13 | 59.2% | $0.40 | **14.91%** | 5 | N/A | Premium (High) |
-| **`DLTR`** | $122.88 | $105.00 | 51 | -0.15 | 44.8% | $1.52 | **14.86%** | 618 | N/A | Premium (High) |
-| **`TRIP`** | $9.05 | $7.00 | 51 | -0.12 | 64.9% | $0.10 | **14.72%** | 3470 | N/A | Breakdown |
-| **`PSN`** | $48.45 | $40.00 | 51 | -0.15 | 53.5% | $0.55 | **14.34%** | 342 | N/A | Deep Discount |
-| **`INTU`** | $327.89 | $260.00 | 51 | -0.12 | 56.5% | $3.30 | **13.58%** | 517 | N/A | Deep Discount |
-| **`FISV`** | $47.59 | $40.00 | 51 | -0.15 | 47.9% | $0.50 | **13.45%** | 1786 | N/A | Breakdown |
-| **`WFRD`** | $89.03 | $75.00 | 51 | -0.14 | 46.3% | $0.90 | **13.09%** | 31 | N/A | Discount Zone |
-| **`FIS`** | $35.67 | $30.00 | 51 | -0.15 | 46.6% | $0.35 | **12.85%** | 560 | N/A | Breakdown |
-| **`CCL`** | $27.88 | $23.00 | 51 | -0.12 | 45.7% | $0.26 | **12.59%** | 7658 | N/A | Premium (High) |
-| **`TRU`** | $75.98 | $62.50 | 51 | -0.14 | 51.9% | $0.70 | **12.52%** | 2 | N/A | Premium (High) |
-| **`COKE`** | $205.81 | $170.00 | 51 | -0.14 | 50.5% | $1.90 | **12.50%** | 24 | N/A | Premium (High) |
-| **`CTSH`** | $66.51 | $55.00 | 51 | -0.14 | 48.8% | $0.60 | **12.31%** | 679 | N/A | Premium (High) |
-| **`CVS`** | $90.81 | $80.00 | 51 | -0.14 | 35.4% | $0.86 | **12.19%** | 507 | N/A | Premium (High) |
-| **`HAL`** | $35.42 | $31.00 | 51 | -0.15 | 36.1% | $0.33 | **12.12%** | 764 | N/A | Premium (High) |
-| **`ULTA`** | $613.12 | $530.00 | 51 | -0.14 | 39.8% | $5.50 | **11.93%** | 22 | N/A | Premium (High) |
-| **`DG`** | $126.39 | $105.00 | 51 | -0.11 | 43.6% | $1.05 | **11.66%** | 439 | N/A | Premium (High) |
-| **`HRB`** | $47.99 | $40.00 | 51 | -0.15 | 47.6% | $0.40 | **11.66%** | 4 | N/A | Premium (High) |
-| **`EPAM`** | $135.01 | $105.00 | 51 | -0.11 | 59.1% | $1.00 | **11.32%** | 24 | N/A | Discount Zone |
-| **`ZTS`** | $77.82 | $65.00 | 51 | -0.13 | 44.7% | $0.60 | **11.11%** | 1838 | N/A | Deep Discount |
-| **`PHM`** | $121.61 | $105.00 | 51 | -0.14 | 38.0% | $0.90 | **10.63%** | 27 | N/A | Discount Zone |
-| **`YOU`** | $45.03 | $35.00 | 51 | -0.10 | 58.3% | $0.30 | **10.63%** | 1061 | N/A | Discount Zone |
-| **`DPZ`** | $308.57 | $270.00 | 51 | -0.14 | 34.8% | $2.30 | **10.60%** | 330 | N/A | Deep Discount |
-| **`KR`** | $65.32 | $57.50 | 51 | -0.14 | 30.9% | $0.48 | **10.47%** | 4833 | N/A | Premium (High) |
-| **`AR`** | $42.09 | $36.00 | 51 | -0.12 | 38.9% | $0.30 | **10.46%** | 21 | N/A | Premium (High) |
-| **`UPBD`** | $16.88 | $12.50 | 51 | -0.08 | 57.5% | $0.10 | **10.23%** | 151 | N/A | Discount Zone |
-| **`CHDN`** | $82.22 | $70.00 | 51 | -0.14 | 41.6% | $0.55 | **10.12%** | 63 | N/A | Deep Discount |
-| **`AZO`** | $3140.09 | $2750.00 | 51 | -0.15 | 36.4% | $20.40 | **9.81%** | 1 | N/A | Discount Zone |
-| **`HCA`** | $453.48 | $400.00 | 51 | -0.14 | 33.8% | $2.95 | **9.78%** | 59 | N/A | Discount Zone |
-| **`PAYX`** | $108.66 | $95.00 | 51 | -0.14 | 35.5% | $0.70 | **9.77%** | 206 | N/A | Premium (High) |
-| **`IT`** | $219.94 | $180.00 | 51 | -0.13 | 52.9% | $1.30 | **9.67%** | 74 | N/A | Premium (High) |
-| **`MTDR`** | $59.66 | $50.00 | 51 | -0.13 | 44.9% | $0.35 | **9.51%** | 51 | N/A | Premium (High) |
-| **`COR`** | $324.04 | $280.00 | 51 | -0.14 | 37.3% | $1.95 | **9.48%** | 20 | N/A | Premium (High) |
-| **`MGY`** | $26.56 | $22.50 | 51 | -0.15 | 45.1% | $0.15 | **9.27%** | 160 | N/A | Premium (High) |
-| **`TSN`** | $55.14 | $47.50 | 51 | -0.11 | 33.8% | $0.30 | **9.02%** | 180 | N/A | Discount Zone |
-| **`PLNT`** | $52.81 | $40.00 | 51 | -0.10 | 62.7% | $0.25 | **8.97%** | 11 | N/A | Deep Discount |
-| **`CRH`** | $85.76 | $72.50 | 51 | -0.14 | 42.0% | $0.45 | **8.94%** | 1 | N/A | Deep Discount |
-| **`LOPE`** | $156.55 | $130.00 | 51 | -0.09 | 39.0% | $0.80 | **8.90%** | 16 | N/A | Deep Discount |
-| **`MDT`** | $94.52 | $82.50 | 51 | -0.12 | 31.4% | $0.45 | **8.40%** | 944 | N/A | Premium (High) |
-| **`BR`** | $177.46 | $150.00 | 51 | -0.14 | 42.1% | $0.80 | **8.32%** | 44 | N/A | Discount Zone |
-| **`OSIS`** | $200.94 | $170.00 | 51 | -0.14 | 45.4% | $0.90 | **8.29%** | 15 | N/A | Deep Discount |
-| **`EHC`** | $122.37 | $105.00 | 51 | -0.14 | 37.9% | $0.55 | **8.25%** | 41 | N/A | Premium (High) |
-| **`ZION`** | $65.60 | $57.50 | 51 | -0.12 | 31.2% | $0.30 | **8.23%** | 4 | N/A | Premium (High) |
-| **`G`** | $39.07 | $30.00 | 51 | -0.10 | 58.1% | $0.15 | **8.08%** | 126 | N/A | Premium (High) |
-| **`JXN`** | $134.85 | $110.00 | 51 | -0.13 | 51.5% | $0.55 | **8.08%** | 39 | N/A | Premium (High) |
-| **`RL`** | $391.99 | $330.00 | 51 | -0.12 | 41.2% | $1.65 | **8.08%** | 1 | N/A | Premium (High) |
-| **`DEA`** | $22.50 | $20.00 | 51 | -0.14 | 30.2% | $0.10 | **8.08%** | 174 | N/A | Premium (High) |
-| **`PYPL`** | $55.58 | $47.50 | 51 | -0.10 | 32.9% | $0.22 | **7.81%** | 2676 | N/A | Discount Zone |
-| **`DD`** | $137.74 | $120.00 | 51 | -0.13 | 32.7% | $0.55 | **7.78%** | 30 | N/A | Premium (High) |
-| **`MUSA`** | $524.18 | $450.00 | 51 | -0.13 | 38.0% | $2.00 | **7.68%** | 1 | N/A | Premium (High) |
-| **`ALGN`** | $154.41 | $125.00 | 51 | -0.15 | 56.0% | $0.55 | **7.65%** | 506 | N/A | Discount Zone |
-| **`YETI`** | $42.30 | $35.00 | 51 | -0.13 | 48.4% | $0.15 | **7.57%** | 3 | N/A | Discount Zone |
-| **`SFM`** | $64.47 | $50.00 | 51 | -0.09 | 53.8% | $0.20 | **7.36%** | 259 | N/A | Breakdown |
-| **`DVA`** | $183.43 | $150.00 | 51 | -0.13 | 49.3% | $0.60 | **7.36%** | 86 | N/A | Premium (High) |
-| **`TSCO`** | $31.82 | $25.00 | 51 | -0.06 | 43.2% | $0.10 | **7.36%** | 1303 | N/A | Deep Discount |
-| **`MKC`** | $46.22 | $40.00 | 51 | -0.10 | 32.2% | $0.15 | **7.18%** | 2530 | N/A | Deep Discount |
-| **`PRU`** | $115.47 | $97.50 | 51 | -0.14 | 42.2% | $0.35 | **7.07%** | 124 | N/A | Premium (High) |
-| **`RYAN`** | $42.69 | $30.00 | 51 | -0.09 | 78.1% | $0.10 | **6.89%** | 33 | N/A | Discount Zone |
-| **`AON`** | $311.15 | $270.00 | 51 | -0.10 | 30.4% | $0.85 | **6.75%** | 78 | N/A | Discount Zone |
-| **`ZBH`** | $96.40 | $80.00 | 51 | -0.09 | 38.1% | $0.25 | **6.74%** | 121 | N/A | Premium (High) |
-| **`DECK`** | $79.51 | $65.00 | 51 | -0.08 | 40.2% | $0.20 | **6.70%** | 608 | N/A | Breakdown |
-| **`BFH`** | $103.08 | $82.50 | 51 | -0.13 | 57.0% | $0.25 | **6.67%** | 1 | N/A | Premium (High) |
-| **`PPG`** | $115.92 | $100.00 | 51 | -0.10 | 32.8% | $0.30 | **6.65%** | 75 | N/A | Premium (High) |
-| **`HRL`** | $20.62 | $18.00 | 51 | -0.14 | 38.6% | $0.05 | **6.49%** | 443 | N/A | Deep Discount |
-| **`AM`** | $20.85 | $18.00 | 51 | -0.10 | 31.6% | $0.05 | **6.49%** | 86 | N/A | Premium (High) |
-| **`AMP`** | $489.85 | $430.00 | 51 | -0.14 | 34.3% | $1.15 | **6.41%** | 3 | N/A | Discount Zone |
-| **`SON`** | $49.11 | $40.00 | 51 | -0.06 | 35.2% | $0.10 | **6.29%** | 5 | N/A | Premium (High) |
-| **`LW`** | $53.26 | $45.00 | 51 | -0.12 | 39.0% | $0.10 | **6.09%** | 12 | N/A | Premium (High) |
-| **`OZK`** | $50.75 | $45.00 | 51 | -0.13 | 30.3% | $0.10 | **6.09%** | 25 | N/A | Premium (High) |
-| **`BKR`** | $55.78 | $47.00 | 51 | -0.11 | 39.8% | $0.10 | **6.02%** | 561 | -3.7% (S/I Accel) | Discount Zone |
-| **`RF`** | $28.46 | $25.00 | 51 | -0.13 | 31.1% | $0.05 | **5.93%** | 66 | N/A | Premium (High) |
-| **`GL`** | $156.38 | $135.00 | 51 | -0.09 | 32.2% | $0.25 | **5.83%** | 2 | N/A | Discount Zone |
-| **`AXTA`** | $34.42 | $28.00 | 51 | -0.12 | 52.0% | $0.05 | **5.78%** | 1 | N/A | Premium (High) |
-| **`FNF`** | $38.85 | $30.00 | 51 | -0.08 | 52.5% | $0.05 | **5.69%** | 10 | N/A | Breakdown |
-| **`UNM`** | $88.90 | $75.00 | 51 | -0.10 | 35.2% | $0.10 | **5.45%** | 29 | N/A | Premium (High) |
-| **`BDC`** | $106.89 | $85.00 | 51 | -0.12 | 61.4% | $0.10 | **5.34%** | 5 | -5.2% (S/I Accel) | Deep Discount |
-| **`WTW`** | $321.56 | $260.00 | 51 | -0.08 | 42.9% | $0.30 | **5.33%** | 1 | N/A | Premium (High) |
-| **`CHH`** | $109.06 | $90.00 | 51 | -0.11 | 44.3% | $0.10 | **5.30%** | 82 | N/A | Premium (High) |
-| **`L`** | $110.60 | $95.00 | 51 | -0.15 | 43.2% | $0.10 | **5.25%** | 17 | N/A | Premium (High) |
-| **`CRUS`** | $113.40 | $95.00 | 51 | -0.12 | 45.6% | $0.05 | **4.88%** | 204 | N/A | Breakdown |
-| **`CCK`** | $115.41 | $100.00 | 51 | -0.10 | 30.1% | $0.05 | **4.86%** | 1 | N/A | Premium (High) |
-| **`GPC`** | $121.68 | $105.00 | 51 | -0.11 | 32.6% | $0.05 | **4.84%** | 16 | N/A | Premium (High) |
-| **`PRI`** | $276.37 | $240.00 | 51 | -0.13 | 36.0% | $0.05 | **4.65%** | 3 | -3.0% (S/I Accel) | Discount Zone |
+| **`RL`** | $397.23 | $340.00 | 50 | -0.14 | 41.8% | $3.10 | **11.16%** | 2 | N/A | Premium (High) |
+| **`MTDR`** | $60.00 | $50.00 | 50 | -0.13 | 45.8% | $0.45 | **11.07%** | 51 | N/A | Premium (High) |
+| **`CROX`** | $147.50 | $120.00 | 50 | -0.10 | 45.7% | $1.00 | **10.58%** | 64 | N/A | Premium (High) |
+| **`ZTS`** | $78.61 | $65.00 | 50 | -0.11 | 43.2% | $0.50 | **10.12%** | 1843 | N/A | Deep Discount |
+| **`PSN`** | $51.63 | $40.00 | 50 | -0.15 | 69.4% | $0.30 | **9.98%** | 341 | N/A | Discount Zone |
+| **`YOU`** | $44.89 | $35.00 | 50 | -0.11 | 61.4% | $0.25 | **9.71%** | 1063 | N/A | Discount Zone |
+| **`AZO`** | $3210.00 | $2800.00 | 50 | -0.14 | 36.2% | $17.90 | **9.17%** | 55 | N/A | Discount Zone |
+| **`HCA`** | $469.82 | $415.00 | 50 | -0.14 | 33.4% | $2.60 | **9.07%** | 61 | N/A | Premium (High) |
+| **`NE`** | $47.54 | $40.00 | 50 | -0.15 | 42.1% | $0.25 | **9.06%** | 63 | N/A | Premium (High) |
+| **`OSIS`** | $198.03 | $170.00 | 50 | -0.15 | 44.8% | $1.00 | **8.79%** | 15 | N/A | Breakdown |
+| **`PAYX`** | $108.99 | $95.00 | 50 | -0.12 | 34.8% | $0.55 | **8.73%** | 206 | N/A | Premium (High) |
+| **`BR`** | $178.22 | $150.00 | 50 | -0.14 | 44.6% | $0.80 | **8.39%** | 44 | N/A | Discount Zone |
+| **`BKR`** | $54.56 | $47.00 | 50 | -0.12 | 36.0% | $0.25 | **8.38%** | 564 | -6.4% (S/I Accel) | Discount Zone |
+| **`TSN`** | $55.90 | $47.50 | 50 | -0.10 | 34.7% | $0.25 | **8.34%** | 180 | N/A | Discount Zone |
+| **`G`** | $38.69 | $30.00 | 50 | -0.09 | 60.5% | $0.15 | **8.15%** | 140 | N/A | Premium (High) |
+| **`MKC`** | $46.58 | $40.00 | 50 | -0.11 | 35.1% | $0.20 | **8.15%** | 2552 | N/A | Deep Discount |
+| **`COKE`** | $214.53 | $180.00 | 50 | -0.13 | 45.3% | $0.85 | **7.95%** | 7 | N/A | Premium (High) |
+| **`CHDN`** | $89.41 | $75.00 | 50 | -0.13 | 47.4% | $0.35 | **7.91%** | 188 | N/A | Discount Zone |
+| **`DPZ`** | $313.04 | $260.00 | 50 | -0.13 | 45.6% | $1.20 | **7.87%** | 338 | N/A | Deep Discount |
+| **`ZION`** | $66.41 | $57.50 | 50 | -0.11 | 31.8% | $0.25 | **7.67%** | 4 | N/A | Premium (High) |
+| **`DVA`** | $188.72 | $155.00 | 50 | -0.12 | 49.9% | $0.65 | **7.56%** | 348 | N/A | Premium (High) |
+| **`UPBD`** | $17.95 | $12.50 | 50 | -0.06 | 61.6% | $0.05 | **7.42%** | 151 | N/A | Discount Zone |
+| **`EPAM`** | $135.26 | $105.00 | 50 | -0.12 | 61.6% | $0.40 | **7.28%** | 24 | N/A | Discount Zone |
+| **`HRB`** | $48.16 | $40.00 | 50 | -0.13 | 47.9% | $0.15 | **7.24%** | 5 | N/A | Premium (High) |
+| **`JXN`** | $136.41 | $110.00 | 50 | -0.12 | 50.7% | $0.40 | **7.15%** | 39 | N/A | Premium (High) |
+| **`UNM`** | $91.57 | $72.50 | 50 | -0.13 | 60.3% | $0.25 | **7.02%** | 10 | N/A | Premium (High) |
+| **`RYAN`** | $43.24 | $30.00 | 50 | -0.08 | 78.8% | $0.10 | **6.93%** | 33 | N/A | Discount Zone |
+| **`IT`** | $217.04 | $175.00 | 50 | -0.12 | 53.4% | $0.50 | **6.59%** | 50 | N/A | Premium (High) |
+| **`YETI`** | $43.83 | $35.00 | 50 | -0.10 | 50.6% | $0.10 | **6.59%** | 3 | N/A | Premium (High) |
+| **`GPC`** | $123.70 | $105.00 | 50 | -0.10 | 35.8% | $0.30 | **6.59%** | 18 | N/A | Premium (High) |
+| **`AM`** | $21.69 | $19.00 | 50 | -0.14 | 32.5% | $0.05 | **6.42%** | 693 | N/A | Premium (High) |
+| **`DEA`** | $22.77 | $20.00 | 50 | -0.14 | 31.1% | $0.05 | **6.33%** | 154 | N/A | Premium (High) |
+| **`PRU`** | $117.05 | $100.00 | 50 | -0.09 | 31.6% | $0.25 | **6.33%** | 418 | N/A | Premium (High) |
+| **`TRU`** | $75.33 | $62.50 | 50 | -0.14 | 50.4% | $0.15 | **6.25%** | 2 | N/A | Premium (High) |
+| **`LW`** | $53.67 | $45.00 | 50 | -0.11 | 40.3% | $0.10 | **6.12%** | 12 | N/A | Premium (High) |
+| **`CTSH`** | $64.06 | $45.00 | 50 | -0.10 | 81.3% | $0.10 | **6.12%** | 613 | N/A | Premium (High) |
+| **`OZK`** | $51.26 | $45.00 | 50 | -0.12 | 31.5% | $0.10 | **6.12%** | 25 | N/A | Premium (High) |
+| **`RF`** | $28.89 | $25.00 | 50 | -0.11 | 31.9% | $0.05 | **5.96%** | 70 | N/A | Premium (High) |
+| **`TDC`** | $33.60 | $25.00 | 50 | -0.09 | 66.0% | $0.05 | **5.96%** | 3 | N/A | Premium (High) |
+| **`COR`** | $327.50 | $280.00 | 50 | -0.11 | 36.9% | $0.55 | **5.93%** | 21 | N/A | Premium (High) |
+| **`MUSA`** | $546.98 | $460.00 | 50 | -0.12 | 41.8% | $0.85 | **5.85%** | 1 | N/A | Premium (High) |
+| **`L`** | $112.19 | $95.00 | 50 | -0.10 | 34.5% | $0.15 | **5.65%** | 17 | N/A | Premium (High) |
+| **`ZBH`** | $97.41 | $80.00 | 50 | -0.08 | 40.4% | $0.10 | **5.41%** | 121 | N/A | Premium (High) |
+| **`SON`** | $49.36 | $40.00 | 50 | -0.06 | 33.2% | $0.05 | **5.41%** | 5 | N/A | Premium (High) |
+| **`ALV`** | $116.81 | $95.00 | 50 | -0.08 | 40.0% | $0.10 | **5.27%** | 2 | N/A | Premium (High) |
+| **`ATR`** | $129.75 | $110.00 | 50 | -0.12 | 37.3% | $0.10 | **5.16%** | 1 | N/A | Premium (High) |
+| **`CASH`** | $74.25 | $65.00 | 50 | -0.11 | 38.4% | $0.05 | **5.06%** | 38 | N/A | Discount Zone |
+| **`GL`** | $160.81 | $135.00 | 50 | -0.12 | 41.3% | $0.10 | **5.04%** | 1 | N/A | Premium (High) |
+| **`AON`** | $321.05 | $280.00 | 50 | -0.10 | 30.6% | $0.20 | **5.02%** | 78 | N/A | Discount Zone |
+| **`BFH`** | $106.84 | $90.00 | 50 | -0.13 | 43.3% | $0.05 | **4.91%** | 103 | N/A | Premium (High) |
+| **`EHC`** | $128.32 | $110.00 | 50 | -0.13 | 42.8% | $0.05 | **4.83%** | 14 | N/A | Premium (High) |
+| **`PKG`** | $251.69 | $200.00 | 50 | -0.07 | 43.1% | $0.05 | **4.68%** | 1 | N/A | Premium (High) |
+| **`AMP`** | $487.64 | $420.00 | 50 | -0.12 | 38.0% | $0.05 | **4.59%** | 60 | N/A | Discount Zone |
 
 </details>
 
@@ -340,20 +310,20 @@
 > - **Capital Preservation:** Overflow capital from constrained positions routes into the Treasury Yield / Dry Powder Floor.
 
 ### 1. Portfolio Allocation & Liquidity Matrix ($100k Benchmark Book)
-- **Deployed Equity Capital:** `$24,571.07` (`24.6%` across 8 finalists)
-- **Cash & Treasury Floor Reserve:** `$75,428.93` (`75.4%`)
+- **Deployed Equity Capital:** `$24,625.14` (`24.6%` across 8 finalists)
+- **Cash & Treasury Floor Reserve:** `$75,374.86` (`75.4%`)
 - **ADDV Liquidity Cap:** `2.0%` max of 30-day ADV (Zero Tape Distortion)
 
 | Ticker | Company Name | Basket Tier | Price | 30d ADDV | ADDV 2% Cap | Sized Allocation | Port Weight | Target Shares | Liquidity Status |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $60.47 | $3,081,007 | $61,620 | **$5,500** | **5.5%** | 96 | `PASS` |
-| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.16 | $7,362,799 | $147,256 | **$5,500** | **5.5%** | 523 | `PASS` |
-| **`ZUMZ`** | Zumiez Inc | Tier 1 | $14.37 | $4,325,341 | $86,507 | **$5,500** | **5.5%** | 407 | `PASS` |
-| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $5.07 | $266,084 | $5,322 | **$1,000** | **1.0%** | 207 | `PASS` |
-| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.35 | $84,464 | $1,689 | **$1,000** | **1.0%** | 451 | `PASS` |
-| **`LOVE`** | Lovesac Co | Tier 3 | $15.34 | $2,904,107 | $58,082 | **$2,800** | **2.8%** | 194 | `PASS` |
-| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.42 | $113,554 | $2,271 | **$2,271** | **2.3%** | 990 | `CAPPED (-$529)` |
-| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $3.97 | $240,030 | $4,801 | **$1,000** | **1.0%** | 265 | `PASS` |
+| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $60.47 | $3,120,917 | $62,418 | **$5,500** | **5.5%** | 95 | `PASS` |
+| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.16 | $7,139,766 | $142,795 | **$5,500** | **5.5%** | 523 | `PASS` |
+| **`ZUMZ`** | Zumiez Inc | Tier 1 | $14.37 | $4,285,350 | $85,707 | **$5,500** | **5.5%** | 406 | `PASS` |
+| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $5.07 | $261,323 | $5,226 | **$1,000** | **1.0%** | 207 | `PASS` |
+| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.35 | $85,082 | $1,702 | **$1,000** | **1.0%** | 450 | `PASS` |
+| **`LOVE`** | Lovesac Co | Tier 3 | $15.34 | $2,882,156 | $57,643 | **$2,800** | **2.8%** | 193 | `PASS` |
+| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.42 | $116,257 | $2,325 | **$2,325** | **2.3%** | 1,011 | `CAPPED (-$475)` |
+| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $3.97 | $234,873 | $4,697 | **$1,000** | **1.0%** | 265 | `PASS` |
 
 ### 2. Actionable 3-Tranche Ladder Entry Orders
 > **Execution Rule:** Tranche 1 is established immediately at market upon passing Stage 2 forensic triage.
@@ -361,26 +331,26 @@
 
 | Ticker | Current Price | Total Sized | Tranche 1 (Market 33.3%) | Tranche 2 (-6.0% Retest Limit) | Tranche 3 (-12.5% Flush Limit) | Total Shares |
 | :--- | ---: | ---: | :--- | :--- | :--- | ---: |
-| **`STRT`** | $60.47 | $5,500.00 | **$60.47** (30 sh) | **$57.12** (32 sh) | **$53.77** (34 sh) | **96** |
-| **`NRDS`** | $11.16 | $5,500.00 | **$11.16** (164 sh) | **$10.51** (174 sh) | **$9.87** (185 sh) | **523** |
-| **`ZUMZ`** | $14.37 | $5,500.00 | **$14.37** (127 sh) | **$13.49** (135 sh) | **$12.61** (145 sh) | **407** |
-| **`UEIC`** | $5.07 | $1,000.00 | **$5.07** (65 sh) | **$4.79** (69 sh) | **$4.51** (73 sh) | **207** |
-| **`IZEA`** | $2.35 | $1,000.00 | **$2.35** (141 sh) | **$2.21** (150 sh) | **$2.08** (160 sh) | **451** |
-| **`LOVE`** | $15.34 | $2,800.00 | **$15.34** (60 sh) | **$14.35** (65 sh) | **$13.36** (69 sh) | **194** |
-| **`CRWS`** | $2.42 | $2,271.07 | **$2.42** (312 sh) | **$2.29** (330 sh) | **$2.17** (348 sh) | **990** |
-| **`DLTH`** | $3.97 | $1,000.00 | **$3.97** (83 sh) | **$3.75** (88 sh) | **$3.53** (94 sh) | **265** |
+| **`STRT`** | $60.47 | $5,500.00 | **$60.47** (30 sh) | **$57.28** (32 sh) | **$54.08** (33 sh) | **95** |
+| **`NRDS`** | $11.16 | $5,500.00 | **$11.16** (164 sh) | **$10.52** (174 sh) | **$9.88** (185 sh) | **523** |
+| **`ZUMZ`** | $14.37 | $5,500.00 | **$14.37** (127 sh) | **$13.53** (135 sh) | **$12.69** (144 sh) | **406** |
+| **`UEIC`** | $5.07 | $1,000.00 | **$5.07** (65 sh) | **$4.80** (69 sh) | **$4.53** (73 sh) | **207** |
+| **`IZEA`** | $2.35 | $1,000.00 | **$2.35** (141 sh) | **$2.22** (150 sh) | **$2.09** (159 sh) | **450** |
+| **`LOVE`** | $15.34 | $2,800.00 | **$15.34** (60 sh) | **$14.40** (64 sh) | **$13.46** (69 sh) | **193** |
+| **`CRWS`** | $2.42 | $2,325.14 | **$2.42** (320 sh) | **$2.30** (336 sh) | **$2.18** (355 sh) | **1,011** |
+| **`DLTH`** | $3.97 | $1,000.00 | **$3.97** (83 sh) | **$3.76** (88 sh) | **$3.54** (94 sh) | **265** |
 
 ### 3. Deterministic Valuation Exits & Stop Disciplines
 
 | Ticker | Strategy Model | Target 1 (Scale 1) | Upside 1 | Target 2 (Scale 2) | Upside 2 | Hard Stop | Stop Condition |
 | :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |
-| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$78.61** (Operating Expansion Target) | `+30.0%` | **$99.78** (Full Intrinsic Multiplier) | `+65.0%` | **$48.70** | Structural Degradation Stop (-15.0% from VWAP $57.29) |
+| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$78.61** (Operating Expansion Target) | `+30.0%` | **$99.78** (Full Intrinsic Multiplier) | `+65.0%` | **$49.21** | Structural Degradation Stop (-15.0% from VWAP $57.89) |
 | **`NRDS`** | `COMPOUNDER_FCF_TRAIL` | **$14.51** (Operating Expansion Target) | `+30.0%` | **$18.41** (Full Intrinsic Multiplier) | `+65.0%` | **$8.94** | Structural Degradation Stop (-15.0% from VWAP $10.52) |
-| **`ZUMZ`** | `COMPOUNDER_FCF_TRAIL` | **$18.68** (Operating Expansion Target) | `+30.0%` | **$23.71** (Full Intrinsic Multiplier) | `+65.0%` | **$11.48** | Structural Degradation Stop (-15.0% from VWAP $13.51) |
+| **`ZUMZ`** | `COMPOUNDER_FCF_TRAIL` | **$18.68** (Operating Expansion Target) | `+30.0%` | **$23.71** (Full Intrinsic Multiplier) | `+65.0%` | **$11.52** | Structural Degradation Stop (-15.0% from VWAP $13.55) |
 | **`UEIC`** | `GRAHAM_NET_NET_CONVERGENCE` | **$6.20** (100% Graham NCAV Convergence) | `+22.3%` | **$9.53** (Tangible Book Value) | `+88.0%` | **$3.86** | Operational Burn Stop (-20.0% from VWAP $4.83) |
 | **`IZEA`** | `GRAHAM_NET_NET_CONVERGENCE` | **$2.57** (100% Graham NCAV Convergence) | `+9.4%` | **$3.08** (Tangible Book Value) | `+31.1%` | **$1.78** | Operational Burn Stop (-20.0% from VWAP $2.22) |
-| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$20.71** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$26.92** (Catalyst Exuberance Target) | `+75.5%` | **$11.54** | Turnaround Failure Stop (-20.0% from VWAP $14.43) |
-| **`CRWS`** | `TURNAROUND_CATALYST_EXIT` | **$3.17** (Tangible Asset / C-Suite Turnaround Target) | `+31.0%` | **$4.12** (Catalyst Exuberance Target) | `+70.2%` | **$1.83** | Turnaround Failure Stop (-20.0% from VWAP $2.29) |
+| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$20.71** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$26.92** (Catalyst Exuberance Target) | `+75.5%` | **$11.61** | Turnaround Failure Stop (-20.0% from VWAP $14.51) |
+| **`CRWS`** | `TURNAROUND_CATALYST_EXIT` | **$3.17** (Tangible Asset / C-Suite Turnaround Target) | `+31.0%` | **$4.12** (Catalyst Exuberance Target) | `+70.2%` | **$1.84** | Turnaround Failure Stop (-20.0% from VWAP $2.30) |
 | **`DLTH`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$4.87** (Tangible Book Recovery Target) | `+22.7%` | **$5.60** (Speculative Liquidation Cleanout) | `+41.1%` | **$3.20** | Liquidation Burn Trap Stop (-15.0% from VWAP $3.77) |
 
 #### Specialized Exit Disciplines by Hunting Bucket
@@ -390,4 +360,93 @@
 - **Quarantined Asset (`DLTH`):** Exit 75% at Tangible Book Value ($4.87) and 25% on final cleanout. Immediate stop if capex starvation accelerates.
 
 ---
-*Report generated natively by Antigravity V3 Core (Triple-Engine System).*
+*Antigravity V3 Core | Zero Discretion | Adversarial Validation*
+
+<details markdown="1">
+<summary><b>📖 Antigravity V3: Quantitative Engine & Execution Methodology (Click to Expand)</b></summary>
+
+# Antigravity V3: Quantitative Engine & Execution Methodology
+
+```text
+Antigravity V3 System Architecture
+├── 1. Operating Philosophy ── Zero Discretion | "a = a" XBRL Provenance | Adversarial Sieve
+├── 2. 4-Layer Separation  ── Ingestion Oracles → Math Models → Strategy Desk → Clean Reporting
+├── 3. Engine 1 (Options)  ── Yield Stacker CSPs (Delta <= -0.15) + AMT Negative Gamma Shield
+├── 4. Engine 2 (Dark Pool)── Supply-Chain Recursive NLP (Depth 2) + OBV Polyfit Trend Score >= 70
+├── 5. Engine 3 (SEC Bulk) ── 5,349 Operating Equities → Vampire Quarantine → 4 Hunting Buckets
+├── 6. Forensic Scorecard  ── Piotroski F >= 6 | Altman Z >= 1.81 | Beneish M <= -1.78 | SBC <= 30%
+└── 7. Stage 3 Execution   ── 1%-2% ADDV Liquidity Caps | Tranche Entries | Hard Valuation Exits
+```
+
+---
+
+## 1. Executive Philosophy & Ground Rules
+
+Antigravity V3 is an institutional-grade, zero-opinion quantitative research platform covering the entire U.S. public equity market (`5,349` active `10-K`/`10-Q` operating companies). It enforces strict quantitative engineering principles:
+
+1. **Zero LLM Opinions or Hallucinations:** No AI prose, no forward speculative DCF guessing, and no Wall Street analyst consensus price targets. Every figure is deterministically derived from raw SEC EDGAR XBRL filings, Form 4 insider XML feeds, and exchange trade prints.
+2. **The "a = a" Accounting Principle:** A financial statement line item is populated only when an SEC XBRL tag maps directly to the specific GAAP accounting concept via ranked priority lists in `config/xbrl_aliases.yaml`.
+3. **Data Provenance & Missing Value Discipline:**
+   - `NR` (**Not Reported**): Tag was not filed by the company in the given period.
+   - `NA` (**Not Applicable**): Mathematical ratio cannot logically exist (e.g., CAGR from a negative base, or debt payback years when FCF <= 0).
+   - `DERIVED`: Arithmetic values calculated from cumulative YTD filings (Q2 = 6M - Q1, Q3 = 9M - 6M, Q4 = FY - 9M).
+4. **4-Layer Separation of Concerns:**
+   - **Layer 1 (Ingestion):** Bulk SEC EDGAR streaming, exchange quotes caching, OpenInsider/Form 4 ledgers, and 10-K Item 5 registered record holder (DRS) census.
+   - **Layer 2 (Models):** Mathematical statement assembly, financial ratios, forensic models (Piotroski, Altman, Beneish), and Wide-Net hunting bucket classification.
+   - **Layer 3 (Strategy & Execution):** Multi-bucket convergence filtering, forensic health gates, and position-sizing liquidity rules.
+   - **Layer 4 (Reporting):** Markdown briefings, institutional CSV exports, and live publication.
+
+---
+
+## 2. Core Evaluation Engines
+
+| Engine | Target Universe | Core Screening Criteria | Operational Playbook |
+| :--- | :--- | :--- | :--- |
+| **Section 1: Yield Stacker** | S&P 1500 deep-value survivors | • Absolute IV > 30% & Delta <= -0.15<br>• Collateralized by 4.5% Treasury floor yield<br>• AMT Macro: VIX Negative Gamma gate | Sell high-probability Cash-Secured Puts (CSPs) at the **bid** price beneath structural support levels |
+| **Section 2: Incubation Radar** | Parabolic theme supply-chain derivatives | • 52-week anchor expansion >= 100%<br>• Recursive SEC 10-K NLP traversal (Depth 2)<br>• Pure-play ceiling: Market Cap < $100B<br>• 20-day OBV polyfit accumulation score >= 70 | Accumulate overlooked physical component tollbooths pinned at base lows before breakout expansion |
+| **Section 3: SEC Convergence Radar** | All 5,349 U.S. operating companies | • Multi-Bucket Convergence (>= 2 Buckets)<br>• Dilution Vampire quarantine pass<br>• Piotroski F-Score >= 6<br>• Altman Z >= 1.81 or positive Net Cash | Accumulate micro- and small-cap deep-value mispricings under strict ADDV liquidity rules and valuation exits |
+
+---
+
+## 3. Section 3: SEC Deep-Value Convergence Architecture
+
+### Step A: The "Dilution Vampire" Quarantine Sieve
+Before evaluating statistical cheapness, any company destroying shareholder equity through toxic financing or aggressive accrual games is quarantined. A company fails if **any** of the following hold:
+* **Cash-Burning Diluter:** TTM Free Cash Flow < 0 **AND** 1-Year Common Shares > +15.0%.
+* **Aggressive Share Printer:** TTM Free Cash Flow < 0 **AND** TTM Stock Issued >= 10.0% of Market Cap.
+* **Lethal Cash Runway:** TTM Free Cash Flow < 0, TTM Stock Issued > 0, **AND** Cash & Equivalents < |TTM Free Cash Flow| (< 4 quarters of runway).
+* **Accrual Manipulation Alert:** TTM Operating Cash Flow < 0 **AND** Beneish M-Score > -1.78.
+
+### Step B: The 4 "Hidden Gold" Hunting Buckets
+1. **`1_CASH` (Liquid Net Cash & Graham Net-Nets):** Trades at or near liquid balance-sheet backing (Net Cash Ex-Debt Yield >= 50%, Graham NCAV Yield >= 50%, or Tangible Book Yield >= 80%). Financials, REITs, and balance sheets with Total Liabilities / Total Assets >= 0.75 are disqualified.
+2. **`2_FCF` (High-FCF Turnarounds):** Generates real cash (TTM FCF Yield >= 12.0%) with manageable debt (Net Debt payable in <= 4.0 years of FCF).
+3. **`3_BUYBACK` (Cannibal Share Repurchases):** Retires common equity with genuine cash flow (TTM FCF > 0, TTM Buybacks > Stock Issued, and 1-Year Shares down -3.0% to -35.0% or 5-Year CAGR down -3.0% to -30.0%).
+4. **`4_INSIDER` (C-Suite & Cluster Insider Buying):** Insiders buying in the open market with personal cash on Form 4 (Code P) >= 2 C-Suite officers over 12 months, or net open-market buying >= $50,000.
+
+---
+
+## 4. Forensic Accounting Matrix
+
+| Forensic Metric | Formula & Concept | Target Threshold | Distress / Trap Threshold | What It Prevents |
+| :--- | :--- | :-: | :-: | :--- |
+| **Piotroski F-Score** | 9 binary tests across Profitability, Leverage, Liquidity, and Operating Efficiency | **`7–9` (Elite)** | `0–3` (Deteriorating) | Eliminates companies with declining margins, liquidity crunches, or operational decay |
+| **Altman Z-Score** | 5-ratio multivariate solvency index measuring bankruptcy risk | **`> 2.99` (Safe)** | `< 1.81` (Distress) | Eliminates companies at elevated risk of Chapter 11 filing or debt restructuring |
+| **Beneish M-Score** | 8-factor index measuring receivables growth, gross margin decay, and asset quality | **`<= -1.78` (Clean)** | `> -1.78` (Manipulator Risk) | Exposes aggressive capitalization of expenses and accounting gimmicks |
+| **SBC % of OCF** | TTM Stock-Based Compensation divided by TTM Operating Cash Flow | **`<= 25%` (Healthy)** | `> 50%` (Dilution Mirage) | Disqualifies companies whose "operating cash flow" is artificial due to heavy stock grants |
+| **Implied FCF CAGR** | Reverse DCF solving for 10-year annual FCF growth priced into current Enterprise Value | **`< 0.0%/yr`** | `> +10.0%/yr` | Highlights assets where the market prices in permanent decay; flat execution provides upside |
+
+---
+
+## 5. Stage 3 Execution, Position Sizing & Portfolio Rules
+
+A statistical screen is never bought blindly. The 3-Stage Funnel governs execution:
+
+* **Stage 1 (Convergence Sieve):** Screen 5,349 companies down to ~35 survivors via multi-bucket convergence, forensic health gates, and operating scale filters ($10M+ revenue, $15M+ market cap).
+* **Stage 2 (SSR Dossier Audit):** Audit 20-year annual and 8-quarter statements in the Single Stock Report (`{TICKER}_SSR.md`). Dissect working capital fluctuations vs. operating earnings, confirm FCF is structural, and inspect 10-K Item 5 registered record holder (DRS) trends.
+* **Stage 3 (Position Sizing & Execution Discipline):**
+  - **ADDV Liquidity Cap:** Total position size is capped at **1.0%–2.0%** of 20-day Average Daily Dollar Volume to prevent market impact and illiquidity traps.
+  - **Tranche Allocation:** Accumulate in 3–4 equal tranches (e.g., 25% increments) using patient limit orders at structural support or discount zones.
+  - **Bucket 1 Exit Target (Net-Nets):** Take profits as price approaches **100% of Graham NCAV or Tangible Book Value**. Stop out immediately if operational burn erodes more than 20% of net current assets.
+  - **Buckets 2 & 3 Exit Target (Cannibal Compounders):** Hold as long as TTM FCF Yield > 10.0%, ROIC exceeds the cost of capital, and net share count continues to decrease year-over-year.
+
+</details>
