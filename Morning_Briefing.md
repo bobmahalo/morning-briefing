@@ -1,5 +1,7 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-02 16:04:02 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-02 16:38:56 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
 > **🏛️ True Stock Ownership & Custody Education:** Holding shares in broker "Street Name" means you only hold a beneficial entitlement while Cede & Co. holds legal title. Learn how Direct Registration (DRS) protects your shares from broker insolvency and short-lending at **[WhyDRS.org](https://www.whydrs.org)** ([Advocacy](https://www.whydrs.org/advocacy) | [Free Resources](https://www.whydrs.org/free-resources)).
 
@@ -8,21 +10,145 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Macro Regime: NORMAL REGIME (VIX: 18.24) | Treasury Cash Floor: 4.50%        │
+│ Generated: 2026-11-02 16:38 UTC | Macro Regime: DEFLATION REGIME             │
+│ VIX: 18.27 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 - **🎯 Top Yield Stacker Pick:** `VST` ($115.00 Strike, 46 DTE, 18.0% Stacked Yield)
 - **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor, Piotroski 9/9)
 
-<details>
+<details markdown="1">
 <summary>💡 <b>How to Trade the 2 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
 
-> **The Dual-Engine Framework Explained:**
-> 1. **Engine 1 (Yield Stacker CSPs):** Generates steady synthetic income by selling out-of-the-money puts on fundamental survivors, backed 100% by 4.5% Treasury bills. You collect option premium *and* Treasury interest.
-> 2. **Engine 2 (Deep-Value Convergence):** Sifts 5,349 SEC operating filers through adversarial forensic accounting filters down to pristine balance sheets, executed via 3-tranche limit order ladders in the $100K Model Portfolio.
+| Antigravity Engine | Core Strategy & Universe | Risk & Execution Discipline |
+| :--- | :--- | :--- |
+| **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on liquid S&P 1500 optionable equities, backed 100% by 13-week Treasury bills (`~4.5%`). | Collects option `bid` premium *plus* Treasury interest (contractual yield if unassigned); if assigned, acquires shares at strike minus premium. |
+| **2. Deep-Value Convergence** | Sifts `5,349` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing in the $100K Model Portfolio. |
 
 </details>
+
+---
+
+<!-- START_MACRO_PULSE_STRIP -->
+### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-02 16:04 UTC (Static)
+
+| **S&P 500**<br>`^GSPC` | **NASDAQ Comp**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **7,635.9** | **25,679.4** | **2,844.3** | **4.91%** | **$97.41** | **$3,969.00** | **$77,522** | **18.27** |
+| `+0.74% 🟢` | `+0.95% 🟢` | `+1.15% 🟢` | `-2 bps 🟢` | `-6.44% 🟢` | `+1.80% 🟢` | `-0.93% 🔴` | `-1.15 🟢` |
+
+### 🧭 Macro Regime & Economic Vitals
+```text
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ MACRO REGIME & SYSTEM LIQUIDITY RADAR                                         │
+├───────────────────────────────────────────────────────────────────────────────┤
+│ • Macro Weather Phase: DEFLATION (Growth Decelerating | Inflation Cooling)    │
+│ • Fed Net Liquidity:   $6.28T (+$42B 30-Day Trend [Expanding])                │
+│ • Yield Curve (10Y-2Y): +16 bps (Bull Steepening - Late-Cycle Transition)     │
+│ • Credit Risk (HY OAS): 315 bps (-5 bps [Tightening]) - Benign Risk Appetite  │
+│ • Margin Debt (FINRA): $1.48T (3.41x Free Cash | +1.8% MoM [Elevated Tinder]) │
+│ • Allocation Posture:  50% Compounders | 0% Turnarounds | 50% Cash/T-Bill     │
+└───────────────────────────────────────────────────────────────────────────────┘
+```
+
+| Economic Vital | Current Level | Prior Period | Directional Trend | Economic Context |
+| :--- | :---: | :---: | :---: | :--- |
+| **Real GDP Growth** | **+2.8%** | +3.0% | 📉 Decelerating | Annualized real output; moderating from prior quarter pace |
+| **Core CPI Inflation** | **3.1%** | 3.2% | 📉 Moderating | Ex-Food & Energy; gradual disinflation from prior print |
+| **Core PCE Inflation** | **2.7%** | 2.8% | 📉 Moderating | Federal Reserve primary policy benchmark |
+| **Fed Funds Rate** | **3.50%–3.75%** | 3.75%–4.00% | 📉 Easing Cycle | Policy target range; post-runoff reserve management active |
+| **10Y - 2Y Spread** | **+16 bps** | -4 bps | 📈 Bull Steepening | Un-inversion as front-end 2Y yields drop faster than 10Y |
+| **Fed Net Liquidity** | **$6.28T** | $6.24T | 📈 +$42B 30D Trend | Net Liquidity Proxy (WALCL - TGA - ON RRP) supporting market plumbing |
+| **Credit Risk (HY OAS)** | **315 bps** | 320 bps | 📉 Tightening | ICE BofA US High Yield Index Option-Adjusted Spread; leading indicator for corporate default risk and market liquidity. |
+| **FINRA Margin Debt** | **$1.48T (3.41x Cash)** | $1.45T (3.42x) | 📈 +1.8% MoM (Elevated Tinder) | FINRA Rule 4521(d) Margin Debt ($1.48T) vs. Free Credit Cash ($433.9B); structural dry-tinder leverage gauge (monthly, ~3-week lag). |
+
+<details markdown="1">
+<summary>💡 <b>How to Read the Yield Curve & Fed Net Liquidity (Click to Expand Guide)</b></summary>
+
+> **The Treasury Yield Curve (10Y - 2Y Spread):** Plots short-term vs. long-term U.S. government borrowing costs to diagnose monetary cycle transitions.
+
+| Yield Curve Regime | Spread Condition | Economic & Market Transmission Mechanism |
+| :--- | :---: | :--- |
+| **1. Inverted Curve** | `10Y - 2Y < 0 bps` | Short-term rates exceed long-term rates as the bond market prices in restrictive monetary policy and future economic contraction. |
+| **2. Bull Steepening** | `Un-Inverting (2Y Drops)` | Front-end yields fall faster than long-end yields as the Fed cuts rates into slowing growth—completing the classic late-cycle transition. |
+| **3. Bear Steepening** | `10Y Surges Faster` | Long-term yields rise faster than short-term yields as investors demand higher term premium to absorb Treasury coupon supply and fiscal deficits. |
+| **4. Normal Upward Sloping** | `10Y - 2Y > +50 bps` | Baseline expansionary state where long-term lenders receive standard maturity risk premium; favorable for credit creation. |
+
+---
+
+> **Fed Net Liquidity Proxy ($\text{WALCL} - \text{TGA} - \text{ON RRP}$):** Valuation models tell you what an asset is *worth*; balance-sheet plumbing tracks whether net central-bank liquidity is expanding or contracting.
+> $$\text{Net Liquidity Proxy} = \text{Fed Total Assets (WALCL)} - \text{Treasury General Account (TGA)} - \text{Overnight Reverse Repo (ON RRP)}$$
+
+| Plumbing Component | Ledger Role & Window | Commercial Bank Reserve Transmission |
+| :--- | :--- | :--- |
+| **Accounting Identity** | `WALCL − TGA − ON RRP` | On the Fed's liability ledger, $\text{Assets} \approx \text{Commercial Bank Reserves} + \text{Currency in Circulation} + \text{TGA} + \text{ON RRP}$. Because currency in circulation (`~$2.3T`) moves slowly over 30-day windows, deducting `TGA` and `ON RRP` serves as a high-frequency **Net Liquidity Proxy** tracking changes in commercial bank reserves (earning `IORB`). |
+| **Treasury General Account (`TGA`)** | Government Checking Account | Tax receipts and net bond settlements move cash out of commercial bank reserves into the `TGA`; Treasury spending injects reserves back into banks (`±$50B–$100B` weekly tax/settlement noise is normal). |
+| **Overnight Reverse Repo (`ON RRP`)** | `12:45–1:15 PM EST` Rate Floor | Cash parked overnight in BoNY Tri-Party accounts by **Rule 2a-7 Government MMFs (`90%–98%`)** and **GSEs**—rarely commercial banks (`<0.01%` historically, as banks earn `+10–15 bps` more in `IORB`). MMFs compress `WAM` ($\le 60\text{ days}$) into `ON RRP` during hike cycles and extend into T-Bills when hikes pause. |
+| **Why `ON RRP` & Reserve Floors Matter** | T-Bill Supply Absorption | MMFs are barred by SEC Rule 2a-7 from buying equities. When `ON RRP` drains into T-Bills, MMFs absorb Treasury issuance so fiscal deficits do not drain **Commercial Bank Reserves**. Post-QT reserve management purchases (`~$40B/mo` T-Bills) help stabilize ample reserve balances once `ON RRP` is depleted. |
+| **Standing Repo Facility (`SRF`)** | `8:15 AM & 1:30 PM EST` Ceiling | Injects cash at the Upper Band against Treasury/Agency collateral. Ignore small `$25M–$105M` backup plumbing tests and 1-day quarter-end dealer `FICC/GSD` window dressing; only **multi-day non-turn SRF usage (`$5B–$100B+`) with `BGCR/SOFR` above the Upper Band** signals tighter bank reserve conditions. |
+
+---
+
+> **Corporate Credit Risk & High Yield OAS (ICE BofA Option-Adjusted Spread):** The institutional canary separating equity narratives from debt market reality.
+> Spreads measure the yield premium investors demand to hold high-yield corporate bonds over risk-free U.S. Treasuries of matching duration.
+
+| Credit Spread Regime | Spread Range | Transmission & Portfolio Posture |
+| :--- | :---: | :--- |
+| **1. Benign Risk Appetite** | `< 350 bps` | Refinancing windows are wide open. Corporate default risk is subdued; multiple expansion is supported across equities and Cash-Secured Puts operate with high margin of safety. |
+| **2. Elevated Concavity** | `350–500 bps` | Secondary debt markets demand higher risk premia. Weakest borrowers encounter yield resistance; tighten margin-of-safety hurdles on indebted turnaround equities. |
+| **3. Credit Contraction / Panic** | `> 500 bps` | Primary junk bond issuance freezes; secondary market discounts distressed debt (e.g., yields $>15\%$, high probability of default). Severe equity dilution or wipeout risk; prioritize Net-Nets and zero-debt compounders. |
+
+</details>
+
+<details markdown="1">
+<summary>🔥 <b>FINRA Margin Leverage Radar (🟡 3.41x Free Cash — Elevated Tinder): Why Margin Debt Is an Amplifier, Not a Trigger (Click to Expand)</b></summary>
+
+> **The Munger Plumbing Rule — Dry Tinder vs. The Spark:**
+> Elevated margin debt **has little timing meaning on its own unless something in market plumbing actually breaks.** Because nominal margin debt naturally grows alongside S&P 500 market cap and is reported monthly by FINRA (`Rule 4521(d)`) with a ~3-week lag, high margin balances can persist quietly for months or years during calm uptrends.
+>
+> **Why We Track It (The Pullback Amplifier):**
+> Think of **Margin Debt vs. Free Cash (`3.41x`)** as the **pile of dry brush**, and **VIX / HY Credit Spreads / GEX Put Walls** as the **spark**. When accounts carry `$3.41` of borrowed margin debt for every `$1.00` of uninvested brokerage cash, they have a thin liquidity cushion. **If a catalyst triggers a real pullback**, maintenance margin calls (`FINRA Rule 4210`) force mechanical, price-insensitive selling—acting as an **amplifier** that turns a routine dip into a steeper liquidation wave (which is what fills our deep-value Tranche 2 and Tranche 3 limit ladders at bargain prices).
+
+| Reporting Month | Margin Debit Balances (Borrowed Debt) | Total Free Credit Cash (Uninvested Buffer) | Net Margin Balance (`Cash - Debt`) | Debt-to-Free-Cash Ratio | MoM Debt $\Delta\%$ |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Sep 2026** | `$1.480T` (`$1,480,054M`) | `$433.9B` (`$215.3B` Cash + `$218.6B` Margin) | `-$1.046T` | **`3.41x`** | `+1.8%` |
+| **Aug 2026** | `$1.454T` (`$1,453,832M`) | `$425.1B` (`$207.6B` Cash + `$217.5B` Margin) | `-$1.029T` | **`3.42x`** | `+2.6%` |
+| **Jul 2026** | `$1.417T` (`$1,417,225M`) | `$422.4B` (`$205.1B` Cash + `$217.3B` Margin) | `-$0.995T` | **`3.35x`** | `-5.6%` |
+| **Jun 2026** | `$1.502T` (`$1,502,072M`) | `$440.9B` (`$217.4B` Cash + `$223.4B` Margin) | `-$1.061T` | **`3.41x`** | `—` |
+
+| Margin Leverage Regime | Ratio / Velocity Condition | How It Interacts With a Market Pullback |
+| :--- | :---: | :--- |
+| **🟢 1. Healthy Cash Buffer** | `< 3.0x Free Cash` | Uninvested brokerage cash cushions routine pullbacks; dips are met by organic buying rather than forced margin calls. |
+| **🟡 2. Elevated Tinder (Amplifier Armed)** | `>= 3.0x Free Cash` | **Benign while VIX & HY OAS remain calm**, but acts as a **downside amplifier** if spot breaks below structural GEX put walls. |
+| **🔴 3. Active Deleveraging Roll-Over** | `>= 3.0x & MoM <= -2.5%` | Margin calls are actively flushing levered accounts; avoid chasing early bounces and let lower limit tranches (`T2` / `T3`) catch the forced unwind. |
+
+</details>
+
+🚨 **MACRO CATALYST COUNTDOWN:** 🚨 in 2 Days: **Treasury Quarterly Refunding Announcement (QRA)** (2026-11-04) | ⚠️ in 4 Days: **Non-Farm Payrolls (NFP) & Unemployment** (2026-11-06)
+
+<details markdown="1">
+<summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
+
+> **The Mechanics of Macro IV (Why Options Desks Care):**
+> Heading into high-impact catalysts (FOMC, CPI, OPEX, QRA), market participants aggressively buy option protection, driving Implied Volatility (IV) to expand. The moment uncertainty is resolved, volatility collapses into an immediate **IV Crush**.
+> For deep-value allocators, major macro catalysts create temporary liquidity air pockets—driving panic mispricings that fill our deterministic limit order tranches.
+
+| Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
+| :--- | :--- | :---: | :---: | :--- |
+| **2026-11-04** | Treasury Quarterly Refunding Announcement (QRA) | 🚨 in 2 Days | 🔥 Critical | Treasury auction supply shock; coupon supply drains dealer liquidity & term premium surges. |
+| **2026-11-06** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 4 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-11-12** | Core CPI Inflation Data | ⚠️ in 10 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-11-13** | PPI Wholesale Inflation | ⚠️ in 11 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | 📅 in 18 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 32 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 37 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-12-10** | Core CPI Inflation Data | 📅 in 38 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-12-11** | PPI Wholesale Inflation | 📅 in 39 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+
+</details>
+<!-- END_MACRO_PULSE_STRIP -->
 
 ---
 
@@ -33,12 +159,12 @@
 <details markdown="1">
 <summary>💡 <b>What is the Yield Stacker Engine? (How CSPs + Treasury Floor Work)</b></summary>
 
-> **The Double Stack Advantage:** Instead of letting cash sit idle, your collateral sits in short-term U.S. Treasury bills earning ~4.5% while simultaneously backing out-of-the-money Cash-Secured Puts (`Delta <= -0.15`) on balance-sheet survivors.
+> **The Double Stack Advantage (Independent Income Desk):** Operating across the liquid optionable S&P 1500 universe, collateral sits in short-term U.S. Treasury bills earning `~4.5%` while simultaneously backing out-of-the-money Cash-Secured Puts (`Delta <= -0.15`).
 
 | Outcome Scenario | Option Expiration Result | Portfolio Return & Capital Impact |
 | :--- | :---: | :--- |
-| **Stock Stays Flat or Rises** | Put expires worthless (`OTM`) | You keep the `~4.5%` Treasury bill yield **plus** 100% of the option `bid` premium. |
-| **Stock Drops Below Strike** | Assigned shares at Strike | You acquire a pre-vetted, undervalued company at your target discount minus the premium already collected. |
+| **Stock Stays Flat or Rises** | Put expires worthless (`OTM`) | You keep the `~4.5%` Treasury bill yield **plus** 100% of the option `bid` premium (Contractual Stacked Yield). |
+| **Stock Drops Below Strike** | Assigned shares at Strike | You acquire shares at the strike price minus the upfront premium collected (exposed to equity downside below net basis). |
 
 </details>
 
@@ -47,9 +173,9 @@
 
 | Options Metric | Target Range | Institutional Execution Meaning |
 | :--- | :---: | :--- |
-| **Delta** | `-0.10 to -0.15` | Statistical probability of assignment (`-0.14` delta implies an `~86%` probability the put expires worthless). |
-| **Absolute IV** | `Implied Volatility %` | Market anxiety priced into the option chain; elevated IV pays higher upfront put premium. |
-| **Stacked Annual Yield** | `Option Yield + T-Bill` | Combined annualized return of the option `bid` premium stacked on top of the 13-week Treasury floor. |
+| **Delta** | `-0.10 to -0.15` | Black-Scholes moneyness approximation (`-0.14` delta implies an `~86%` model estimate of expiring OTM; not a physical forecast). |
+| **Absolute IV** | `Implied Volatility %` | Option-implied volatility priced into the chain; verify earnings release dates before selling across a 30–60 DTE window. |
+| **Stacked Annual Yield** | `Option Yield + T-Bill` | Contractual annualized yield of the option `bid` premium plus the 13-week Treasury floor (assuming no assignment). |
 | **Fib Zone** | `Discount / Capitulation` | Technical mean-reversion zone indicating whether spot price is compressed near support or extended. |
 
 </details>
@@ -133,7 +259,6 @@
 | **`TFC`** | $49.75 | $42.50 | 46 | -0.09 | 30.9% | $0.15 | **7.30%** | 1401 | N/A | Premium (High) |
 | **`OZK`** | $51.78 | $45.00 | 46 | -0.11 | 32.9% | $0.15 | **7.14%** | 25 | N/A | Premium (High) |
 | **`HAL`** | $35.63 | $31.00 | 46 | -0.11 | 33.0% | $0.10 | **7.06%** | 795 | N/A | Premium (High) |
-| **`IBP`** | $220.16 | $180.00 | 46 | -0.13 | 54.1% | $0.50 | **6.70%** | 1 | N/A | Deep Discount |
 | **`DVA`** | $181.15 | $155.00 | 46 | -0.10 | 35.9% | $0.40 | **6.55%** | 348 | N/A | Premium (High) |
 | **`KR`** | $67.18 | $57.50 | 46 | -0.08 | 30.5% | $0.13 | **6.29%** | 4719 | N/A | Premium (High) |
 | **`RF`** | $28.93 | $25.00 | 46 | -0.10 | 32.2% | $0.05 | **6.09%** | 70 | N/A | Premium (High) |
@@ -153,7 +278,7 @@
 
 ---
 
-# 🏛️ Section 3: Deep-Value & Multi-Bucket Convergence Radar
+# 🏛️ Section 2: Deep-Value & Multi-Bucket Convergence Radar
 > **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,349` companies in SEC EDGAR, excluding Financials/REITs `SIC 6000–6799`).
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > +15.0%` or `Stock Issuance ≥ 10%` of Market Cap).
 > - **The 4 Hunting Buckets:** `1_CASH` / `1_TBV` (Net Cash / NCAV / Tangible Book floor) | `2_FCF` (`≥ 12%` FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal `≤ -3%` net of SBC) | `4_INSIDER` (Cluster insider buying).
@@ -179,10 +304,23 @@
 
 | Forensic Model | Passing Hurdle | What It Verifies in SEC 10-K / 10-Q Filings |
 | :--- | :---: | :--- |
-| **Piotroski F-Score** | `6/9 to 9/9` | Tests 9 fundamental health checks across profitability, leverage, liquidity, and operating efficiency. |
-| **Altman Z-Score** | `> 1.81` (`> 2.99` Safe) | Measures solvency distance based on working capital, retained earnings, EBIT, and asset coverage. |
-| **Beneish M-Score** | `< -1.78 (Clean)` | Mathematical index detecting aggressive accruals or artificial revenue inflation (`> -1.78` = Manipulation Risk). |
-| **SBC % OCF** | `≤ 30.0%` | Stock-Based Compensation as a % of Operating Cash Flow; prevents executive stock handouts from masking burn. |
+| **Piotroski F-Score** | `6/9 to 9/9` | Tests 9 fundamental health checks across profitability, leverage, liquidity, and operating efficiency (`OCF > Net Income`). |
+| **Altman Z-Score** | `> 1.81` (`> 2.99` Safe) | Measures industrial/operating solvency distance based on working capital, retained earnings, EBIT, and asset coverage. |
+| **Beneish M-Score** | `< -1.78 (Clean)` | 8-variable accrual screening index (`> -1.78` flags elevated accounting accrual risk requiring 10-K audit). |
+| **SBC % OCF** | `≤ 30.0%` | Stock-Based Compensation as a % of Operating Cash Flow; flags executive stock dilution. |
+
+</details>
+
+<details markdown="1">
+<summary>💡 <b>Portfolio Weighting & Execution Disciplines (Munger / Graham Rules)</b></summary>
+
+| Portfolio Sleeve / Rule | Target Sleeve Weight | Per-Name Target / Cap | Core Allocation & Execution Discipline |
+| :--- | :---: | :---: | :--- |
+| **Tier 1: Core Compounders** | `65% – 70%` | `5.5%` / `7.0% Cap` | Structural cash compounders (`ROIC ≥ 15%`, `FCF Yield ≥ 10%`, zero net debt, active share buybacks). |
+| **Tier 3: Micro-Turnarounds** | `20% – 25%` | `2.8%` / `3.5% Cap` | Beaten-down operators with verified C-suite Form 4 open-market cluster buying or 13D catalysts. |
+| **Tier 2: Net-Nets & NCAV Arb** | `≤ 5.0% Strict` | `1.0%` / `1.5% Cap` | Strict Net-Nets ($P \le 0.67 \times \text{NCAV}$) and Sub-NCAV Arbitrage ($P \le 1.00 \times \text{NCAV}$); capped to limit burn exposure. |
+| **3-Tranche Limit Ladders** | `33.3% / 33.3% / 33.4%` | `T1 Mkt / T2 -1x ATR / T3 -2x ATR` | Stage entries across volatility pullbacks (`-6.0%` / `-12.5%` baseline when ATR is offline). |
+| **ADDV & Dry Powder Rules** | `≥ 10.0% Cash Floor` | `≤ 2.0% of 30d ADDV` | Targets 1–2 day normal-volume liquidation; unallocated sleeve capital and trimmed overflow remain in Treasury Bills. |
 
 </details>
 
