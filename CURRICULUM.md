@@ -157,6 +157,20 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
 
 ---
 
+## 7. FINRA Rule 4521(d) Customer Margin Leverage & Dry-Tinder Amplifier Mechanics
+* **Data Source & Oracle:** FINRA Monthly Margin Statistics (`ingestion/macro_vitals.py` & `data_lake/finra_margin_history.json`), reported monthly under FINRA Rule 4521(d) with an approximate 3-week publication lag.
+* **Formula & Ratio Definition:**
+  $$\text{Total Free Credit Cash} = \text{Free Credit Balances in Cash Accounts} + \text{Free Credit Balances in Margin Accounts}$$
+  $$\text{Debt-to-Free-Cash Ratio} = \frac{\text{Margin Debit Balances (Borrowed Debt)}}{\text{Total Free Credit Cash}}$$
+* **The Munger Plumbing Rule — Dry Tinder vs. The Spark:**
+  Nominal margin debt naturally expands alongside S&P 500 market capitalization and has limited standalone timing value during calm uptrends. Instead, **Margin Debt vs. Free Cash (`3.41x`)** measures the **pile of dry brush**, while **VIX / HY OAS Credit Spreads / GEX Put Walls** act as the **spark**. When brokerage accounts carry `$3.41` of borrowed margin debt per `$1.00` of uninvested cash, maintenance margin calls (`FINRA Rule 4210`) act as a mechanical **downside amplifier** once a catalyst triggers a real pullback—forcing price-insensitive liquidations that fill our deep-value Tranche 2 and Tranche 3 limit orders.
+* **The 3 Margin Leverage Regimes (`models/macro_regime.py`):**
+  * **`🟢 Healthy Cash Buffer` ($< 3.0\times\text{ Free Cash}$):** Uninvested brokerage cash cushions routine pullbacks; dips are absorbed by organic buying rather than forced margin calls.
+  * **`🟡 Elevated Tinder (Amplifier Armed)` ($\ge 3.0\times\text{ Free Cash}$):** Benign while VIX and HY OAS remain calm, but acts as a downside liquidation amplifier if spot breaks below structural GEX put walls.
+  * **`🔴 Active Deleveraging Roll-Over` ($\ge 3.0\times\text{ Free Cash}$ and $\text{MoM } \Delta\% \le -2.5\%$):** Margin calls are actively flushing levered accounts; avoid chasing early bounces and let lower limit tranches (`T2` / `T3`) catch the forced unwind.
+
+---
+
 # MODULE 2: Engine 1 — The Yield Stacker (Cash-Secured Puts)
 
 ```
@@ -199,12 +213,12 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
 ```
                       THE MULTI-BUCKET ADVERSARIAL SIEVE
                   ┌────────────────────────────────────────┐
-                  │ 5,349 U.S. Operating Companies (EDGAR) │
+                  │ 5,350 U.S. Operating Companies (EDGAR) │
                   └────────────────────────────────────────┘
                                       │
                                       ▼
                   ┌────────────────────────────────────────┐
-                  │   STEP A: Dilution Vampire Quarantine  │
+                  │   STEP A: Dilution Sieve Quarantine    │
                   │   Eliminates cash-burn & share printers│
                   └────────────────────────────────────────┘
                                       │
@@ -225,6 +239,11 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
                   │ 38 STRICT SURVIVORS (99.3% Attrition)  │
                   └────────────────────────────────────────┘
 ```
+
+> **📐 Dynamic Funnel Selectivity Formula (`reporting/morning_briefing_section.py`):**  
+> Both the total operating universe ($N_{\text{Operating}}$) and the surviving cohort ($N_{\text{Survivors}}$) are dynamically queried from `master_universe.sqlite` on every weekend bulk scan (Option 14) and daily briefing refresh (Option 6)—never fixed to a static quota:
+> $$\text{Funnel Selectivity (\%)} = \left(1 - \frac{N_{\text{Survivors}}}{N_{\text{Operating}}}\right) \times 100$$
+> *(Current Snapshot: $1 - \frac{38}{5,350} = 99.29\% \approx \mathbf{99.3\%}$ Attrition Rate).*
 
 ## 1. Step A: The Dilution Vampire Sieve (Quarantine Rules)
 Before computing valuation multiples, every company must survive 4 mathematical liquidation gates:

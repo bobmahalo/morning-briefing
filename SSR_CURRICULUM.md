@@ -358,7 +358,7 @@ Rather than guessing what a stock's P/E "should" be using theoretical formulas, 
 
 ## Section 5: SIC Industry Peer Benchmarking & Relative Scale
 
-Queries `master_universe.sqlite` (5,349 SEC operating companies) for the **top 3 competitors by Market Cap** sharing the exact same **4-digit SEC Standard Industrial Classification (`SIC`) code** (falling back to the 2-digit SIC group only if fewer than 3 companies exist in the 4-digit niche):
+Queries `master_universe.sqlite` (`5,350` active SEC operating companies) for the **top 3 competitors by Market Cap** sharing the exact same **4-digit SEC Standard Industrial Classification (`SIC`) code** (falling back to the 2-digit SIC group only if fewer than 3 companies exist in the 4-digit niche):
 * Assigns relative scale badges:
   * `[Industry Leader: Nx larger]` (Peer is ≥ 2.5× the subject company's market cap)
   * `[Direct Peer: ~Nx]` (0.4× to 2.5× market cap)
@@ -485,6 +485,16 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 
 ---
 
+## 6. V3 Options Gamma Exposure (GEX) Surface & Zero-Gamma Flip (`models/gex_engine.py` & `!gex [TICKER]`)
+Complements fundamental limit order ladders with real-time dealer option-hedging microstructure (`!gex [TICKER]` on Discord or Option 16 in `Run_Antigravity_V3.command`):
+* **Dual-Horizon Windowing (Closing the 15–29 DTE Blind Spot):** Splits open interest into **Tactical (`0–14 DTE`)** for immediate weekly pinning and **Structural (`15–45 DTE`)** to capture institutional monthly OpEx walls.
+* **Scale-Invariant Dollar GEX ($1\%$ Spot Move) & 24/7 Analytical $\Gamma$ Fallback:**
+  $$\text{Share GEX}_K = (\text{OI}_{\text{call}} \cdot \Gamma_{\text{call}} - \text{OI}_{\text{put}} \cdot \Gamma_{\text{put}}) \times 100, \qquad \text{Dollar GEX}_{1\%} = \text{Share GEX}_K \times S \times (0.01 \cdot S)$$
+  Automatically computes analytical Black-Scholes $\Gamma$ whenever after-hours OPRA feeds return `-999.0` sentinels.
+* **Active-Strike Zero-Gamma Flip (`ZGL`) & Single-Stock Polarity Awareness:** Interpolates the exact strike where net dealer gamma crosses zero across active strikes. While index put-selling typically pins index rallies, single-stock call speculation can invert dealer polarity during parabolic squeezes—making the `0–14 DTE` Put Wall and `ZGL` valuable tactical references when staging Tranche 2 and Tranche 3 limit bids.
+
+---
+
 ## 🛠️ Quick Operator Commands for SSR v2
 
 | Task | Command / Shortcut |
@@ -492,7 +502,8 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 | **Interactive Double-Click Launcher** | Double-click [`Run_Executive_Card.command`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/Run_Executive_Card.command) and type one or more tickers (e.g., `STRT NRDS GME`). |
 | **CLI Single or Multi-Ticker Run + Web Publish** | `python3 run_ssr_v2.py STRT UEIC --publish` |
 | **Custom Position Size Override** | `python3 run_ssr_v2.py STRT --position-usd 5000` |
-| **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (automatically discovers & updates all 34+ `{TICKER}.md` cards in `Single_Stock_Web`, including ad-hoc single stock scans) |
+| **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (automatically discovers & updates all 38+ `{TICKER}.md` cards in `Single_Stock_Web`, including newly qualified weekend survivors) |
+| **Single-Ticker GEX Surface Radar** | Double-click `Discord_Bot/Run_Single_Ticker_GEX.command`, run Option 16 in `Run_Antigravity_V3.command`, or type `!gex [TICKER]` in Discord |
 
 ---
 

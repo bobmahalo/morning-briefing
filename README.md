@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-03 15:14:01 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-03 15:41:16 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-03 15:14 UTC | Macro Regime: DEFLATION REGIME             │
+│ Generated: 2026-11-03 15:41 UTC | Macro Regime: DEFLATION REGIME             │
 │ VIX: 21.11 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -297,7 +297,7 @@
 | **Bucket `2_FCF`** | Trailing Free Cash Flow Yield `≥ 12.0%` & Debt Payback `≤ 4.0x` | High organic cash generation relative to market price and debt load. |
 | **Bucket `3_BUYBACK`** | Net Share Count shrinking `≤ -3.0%` YoY/5Y via cash repurchases | Management retiring diluted share count net of SBC and increasing per-share value. |
 | **Bucket `4_INSIDER`** | Form 4 C-Suite open-market cluster buying (`Code P`) | Executives deploying personal after-tax cash on the open market. |
-| **Funnel Selectivity** | `5,350` Active Filers → `38` Survivors (`99.3%` Attrition) | Requires `≥ 2` Hunting Buckets plus mandatory Piotroski, Altman Z, and SBC gates. |
+| **Funnel Selectivity** | `5,350` Active Filers → `38` Survivors (`99.3%` Attrition) | `Selectivity % = (1 - Survivors / Operating) × 100`. Dynamically recomputed each scan across `≥ 2` Buckets + Piotroski, Altman Z, and SBC gates. |
 
 </details>
 
@@ -434,21 +434,21 @@
 # Antigravity V3: Quantitative Engine & Execution Methodology
 
 ```text
-Antigravity V3 System Architecture
+Antigravity V3 System Architecture (Dual-Engine Operating System)
 ├── 1. Operating Philosophy ── Zero Discretion | "a = a" XBRL Provenance | Adversarial Sieve
 ├── 2. 4-Layer Separation  ── Ingestion Oracles → Math Models → Strategy Desk → Clean Reporting
-├── 3. Engine 1 (Options)  ── Yield Stacker CSPs (Delta <= -0.15) + AMT Negative Gamma Shield
-├── 4. Engine 2 (Dark Pool)── Supply-Chain Recursive NLP (Depth 2) + OBV Polyfit Trend Score >= 70
-├── 5. Engine 3 (SEC Bulk) ── 5,349 Operating Equities → Vampire Quarantine → 4 Hunting Buckets
+├── 3. Macro & Credit Pulse── 8-Asset Tape | Fed Net Liquidity | HY OAS Spread | FINRA Margin Leverage
+├── 4. Engine 1 (Options)  ── Yield Stacker CSPs (Delta <= -0.15) + 13W T-Bill Floor (~4.5%)
+├── 5. Engine 2 (SEC Bulk) ── 5,350 Operating Equities → Dilution Sieve → 4 Hunting Buckets → 38 Survivors
 ├── 6. Forensic Scorecard  ── Piotroski F >= 6 | Altman Z >= 1.81 | Beneish M <= -1.78 | SBC <= 30%
-└── 7. Stage 3 Execution   ── 1%-2% ADDV Liquidity Caps | Tranche Entries | Hard Valuation Exits
+└── 7. Stage 3 Execution   ── ≤ 2% ADDV Liquidity Caps | 3-Tranche Limit Ladders | MMF T+1 Sweep Floor
 ```
 
 ---
 
 ## 1. Executive Philosophy & Ground Rules
 
-Antigravity V3 is an institutional-grade, zero-opinion quantitative research platform covering the entire U.S. public equity market (`5,349` active `10-K`/`10-Q` operating companies). It enforces strict quantitative engineering principles:
+Antigravity V3 is an institutional-grade, zero-opinion quantitative research platform covering the active U.S. public equity market (`5,350` active `10-K`/`10-Q` operating companies in `master_universe.sqlite`). It enforces strict quantitative engineering principles:
 
 1. **Zero LLM Opinions or Hallucinations:** No AI prose, no forward speculative DCF guessing, and no Wall Street analyst consensus price targets. Every figure is deterministically derived from raw SEC EDGAR XBRL filings, Form 4 insider XML feeds, and exchange trade prints.
 2. **The "a = a" Accounting Principle:** A financial statement line item is populated only when an SEC XBRL tag maps directly to the specific GAAP accounting concept via ranked priority lists in `config/xbrl_aliases.yaml`.
@@ -457,10 +457,10 @@ Antigravity V3 is an institutional-grade, zero-opinion quantitative research pla
    - `NA` (**Not Applicable**): Mathematical ratio cannot logically exist (e.g., CAGR from a negative base, or debt payback years when FCF <= 0).
    - `DERIVED`: Arithmetic values calculated from cumulative YTD filings (Q2 = 6M - Q1, Q3 = 9M - 6M, Q4 = FY - 9M).
 4. **4-Layer Separation of Concerns:**
-   - **Layer 1 (Ingestion):** Bulk SEC EDGAR streaming, exchange quotes caching, OpenInsider/Form 4 ledgers, and 10-K Item 5 registered record holder (DRS) census.
-   - **Layer 2 (Models):** Mathematical statement assembly, financial ratios, forensic models (Piotroski, Altman, Beneish), and Wide-Net hunting bucket classification.
-   - **Layer 3 (Strategy & Execution):** Multi-bucket convergence filtering, forensic health gates, and position-sizing liquidity rules.
-   - **Layer 4 (Reporting):** Markdown briefings, institutional CSV exports, and live publication.
+   - **Layer 1 (Ingestion):** Bulk SEC EDGAR streaming, exchange quotes caching, OpenInsider/Form 4 ledgers, FINRA Rule 4521(d) margin statistics, and 10-K Item 5 registered record holder (DRS) census.
+   - **Layer 2 (Models):** Mathematical statement assembly, financial ratios, forensic models (Piotroski, Altman, Beneish), V3 GEX surface models, and Wide-Net hunting bucket classification.
+   - **Layer 3 (Strategy & Execution):** Multi-bucket convergence filtering, forensic health gates, position-sizing liquidity rules, and stateful `$100K` portfolio lifecycle accounting.
+   - **Layer 4 (Reporting):** Markdown briefings, SSR v2 Executive Cards, institutional CSV exports, and live GitHub Pages publication.
 
 ---
 
@@ -468,24 +468,28 @@ Antigravity V3 is an institutional-grade, zero-opinion quantitative research pla
 
 | Engine | Target Universe | Core Screening Criteria | Operational Playbook |
 | :--- | :--- | :--- | :--- |
-| **Section 1: Yield Stacker** | S&P 1500 deep-value survivors | • Absolute IV > 30% & Delta <= -0.15<br>• Collateralized by 4.5% Treasury floor yield<br>• AMT Macro: VIX Negative Gamma gate | Sell high-probability Cash-Secured Puts (CSPs) at the **bid** price beneath structural support levels |
-| **Section 2: Incubation Radar** | Parabolic theme supply-chain derivatives | • 52-week anchor expansion >= 100%<br>• Recursive SEC 10-K NLP traversal (Depth 2)<br>• Pure-play ceiling: Market Cap < $100B<br>• 20-day OBV polyfit accumulation score >= 70 | Accumulate overlooked physical component tollbooths pinned at base lows before breakout expansion |
-| **Section 3: SEC Convergence Radar** | All 5,349 U.S. operating companies | • Multi-Bucket Convergence (>= 2 Buckets)<br>• Dilution Vampire quarantine pass<br>• Piotroski F-Score >= 6<br>• Altman Z >= 1.81 or positive Net Cash | Accumulate micro- and small-cap deep-value mispricings under strict ADDV liquidity rules and valuation exits |
+| **Section 1: Yield Stacker (CSPs)** | S&P 1500 deep-value survivors | • Absolute IV > 30% & Delta <= -0.15<br>• Collateralized by 13-week Treasury floor yield (~4.5%)<br>• VIX Volatility Regime advisory monitor | Sell high-probability Cash-Secured Puts (CSPs) strictly at the exchange **bid** price beneath structural support levels |
+| **Section 2: SEC Convergence Radar** | All `5,350` U.S. operating companies (ex-Financials/REITs `SIC 6000–6799`) | • Multi-Bucket Convergence (`>= 2` Buckets)<br>• Dilution Sieve quarantine pass<br>• Piotroski F-Score `>= 6`<br>• Altman Z `>= 1.81` or positive Net Cash | Accumulate deep-value mispricings and cannibal compounders via 3-tranche limit ladders under strict `<= 2.0%` ADDV liquidity caps |
 
 ---
 
-## 3. Section 3: SEC Deep-Value Convergence Architecture
+## 3. Section 2: SEC Deep-Value Convergence Architecture & Dynamic Selectivity Formula
 
-### Step A: The "Dilution Vampire" Quarantine Sieve
-Before evaluating statistical cheapness, any company destroying shareholder equity through toxic financing or aggressive accrual games is quarantined. A company fails if **any** of the following hold:
+### Dynamic Funnel Selectivity Formula
+Both the total operating universe ($N_{\text{Operating}}$) and the surviving cohort ($N_{\text{Survivors}}$) are dynamically queried from `master_universe.sqlite` on every scan—never fixed to an arbitrary quota:
+$$\text{Funnel Selectivity (\%)} = \left(1 - \frac{N_{\text{Survivors}}}{N_{\text{Operating}}}\right) \times 100$$
+*(Current Scan Snapshot: `5,350` Active Operating Filers → `38` Forensic Survivors = `99.3%` Selectivity / Attrition Rate).*
+
+### Step A: The Dilution Quarantine Sieve
+Before evaluating statistical cheapness, any company eroding shareholder equity through dilutive financing or aggressive accrual expansion is quarantined. A company fails if **any** of the following hold:
 * **Cash-Burning Diluter:** TTM Free Cash Flow < 0 **AND** 1-Year Common Shares > +15.0%.
 * **Aggressive Share Printer:** TTM Free Cash Flow < 0 **AND** TTM Stock Issued >= 10.0% of Market Cap.
-* **Lethal Cash Runway:** TTM Free Cash Flow < 0, TTM Stock Issued > 0, **AND** Cash & Equivalents < |TTM Free Cash Flow| (< 4 quarters of runway).
-* **Accrual Manipulation Alert:** TTM Operating Cash Flow < 0 **AND** Beneish M-Score > -1.78.
+* **Short Cash Runway:** TTM Free Cash Flow < 0, TTM Stock Issued > 0, **AND** Cash & Equivalents < |TTM Free Cash Flow| (< 4 quarters of runway).
+* **Accrual Risk Flag:** TTM Operating Cash Flow < 0 **AND** Beneish M-Score > -1.78.
 
 ### Step B: The 4 "Hidden Gold" Hunting Buckets
-1. **`1_CASH` (Liquid Net Cash & Graham Net-Nets):** Trades at or near liquid balance-sheet backing (Net Cash Ex-Debt Yield >= 50%, Graham NCAV Yield >= 50%, or Tangible Book Yield >= 80%). Financials, REITs, and balance sheets with Total Liabilities / Total Assets >= 0.75 are disqualified.
-2. **`2_FCF` (High-FCF Turnarounds):** Generates real cash (TTM FCF Yield >= 12.0%) with manageable debt (Net Debt payable in <= 4.0 years of FCF).
+1. **`1_CASH` / `1_TBV` (Liquid Net Cash, Graham Net-Nets & Tangible Book Floors):** Trades at or near balance-sheet backing (`1_CASH`: Net Cash Ex-Debt Yield >= 50% or Graham NCAV Yield >= 50%; `1_TBV`: Tangible Book Yield >= 80%). Financials, REITs, and balance sheets with Total Liabilities / Total Assets >= 0.75 are excluded.
+2. **`2_FCF` (High-FCF Turnarounds):** Generates structural cash (TTM FCF Yield >= 12.0%) with manageable debt (Net Debt payable in <= 4.0 years of FCF).
 3. **`3_BUYBACK` (Cannibal Share Repurchases):** Retires common equity with genuine cash flow (TTM FCF > 0, TTM Buybacks > Stock Issued, and 1-Year Shares down -3.0% to -35.0% or 5-Year CAGR down -3.0% to -30.0%).
 4. **`4_INSIDER` (C-Suite & Cluster Insider Buying):** Insiders buying in the open market with personal cash on Form 4 (Code P) >= 2 C-Suite officers over 12 months, or net open-market buying >= $50,000.
 
@@ -493,13 +497,13 @@ Before evaluating statistical cheapness, any company destroying shareholder equi
 
 ## 4. Forensic Accounting Matrix
 
-| Forensic Metric | Formula & Concept | Target Threshold | Distress / Trap Threshold | What It Prevents |
+| Forensic Metric | Formula & Concept | Target Threshold | Distress / Trap Threshold | What It Verifies |
 | :--- | :--- | :-: | :-: | :--- |
-| **Piotroski F-Score** | 9 binary tests across Profitability, Leverage, Liquidity, and Operating Efficiency | **`7–9` (Elite)** | `0–3` (Deteriorating) | Eliminates companies with declining margins, liquidity crunches, or operational decay |
-| **Altman Z-Score** | 5-ratio multivariate solvency index measuring bankruptcy risk | **`> 2.99` (Safe)** | `< 1.81` (Distress) | Eliminates companies at elevated risk of Chapter 11 filing or debt restructuring |
-| **Beneish M-Score** | 8-factor index measuring receivables growth, gross margin decay, and asset quality | **`<= -1.78` (Clean)** | `> -1.78` (Manipulator Risk) | Exposes aggressive capitalization of expenses and accounting gimmicks |
-| **SBC % of OCF** | TTM Stock-Based Compensation divided by TTM Operating Cash Flow | **`<= 25%` (Healthy)** | `> 50%` (Dilution Mirage) | Disqualifies companies whose "operating cash flow" is artificial due to heavy stock grants |
-| **Implied FCF CAGR** | Reverse DCF solving for 10-year annual FCF growth priced into current Enterprise Value | **`< 0.0%/yr`** | `> +10.0%/yr` | Highlights assets where the market prices in permanent decay; flat execution provides upside |
+| **Piotroski F-Score** | 9 binary tests across Profitability, Leverage, Liquidity, and Operating Efficiency | **`7–9` (Strong)** | `0–3` (Weak) | Filters out companies with declining margins, liquidity crunches, or operational decay |
+| **Altman Z-Score** | 5-ratio multivariate solvency index measuring balance-sheet distance to distress | **`> 2.99` (Safe)** | `< 1.81` (Distress) | Filters out companies at elevated risk of Chapter 11 restructuring |
+| **Beneish M-Score** | 8-factor index measuring receivables growth, gross margin decay, and accrual quality | **`<= -1.78` (Clean)** | `> -1.78` (Accrual Flag) | Flags aggressive expense capitalization and working-capital bloat for 10-K audit |
+| **SBC % of OCF** | TTM Stock-Based Compensation divided by TTM Operating Cash Flow | **`<= 30%` (Disciplined)** | `> 50%` (Dilutive) | Disqualifies companies whose reported operating cash flow is consumed by executive stock grants |
+| **Implied FCF CAGR** | Reverse DCF solving for 10-year annual FCF growth priced into current Enterprise Value | **`< 0.0%/yr`** | `> +10.0%/yr` | Identifies equities priced for contraction where flat execution provides re-rating upside |
 
 ---
 
@@ -507,12 +511,12 @@ Before evaluating statistical cheapness, any company destroying shareholder equi
 
 A statistical screen is never bought blindly. The 3-Stage Funnel governs execution:
 
-* **Stage 1 (Convergence Sieve):** Screen 5,349 companies down to ~35 survivors via multi-bucket convergence, forensic health gates, and operating scale filters ($10M+ revenue, $15M+ market cap).
-* **Stage 2 (SSR Dossier Audit):** Audit 20-year annual and 8-quarter statements in the Single Stock Report (`{TICKER}_SSR.md`). Dissect working capital fluctuations vs. operating earnings, confirm FCF is structural, and inspect 10-K Item 5 registered record holder (DRS) trends.
+* **Stage 1 (Convergence Sieve):** Screen `5,350` operating companies down to `38` strict forensic survivors (`99.3%` attrition) via multi-bucket convergence, forensic health gates, and operating scale filters ($10M+ revenue, $15M+ market cap).
+* **Stage 2 (SSR v2 Executive Card Audit):** Audit 5-year capital allocation ledgers, 5-year historical valuation corridors, contractual debt maturity walls, secondary corporate bond spreads, and 10-K Item 5 registered record holder (DRS) trends in `{TICKER}.html`.
 * **Stage 3 (Position Sizing & Execution Discipline):**
-  - **ADDV Liquidity Cap:** Total position size is capped at **1.0%–2.0%** of 20-day Average Daily Dollar Volume to prevent market impact and illiquidity traps.
-  - **Tranche Allocation:** Accumulate in 3–4 equal tranches (e.g., 25% increments) using patient limit orders at structural support or discount zones.
-  - **Bucket 1 Exit Target (Net-Nets):** Take profits as price approaches **100% of Graham NCAV or Tangible Book Value**. Stop out immediately if operational burn erodes more than 20% of net current assets.
-  - **Buckets 2 & 3 Exit Target (Cannibal Compounders):** Hold as long as TTM FCF Yield > 10.0%, ROIC exceeds the cost of capital, and net share count continues to decrease year-over-year.
+  - **ADDV Liquidity Cap:** Total position size is capped at **1.0%–2.0%** of 30-day Average Daily Dollar Volume to minimize market impact.
+  - **3-Tranche Limit Order Ladder:** Accumulate across 3 tranches (`T1 Market 33.3%`, `T2 -1x ATR 33.3%`, `T3 -2x ATR 33.4%`) using patient limit orders at structural support zones.
+  - **Bucket 1 Exit Target (Net-Nets):** Scale out 50% at **100% of Graham NCAV** and 50% at **Tangible Book Value (TBV)**. Stop out if operational burn erodes > 20% of net current assets.
+  - **Buckets 2 & 3 Exit Target (Cannibal Compounders):** Hold as long as TTM FCF Yield >= 10.0%, ROIC exceeds cost of capital, and net share count declines year-over-year.
 
 </details>
