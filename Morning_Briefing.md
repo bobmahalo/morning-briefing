@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-03 15:41:16 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-03 16:24:39 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-03 15:41 UTC | Macro Regime: DEFLATION REGIME             │
+│ Generated: 2026-11-03 16:24 UTC | Macro Regime: DEFLATION REGIME             │
 │ VIX: 21.11 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -147,7 +147,7 @@
 | **2026-11-13** | PPI Wholesale Inflation | ⚠️ in 10 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
 | **2026-11-20** | Monthly OPEX | 📅 in 17 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
 | **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 31 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 36 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Powell press conference triggers rapid IV crush. |
+| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 36 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Fed Chair Warsh press conference (2:30 PM ET) triggers rapid IV crush. |
 | **2026-12-10** | Core CPI Inflation Data | 📅 in 37 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
 | **2026-12-11** | PPI Wholesale Inflation | 📅 in 38 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
 | **2026-12-18** | Quarterly OPEX (Triple Witching) | 📅 in 45 Days | 🔥 Critical | Simultaneous expiry of index futures, index options & stock options; massive institutional volume roll. |
