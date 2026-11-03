@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-03 14:41:34 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-03 15:14:01 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,13 +10,13 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-03 14:41 UTC | Macro Regime: DEFLATION REGIME             │
+│ Generated: 2026-11-03 15:14 UTC | Macro Regime: DEFLATION REGIME             │
 │ VIX: 21.11 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 - **🎯 Top Yield Stacker Pick:** `INTU` ($280.00 Strike, 45 DTE, 19.3% Stacked Yield)
-- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $61.98, 15.8% FCF Yield, $27.16 Net Cash Floor, Piotroski 9/9)
+- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $62.73, 15.3% FCF Yield, $27.12 Net Cash Floor, Piotroski 9/9)
 
 <details markdown="1">
 <summary>💡 <b>How to Trade the 2 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
@@ -24,7 +24,7 @@
 | Antigravity Engine | Core Strategy & Universe | Risk & Execution Discipline |
 | :--- | :--- | :--- |
 | **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on liquid S&P 1500 optionable equities, backed 100% by 13-week Treasury bills (`~4.5%`). | Collects option `bid` premium *plus* Treasury interest (contractual yield if unassigned); if assigned, acquires shares at strike minus premium. |
-| **2. Deep-Value Convergence** | Sifts `5,349` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing in the $100K Model Portfolio. |
+| **2. Deep-Value Convergence** | Sifts `5,350` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing in the $100K Model Portfolio. |
 
 </details>
 
@@ -281,11 +281,11 @@
 ---
 
 # 🏛️ Section 2: Deep-Value & Multi-Bucket Convergence Radar
-> **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,349` companies in SEC EDGAR, excluding Financials/REITs `SIC 6000–6799`).
+> **Methodology:** Multi-Bucket Convergence & Forensic Accounting Sieve across all active U.S. operating common equities (`5,350` companies in SEC EDGAR, excluding Financials/REITs `SIC 6000–6799`).
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > +15.0%` or `Stock Issuance ≥ 10%` of Market Cap).
 > - **The 4 Hunting Buckets:** `1_CASH` / `1_TBV` (Net Cash / NCAV / Tangible Book floor) | `2_FCF` (`≥ 12%` FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal `≤ -3%` net of SBC) | `4_INSIDER` (Cluster insider buying).
 > - **Stage 1 Convergence Filter:** Requires `≥ 2` Hunting Buckets, `Piotroski F-Score ≥ 6`, `1Y Share Dilution ≤ +5.0%`, `SBC % OCF ≤ 30.0%` (or `NR` flagged for 10-K audit), `Altman Z ≥ 1.81` (or Net Cash > $0.00), `TTM Revenue ≥ $10M`, and `Market Cap ≥ $15M`.
-> - **Funnel Attrition:** Compresses `5,349` operating companies down to **`38` strict forensic survivors** (`99.3%` selectivity rate).
+> - **Funnel Attrition:** Compresses `5,350` operating companies down to **`38` strict forensic survivors** (`99.3%` selectivity rate).
 
 <details markdown="1">
 <summary>💡 <b>What is Multi-Bucket Convergence? (Vampire Sieve + 4 Hunting Buckets)</b></summary>
@@ -297,7 +297,7 @@
 | **Bucket `2_FCF`** | Trailing Free Cash Flow Yield `≥ 12.0%` & Debt Payback `≤ 4.0x` | High organic cash generation relative to market price and debt load. |
 | **Bucket `3_BUYBACK`** | Net Share Count shrinking `≤ -3.0%` YoY/5Y via cash repurchases | Management retiring diluted share count net of SBC and increasing per-share value. |
 | **Bucket `4_INSIDER`** | Form 4 C-Suite open-market cluster buying (`Code P`) | Executives deploying personal after-tax cash on the open market. |
-| **Funnel Selectivity** | `5,349` Active Filers → `38` Survivors (`99.3%` Attrition) | Requires `≥ 2` Hunting Buckets plus mandatory Piotroski, Altman Z, and SBC gates. |
+| **Funnel Selectivity** | `5,350` Active Filers → `38` Survivors (`99.3%` Attrition) | Requires `≥ 2` Hunting Buckets plus mandatory Piotroski, Altman Z, and SBC gates. |
 
 </details>
 
@@ -327,7 +327,7 @@
 </details>
 
 ## 🏆 Tier 1: Triple-Bucket Elite Convergence (`3/4` Buckets)
-> Only **4 companies out of `5,349`** in the entire U.S. stock market passed all forensic guardrails while simultaneously qualifying for 3 out of 4 Hunting Buckets:
+> Only **4 companies out of `5,350`** in the entire U.S. stock market passed all forensic guardrails while simultaneously qualifying for 3 out of 4 Hunting Buckets:
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
@@ -377,20 +377,20 @@
 > - **Capital Preservation:** Overflow capital from constrained positions routes into the Treasury Yield / Dry Powder Floor.
 
 ### 1. Portfolio Allocation & Liquidity Matrix ($100k Benchmark Book)
-- **Deployed Equity Capital:** `$24,193.84` (`24.2%` across 8 finalists)
-- **Cash & Treasury Floor Reserve:** `$75,806.16` (`75.8%`)
+- **Deployed Equity Capital:** `$23,660.80` (`23.7%` across 8 finalists)
+- **Cash & Treasury Floor Reserve:** `$76,339.20` (`76.3%`)
 - **ADDV Liquidity Cap:** `2.0%` max of 30-day ADV (Zero Tape Distortion)
 
 | Ticker | Company Name | Basket Tier | Price | 30d ADDV | ADDV 2% Cap | Sized Allocation | Port Weight | Target Shares | Liquidity Status |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $62.73 | $3,800,560 | $76,011 | **$5,500** | **5.5%** | 91 | `PASS` |
-| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.18 | $8,073,671 | $161,473 | **$5,500** | **5.5%** | 518 | `PASS` |
-| **`ZUMZ`** | Zumiez Inc | Tier 1 | $15.17 | $4,473,694 | $89,474 | **$5,500** | **5.5%** | 378 | `PASS` |
-| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.91 | $251,372 | $5,027 | **$1,000** | **1.0%** | 214 | `PASS` |
-| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.25 | $79,578 | $1,592 | **$1,000** | **1.0%** | 469 | `PASS` |
-| **`LOVE`** | Lovesac Co | Tier 3 | $16.33 | $3,268,433 | $65,369 | **$2,800** | **2.8%** | 180 | `PASS` |
-| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.43 | $94,692 | $1,894 | **$1,894** | **1.9%** | 812 | `CAPPED (-$906)` |
-| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.39 | $246,683 | $4,934 | **$1,000** | **1.0%** | 237 | `PASS` |
+| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $62.73 | $1,411,425 | $28,228 | **$5,500** | **5.5%** | 91 | `PASS` |
+| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.18 | $7,602,400 | $152,048 | **$5,500** | **5.5%** | 518 | `PASS` |
+| **`ZUMZ`** | Zumiez Inc | Tier 1 | $15.17 | $4,702,700 | $94,054 | **$5,500** | **5.5%** | 378 | `PASS` |
+| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.91 | $417,350 | $8,347 | **$1,000** | **1.0%** | 214 | `PASS` |
+| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.25 | $258,750 | $5,175 | **$1,000** | **1.0%** | 469 | `PASS` |
+| **`LOVE`** | Lovesac Co | Tier 3 | $16.33 | $3,429,300 | $68,586 | **$2,800** | **2.8%** | 180 | `PASS` |
+| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.43 | $68,040 | $1,361 | **$1,361** | **1.4%** | 583 | `CAPPED (-$1,439)` |
+| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.39 | $570,700 | $11,414 | **$1,000** | **1.0%** | 237 | `PASS` |
 
 ### 2. Actionable 3-Tranche Ladder Entry Orders
 > **Execution Rule:** Tranche 1 is established immediately at market upon passing Stage 2 forensic triage.
@@ -404,7 +404,7 @@
 | **`UEIC`** | $4.91 | $1,000.00 | **$4.91** (67 sh) | **$4.64** (71 sh) | **$4.38** (76 sh) | **214** |
 | **`IZEA`** | $2.25 | $1,000.00 | **$2.25** (148 sh) | **$2.13** (156 sh) | **$2.01** (165 sh) | **469** |
 | **`LOVE`** | $16.33 | $2,800.00 | **$16.33** (57 sh) | **$15.52** (60 sh) | **$14.70** (63 sh) | **180** |
-| **`CRWS`** | $2.43 | $1,893.84 | **$2.43** (259 sh) | **$2.33** (270 sh) | **$2.23** (283 sh) | **812** |
+| **`CRWS`** | $2.43 | $1,360.80 | **$2.43** (186 sh) | **$2.33** (194 sh) | **$2.23** (203 sh) | **583** |
 | **`DLTH`** | $4.39 | $1,000.00 | **$4.39** (75 sh) | **$4.20** (79 sh) | **$4.01** (83 sh) | **237** |
 
 ### 3. Deterministic Valuation Exits & Stop Disciplines
@@ -425,7 +425,6 @@
 - **Core Compounders & Turnarounds (`STRT`, `NRDS`, `ZUMZ`, `LOVE`, `CRWS`):** Continuous trailing FCF hold as long as TTM FCF yield >= 10.0%. Exit if FCF yield degrades < 8.0% or 2 consecutive quarters of negative OCF.
 - **Elevated Volume Exit Trigger:** If 30-day volume surges to **>= 3.0x ADDV** into upper valuation corridor bounds, scale out 33%–50% directly into elevated market liquidity.
 - **Quarantined Asset (`DLTH`):** Exit 75% at Tangible Book Value ($4.87) and 25% on final cleanout. Immediate stop if capex starvation accelerates.
-
 ---
 *Antigravity V3 Core | Zero Discretion | Adversarial Validation*
 
