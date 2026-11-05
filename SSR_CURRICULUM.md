@@ -231,9 +231,13 @@ Exit targets adapt dynamically to the stock's archetype so you don't hold a deca
    * **Target 2 (Sell 50%):** 100% of **Tangible Book Value (TBV)** (or +65.0% re-rating fallback).
    * **Hard Stop:** -20.0% anchored to blended VWAP. Immediate exit if quarterly operational burn erodes > 20% of Net Current Assets.
    * **Catastrophic Stop:** Non-negotiable liquidation at -25.0% from VWAP.
-2. **For Compounders (`TIER_1_COMPOUNDERS`):**
-   * **Target 1 (Scale 33%):** Intrinsic fair-value re-rating (**+30.0%** or 12x–15x FCF).
-   * **Target 2 (Scale 33%):** Full multiple expansion (**+65.0%** zero-growth convergence).
+2. **For Compounders (`TIER_1_COMPOUNDERS` — Formula-Driven Anchors, Zero Hardcoded Targets):**
+   * **Target 1 (Scale 50%):** Formula-anchored to the **10.0% Ex-Cash FCF Yield boundary**:
+     $$P_{\text{Target 1}} = \frac{\text{FCF}_{\text{TTM/Sh}}}{0.10} + \max(0, \text{Net Cash/Sh})$$
+     *(Note: `+30.0%` fair-value re-rating serves strictly as an unverified fallback).*
+   * **Target 2 (Scale remaining 50%):** Formula-anchored to the **8.0% FCF Yield exit trigger or Zero-Growth Intrinsic Value**:
+     $$P_{\text{Target 2}} = \max\left(P_{\text{Zero-Growth DCF}},\; \frac{\text{FCF}_{\text{TTM/Sh}}}{0.08} + \max(0, \text{Net Cash/Sh})\right)$$
+     *(Note: `+65.0%` zero-growth convergence serves strictly as an unverified fallback).*
    * **Trailing FCF Hold:** Maintain remainder as long as TTM FCF Yield ≥ 10.0% and shares decline; exit if FCF yield < 8.0%.
    * **Safety Stop Loss:** -15.0% anchored strictly to blended VWAP.
    * **Catastrophic Stop:** Non-negotiable immediate market liquidation at -25.0% from VWAP, strictly overriding any delay for quarterly SEC filings.
