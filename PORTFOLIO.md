@@ -1,5 +1,5 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-11-04 14:41:33 UTC` | **Reconciliation Date:** `2026-11-04` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-11-05 14:53:01 UTC` | **Reconciliation Date:** `2026-11-05` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -8,8 +8,8 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-11-04 14:41 UTC | Reconciliation Date: 2026-11-04            │
-│ Total Portfolio NAV: $101,387.43 | Dry Powder: $86,935.00 (85.7%)            │
+│ Generated: 2026-11-05 14:53 UTC | Reconciliation Date: 2026-11-05            │
+│ Total Portfolio NAV: $101,618.65 | Dry Powder: $86,935.00 (85.6%)            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -17,7 +17,7 @@
 
 | Total NAV | Cash / Dry Powder | Invested Equity | Cumulative Return | Realized P&L | Floating P&L | Dry Powder Floor |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **$101,387.43** | **$86,935.00** | **$14,452.43** | **+1.39%** | **+$0.00** | **+$1,387.43** | **🟢 HEALTHY (85.7%)** |
+| **$101,618.65** | **$86,935.00** | **$14,683.65** | **+1.62%** | **+$0.00** | **+$1,618.65** | **🟢 HEALTHY (85.6%)** |
 
 ---
 
@@ -26,16 +26,16 @@
 
 | Ticker | Archetype | Age (Days) | Shares | Blended VWAP | Spot Close | Market Value | % NAV | Unrealized P&L | Target 1 (+30%) | Target 2 (+65%) | Hard Stop | Catastrophic Stop |
 | :--- | :--- | :---: | ---: | ---: | ---: | ---: | :---: | ---: | :---: | :---: | :---: | :---: |
-| **`STRT`** | `COMPOUNDER` | **9d** | 30 | $61.98 | $63.51 | $1,905.30 | **1.9%** | **+$45.90 (+2.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
-| **`NRDS`** | `COMPOUNDER` | **10d** | 525 | $9.94 | $11.56 | $6,069.00 | **6.0%** | **+$851.87 (+16.3%)** | $14.51 | $18.41 | $8.96 | `$7.46` |
-| **`ZUMZ`** | `COMPOUNDER` | **10d** | 262 | $13.96 | $15.11 | $3,958.82 | **3.9%** | **+$301.09 (+8.2%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
-| **`UEIC`** | `NET_NET` | **10d** | 65 | $5.17 | $5.20 | $338.00 | **0.3%** | **+$1.95 (+0.6%)** | $6.20 | $9.53 | $3.86 | `$3.88` |
-| **`IZEA`** | `NET_NET` | **9d** | 141 | $2.31 | $2.30 | $324.30 | **0.3%** | **$-1.41 (-0.4%)** | $2.57 | $3.08 | $1.78 | `$1.73` |
-| **`LOVE`** | `TURNAROUND` | **10d** | 60 | $14.75 | $17.02 | $1,021.20 | **1.0%** | **+$136.20 (+15.4%)** | $20.71 | $26.92 | $11.61 | `$11.06` |
-| **`CRWS`** | `TURNAROUND` | **10d** | 186 | $2.43 | $2.49 | $463.14 | **0.5%** | **+$11.16 (+2.5%)** | $3.17 | $4.12 | $1.83 | `$1.82` |
-| **`DLTH`** | `QUARANTINED` | **10d** | 83 | $4.00 | $4.49 | $372.67 | **0.4%** | **+$40.67 (+12.2%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
-| **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$86,935.00** | **85.7%** | **+$8.53/day** | — | — | — | `3.58% APY` |
-| **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$101,387.43** | **100.0%** | **+$1,387.43 (+1.39%)** | — | — | — | `🟢 HEALTHY` |
+| **`STRT`** | `COMPOUNDER` | **11d** | 30 | $61.98 | $63.56 | $1,906.80 | **1.9%** | **+$47.40 (+2.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
+| **`NRDS`** | `COMPOUNDER` | **11d** | 525 | $9.94 | $11.69 | $6,137.25 | **6.0%** | **+$920.12 (+17.6%)** | $14.51 | $18.41 | $8.96 | `$7.46` |
+| **`ZUMZ`** | `COMPOUNDER` | **11d** | 262 | $13.96 | $15.73 | $4,121.26 | **4.1%** | **+$463.53 (+12.7%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
+| **`UEIC`** | `NET_NET` | **11d** | 65 | $5.17 | $4.94 | $321.10 | **0.3%** | **$-14.95 (-4.5%)** | $6.20 | $9.53 | $3.86 | `$3.88` |
+| **`IZEA`** | `NET_NET` | **11d** | 141 | $2.31 | $2.35 | $331.35 | **0.3%** | **+$5.64 (+1.7%)** | $2.57 | $3.08 | $1.78 | `$1.73` |
+| **`LOVE`** | `TURNAROUND` | **11d** | 60 | $14.75 | $17.21 | $1,032.60 | **1.0%** | **+$147.60 (+16.7%)** | $20.71 | $26.92 | $11.61 | `$11.06` |
+| **`CRWS`** | `TURNAROUND` | **11d** | 186 | $2.43 | $2.53 | $470.58 | **0.5%** | **+$18.60 (+4.1%)** | $3.17 | $4.12 | $1.83 | `$1.82` |
+| **`DLTH`** | `QUARANTINED` | **11d** | 83 | $4.00 | $4.37 | $362.71 | **0.4%** | **+$30.71 (+9.2%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
+| **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$86,935.00** | **85.6%** | **+$8.53/day** | — | — | — | `3.58% APY` |
+| **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$101,618.65** | **100.0%** | **+$1,618.65 (+1.62%)** | — | — | — | `🟢 HEALTHY` |
 
 > **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **3.58% APY** (brokerage core money market cash sweep posted rate as of Oct-27-2026), generating **+$8.53 / day** (+$3,112.27/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
 
@@ -43,8 +43,8 @@
 <summary>🔎 <b>Click to Expand Position-Level Audit Ledgers (Fills, VWAP Ratchets & Milestones)</b></summary>
 
 ### `STRT` — STRATTEC SECURITY CORP (`TIER_1_COMPOUNDER`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `9 trading days`
-- **Capital Sized:** `$5,500.00` | **Deployed:** `$1,859.40` | **Current NAV Value:** `$1,905.30`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$1,859.40` | **Current NAV Value:** `$1,906.80`
 - **Cost Basis:** `$61.98` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$46.48`
 - **Exit Discipline:** Target 1 `$78.61` (Trim 50%) | Target 2 `$99.78` (Cleanout 100%) | Hard Stop `$48.70`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -58,8 +58,8 @@
 ---
 
 ### `NRDS` — NERDWALLET, INC. (`TIER_1_COMPOUNDER`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$5,500.00` | **Deployed:** `$5,217.13` | **Current NAV Value:** `$6,069.00`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$5,217.13` | **Current NAV Value:** `$6,137.25`
 - **Cost Basis:** `$9.94` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$7.46`
 - **Exit Discipline:** Target 1 `$14.51` (Trim 50%) | Target 2 `$18.41` (Cleanout 100%) | Hard Stop `$8.96`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -73,8 +73,8 @@
 ---
 
 ### `ZUMZ` — Zumiez Inc (`TIER_1_COMPOUNDER`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$5,500.00` | **Deployed:** `$3,657.73` | **Current NAV Value:** `$3,958.82`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$3,657.73` | **Current NAV Value:** `$4,121.26`
 - **Cost Basis:** `$13.96` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$10.47`
 - **Exit Discipline:** Target 1 `$18.68` (Trim 50%) | Target 2 `$23.71` (Cleanout 100%) | Hard Stop `$11.52`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -88,8 +88,8 @@
 ---
 
 ### `UEIC` — UNIVERSAL ELECTRONICS INC (`TIER_2_NET_NET`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$1,000.00` | **Deployed:** `$336.05` | **Current NAV Value:** `$338.00`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$1,000.00` | **Deployed:** `$336.05` | **Current NAV Value:** `$321.10`
 - **Cost Basis:** `$5.17` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$3.88`
 - **Exit Discipline:** Target 1 `$6.20` (Trim 50%) | Target 2 `$9.53` (Cleanout 100%) | Hard Stop `$3.86`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -103,8 +103,8 @@
 ---
 
 ### `IZEA` — IZEA Worldwide, Inc. (`TIER_2_NET_NET`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `9 trading days`
-- **Capital Sized:** `$1,000.00` | **Deployed:** `$325.71` | **Current NAV Value:** `$324.30`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$1,000.00` | **Deployed:** `$325.71` | **Current NAV Value:** `$331.35`
 - **Cost Basis:** `$2.31` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$1.73`
 - **Exit Discipline:** Target 1 `$2.57` (Trim 50%) | Target 2 `$3.08` (Cleanout 100%) | Hard Stop `$1.78`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -118,8 +118,8 @@
 ---
 
 ### `LOVE` — Lovesac Co (`TIER_3_TURNAROUND`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$2,800.00` | **Deployed:** `$885.00` | **Current NAV Value:** `$1,021.20`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$2,800.00` | **Deployed:** `$885.00` | **Current NAV Value:** `$1,032.60`
 - **Cost Basis:** `$14.75` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$11.06`
 - **Exit Discipline:** Target 1 `$20.71` (Trim 50%) | Target 2 `$26.92` (Cleanout 100%) | Hard Stop `$11.61`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -133,8 +133,8 @@
 ---
 
 ### `CRWS` — CROWN CRAFTS INC (`TIER_3_TURNAROUND`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$1,355.20` | **Deployed:** `$451.98` | **Current NAV Value:** `$463.14`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$1,355.20` | **Deployed:** `$451.98` | **Current NAV Value:** `$470.58`
 - **Cost Basis:** `$2.43` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$1.82`
 - **Exit Discipline:** Target 1 `$3.17` (Trim 50%) | Target 2 `$4.12` (Cleanout 100%) | Hard Stop `$1.83`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -148,8 +148,8 @@
 ---
 
 ### `DLTH` — DULUTH HOLDINGS INC. (`QUARANTINED`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `10 trading days`
-- **Capital Sized:** `$1,000.00` | **Deployed:** `$332.00` | **Current NAV Value:** `$372.67`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `11 trading days`
+- **Capital Sized:** `$1,000.00` | **Deployed:** `$332.00` | **Current NAV Value:** `$362.71`
 - **Cost Basis:** `$4.00` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$3.00`
 - **Exit Discipline:** Target 1 `$4.87` (Trim 50%) | Target 2 `$5.60` (Cleanout 100%) | Hard Stop `$3.20`
 - **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
@@ -200,7 +200,33 @@ Zero closed positions recorded to date. All active positions remain in-flight un
 | **Tier 1: COMPOUNDER** | $65,000.00 | $16,500.00 (25.4%) | $48,500.00 | 🟢 UNCONSTRAINED |
 | **Tier 3: TURNAROUND** | $20,000.00 | $4,155.20 (20.8%) | $15,844.80 | 🟢 UNCONSTRAINED |
 | **Tier 2: NET_NET** | $5,000.00 | $2,000.00 (40.0%) | $3,000.00 | 🟢 UNCONSTRAINED |
-| **Treasury Dry Powder Floor** | $10,138.74 Min (10% NAV) | $86,935.00 (85.7%) | $76,796.26 | 🟢 HEALTHY (85.7%) |
+| **Treasury Dry Powder Floor** | $10,161.86 Min (10% NAV) | $86,935.00 (85.6%) | $76,773.14 | 🟢 HEALTHY (85.6%) |
+
+</details>
+
+<details markdown="1">
+<summary>📖 <b>$100K Model Portfolio: Accounting, Lifecycle Rules & Execution Methodology (Click to Expand)</b></summary>
+
+### 1. Double-Entry Accounting & SEC Rule 15c6-1 ($T+1$) Settlement
+- **Stateful SQLite Ledger:** Portfolio state is tracked in `data_lake/portfolio_tracker.sqlite` with strict double-entry ledger debit/credit balances across cash, equities, and brokerage interest.
+- **Empirical 3.58% Cash Sweep Yield:** Settled dry powder accrues daily brokerage sweep interest calibrated to 3.58% APY (+$8.53/day on $87k cash reserves). Proceeds from trimmed or closed equity positions settle for 1 trading session under SEC $T+1$ before earning sweep interest.
+
+### 2. Microstructure Execution: 3-Tranche Limit Order Ladders
+- **Tranche 1 (33.3% Market Entry):** Established immediately upon passing Stage 2 forensic triage.
+- **Tranche 2 (33.3% Retest Limit):** Limit order beneath spot scaled dynamically to 14-period ATR% or 30-day IV (-6.0% default baseline).
+- **Tranche 3 (33.4% Flush Limit):** Limit order into liquidity panic washes (-12.5% default baseline).
+- **Blended VWAP Basis:** Entry cost basis ratchets downward as limit tranches fill, dynamically adjusting stop thresholds.
+
+### 3. Portfolio Sleeve Budgeting & Tobin's Separation Theorem
+- **Sleeve Allocation Limits:** Compounders capped at 65.0% total (5.5% target / 7.0% hard cap per stock); Turnarounds capped at 20.0% total (2.8% target / 3.5% hard cap); Net-Nets capped at 5.0% total (1.0% target / 1.5% hard cap).
+- **Dynamic Cash Floor:** $\max(\$10,000.00, 10.0\% \times \text{NAV})$ is permanently preserved. Unallocated sleeve capital remains in Treasury dry powder.
+- **ADDV Liquidity Guardrail:** Position sizes are strictly capped at <= 2.0% of 30-day Average Daily Dollar Volume to ensure 1–2 day normal-volume liquidation.
+
+### 4. Deterministic Archetype Valuation Exits & Stop Disciplines
+- **Compounders (`TIER_1_COMPOUNDER`):** Target 1 anchored to 10.0% Ex-Cash FCF Yield ($P_{\text{T1}} = \text{FCF}_{\text{ps}}/0.10 + \max(0, \text{Net Cash}_{\text{ps}})$); Target 2 anchored to 8.0% FCF Yield or Zero-Growth Intrinsic Value ($P_{\text{T2}} = \max(P_{\text{ZG}}, \text{FCF}_{\text{ps}}/0.08 + \max(0, \text{Net Cash}_{\text{ps}})$). Structural stop at -15.0% from VWAP.
+- **Net-Nets (`TIER_2_NET_NET`):** Target 1 scales 50% at 100% Graham NCAV; Target 2 scales remaining 50% at Tangible Book Value. Structural stop at -20.0% from VWAP.
+- **Turnarounds (`TIER_3_TURNAROUND`):** Target 1 at Tangible Asset value (+30% to +35%); Target 2 at Catalyst Exuberance (+70% to +75%). Structural stop at -20.0% from VWAP.
+- **Non-Negotiable Catastrophic Stop:** -25.0% from VWAP hard stop strictly enforced across all positions, overriding quarterly SEC filing lag.
 
 </details>
 
