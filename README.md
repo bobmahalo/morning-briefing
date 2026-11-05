@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-05 14:47:37 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-05 17:22:05 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,7 +10,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-05 14:47 UTC | Macro Regime: DEFLATION REGIME             │
+│ Generated: 2026-11-05 17:22 UTC | Macro Regime: DEFLATION REGIME             │
 │ VIX: 17.41 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -103,6 +103,28 @@
 | **1. Benign Risk Appetite** | `< 350 bps` | Refinancing windows are wide open. Corporate default risk is subdued; multiple expansion is supported across equities and Cash-Secured Puts operate with high margin of safety. |
 | **2. Elevated Concavity** | `350–500 bps` | Secondary debt markets demand higher risk premia. Weakest borrowers encounter yield resistance; tighten margin-of-safety hurdles on indebted turnaround equities. |
 | **3. Credit Contraction / Panic** | `> 500 bps` | Primary junk bond issuance freezes; secondary market discounts distressed debt (e.g., yields $>15\%$, high probability of default). Severe equity dilution or wipeout risk; prioritize Net-Nets and zero-debt compounders. |
+
+---
+
+> **The Three Structural Credit & Volatility Tripwires:** Concrete circuit breakers to distinguish routine market consolidations from systemic liquidity contagion.
+
+| Structural Tripwire | Critical Threshold | Regime Meaning & Institutional Transmission |
+| :--- | :---: | :--- |
+| **1. Volatility Regime (`VIX`)** | `VIX > 23.0` | Implied volatility escapes ordinary regime distributions, signaling that institutional hedging has transitioned from orderly skew pricing into tail-event panic. |
+| **2. Credit Health (`HYG` / HY OAS)** | `HYG < $76` or `HY OAS > 400 bps` | Junk credit breaks structural support. Because institutional bond desks prioritize solvency and recovery rates over equity stories, credit spreads lead equity tops in 7 of the last 8 economic cycles (median lead: 7 months). |
+| **3. Risk-Free Hurdle (`10Y Yield`)** | `US10Y > 5.24%` | Sovereign benchmark yields pierce the inverse P/E earnings yield of the S&P 500, creating an institutional hurdle rate where risk-free coupons trigger large-scale reallocation out of high-multiple equities. |
+
+---
+
+> **Hierarchy of Market Signals & Conflict Resolution Rules:** When indicators flash conflicting signals, enforce this explicit precedence ladder:
+
+| Precedence Priority | Dominant Force | Subordinated Narrative | Operational Precedence Rule |
+| :--- | :--- | :--- | :--- |
+| **Priority 1** | **Debt Solvency & Credit Spreads** | Equity Valuation & Momentum | If corporate credit spreads blow out (`HY OAS > 400 bps`), equity narrative momentum is subordinated. Enforce liquidation floors. |
+| **Priority 2** | **Front-Month Options Flows (OpEx)** | Multi-Month Macro Forecasts | Inside a 30-day OpEx window, dealer hedging obligations (`vanna`, `charm`, `gamma`) dictate immediate price action. Do not short structural dealer buybacks on Day 1 post-event pops based on distant macro worries. |
+| **Priority 3** | **Central Bank Tightening** | Calendar Seasonality | A central bank actively hiking into an inverted yield curve or softening ISM backlogs invalidates post-midterm seasonal tailwinds (the 2018 trap). Never deploy dry powder into late-cycle rate hikes. |
+| **Priority 4** | **Emergency Margin Liquidity** | Multi-Year Safe-Haven Status | In the first 72 hours of an acute dollar liquidity squeeze, sovereign entities and levered funds sell liquid gold and Treasuries to meet margin calls. Enter hedges AFTER the initial margin liquidation wave exhausts. |
+| **Priority 5** | **Single-Stock Balance Sheets** | Broad Index Technical Breaks | A net-cash compounder does not care about an S&P 500 200-day moving average breakdown. Trailing breakdown stops bleed `-34 bps` on single stocks; reserve index trend stops strictly for `VOO`/`SPY`. |
 
 </details>
 
@@ -207,7 +229,7 @@
 </details>
 
 <details markdown="1">
-<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Bull Put Spreads (&gt;$200 Strike) &amp; Earnings-Window Plays (73 Candidates)</b></summary>
+<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Bull Put Spreads (&gt;$200 Strike) &amp; Earnings-Window Plays (72 Candidates)</b></summary>
 
 > **Why Tier 2 Plays Are Separated:** Fundamentals and IV passed the primary screen, but option microstructure triggered one or more execution caveats (`OI < 25`, `Spread > 25%`, `Strike > $200` collateral concentration requiring a **Bull Put Credit Spread**, or **Earnings within the DTE window**). Work limit orders patiently or structure as defined-risk spreads.
 
@@ -387,20 +409,20 @@
 > - **Capital Preservation:** Overflow capital from constrained positions routes into the Treasury Yield / Dry Powder Floor.
 
 ### 1. Portfolio Allocation & Liquidity Matrix ($100k Benchmark Book)
-- **Deployed Equity Capital:** `$24,248.42` (`24.2%` across 8 finalists)
-- **Cash & Treasury Floor Reserve:** `$75,751.58` (`75.8%`)
+- **Deployed Equity Capital:** `$23,660.80` (`23.7%` across 8 finalists)
+- **Cash & Treasury Floor Reserve:** `$76,339.20` (`76.3%`)
 - **ADDV Liquidity Cap:** `2.0%` max of 30-day ADV (Zero Tape Distortion)
 
 | Ticker | Company Name | Basket Tier | Price | 30d ADDV | ADDV 2% Cap | Sized Allocation | Port Weight | Target Shares | Liquidity Status |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $62.73 | $3,721,395 | $74,428 | **$5,500** | **5.5%** | 91 | `PASS` |
-| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.18 | $8,108,228 | $162,165 | **$5,500** | **5.5%** | 519 | `PASS` |
-| **`ZUMZ`** | Zumiez Inc | Tier 1 | $15.17 | $4,351,272 | $87,025 | **$5,500** | **5.5%** | 378 | `PASS` |
-| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.91 | $238,302 | $4,766 | **$1,000** | **1.0%** | 213 | `PASS` |
-| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.25 | $66,488 | $1,330 | **$1,000** | **1.0%** | 469 | `PASS` |
-| **`LOVE`** | Lovesac Co | Tier 3 | $16.33 | $3,365,090 | $67,302 | **$2,800** | **2.8%** | 180 | `PASS` |
-| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.43 | $97,421 | $1,948 | **$1,948** | **1.9%** | 832 | `CAPPED (-$852)` |
-| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.39 | $244,264 | $4,885 | **$1,000** | **1.0%** | 236 | `PASS` |
+| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $62.73 | $1,411,425 | $28,228 | **$5,500** | **5.5%** | 90 | `PASS` |
+| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.18 | $7,602,400 | $152,048 | **$5,500** | **5.5%** | 517 | `PASS` |
+| **`ZUMZ`** | Zumiez Inc | Tier 1 | $15.17 | $4,702,700 | $94,054 | **$5,500** | **5.5%** | 378 | `PASS` |
+| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.91 | $417,350 | $8,347 | **$1,000** | **1.0%** | 214 | `PASS` |
+| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.25 | $258,750 | $5,175 | **$1,000** | **1.0%** | 469 | `PASS` |
+| **`LOVE`** | Lovesac Co | Tier 3 | $16.33 | $3,429,300 | $68,586 | **$2,800** | **2.8%** | 178 | `PASS` |
+| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.43 | $68,040 | $1,361 | **$1,361** | **1.4%** | 579 | `CAPPED (-$1,439)` |
+| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.39 | $570,700 | $11,414 | **$1,000** | **1.0%** | 235 | `PASS` |
 
 ### 2. Actionable 3-Tranche Ladder Entry Orders
 > **Execution Rule:** Tranche 1 is established immediately at market upon passing Stage 2 forensic triage.
@@ -408,27 +430,27 @@
 
 | Ticker | Current Price | Total Sized | Tranche 1 (Market 33.3%) | Tranche 2 (-6.0% Retest Limit) | Tranche 3 (-12.5% Flush Limit) | Total Shares |
 | :--- | ---: | ---: | :--- | :--- | :--- | ---: |
-| **`STRT`** | $62.73 | $5,500.00 | **$62.73** (29 sh) | **$59.91** (30 sh) | **$57.09** (32 sh) | **91** |
-| **`NRDS`** | $11.18 | $5,500.00 | **$11.18** (163 sh) | **$10.59** (173 sh) | **$10.01** (183 sh) | **519** |
-| **`ZUMZ`** | $15.17 | $5,500.00 | **$15.17** (120 sh) | **$14.50** (126 sh) | **$13.84** (132 sh) | **378** |
-| **`UEIC`** | $4.91 | $1,000.00 | **$4.91** (67 sh) | **$4.65** (71 sh) | **$4.39** (75 sh) | **213** |
-| **`IZEA`** | $2.25 | $1,000.00 | **$2.25** (148 sh) | **$2.13** (156 sh) | **$2.01** (165 sh) | **469** |
-| **`LOVE`** | $16.33 | $2,800.00 | **$16.33** (57 sh) | **$15.53** (60 sh) | **$14.73** (63 sh) | **180** |
-| **`CRWS`** | $2.43 | $1,948.42 | **$2.43** (267 sh) | **$2.34** (277 sh) | **$2.25** (288 sh) | **832** |
-| **`DLTH`** | $4.39 | $1,000.00 | **$4.39** (75 sh) | **$4.21** (79 sh) | **$4.02** (82 sh) | **236** |
+| **`STRT`** | $62.73 | $5,500.00 | **$62.73** (29 sh) | **$60.16** (30 sh) | **$57.60** (31 sh) | **90** |
+| **`NRDS`** | $11.18 | $5,500.00 | **$11.18** (163 sh) | **$10.61** (172 sh) | **$10.03** (182 sh) | **517** |
+| **`ZUMZ`** | $15.17 | $5,500.00 | **$15.17** (120 sh) | **$14.50** (126 sh) | **$13.82** (132 sh) | **378** |
+| **`UEIC`** | $4.91 | $1,000.00 | **$4.91** (67 sh) | **$4.65** (71 sh) | **$4.38** (76 sh) | **214** |
+| **`IZEA`** | $2.25 | $1,000.00 | **$2.25** (148 sh) | **$2.13** (156 sh) | **$2.02** (165 sh) | **469** |
+| **`LOVE`** | $16.33 | $2,800.00 | **$16.33** (57 sh) | **$15.58** (59 sh) | **$14.83** (62 sh) | **178** |
+| **`CRWS`** | $2.43 | $1,360.80 | **$2.43** (186 sh) | **$2.34** (193 sh) | **$2.26** (200 sh) | **579** |
+| **`DLTH`** | $4.39 | $1,000.00 | **$4.39** (75 sh) | **$4.22** (78 sh) | **$4.05** (82 sh) | **235** |
 
 ### 3. Deterministic Valuation Exits & Stop Disciplines
 
 | Ticker | Strategy Model | Target 1 (Scale 1) | Upside 1 | Target 2 (Scale 2) | Upside 2 | Hard Stop | Stop Condition |
 | :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |
-| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$123.32** (10% FCF Yield Valuation Anchor) | `+96.6%` | **$147.37** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+134.9%` | **$51.37** | Structural Degradation Stop (-15.0% from VWAP $60.44) |
-| **`NRDS`** | `COMPOUNDER_FCF_TRAIL` | **$26.46** (10% FCF Yield Valuation Anchor) | `+136.7%` | **$32.86** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+193.9%` | **$9.01** | Structural Degradation Stop (-15.0% from VWAP $10.60) |
+| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$123.32** (10% FCF Yield Valuation Anchor) | `+96.6%` | **$147.37** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+134.9%` | **$51.94** | Structural Degradation Stop (-15.0% from VWAP $61.11) |
+| **`NRDS`** | `COMPOUNDER_FCF_TRAIL` | **$26.46** (10% FCF Yield Valuation Anchor) | `+136.7%` | **$32.86** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+193.9%` | **$9.04** | Structural Degradation Stop (-15.0% from VWAP $10.64) |
 | **`ZUMZ`** | `COMPOUNDER_FCF_TRAIL` | **$16.40** (10% FCF Yield Valuation Anchor) | `+8.1%` | **$20.50** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+35.1%` | **$12.37** | Structural Degradation Stop (-15.0% from VWAP $14.55) |
-| **`UEIC`** | `GRAHAM_NET_NET_CONVERGENCE` | **$6.20** (100% Graham NCAV Convergence) | `+26.3%` | **$9.53** (Tangible Book Value) | `+94.1%` | **$3.75** | Operational Burn Stop (-20.0% from VWAP $4.69) |
+| **`UEIC`** | `GRAHAM_NET_NET_CONVERGENCE` | **$6.20** (100% Graham NCAV Convergence) | `+26.3%` | **$9.53** (Tangible Book Value) | `+94.1%` | **$3.74** | Operational Burn Stop (-20.0% from VWAP $4.67) |
 | **`IZEA`** | `GRAHAM_NET_NET_CONVERGENCE` | **$2.57** (100% Graham NCAV Convergence) | `+14.2%` | **$3.08** (Tangible Book Value) | `+36.9%` | **$1.70** | Operational Burn Stop (-20.0% from VWAP $2.13) |
-| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$22.05** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$28.67** (Catalyst Exuberance Target) | `+75.6%` | **$12.45** | Turnaround Failure Stop (-20.0% from VWAP $15.56) |
-| **`CRWS`** | `TURNAROUND_CATALYST_EXIT` | **$3.17** (Tangible Asset / C-Suite Turnaround Target) | `+30.5%` | **$4.12** (Catalyst Exuberance Target) | `+69.5%` | **$1.87** | Turnaround Failure Stop (-20.0% from VWAP $2.34) |
-| **`DLTH`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$4.87** (Tangible Book Recovery Target) | `+10.9%` | **$5.60** (Speculative Liquidation Cleanout) | `+27.6%` | **$3.60** | Liquidation Burn Trap Stop (-15.0% from VWAP $4.24) |
+| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$22.05** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$28.67** (Catalyst Exuberance Target) | `+75.6%` | **$12.58** | Turnaround Failure Stop (-20.0% from VWAP $15.73) |
+| **`CRWS`** | `TURNAROUND_CATALYST_EXIT` | **$3.17** (Tangible Asset / C-Suite Turnaround Target) | `+30.5%` | **$4.12** (Catalyst Exuberance Target) | `+69.5%` | **$1.88** | Turnaround Failure Stop (-20.0% from VWAP $2.35) |
+| **`DLTH`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$4.87** (Tangible Book Recovery Target) | `+10.9%` | **$5.60** (Speculative Liquidation Cleanout) | `+27.6%` | **$3.62** | Liquidation Burn Trap Stop (-15.0% from VWAP $4.26) |
 
 #### Specialized Exit Disciplines by Hunting Bucket
 - **Graham Net-Nets (`UEIC`, `IZEA`):** Scale out 50% at 100% Graham NCAV; scale out remaining 50% at Tangible Book Value (TBV). Hard stop if operational burn erodes > 20% of net current assets.
