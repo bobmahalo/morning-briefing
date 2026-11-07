@@ -1,7 +1,7 @@
 # 📈 Antigravity $100K Model Portfolio Hub
 **Generated:** `2026-11-06 14:46:22 UTC` | **Reconciliation Date:** `2026-11-06` | **Engine:** Antigravity V3 Core
 
-[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
 > **🏛️ Capital Preservation & Systematic Execution:** This paper model portfolio operates strictly under deterministic Munger/Graham risk disciplines. Capital is deployed via 3-tranche limit ladders, scaled out at intrinsic value targets (+30% / +65%), protected by dynamic VWAP stops and a non-negotiable -25% catastrophic stop, and anchored by Tobin's Separation Theorem (minimum 10% Treasury Dry Powder).
 
