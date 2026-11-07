@@ -1,0 +1,374 @@
+# Ranked XBRL Alias Configuration ("a = a" Rule with Strict Priority)
+# Each canonical field specifies:
+#   statement: income | balance | cashflow | shares
+#   period_type: duration | instant
+#   tags: ordered list of taxonomy:TagName (first present for a given period wins)
+#   derived: optional exact arithmetic formula when direct tags are NR (Not Reported)
+
+fields:
+  # ==========================================
+  # 1. INCOME STATEMENT (Duration)
+  # ==========================================
+  Revenue:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:Revenues
+      - us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax
+      - us-gaap:SalesRevenueNet
+      - us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax
+      - us-gaap:SalesRevenueGoodsNet
+
+  Cost_of_Revenue:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:CostOfRevenue
+      - us-gaap:CostOfGoodsAndServicesSold
+      - us-gaap:CostOfGoodsSold
+
+  Gross_Profit:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:GrossProfit
+    derived:
+      formula: "Revenue - Cost_of_Revenue"
+      inputs: ["Revenue", "Cost_of_Revenue"]
+
+  Research_and_Development:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:ResearchAndDevelopmentExpense
+      - us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost
+
+  Selling_General_and_Admin:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:SellingGeneralAndAdministrativeExpense
+      - us-gaap:GeneralAndAdministrativeExpense
+
+  Operating_Expenses:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:OperatingExpenses
+      - us-gaap:CostsAndExpenses
+
+  Operating_Income:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:OperatingIncomeLoss
+    derived:
+      - formula: "Revenue - Operating_Expenses"
+        op: "-"
+        inputs: ["Revenue", "Operating_Expenses"]
+      - formula: "Pre_Tax_Income + Interest_Expense"
+        op: "+"
+        inputs: ["Pre_Tax_Income", "Interest_Expense"]
+
+  Interest_Expense:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:InterestExpense
+      - us-gaap:InterestExpenseNonoperating
+      - us-gaap:InterestAndDebtExpense
+      - us-gaap:InterestExpenseDebt
+      - us-gaap:InterestPaidNet
+
+  Pre_Tax_Income:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments
+      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic
+    derived:
+      formula: "Net_Income + Income_Tax_Expense"
+      op: "+"
+      inputs: ["Net_Income", "Income_Tax_Expense"]
+
+  Income_Tax_Expense:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:IncomeTaxExpenseBenefit
+
+  Net_Income:
+    statement: income
+    period_type: duration
+    tags:
+      - us-gaap:NetIncomeLoss
+      - us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic
+      - us-gaap:ProfitLoss
+
+  # ==========================================
+  # 2. BALANCE SHEET (Instant / Point-in-Time)
+  # ==========================================
+  Cash_and_Equivalents:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:CashAndCashEquivalentsAtCarryingValue
+      - us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
+      - us-gaap:Cash
+
+  Short_Term_Investments:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:ShortTermInvestments
+      - us-gaap:MarketableSecuritiesCurrent
+      - us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent
+      - us-gaap:DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent
+
+  Accounts_Receivable:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:AccountsReceivableNetCurrent
+      - us-gaap:ReceivablesNetCurrent
+      - us-gaap:ContractWithCustomerReceivableAfterAllowanceForCreditLossCurrent
+
+  Inventory:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:InventoryNet
+      - us-gaap:InventoryFinishedGoodsNetOfReserves
+
+  Total_Current_Assets:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:AssetsCurrent
+
+  Property_Plant_and_Equipment_Net:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:PropertyPlantAndEquipmentNet
+      - us-gaap:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
+
+  Goodwill:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:Goodwill
+
+  Intangible_Assets_Ex_Goodwill:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:IntangibleAssetsNetExcludingGoodwill
+      - us-gaap:FiniteLivedIntangibleAssetsNet
+
+  Total_Assets:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:Assets
+
+  Accounts_Payable:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:AccountsPayableCurrent
+      - us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent
+
+  Deferred_Revenue:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:ContractWithCustomerLiabilityCurrent
+      - us-gaap:DeferredRevenueCurrent
+      - us-gaap:DeferredRevenue
+
+  Short_Term_Debt:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:DebtCurrent
+      - us-gaap:ShortTermBorrowings
+      - us-gaap:LongTermDebtCurrent
+      - us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent
+      - us-gaap:NotesPayableCurrent
+
+  Operating_Lease_Liability_Current:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:OperatingLeaseLiabilityCurrent
+      - us-gaap:OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList
+
+  Total_Current_Liabilities:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:LiabilitiesCurrent
+
+  Long_Term_Debt:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:LongTermDebtNoncurrent
+      - us-gaap:LongTermDebt
+      - us-gaap:LongTermDebtAndCapitalLeaseObligations
+      - us-gaap:LongTermNotesPayable
+
+  Operating_Lease_Liability_Noncurrent:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:OperatingLeaseLiabilityNoncurrent
+      - us-gaap:OperatingLeaseLiability
+      - us-gaap:OperatingLeaseLiabilityNoncurrentStatementOfFinancialPositionExtensibleList
+
+  Convertible_Debt:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:ConvertibleDebtNoncurrent
+      - us-gaap:ConvertibleLongTermNotesPayable
+      - us-gaap:ConvertibleDebtCurrent
+      - us-gaap:ConvertibleNotesPayableCurrent
+      - us-gaap:ConvertibleDebt
+      - us-gaap:ConvertibleSubordinatedDebtNoncurrent
+
+  Total_Liabilities:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:Liabilities
+    derived:
+      formula: "Total_Liabilities_and_Equity - Total_Equity"
+      inputs: ["Total_Liabilities_and_Equity", "Total_Equity"]
+
+  Retained_Earnings:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:RetainedEarningsAccumulatedDeficit
+
+  Total_Equity:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:StockholdersEquity
+      - us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest
+
+  Total_Liabilities_and_Equity:
+    statement: balance
+    period_type: instant
+    tags:
+      - us-gaap:LiabilitiesAndStockholdersEquity
+
+  # ==========================================
+  # 3. SHARE COUNTS (Cover Page vs Diluted)
+  # ==========================================
+  Cover_Page_Shares_Outstanding:
+    statement: shares
+    period_type: instant
+    tags:
+      - dei:EntityCommonStockSharesOutstanding
+      - us-gaap:CommonStockSharesOutstanding
+
+  Diluted_Shares_Outstanding:
+    statement: shares
+    period_type: duration
+    tags:
+      - us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
+      - us-gaap:WeightedAverageNumberOfSharesOutstandingBasic
+
+  # ==========================================
+  # 4. CASH FLOW STATEMENT (Duration)
+  # ==========================================
+  Operating_Cash_Flow:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:NetCashProvidedByUsedInOperatingActivities
+      - us-gaap:NetCashProvidedByOperatingActivities
+
+  Depreciation_and_Amortization:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:DepreciationDepletionAndAmortization
+      - us-gaap:DepreciationAndAmortization
+      - us-gaap:Depreciation
+      - us-gaap:OtherDepreciationAndAmortization
+
+  Stock_Based_Compensation:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:ShareBasedCompensation
+      - us-gaap:AllocatedShareBasedCompensationExpense
+
+  Capital_Expenditures:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      - us-gaap:PaymentsToAcquireProductiveAssets
+
+  Free_Cash_Flow:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:FreeCashFlow
+    derived:
+      formula: "Operating_Cash_Flow - Capital_Expenditures"
+      inputs: ["Operating_Cash_Flow", "Capital_Expenditures"]
+
+  Cash_Acquisitions:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired
+      - us-gaap:PaymentsToAcquireBusinessesGross
+
+  Debt_Issued:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:ProceedsFromIssuanceOfLongTermDebt
+      - us-gaap:ProceedsFromConvertibleDebt
+      - us-gaap:ProceedsFromDebtMaturingInMoreThanThreeMonths
+      - us-gaap:ProceedsFromIssuanceOfDebt
+
+  Debt_Repaid:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:RepaymentsOfLongTermDebt
+      - us-gaap:RepaymentsOfConvertibleDebt
+      - us-gaap:RepaymentsOfSeniorDebt
+      - us-gaap:RepaymentsOfDebtMaturingInMoreThanThreeMonths
+      - us-gaap:RepaymentsOfDebt
+
+  Stock_Issued:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:ProceedsFromIssuanceOfCommonStock
+      - us-gaap:ProceedsFromIssuanceOrSaleOfEquity
+
+  Stock_Buybacks:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:PaymentsForRepurchaseOfCommonStock
+      - us-gaap:PaymentsForRepurchaseOfEquity
+
+  Dividends_Paid:
+    statement: cashflow
+    period_type: duration
+    tags:
+      - us-gaap:PaymentsOfDividendsCommonStock
+      - us-gaap:PaymentsOfDividends
