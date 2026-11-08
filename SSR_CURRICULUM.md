@@ -252,6 +252,9 @@ Exit targets adapt dynamically to the stock's archetype so you don't hold a deca
    * **Safety Stop Loss:** -15.0% anchored strictly to blended VWAP.
 5. **Universal Elevated Volume Exit Trigger:**
    * If 30-day volume surges to **≥ 3.0× normal ADDV** while price reaches historical valuation corridor upper bounds, scale 33%–50% directly into elevated market liquidity.
+6. **The Strength vs. Weakness Exit Asymmetry (Mean-Reversion Integrity):**
+   * **The Empirical Reality:** Quantitative testing across 17,700+ equities and 152 exit rules demonstrates that selling single stocks on technical weakness (e.g., 200-day moving average breakdowns, 20-day lows, Donchian channel breaks) generates an average **`-0.34%` drag per trade** across 7 of 9 operating years due to short-term single-stock mean reversion. Conversely, scaling into technical and valuation strength captures **`+0.38%` excess return per trade**.
+   * **The Rule:** Single-stock exits are governed strictly by deterministic valuation targets ($P_{\text{T1}}$ and $P_{\text{T2}}$) and the structural thesis stop loss. **Never exit fundamental operating survivors based on technical moving average breakdowns in isolation.** Moving average breakdowns are reserved strictly as macro regime gates on broad market indexes (`VOO`/`SPY`) when confirmed by the **Three Credit Tripwires** (`VIX > 23`, `HYG < $76`, `10Y > 5.24%`).
 
 ---
 

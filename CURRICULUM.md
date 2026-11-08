@@ -179,6 +179,28 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
 
 ---
 
+## 8. The Hierarchy of Market Signals & Conflict Resolution Rules
+
+When macroeconomic data, options flows, and technical indicators flash conflicting messages, we enforce an explicit **Cross-Asset Precedence Hierarchy**:
+
+| Signal Level | Priority Dominance | Operational Resolution Rule |
+| :--- | :--- | :--- |
+| **Priority 1: Debt Solvency & Credit Spreads** | Overrides Equity Valuation & Momentum | Corporate credit desks demand immediate compensation for default risk. If high-yield credit spreads blow out (`HY OAS > 400 bps`), equity narrative momentum is subordinated. Enforce liquidation floors. |
+| **Priority 2: Front-Month Options Flows (OpEx)** | Overrides Multi-Month Macro Forecasts | Inside a 30-day OpEx window, dealer hedging obligations (`vanna`, `charm`, `gamma`, and post-spike **Put Monetization** rolls) dictate immediate price action. Do not chase outright calls into oversold bounces ("Vol Tax") or short structural dealer buybacks on Day 1 post-event pops; wait for the `VIXOpEx` + Monthly OpEx risk-clearing window. |
+| **Priority 3: Central Bank Tightening** | Overrides Calendar Seasonality | A central bank actively hiking into an inverted yield curve or softening ISM backlogs invalidates post-midterm seasonal tailwinds (the 2018 trap). Cross-check headline NFP beats against `U-6` underemployment, real wage growth, and the **2-Year Treasury Yield** reaction before deploying dry powder. |
+| **Priority 4: Emergency Margin Liquidity** | Overrides Multi-Year Safe-Haven Status | In the first 72 hours of an acute dollar liquidity squeeze or when implied correlation (`COR1M` / `COR3M`) spikes, sovereign entities and levered funds sell liquid gold and equities into short-term cash/T-Bills. Enter hedges AFTER the initial margin liquidation wave exhausts. |
+| **Priority 5: Single-Stock Balance Sheets** | Overrides Broad Index Technical Breaks | A net-cash compounder does not care about an S&P 500 200-day moving average breakdown. Trailing breakdown stops bleed `-34 bps` on single stocks; reserve index trend levels (`VOO` weekly closes at `$691` / `$665`) strictly for broad index regime gating. |
+
+### The Three Structural Credit & Volatility Tripwires
+To distinguish routine market pullbacks from systemic liquidity contagion, we monitor three concrete circuit breakers:
+1. **Tripwire 1 (`VIX > 23`):** Implied volatility escapes ordinary regime distributions, signaling that institutional hedging has transitioned from orderly skew pricing into tail-event panic.
+2. **Tripwire 2 (`HYG < $76` or High Yield OAS Spreads $> 400\text{ bps}$):** Junk credit breaks structural support. Because bond desks prioritize recovery rates over equity stories, credit spreads lead equity tops in 7 of the last 8 economic cycles (median lead: 7 months).
+3. **Tripwire 3 (`10-Year Treasury Yield > 5.24%`):** Sovereign benchmark yields pierce the inverse P/E earnings yield of the S&P 500, creating an institutional hurdle rate where risk-free coupons trigger large-scale reallocation out of high-multiple equities and into fixed income.
+
+*When none of the three tripwires are breached, market pullbacks represent mean-reverting rotational noise within a structural trend; when tripwires trigger, risk managers enforce defensive capital preservation.*
+
+---
+
 # MODULE 2: Engine 1 — The Yield Stacker (Cash-Secured Puts)
 
 ```
