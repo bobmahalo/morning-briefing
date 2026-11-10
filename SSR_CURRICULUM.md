@@ -515,3 +515,27 @@ Complements fundamental limit order ladders with real-time dealer option-hedging
 ---
 
 *Antigravity V3 Core | SSR v2 Executive Engine Master Curriculum*
+
+
+## XBRL concept integrity — November 9, 2026
+
+<details markdown="1">
+<summary>A=A mappings, units, and missing data</summary>
+
+Canonical financial fields now select one explicitly defined XBRL concept. Alternate concepts are retained as separate `Reported_...` fields, not substituted for totals or differently scoped measures. The dictionary records source definitions and labels. USD monetary facts and share units are selected explicitly; no implicit currency conversion occurs. Missing values remain NR.
+
+Unqualified gross-profit, operating-income, pretax-income and liabilities arithmetic fallbacks are removed. Project-defined free cash flow is operating cash flow minus payments to acquire PP&E, requiring matching periods and units. YTD subtraction requires matching fiscal starts, source concepts and units. Weighted-average share counts require direct quarterly disclosures rather than equal-quarter approximations.
+
+This mapping change reduces some canonical coverage. Supplemental fields are present in normalized facts and statement tables; the fixed master-universe export has not been expanded. Existing caches and published reports have not been regenerated. Downstream zero defaults, display labels and company-specific reconciliation must be checked before publishing a rebuilt lake. Dossier-specific extraction remains a separate repair scope.
+
+</details>
+
+
+### Superseding clarification: fixed columns and alias review inventory
+
+The data lake retains its original canonical columns. Alternate concepts are stored in `config/xbrl_alias_review_inventory.yaml`, not emitted as additional statement/data-lake columns. Candidates require definition, unit, period, scope and primary-filing evidence before approval. Earlier references to supplemental `Reported_...` output fields describe an interim implementation that has now been removed. Raw source data remains unchanged. Downstream formula and dossier work is deferred until the data-lake mapping review is settled.
+
+
+### Missing-cell audit queue — November 10, 2026
+
+The mapping audit separates candidates requiring filing evidence from alternatives already known to have incompatible accounting scope. Cash interest paid cannot substitute for accrual interest expense. A broad payable/accrual balance cannot substitute for trade payables. These rejected alternatives remain in the terms inventory for traceability, but are not counted as prospective direct aliases. Financial/REIT exclusions and unknown-SIC companies are reported separately. Snapshot cells retain periods and missing-value reasons; the current review snapshot is annual/instant, not TTM.
