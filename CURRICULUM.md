@@ -478,3 +478,8 @@ The data lake retains its original canonical columns. Alternate concepts are sto
 ### Missing-cell audit queue — November 10, 2026
 
 The mapping audit separates candidates requiring filing evidence from alternatives already known to have incompatible accounting scope. Cash interest paid cannot substitute for accrual interest expense. A broad payable/accrual balance cannot substitute for trade payables. These rejected alternatives remain in the terms inventory for traceability, but are not counted as prospective direct aliases. Financial/REIT exclusions and unknown-SIC companies are reported separately. Snapshot cells retain periods and missing-value reasons; the current review snapshot is annual/instant, not TTM.
+
+
+### Source retention and contextual revenue mappings
+
+SEC source refreshes preserve prior and new content-addressed versions before replacing live caches. Existing baseline captures retain unknown original retrieval dates. Retaining bytes is distinct from implementing correct as-of observation selection, which remains separate work. Contract-revenue terminology is accepted only where verified as the total/sole consolidated operating-revenue line with matching period, unit and source observation. Sample validation does not authorize a universal alias. Evidence and missing-value states remain explicit.
