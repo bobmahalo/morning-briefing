@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-12 14:59:03 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-13 14:45:11 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,12 +10,12 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-12 14:59 UTC | Macro Regime: DEFLATION REGIME             │
-│ VIX: 18.27 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
+│ Generated: 2026-11-13 14:45 UTC | Macro Regime: DEFLATION REGIME             │
+│ VIX: 18.10 | Treasury Floor: 4.50% | Core Compounder Posture: 50%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **🎯 Top Yield Stacker Pick:** `TSN` ($52.50 Strike, 36 DTE, 10.3% Stacked Yield)
+- **🎯 Top Yield Stacker Pick:** `ZTS` ($75.00 Strike, 35 DTE, 12.2% Stacked Yield)
 - **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $60.47, 15.9% FCF Yield, $27.12 Net Cash Floor, Piotroski 9/9)
 
 <details markdown="1">
@@ -32,12 +32,12 @@
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-12 14:59 UTC (Static)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-13 14:45 UTC (Static)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ Comp**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7,600.1** | **25,376.1** | **2,822.2** | **5.05%** | **$86.46** | **$3,890.40** | **$71,504** | **18.33** |
-| `-0.25% 🔴` | `-0.35% 🔴` | `-0.85% 🔴` | `+5 bps 🔴` | `-0.08% 🟢` | `-2.75% 🔴` | `-3.33% 🔴` | `+0.84 🔴` |
+| **7,582.8** | **25,252.1** | **2,805.4** | **5.16%** | **$89.25** | **$3,897.40** | **$69,076** | **18.10** |
+| `-0.13% 🔴` | `-0.45% 🔴` | `+0.23% 🟢` | `+6 bps 🔴` | `+0.57% 🔴` | `+0.31% 🟢` | `-3.18% 🔴` | `-0.60 🟢` |
 
 ### 🧭 Macro Regime & Economic Vitals
 ```text
@@ -152,7 +152,7 @@
 
 </details>
 
-🚨 **MACRO CATALYST COUNTDOWN:** 🚨 TODAY: **Core CPI Inflation Data** (2026-11-12) | 🚨 TOMORROW: **PPI Wholesale Inflation** (2026-11-13)
+🚨 **MACRO CATALYST COUNTDOWN:** 🚨 TODAY: **PPI Wholesale Inflation** (2026-11-13) | ⚠️ in 7 Days: **Monthly OPEX** (2026-11-20)
 
 <details markdown="1">
 <summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
@@ -163,14 +163,13 @@
 
 | Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
 | :--- | :--- | :---: | :---: | :--- |
-| **2026-11-12** | Core CPI Inflation Data | 🚨 TODAY | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-11-13** | PPI Wholesale Inflation | 🚨 in 1 Day | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
-| **2026-11-20** | Monthly OPEX | ⚠️ in 8 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
-| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 22 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 27 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Fed Chair Warsh press conference (2:30 PM ET) triggers rapid IV crush. |
-| **2026-12-10** | Core CPI Inflation Data | 📅 in 28 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-12-11** | PPI Wholesale Inflation | 📅 in 29 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
-| **2026-12-18** | Quarterly OPEX (Triple Witching) | 📅 in 36 Days | 🔥 Critical | Simultaneous expiry of index futures, index options & stock options; massive institutional volume roll. |
+| **2026-11-13** | PPI Wholesale Inflation | 🚨 TODAY | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-11-20** | Monthly OPEX | ⚠️ in 7 Days | 🔥 Critical | Dealer gamma expiry; unpinning of major strike magnets & synthetic delta hedge rebalancing. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 21 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 26 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; Fed Chair Warsh press conference (2:30 PM ET) triggers rapid IV crush. |
+| **2026-12-10** | Core CPI Inflation Data | 📅 in 27 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-12-11** | PPI Wholesale Inflation | 📅 in 28 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-12-18** | Quarterly OPEX (Triple Witching) | 📅 in 35 Days | 🔥 Critical | Simultaneous expiry of index futures, index options & stock options; massive institutional volume roll. |
 
 </details>
 <!-- END_MACRO_PULSE_STRIP -->
@@ -210,63 +209,53 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`TSN`** | $59.83 | $52.50 | 36 | -0.11 | 33.5% | $0.30 | $0.10 (33%) | **10.29%** | 291 | ✅ Post (6d ago) | Premium (High) | ✅ Liquid CSP ($5.2k) |
-| **`GNTX`** | $19.45 | $17.50 | 36 | -0.12 | 32.4% | $0.05 | $0.15 (300%) | **7.40%** | 84 | 🟢 86d (Clear) | Breakdown | ✅ Liquid CSP ($1.8k) |
-| **`MKC`** | $46.50 | $40.00 | 36 | -0.07 | 35.3% | $0.05 | $0.25 (500%) | **5.77%** | 1380 | 🟢 56d (Clear) | Deep Discount | ✅ Liquid CSP ($4.0k) |
+| **`ZTS`** | $82.93 | $75.00 | 35 | -0.14 | 32.6% | $0.55 | $0.20 (36%) | **12.15%** | 1173 | 🟢 85d (Clear) | Deep Discount | ✅ Liquid CSP ($7.5k) |
+| **`CTSH`** | $64.04 | $55.00 | 35 | -0.12 | 40.9% | $0.40 | $0.20 (50%) | **12.08%** | 732 | 🟢 85d (Clear) | Premium (High) | ✅ Liquid CSP ($5.5k) |
+| **`MKC`** | $46.82 | $40.00 | 35 | -0.07 | 34.8% | $0.05 | $0.20 (400%) | **5.80%** | 1371 | 🟢 55d (Clear) | Deep Discount | ✅ Liquid CSP ($4.0k) |
 
 <details markdown="1">
-<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Bull Put Spreads (&gt;$200 Strike) &amp; Earnings-Window Plays (47 Candidates)</b></summary>
+<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Bull Put Spreads (&gt;$200 Strike) &amp; Earnings-Window Plays (37 Candidates)</b></summary>
 
 > **Why Tier 2 Plays Are Separated:** Fundamentals and IV passed the primary screen, but option microstructure triggered one or more execution caveats (`OI < 25`, `Spread > 25%`, `Strike > $200` collateral concentration requiring a **Bull Put Credit Spread**, or **Earnings within the DTE window**). Work limit orders patiently or structure as defined-risk spreads.
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`INTU`** | $341.22 | $280.00 | 42 | -0.15 | 61.8% | $3.70 | $4.90 (132%) | **15.98%** | 11 | 🚨 25d (In-DTE) | Deep Discount | 🚨 Earnings in 25d / 🐂 Put Spread ($28k Collat) / ⚠️ Thin OI (11) / 📐 Wide Spread ($4.90 / 132%) |
-| **`ADBE`** | $236.64 | $200.00 | 42 | -0.14 | 49.4% | $2.39 | $1.16 (48%) | **14.89%** | 9 | 🟢 56d (Clear) | Deep Discount | ⚠️ Thin OI (9) / 📐 Wide Spread ($1.16 / 48%) |
-| **`NUE`** | $260.31 | $230.00 | 36 | -0.14 | 40.6% | $2.25 | $0.65 (29%) | **14.42%** | 668 | 🟢 86d (Clear) | Premium (High) | 🐂 Put Spread ($23k Collat) / 📐 Wide Spread ($0.65 / 29%) |
-| **`PVH`** | $93.14 | $75.00 | 36 | -0.10 | 58.1% | $0.60 | $0.45 (75%) | **12.61%** | 251 | 🚨 25d (In-DTE) | Premium (High) | 🚨 Earnings in 25d / 📐 Wide Spread ($0.45 / 75%) |
-| **`ZTS`** | $83.18 | $75.00 | 36 | -0.15 | 33.1% | $0.55 | $0.30 (54%) | **11.94%** | 1134 | 🟢 86d (Clear) | Deep Discount | 📐 Wide Spread ($0.30 / 54%) |
-| **`PAYX`** | $116.22 | $105.00 | 36 | -0.15 | 34.5% | $0.70 | $0.65 (93%) | **11.26%** | 2642 | 🟢 56d (Clear) | Premium (High) | 📐 Wide Spread ($0.65 / 93%) |
-| **`ABG`** | $205.56 | $180.00 | 36 | -0.15 | 43.3% | $1.20 | $2.20 (183%) | **11.26%** | 2 | 🟢 86d (Clear) | Discount Zone | ⚠️ Thin OI (2) / 📐 Wide Spread ($2.20 / 183%) |
-| **`TEL`** | $220.07 | $195.00 | 36 | -0.14 | 38.5% | $1.25 | $1.55 (124%) | **11.00%** | 70 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($1.55 / 124%) |
-| **`PTEN`** | $10.25 | $8.00 | 36 | -0.12 | 72.5% | $0.05 | $0.20 (400%) | **10.84%** | 1 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (1) |
-| **`HGV`** | $45.24 | $40.00 | 36 | -0.12 | 34.7% | $0.25 | $0.35 (140%) | **10.84%** | 8 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (8) / 📐 Wide Spread ($0.35 / 140%) |
-| **`PAYC`** | $241.76 | $210.00 | 36 | -0.12 | 38.5% | $1.30 | $0.95 (73%) | **10.78%** | 100 | 🟢 86d (Clear) | Premium (High) | 🐂 Put Spread ($21k Collat) / 📐 Wide Spread ($0.95 / 73%) |
-| **`RL`** | $395.82 | $350.00 | 36 | -0.12 | 35.2% | $2.00 | $1.30 (65%) | **10.29%** | 4 | 🟢 86d (Clear) | Premium (High) | 🐂 Put Spread ($35k Collat) / ⚠️ Thin OI (4) / 📐 Wide Spread ($1.30 / 65%) |
-| **`OKE`** | $88.69 | $80.00 | 36 | -0.14 | 31.3% | $0.45 | $0.40 (89%) | **10.20%** | 423 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.40 / 89%) |
-| **`CTSH`** | $65.46 | $55.00 | 36 | -0.10 | 42.1% | $0.30 | $0.30 (100%) | **10.03%** | 727 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.30 / 100%) |
-| **`RS`** | $431.52 | $390.00 | 36 | -0.14 | 30.6% | $2.00 | $2.20 (110%) | **9.70%** | 8 | 🟢 86d (Clear) | Premium (High) | 🐂 Put Spread ($39k Collat) / ⚠️ Thin OI (8) / 📐 Wide Spread ($2.20 / 110%) |
-| **`LW`** | $56.53 | $50.00 | 36 | -0.13 | 37.8% | $0.25 | $0.45 (180%) | **9.57%** | 42 | 🟢 56d (Clear) | Premium (High) | 📐 Wide Spread ($0.45 / 180%) |
-| **`GPC`** | $124.71 | $110.00 | 36 | -0.12 | 32.6% | $0.50 | $0.50 (100%) | **9.11%** | 42 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.50 / 100%) |
-| **`BYD`** | $77.35 | $67.50 | 36 | -0.11 | 37.0% | $0.30 | $0.45 (150%) | **9.01%** | 9 | 🟢 86d (Clear) | Discount Zone | ⚠️ Thin OI (9) / 📐 Wide Spread ($0.45 / 150%) |
-| **`TOL`** | $151.28 | $130.00 | 36 | -0.10 | 40.0% | $0.50 | $0.80 (160%) | **8.40%** | 246 | 🚨 25d (In-DTE) | Premium (High) | 🚨 Earnings in 25d / 📐 Wide Spread ($0.80 / 160%) |
-| **`BKNG`** | $163.16 | $135.00 | 42 | -0.10 | 42.8% | $0.60 | $1.10 (183%) | **8.36%** | 3 | 🟢 86d (Clear) | Deep Discount | ⚠️ Thin OI (3) / 📐 Wide Spread ($1.10 / 183%) |
-| **`PLNT`** | $61.35 | $52.50 | 36 | -0.12 | 44.2% | $0.20 | $0.65 (325%) | **8.36%** | 48 | 🟢 86d (Clear) | Discount Zone | 📐 Wide Spread ($0.65 / 325%) |
-| **`MTDR`** | $51.90 | $45.00 | 36 | -0.13 | 42.1% | $0.15 | $0.65 (433%) | **7.88%** | 28 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.65 / 433%) |
-| **`BR`** | $193.85 | $170.00 | 36 | -0.12 | 37.0% | $0.55 | $1.85 (336%) | **7.78%** | 28 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($1.85 / 336%) |
-| **`REGN`** | $958.50 | $850.00 | 42 | -0.13 | 33.3% | $3.20 | $8.00 (250%) | **7.77%** | 2 | 🟢 86d (Clear) | Premium (High) | 🐂 Put Spread ($85k Collat) / ⚠️ Thin OI (2) / 📐 Wide Spread ($8.00 / 250%) |
-| **`SW`** | $43.98 | $37.50 | 36 | -0.12 | 45.1% | $0.10 | $0.60 (600%) | **7.20%** | 20 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (20) / 📐 Wide Spread ($0.60 / 600%) |
-| **`SIG`** | $120.34 | $95.00 | 36 | -0.09 | 60.3% | $0.25 | $1.55 (620%) | **7.17%** | 12 | 🚨 25d (In-DTE) | Premium (High) | 🚨 Earnings in 25d / ⚠️ Thin OI (12) / 📐 Wide Spread ($1.55 / 620%) |
-| **`PR`** | $22.43 | $19.00 | 36 | -0.12 | 46.6% | $0.05 | $0.30 (600%) | **7.17%** | 99 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.30 / 600%) |
-| **`HRL`** | $21.92 | $19.00 | 42 | -0.09 | 32.4% | $0.05 | $0.10 (200%) | **6.79%** | 9 | 🚨 25d (In-DTE) | Discount Zone | 🚨 Earnings in 25d / ⚠️ Thin OI (9) |
-| **`WFRD`** | $85.68 | $70.00 | 36 | -0.13 | 62.7% | $0.15 | $2.05 (1367%) | **6.67%** | 35 | 🟢 86d (Clear) | Discount Zone | 📐 Wide Spread ($2.05 / 1367%) |
-| **`HAL`** | $32.57 | $28.00 | 42 | -0.15 | 46.3% | $0.06 | $0.71 (1183%) | **6.36%** | 5 | 🟢 86d (Clear) | Discount Zone | ⚠️ Thin OI (5) / 📐 Wide Spread ($0.71 / 1183%) |
-| **`APA`** | $46.80 | $38.00 | 42 | -0.08 | 46.8% | $0.07 | $0.45 (643%) | **6.10%** | 4 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (4) / 📐 Wide Spread ($0.45 / 643%) |
-| **`YETI`** | $39.74 | $32.50 | 36 | -0.09 | 51.8% | $0.05 | $0.50 (1000%) | **6.06%** | 10 | ✅ Post (6d ago) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($0.50 / 1000%) |
-| **`AEO`** | $21.67 | $17.00 | 42 | -0.14 | 71.1% | $0.03 | $0.75 (2500%) | **6.03%** | 2 | 🚨 25d (In-DTE) | Premium (High) | 🚨 Earnings in 25d / ⚠️ Thin OI (2) / 📐 Wide Spread ($0.75 / 2500%) |
-| **`CRUS`** | $122.26 | $100.00 | 36 | -0.12 | 58.3% | $0.15 | $2.65 (1767%) | **6.02%** | 58 | 🟢 86d (Clear) | Deep Discount | 📐 Wide Spread ($2.65 / 1767%) |
-| **`ALSN`** | $129.37 | $100.00 | 36 | -0.05 | 53.6% | $0.15 | $0.75 (500%) | **6.02%** | 57 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.75 / 500%) |
-| **`PSN`** | $49.74 | $35.00 | 36 | -0.11 | 103.6% | $0.05 | $1.95 (3900%) | **5.95%** | 1551 | 🟢 86d (Clear) | Deep Discount | 📐 Wide Spread ($1.95 / 3900%) |
-| **`GPI`** | $268.00 | $230.00 | 36 | -0.13 | 44.5% | $0.30 | $4.60 (1533%) | **5.82%** | 3 | 🟢 86d (Clear) | Deep Discount | 🐂 Put Spread ($23k Collat) / ⚠️ Thin OI (3) / 📐 Wide Spread ($4.60 / 1533%) |
-| **`AR`** | $38.24 | $33.00 | 42 | -0.11 | 37.2% | $0.05 | $0.45 (900%) | **5.82%** | 1 | 🟢 86d (Clear) | Discount Zone | ⚠️ Thin OI (1) / 📐 Wide Spread ($0.45 / 900%) |
-| **`HRB`** | $50.62 | $40.00 | 36 | -0.08 | 55.2% | $0.05 | $0.55 (1100%) | **5.77%** | 8 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (8) / 📐 Wide Spread ($0.55 / 1100%) |
-| **`AN`** | $186.03 | $160.00 | 36 | -0.09 | 38.3% | $0.20 | $1.65 (825%) | **5.77%** | 19 | 🟢 86d (Clear) | Discount Zone | ⚠️ Thin OI (19) / 📐 Wide Spread ($1.65 / 825%) |
-| **`SON`** | $49.78 | $45.00 | 36 | -0.14 | 33.3% | $0.05 | $0.70 (1400%) | **5.63%** | 156 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.70 / 1400%) |
-| **`LEA`** | $109.23 | $95.00 | 36 | -0.11 | 37.2% | $0.10 | $1.25 (1250%) | **5.57%** | 5 | 🟢 86d (Clear) | Deep Discount | ⚠️ Thin OI (5) / 📐 Wide Spread ($1.25 / 1250%) |
-| **`OSIS`** | $197.38 | $175.00 | 36 | -0.15 | 39.7% | $0.15 | $3.75 (2500%) | **5.37%** | 16 | 🟢 86d (Clear) | Breakdown | ⚠️ Thin OI (16) / 📐 Wide Spread ($3.75 / 2500%) |
-| **`IFF`** | $82.62 | $70.00 | 36 | -0.08 | 39.4% | $0.05 | $0.70 (1400%) | **5.22%** | 74 | 🟢 86d (Clear) | Premium (High) | 📐 Wide Spread ($0.70 / 1400%) |
-| **`PHM`** | $130.01 | $105.00 | 42 | -0.11 | 56.7% | $0.05 | $2.85 (5700%) | **4.91%** | 1 | 🟢 86d (Clear) | Premium (High) | ⚠️ Thin OI (1) / 📐 Wide Spread ($2.85 / 5700%) |
-| **`KR`** | $69.99 | $58.00 | 42 | -0.12 | 50.5% | $0.02 | $1.50 (7500%) | **4.80%** | 1 | 🚨 25d (In-DTE) | Premium (High) | 🚨 Earnings in 25d / ⚠️ Thin OI (1) / 📐 Wide Spread ($1.50 / 7500%) |
+| **`NUE`** | $259.54 | $230.00 | 35 | -0.14 | 39.9% | $2.05 | $0.85 (42%) | **13.80%** | 672 | 🟢 85d (Clear) | Premium (High) | 🐂 Put Spread ($23k Collat) / 📐 Wide Spread ($0.85 / 42%) |
+| **`INTU`** | $343.31 | $275.00 | 48 | -0.13 | 59.6% | $3.20 | $4.20 (131%) | **13.35%** | 2 | 🚨 24d (In-DTE) | Deep Discount | 🚨 Earnings in 24d / 🐂 Put Spread ($28k Collat) / ⚠️ Thin OI (2) / 📐 Wide Spread ($4.20 / 131%) |
+| **`TOL`** | $147.79 | $130.00 | 35 | -0.14 | 40.6% | $1.05 | $0.75 (71%) | **12.92%** | 251 | 🚨 24d (In-DTE) | Premium (High) | 🚨 Earnings in 24d / 📐 Wide Spread ($0.75 / 71%) |
+| **`APA`** | $47.82 | $41.00 | 48 | -0.14 | 43.4% | $0.37 | $0.41 (111%) | **11.36%** | 2 | 🟢 85d (Clear) | Premium (High) | ⚠️ Thin OI (2) / 📐 Wide Spread ($0.41 / 111%) |
+| **`RL`** | $394.92 | $350.00 | 35 | -0.14 | 36.8% | $2.00 | $2.90 (145%) | **10.46%** | 4 | 🟢 85d (Clear) | Premium (High) | 🐂 Put Spread ($35k Collat) / ⚠️ Thin OI (4) / 📐 Wide Spread ($2.90 / 145%) |
+| **`PAYC`** | $248.04 | $220.00 | 35 | -0.14 | 38.1% | $1.20 | $2.00 (167%) | **10.19%** | 68 | 🟢 85d (Clear) | Premium (High) | 🐂 Put Spread ($22k Collat) / 📐 Wide Spread ($2.00 / 167%) |
+| **`TEL`** | $218.25 | $190.00 | 35 | -0.12 | 39.4% | $0.95 | $1.30 (137%) | **9.71%** | 226 | 🟢 85d (Clear) | Discount Zone | 📐 Wide Spread ($1.30 / 137%) |
+| **`ADBE`** | $239.46 | $190.00 | 48 | -0.09 | 50.6% | $1.27 | $1.19 (94%) | **9.58%** | 1 | 🟢 55d (Clear) | Deep Discount | ⚠️ Thin OI (1) / 📐 Wide Spread ($1.19 / 94%) |
+| **`PLNT`** | $60.94 | $52.50 | 35 | -0.12 | 44.2% | $0.25 | $0.60 (240%) | **9.47%** | 48 | 🟢 85d (Clear) | Discount Zone | 📐 Wide Spread ($0.60 / 240%) |
+| **`TSN`** | $59.97 | $52.50 | 35 | -0.14 | 37.3% | $0.25 | $0.55 (220%) | **9.47%** | 291 | ✅ Post (7d ago) | Premium (High) | 📐 Wide Spread ($0.55 / 220%) |
+| **`SIG`** | $117.79 | $95.00 | 35 | -0.12 | 62.4% | $0.45 | $1.90 (422%) | **9.44%** | 12 | 🚨 24d (In-DTE) | Premium (High) | 🚨 Earnings in 24d / ⚠️ Thin OI (12) / 📐 Wide Spread ($1.90 / 422%) |
+| **`YETI`** | $38.49 | $32.50 | 35 | -0.11 | 46.1% | $0.15 | $0.35 (233%) | **9.31%** | 10 | ✅ Post (7d ago) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($0.35 / 233%) |
+| **`SW`** | $43.27 | $37.50 | 35 | -0.14 | 44.1% | $0.15 | $0.60 (400%) | **8.67%** | 20 | 🟢 85d (Clear) | Premium (High) | ⚠️ Thin OI (20) / 📐 Wide Spread ($0.60 / 400%) |
+| **`OKE`** | $89.40 | $80.00 | 35 | -0.11 | 31.5% | $0.30 | $0.40 (133%) | **8.41%** | 436 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.40 / 133%) |
+| **`BR`** | $192.96 | $170.00 | 35 | -0.15 | 40.3% | $0.55 | $2.75 (500%) | **7.87%** | 28 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($2.75 / 500%) |
+| **`GPC`** | $123.70 | $110.00 | 35 | -0.13 | 31.4% | $0.35 | $0.95 (271%) | **7.82%** | 42 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.95 / 271%) |
+| **`PRGS`** | $44.11 | $35.00 | 35 | -0.10 | 62.0% | $0.10 | $0.65 (650%) | **7.48%** | 120 | 🟢 55d (Clear) | Premium (High) | 📐 Wide Spread ($0.65 / 650%) |
+| **`RS`** | $432.26 | $390.00 | 35 | -0.13 | 30.7% | $1.05 | $3.35 (319%) | **7.31%** | 8 | 🟢 85d (Clear) | Premium (High) | 🐂 Put Spread ($39k Collat) / ⚠️ Thin OI (8) / 📐 Wide Spread ($3.35 / 319%) |
+| **`PR`** | $22.78 | $20.00 | 35 | -0.14 | 41.1% | $0.05 | $0.35 (700%) | **7.11%** | 40 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.35 / 700%) |
+| **`BYD`** | $77.54 | $67.50 | 35 | -0.10 | 36.8% | $0.15 | $0.60 (400%) | **6.82%** | 9 | 🟢 85d (Clear) | Discount Zone | ⚠️ Thin OI (9) / 📐 Wide Spread ($0.60 / 400%) |
+| **`PVH`** | $93.20 | $75.00 | 35 | -0.09 | 55.4% | $0.15 | $1.10 (733%) | **6.59%** | 251 | 🚨 24d (In-DTE) | Premium (High) | 🚨 Earnings in 24d / 📐 Wide Spread ($1.10 / 733%) |
+| **`LEA`** | $109.30 | $95.00 | 35 | -0.12 | 37.5% | $0.15 | $1.20 (800%) | **6.15%** | 5 | 🟢 85d (Clear) | Deep Discount | ⚠️ Thin OI (5) / 📐 Wide Spread ($1.20 / 800%) |
+| **`TNL`** | $78.97 | $65.00 | 35 | -0.10 | 47.4% | $0.10 | $0.95 (950%) | **6.10%** | 2 | 🟢 85d (Clear) | Premium (High) | ⚠️ Thin OI (2) / 📐 Wide Spread ($0.95 / 950%) |
+| **`ALV`** | $120.70 | $105.00 | 35 | -0.10 | 33.6% | $0.15 | $0.95 (633%) | **5.99%** | 37 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.95 / 633%) |
+| **`PSN`** | $49.70 | $40.00 | 35 | -0.15 | 74.1% | $0.05 | $1.85 (3700%) | **5.80%** | 382 | 🟢 85d (Clear) | Deep Discount | 📐 Wide Spread ($1.85 / 3700%) |
+| **`MTDR`** | $52.71 | $45.00 | 35 | -0.10 | 44.4% | $0.05 | $0.65 (1300%) | **5.66%** | 28 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.65 / 1300%) |
+| **`LW`** | $55.88 | $47.50 | 35 | -0.10 | 41.8% | $0.05 | $0.60 (1200%) | **5.60%** | 42 | 🟢 55d (Clear) | Premium (High) | 📐 Wide Spread ($0.60 / 1200%) |
+| **`PAYX`** | $116.08 | $100.00 | 35 | -0.07 | 33.6% | $0.10 | $0.60 (600%) | **5.54%** | 219 | 🟢 55d (Clear) | Premium (High) | 📐 Wide Spread ($0.60 / 600%) |
+| **`AN`** | $180.45 | $155.00 | 35 | -0.11 | 44.3% | $0.15 | $2.60 (1733%) | **5.51%** | 3 | 🟢 85d (Clear) | Discount Zone | ⚠️ Thin OI (3) / 📐 Wide Spread ($2.60 / 1733%) |
+| **`IFF`** | $80.66 | $70.00 | 35 | -0.09 | 37.4% | $0.05 | $0.70 (1400%) | **5.24%** | 74 | 🟢 85d (Clear) | Premium (High) | 📐 Wide Spread ($0.70 / 1400%) |
+| **`ABG`** | $199.11 | $165.00 | 35 | -0.12 | 54.6% | $0.10 | $4.20 (4200%) | **5.13%** | 59 | 🟢 85d (Clear) | Discount Zone | 📐 Wide Spread ($4.20 / 4200%) |
+| **`OSIS`** | $195.41 | $170.00 | 35 | -0.09 | 36.0% | $0.10 | $1.80 (1800%) | **5.11%** | 15 | 🟢 85d (Clear) | Breakdown | ⚠️ Thin OI (15) / 📐 Wide Spread ($1.80 / 1800%) |
+| **`ALSN`** | $126.17 | $110.00 | 35 | -0.14 | 43.0% | $0.05 | $2.45 (4900%) | **4.97%** | 11 | 🟢 85d (Clear) | Premium (High) | ⚠️ Thin OI (11) / 📐 Wide Spread ($2.45 / 4900%) |
+| **`BOOT`** | $137.81 | $115.00 | 35 | -0.14 | 56.7% | $0.05 | $3.65 (7300%) | **4.95%** | 10 | 🟢 85d (Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($3.65 / 7300%) |
+| **`GPI`** | $259.05 | $220.00 | 35 | -0.14 | 52.5% | $0.05 | $6.65 (13300%) | **4.74%** | 2 | 🟢 85d (Clear) | Deep Discount | 🐂 Put Spread ($22k Collat) / ⚠️ Thin OI (2) / 📐 Wide Spread ($6.65 / 13300%) |
+| **`REGN`** | $944.26 | $800.00 | 48 | -0.08 | 33.6% | $0.05 | $8.45 (16900%) | **4.55%** | 4 | 🟢 85d (Clear) | Premium (High) | 🐂 Put Spread ($80k Collat) / ⚠️ Thin OI (4) / 📐 Wide Spread ($8.45 / 16900%) |
 
 </details>
 
@@ -371,20 +360,20 @@
 > - **Capital Preservation:** Overflow capital from constrained positions routes into the Treasury Yield / Dry Powder Floor.
 
 ### 1. Portfolio Allocation & Liquidity Matrix ($100k Benchmark Book)
-- **Deployed Equity Capital:** `$24,360.40` (`24.4%` across 8 finalists)
-- **Cash & Treasury Floor Reserve:** `$75,639.60` (`75.6%`)
+- **Deployed Equity Capital:** `$24,654.26` (`24.7%` across 8 finalists)
+- **Cash & Treasury Floor Reserve:** `$75,345.74` (`75.3%`)
 - **ADDV Liquidity Cap:** `2.0%` max of 30-day ADV (Zero Tape Distortion)
 
 | Ticker | Company Name | Basket Tier | Price | 30d ADDV | ADDV 2% Cap | Sized Allocation | Port Weight | Target Shares | Liquidity Status |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $60.47 | $3,459,791 | $69,196 | **$5,500** | **5.5%** | 94 | `PASS` |
-| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.54 | $11,461,528 | $229,231 | **$5,500** | **5.5%** | 509 | `PASS` |
-| **`ZUMZ`** | Zumiez Inc | Tier 1 | $14.55 | $3,402,008 | $68,040 | **$5,500** | **5.5%** | 394 | `PASS` |
-| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.89 | $438,648 | $8,773 | **$1,000** | **1.0%** | 216 | `PASS` |
-| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.18 | $62,664 | $1,253 | **$1,000** | **1.0%** | 476 | `PASS` |
-| **`LOVE`** | Lovesac Co | Tier 3 | $16.52 | $3,181,724 | $63,634 | **$2,800** | **2.8%** | 174 | `PASS` |
-| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.55 | $103,020 | $2,060 | **$2,060** | **2.1%** | 829 | `CAPPED (-$740)` |
-| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.07 | $201,050 | $4,021 | **$1,000** | **1.0%** | 254 | `PASS` |
+| **`STRT`** | STRATTEC SECURITY CORP | Tier 1 | $60.47 | $3,401,075 | $68,021 | **$5,500** | **5.5%** | 93 | `PASS` |
+| **`NRDS`** | NERDWALLET, INC. | Tier 1 | $11.54 | $11,842,233 | $236,845 | **$5,500** | **5.5%** | 509 | `PASS` |
+| **`ZUMZ`** | Zumiez Inc | Tier 1 | $14.55 | $3,290,046 | $65,801 | **$5,500** | **5.5%** | 392 | `PASS` |
+| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Tier 2 | $4.89 | $475,856 | $9,517 | **$1,000** | **1.0%** | 217 | `PASS` |
+| **`IZEA`** | IZEA Worldwide, Inc. | Tier 2 | $2.18 | $67,249 | $1,345 | **$1,000** | **1.0%** | 479 | `PASS` |
+| **`LOVE`** | Lovesac Co | Tier 3 | $16.52 | $3,116,912 | $62,338 | **$2,800** | **2.8%** | 174 | `PASS` |
+| **`CRWS`** | CROWN CRAFTS INC | Tier 3 | $2.55 | $117,713 | $2,354 | **$2,354** | **2.4%** | 947 | `CAPPED (-$446)` |
+| **`DLTH`** | DULUTH HOLDINGS INC. | Quarantined / Defensively Scaled | $4.07 | $205,507 | $4,110 | **$1,000** | **1.0%** | 252 | `PASS` |
 
 ### 2. Actionable 3-Tranche Ladder Entry Orders
 > **Execution Rule:** Tranche 1 is established immediately at market upon passing Stage 2 forensic triage.
@@ -392,27 +381,27 @@
 
 | Ticker | Current Price | Total Sized | Tranche 1 (Market 33.3%) | Tranche 2 (-6.0% Retest Limit) | Tranche 3 (-12.5% Flush Limit) | Total Shares |
 | :--- | ---: | ---: | :--- | :--- | :--- | ---: |
-| **`STRT`** | $60.47 | $5,500.00 | **$60.47** (30 sh) | **$57.89** (31 sh) | **$55.30** (33 sh) | **94** |
-| **`NRDS`** | $11.54 | $5,500.00 | **$11.54** (158 sh) | **$10.79** (169 sh) | **$10.04** (182 sh) | **509** |
-| **`ZUMZ`** | $14.55 | $5,500.00 | **$14.55** (125 sh) | **$13.91** (131 sh) | **$13.27** (138 sh) | **394** |
-| **`UEIC`** | $4.89 | $1,000.00 | **$4.89** (68 sh) | **$4.62** (72 sh) | **$4.34** (76 sh) | **216** |
-| **`IZEA`** | $2.18 | $1,000.00 | **$2.18** (152 sh) | **$2.09** (159 sh) | **$2.01** (165 sh) | **476** |
-| **`LOVE`** | $16.52 | $2,800.00 | **$16.52** (56 sh) | **$15.92** (58 sh) | **$15.31** (60 sh) | **174** |
-| **`CRWS`** | $2.55 | $2,060.40 | **$2.55** (269 sh) | **$2.47** (278 sh) | **$2.43** (282 sh) | **829** |
-| **`DLTH`** | $4.07 | $1,000.00 | **$4.07** (81 sh) | **$3.92** (85 sh) | **$3.77** (88 sh) | **254** |
+| **`STRT`** | $60.47 | $5,500.00 | **$60.47** (30 sh) | **$58.17** (31 sh) | **$55.87** (32 sh) | **93** |
+| **`NRDS`** | $11.54 | $5,500.00 | **$11.54** (158 sh) | **$10.81** (169 sh) | **$10.07** (182 sh) | **509** |
+| **`ZUMZ`** | $14.55 | $5,500.00 | **$14.55** (125 sh) | **$13.99** (131 sh) | **$13.43** (136 sh) | **392** |
+| **`UEIC`** | $4.89 | $1,000.00 | **$4.89** (68 sh) | **$4.59** (72 sh) | **$4.28** (77 sh) | **217** |
+| **`IZEA`** | $2.18 | $1,000.00 | **$2.18** (152 sh) | **$2.08** (160 sh) | **$1.99** (167 sh) | **479** |
+| **`LOVE`** | $16.52 | $2,800.00 | **$16.52** (56 sh) | **$15.93** (58 sh) | **$15.33** (60 sh) | **174** |
+| **`CRWS`** | $2.55 | $2,354.26 | **$2.55** (307 sh) | **$2.47** (317 sh) | **$2.43** (323 sh) | **947** |
+| **`DLTH`** | $4.07 | $1,000.00 | **$4.07** (81 sh) | **$3.94** (84 sh) | **$3.80** (87 sh) | **252** |
 
 ### 3. Deterministic Valuation Exits & Stop Disciplines
 
 | Ticker | Strategy Model | Target 1 (Scale 1) | Upside 1 | Target 2 (Scale 2) | Upside 2 | Hard Stop | Stop Condition |
 | :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |
-| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$123.32** (10% FCF Yield Valuation Anchor) | `+103.9%` | **$147.37** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+143.7%` | **$49.73** | Structural Degradation Stop (-15.0% from VWAP $58.51) |
+| **`STRT`** | `COMPOUNDER_FCF_TRAIL` | **$123.32** (10% FCF Yield Valuation Anchor) | `+103.9%` | **$147.37** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+143.7%` | **$50.27** | Structural Degradation Stop (-15.0% from VWAP $59.14) |
 | **`NRDS`** | `COMPOUNDER_FCF_TRAIL` | **$24.16** (10% FCF Yield Valuation Anchor) | `+109.4%` | **$29.93** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+159.4%` | **$9.19** | Structural Degradation Stop (-15.0% from VWAP $10.81) |
-| **`ZUMZ`** | `COMPOUNDER_FCF_TRAIL` | **$16.40** (10% FCF Yield Valuation Anchor) | `+12.7%` | **$20.50** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+40.9%` | **$11.87** | Structural Degradation Stop (-15.0% from VWAP $13.96) |
-| **`UEIC`** | `GRAHAM_NET_NET_CONVERGENCE` | **$6.04** (100% Graham NCAV Convergence) | `+23.6%` | **$9.32** (Tangible Book Value) | `+90.6%` | **$3.70** | Operational Burn Stop (-20.0% from VWAP $4.63) |
-| **`IZEA`** | `GRAHAM_NET_NET_CONVERGENCE` | **$2.57** (100% Graham NCAV Convergence) | `+17.9%` | **$3.08** (Tangible Book Value) | `+41.3%` | **$1.68** | Operational Burn Stop (-20.0% from VWAP $2.10) |
+| **`ZUMZ`** | `COMPOUNDER_FCF_TRAIL` | **$16.40** (10% FCF Yield Valuation Anchor) | `+12.7%` | **$20.50** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+40.9%` | **$11.93** | Structural Degradation Stop (-15.0% from VWAP $14.03) |
+| **`UEIC`** | `GRAHAM_NET_NET_CONVERGENCE` | **$6.04** (100% Graham NCAV Convergence) | `+23.6%` | **$9.32** (Tangible Book Value) | `+90.6%` | **$3.69** | Operational Burn Stop (-20.0% from VWAP $4.61) |
+| **`IZEA`** | `GRAHAM_NET_NET_CONVERGENCE` | **$2.57** (100% Graham NCAV Convergence) | `+17.9%` | **$3.08** (Tangible Book Value) | `+41.3%` | **$1.67** | Operational Burn Stop (-20.0% from VWAP $2.09) |
 | **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$22.31** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$29.00** (Catalyst Exuberance Target) | `+75.5%` | **$12.87** | Turnaround Failure Stop (-20.0% from VWAP $16.09) |
 | **`CRWS`** | `TURNAROUND_CATALYST_EXIT` | **$3.17** (Tangible Asset / C-Suite Turnaround Target) | `+24.3%` | **$4.12** (Catalyst Exuberance Target) | `+61.6%` | **$1.99** | Turnaround Failure Stop (-20.0% from VWAP $2.49) |
-| **`DLTH`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$4.87** (Tangible Book Recovery Target) | `+19.7%` | **$5.60** (Speculative Liquidation Cleanout) | `+37.6%` | **$3.35** | Liquidation Burn Trap Stop (-15.0% from VWAP $3.94) |
+| **`DLTH`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$4.87** (Tangible Book Recovery Target) | `+19.7%` | **$5.60** (Speculative Liquidation Cleanout) | `+37.6%` | **$3.37** | Liquidation Burn Trap Stop (-15.0% from VWAP $3.97) |
 
 #### Specialized Exit Disciplines by Hunting Bucket
 - **Graham Net-Nets (`UEIC`, `IZEA`):** Scale out 50% at 100% Graham NCAV; scale out remaining 50% at Tangible Book Value (TBV). Hard stop if operational burn erodes > 20% of net current assets.
