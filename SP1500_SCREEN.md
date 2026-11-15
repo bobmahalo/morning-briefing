@@ -1,5 +1,5 @@
 # 🏛️ Antigravity V3 Universe Screening Intelligence Report (SP1500)
-**Universe:** `SP1500` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** `2026-11-07 17:27:10 UTC` | **Engine:** Antigravity V3 Core
+**Universe:** `SP1500` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** `2026-11-15 17:56:08 UTC` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -12,10 +12,10 @@
 
 | Screening Stage | Quantitative Hurdle | Why It Protects the Portfolio |
 | :--- | :--- | :--- |
-| **1. Universe & Sector Hygiene (`1,504` → `507`)** | S&P 1500 (`SP500` + `SP400` + `SP600`), `$5M+` daily dollar volume, excluding `Financial Services` & `Real Estate (REITs)` and `DISTRIBUTING` macro sectors. | Eliminates illiquid chains, non-standard bank/REIT balance sheets (`SIC 6000–6799`), and institutional sector headwinds. |
+| **1. Universe & Sector Hygiene (`1,503` → `457`)** | S&P 1500 (`SP500` + `SP400` + `SP600`), `$5M+` daily dollar volume, excluding `Financial Services` & `Real Estate (REITs)` and `DISTRIBUTING` macro sectors. | Eliminates illiquid chains, non-standard bank/REIT balance sheets (`SIC 6000–6799`), and institutional sector headwinds. |
 | **2. Stealth Accumulation Gate (`>= 70/100`)** | Evaluates 1-year volume-price accumulation asymmetry before running fundamental scoring. | Filters out stocks experiencing active institutional distribution. |
-| **3. Layer 2 Operating Quality (`96` Survivors)** | `100`-Point Composite (`Piotroski F` 30 pts, `Sloan Accruals <= 8%` 20 pts, `Shareholder Yield` 20 pts, `3Y Durability` 15 pts, `12-1M Momentum` 15 pts) + Ruthless Trap Killers (`EV/EBITDA <= 15x`). | Ensures Cash-Secured Puts (`Engine 1: Yield Stacker`) are only written on cash-generative operating businesses you would gladly own if assigned. |
-| **4. Zero-Slippage Options Desk (`0` Contracts)** | Scans surviving operating companies for `~30–60 DTE`, `Delta <= -0.15` puts priced strictly at the **`bid`**. | Generates contractual option yield stacked on top of `~4.5%` 13-week Treasury bill collateral. |
+| **3. Layer 2 Operating Quality (`80` Survivors)** | `100`-Point Composite (`Piotroski F` 30 pts, `Sloan Accruals <= 8%` 20 pts, `Shareholder Yield` 20 pts, `3Y Durability` 15 pts, `12-1M Momentum` 15 pts) + Ruthless Trap Killers (`EV/EBITDA <= 15x`). | Ensures Cash-Secured Puts (`Engine 1: Yield Stacker`) are only written on cash-generative operating businesses you would gladly own if assigned. |
+| **4. Zero-Slippage Options Desk (`7` Contracts)** | Scans surviving operating companies for `~30–60 DTE`, `Delta <= -0.15` puts priced strictly at the **`bid`**. | Generates contractual option yield stacked on top of `~4.5%` 13-week Treasury bill collateral. |
 
 </details>
 
@@ -25,120 +25,118 @@
 
 | Screening Stage | Count | Percentage |
 | :--- | :---: | :---: |
-| **Total Universe Ingested** | `1504` | 100.0% |
-| **Liquid Pre-Filter Survivors** | `1478` | 98.3% |
-| **Operating Companies Evaluated (Ex-Financials/REITs & Macro Gates)** | `507` | 34.3% |
-| **Deep Value Qualified (Layer 2)** | **`96`** | **18.9%** |
+| **Total Universe Ingested** | `1503` | 100.0% |
+| **Liquid Pre-Filter Survivors** | `1471` | 97.9% |
+| **Operating Companies Evaluated (Ex-Financials/REITs & Macro Gates)** | `457` | 31.1% |
+| **Deep Value Qualified (Layer 2)** | **`80`** | **17.5%** |
 
 ## 2. Fundamental Value Allocations (Deep Value Qualified)
 
 | Ticker | Score | Sloan Ratio | EV/EBITDA | Sh. Yield | ROIC | 3Y Durability | Mom / FCF | Volatility |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`AR`** | 70/100 | -5.58% | N/A | 0.85% | 16.90% | ❌ FAIL | 6.69% | 37.78% |
-| **`CCL`** | 92/100 | -7.23% | 8.74x | 7.58% | 11.43% | ✅ PASS | 0.16% | 49.14% |
-| **`DLTR`** | 92/100 | -10.72% | 12.47x | 7.45% | 34.92% | ✅ PASS | 12.20% | 42.75% |
-| **`INTU`** | 82/100 | -11.61% | 13.50x | 7.41% | 23.53% | ✅ PASS | -52.68% | 52.28% |
-| **`SIG`** | 77/100 | -6.09% | 8.17x | 6.19% | 28.00% | ❌ FAIL | 5.72% | 50.98% |
-| **`CRUS`** | 82/100 | -5.54% | 9.82x | 5.93% | 22.80% | ✅ PASS | -9.92% | 35.70% |
-| **`SPSC`** | 92/100 | -13.10% | 14.13x | 5.92% | 14.05% | ✅ PASS | 3.11% | 41.65% |
-| **`SBH`** | 77/100 | -6.11% | 7.84x | 5.40% | 18.71% | ❌ FAIL | 13.49% | 42.68% |
-| **`BR`** | 82/100 | -3.98% | 13.88x | 5.13% | 24.43% | ✅ PASS | -23.67% | 30.16% |
-| **`IBP`** | 82/100 | -5.55% | 14.01x | 4.80% | 20.62% | ✅ PASS | -27.10% | 56.22% |
-| **`RL`** | 92/100 | -3.70% | 14.40x | 3.80% | 34.97% | ✅ PASS | 15.57% | 35.57% |
-| **`SLGN`** | 82/100 | -4.49% | 8.72x | 3.76% | 6.98% | ✅ PASS | -5.28% | 32.40% |
-| **`SMP`** | 82/100 | -5.47% | 6.01x | 2.94% | 12.91% | ✅ PASS | -0.95% | 32.39% |
-| **`RRC`** | 77/100 | -6.91% | 7.40x | 2.21% | 21.50% | ❌ FAIL | 9.88% | 36.22% |
-| **`CTS`** | 82/100 | -6.04% | 11.83x | 2.21% | 17.77% | ❌ FAIL | 41.02% | 36.78% |
-| **`PLNT`** | 78/100 | -6.50% | 12.34x | 15.52% | 23.57% | ✅ PASS | -54.88% | 53.46% |
-| **`KR`** | 78/100 | -11.36% | 7.77x | 11.52% | 9.44% | ✅ PASS | -2.89% | 30.15% |
-| **`HRB`** | 78/100 | -3.23% | 7.42x | 11.22% | 58.08% | ✅ PASS | -7.33% | 47.25% |
-| **`BKNG`** | 78/100 | -8.43% | 12.71x | 11.13% | 107.29% | ✅ PASS | -18.11% | 39.54% |
-| **`CTSH`** | 78/100 | -0.57% | 7.19x | 9.79% | 21.69% | ✅ PASS | -17.30% | 43.60% |
-| **`ADBE`** | 78/100 | -11.75% | 9.51x | 9.70% | 52.63% | ✅ PASS | -25.90% | 41.69% |
-| **`PHIN`** | 88/100 | -3.49% | 6.82x | 9.64% | 12.64% | ✅ PASS | 10.25% | 37.40% |
-| **`ALV`** | 78/100 | -6.17% | 6.89x | 8.48% | 22.31% | ✅ PASS | -7.81% | 29.31% |
-| **`GNTX`** | 78/100 | -6.20% | 6.53x | 8.47% | 20.48% | ✅ PASS | -8.48% | 25.70% |
-| **`APA`** | 78/100 | -12.72% | 3.02x | 6.46% | 38.23% | ❌ FAIL | 97.04% | 45.04% |
-| **`AMCR`** | 88/100 | -2.76% | 10.24x | 6.11% | 7.65% | ✅ PASS | 5.75% | 32.22% |
-| **`SCI`** | 78/100 | -2.73% | 11.20x | 5.70% | 14.91% | ✅ PASS | -2.85% | 26.15% |
-| **`PRGS`** | 78/100 | -10.24% | 8.64x | 5.26% | 9.96% | ✅ PASS | -7.00% | 54.06% |
-| **`PAYX`** | 78/100 | -2.85% | 14.74x | 4.98% | 32.01% | ✅ PASS | -3.97% | 30.91% |
-| **`HCSG`** | 88/100 | -0.97% | 12.19x | 4.66% | 24.37% | ✅ PASS | 19.29% | 41.31% |
-| **`D`** | 73/100 | -1.95% | 13.67x | 4.23% | 7.96% | ❌ FAIL | 4.37% | 21.21% |
-| **`LW`** | 78/100 | -7.80% | 10.66x | 4.20% | 9.01% | ✅ PASS | -21.41% | 45.61% |
-| **`NVST`** | 73/100 | 5.91% | 10.73x | 3.40% | 15.91% | ❌ FAIL | 18.25% | 39.94% |
-| **`ALGN`** | 88/100 | -3.96% | 11.12x | 2.38% | 16.66% | ✅ PASS | 5.84% | 40.19% |
-| **`BOOT`** | 78/100 | -2.86% | 11.56x | 2.16% | 24.42% | ✅ PASS | -35.74% | 49.52% |
-| **`HGV`** | 75/100 | -0.84% | 8.66x | 16.80% | 9.92% | ✅ PASS | -13.18% | 39.92% |
-| **`PAYC`** | 90/100 | -5.75% | 13.35x | 16.77% | 49.52% | ✅ PASS | 44.57% | 46.03% |
-| **`YETI`** | 85/100 | -9.59% | 11.90x | 16.74% | 34.21% | ✅ PASS | 9.67% | 40.47% |
-| **`ZTS`** | 75/100 | -1.90% | 9.92x | 14.37% | 27.17% | ✅ PASS | -36.81% | 39.71% |
-| **`COLL`** | 75/100 | -14.31% | 4.33x | 13.29% | 8.62% | ✅ PASS | -47.78% | 43.27% |
-| **`BYD`** | 75/100 | -1.30% | 7.17x | 13.27% | 14.27% | ✅ PASS | -14.38% | 26.52% |
-| **`GPI`** | 75/100 | -0.85% | 8.42x | 12.91% | 8.66% | ✅ PASS | -40.24% | 42.37% |
-| **`LEA`** | 85/100 | -5.10% | 4.76x | 12.86% | 10.83% | ✅ PASS | 9.88% | 34.94% |
-| **`TNL`** | 85/100 | -3.79% | 10.89x | 10.38% | 11.21% | ✅ PASS | 2.21% | 33.58% |
-| **`WKC`** | 75/100 | -4.39% | 6.44x | 9.47% | -1.21% | ❌ FAIL | 46.88% | 28.24% |
-| **`JJSF`** | 85/100 | -8.67% | 11.62x | 8.12% | 6.92% | ✅ PASS | 2.99% | 35.21% |
-| **`ABG`** | 75/100 | -4.20% | 9.32x | 7.07% | 10.00% | ✅ PASS | -26.04% | 36.74% |
-| **`NGVT`** | 75/100 | -12.81% | 8.40x | 7.05% | 2.62% | ❌ FAIL | 44.13% | 35.24% |
-| **`G`** | 75/100 | -1.13% | 8.93x | 6.11% | 22.26% | ✅ PASS | -21.42% | 37.94% |
-| **`OKE`** | 90/100 | -2.48% | 11.85x | 5.31% | 12.81% | ✅ PASS | 36.85% | 27.59% |
-| **`NE`** | 90/100 | -9.71% | 9.09x | 4.95% | 5.91% | ✅ PASS | 51.93% | 43.20% |
-| **`TSN`** | 70/100 | -4.02% | 10.23x | 4.66% | 4.70% | ❌ FAIL | 4.99% | 27.04% |
-| **`SON`** | 85/100 | -8.46% | 7.76x | 4.39% | 2.53% | ✅ PASS | 22.89% | 33.88% |
-| **`SW`** | 85/100 | -5.68% | 8.09x | 3.99% | 4.72% | ✅ PASS | 18.72% | 42.24% |
-| **`GPC`** | 85/100 | -5.42% | 11.15x | 3.41% | 1.74% | ✅ PASS | 3.92% | 34.10% |
-| **`CRH`** | 75/100 | -2.65% | 10.43x | 3.20% | 12.96% | ✅ PASS | -27.03% | 33.83% |
-| **`RPM`** | 75/100 | -2.86% | 12.63x | 2.81% | 17.28% | ✅ PASS | -7.65% | 30.62% |
-| **`RUSHA`** | 90/100 | -8.79% | 10.06x | 2.77% | 10.13% | ✅ PASS | 38.45% | 31.70% |
-| **`ALSN`** | 90/100 | -5.36% | 10.00x | 2.74% | 15.37% | ✅ PASS | 35.48% | 32.00% |
-| **`NJR`** | 70/100 | -3.65% | 12.44x | 2.68% | 9.48% | ❌ FAIL | 16.21% | 18.57% |
-| **`KSS`** | 70/100 | -8.07% | 6.88x | 2.49% | 10.78% | ❌ FAIL | 23.26% | 69.64% |
-| **`WFRD`** | 85/100 | -6.86% | 7.34x | 2.26% | 16.31% | ✅ PASS | 7.26% | 41.68% |
-| **`NUE`** | 75/100 | -3.76% | 8.99x | 2.14% | 15.20% | ❌ FAIL | 75.50% | 32.39% |
-| **`SYY`** | 75/100 | -3.36% | 11.08x | 0.64% | 17.74% | ✅ PASS | 6.95% | 29.84% |
-| **`ACI`** | 72/100 | -8.62% | 6.32x | 27.36% | 4.15% | ✅ PASS | -28.88% | 40.35% |
-| **`AN`** | 72/100 | 0.94% | 11.56x | 17.00% | 10.86% | ✅ PASS | -18.82% | 34.38% |
-| **`MAT`** | 72/100 | -3.76% | 8.77x | 15.73% | 13.98% | ✅ PASS | -10.89% | 44.83% |
-| **`OSIS`** | 72/100 | -5.51% | 14.40x | 10.84% | 12.31% | ✅ PASS | -31.58% | 42.08% |
-| **`UVV`** | 72/100 | -2.97% | 10.85x | 9.36% | 4.70% | ✅ PASS | -15.81% | 25.50% |
-| **`EXP`** | 72/100 | -6.56% | 10.69x | 7.02% | 16.51% | ✅ PASS | -20.02% | 34.48% |
-| **`PHM`** | 72/100 | 2.10% | 9.75x | 6.20% | 15.39% | ✅ PASS | -5.58% | 34.60% |
-| **`MHO`** | 72/100 | 2.61% | 9.15x | 6.07% | 9.22% | ✅ PASS | -0.20% | 34.71% |
-| **`IFF`** | 72/100 | -3.80% | 14.61x | 5.74% | 1.77% | ❌ FAIL | 39.41% | 35.46% |
-| **`OPCH`** | 82/100 | -3.08% | 13.86x | 5.60% | 14.03% | ✅ PASS | 12.37% | 51.12% |
-| **`HRL`** | 72/100 | -5.63% | 11.13x | 5.31% | 5.61% | ✅ PASS | -9.45% | 29.24% |
-| **`AVY`** | 72/100 | -5.58% | 11.61x | 4.77% | 18.60% | ✅ PASS | -1.39% | 23.94% |
-| **`PTEN`** | 72/100 | -15.47% | 5.28x | 4.74% | 1.20% | ❌ FAIL | 94.11% | 53.02% |
-| **`PEP`** | 72/100 | -3.28% | 12.18x | 4.60% | 20.00% | ✅ PASS | -8.31% | 21.60% |
-| **`TEL`** | 72/100 | -4.91% | 12.30x | 4.43% | 20.96% | ✅ PASS | -8.97% | 36.86% |
-| **`MKC`** | 72/100 | 2.14% | 12.16x | 4.19% | 8.70% | ✅ PASS | -29.37% | 31.95% |
-| **`RS`** | 72/100 | 2.63% | 12.46x | 3.47% | 17.55% | ❌ FAIL | 48.43% | 25.73% |
-| **`REGN`** | 82/100 | -0.06% | 14.90x | 3.31% | 16.16% | ✅ PASS | 14.12% | 33.83% |
-| **`MTDR`** | 87/100 | -13.89% | 4.65x | 3.24% | 11.32% | ✅ PASS | 42.37% | 43.01% |
-| **`TALO`** | 72/100 | -24.42% | 3.12x | 3.14% | -7.60% | ❌ FAIL | 61.85% | 49.71% |
-| **`PSN`** | 72/100 | -5.73% | 13.82x | 3.10% | 8.24% | ✅ PASS | -47.54% | 65.38% |
-| **`SCL`** | 72/100 | -4.61% | 9.71x | 2.36% | 5.82% | ❌ FAIL | 45.22% | 37.63% |
-| **`PSMT`** | 77/100 | -5.42% | 13.53x | 1.03% | 15.05% | ✅ PASS | 45.87% | 27.87% |
-| **`PVH`** | 72/100 | -9.15% | 7.99x | 0.60% | 5.49% | ✅ PASS | 6.26% | 48.55% |
-| **`HSIC`** | 78/100 | -2.31% | 13.48x | 6.83% | 11.12% | ✅ PASS | 16.84% | 24.66% |
-| **`TOL`** | 78/100 | 0.04% | 9.47x | 5.56% | 13.18% | ✅ PASS | 0.25% | 35.36% |
-| **`AEO`** | 78/100 | -6.14% | 8.96x | 5.50% | 29.27% | ✅ PASS | 9.03% | 53.01% |
-| **`HAL`** | 78/100 | -2.41% | 7.91x | 4.86% | 14.83% | ✅ PASS | 20.45% | 33.19% |
-| **`RES`** | 78/100 | -15.06% | 4.59x | 3.30% | -2.54% | ✅ PASS | 11.54% | 47.19% |
-| **`PKG`** | 78/100 | -7.98% | 13.09x | 3.20% | 12.53% | ✅ PASS | 17.85% | 28.11% |
-| **`PR`** | 83/100 | -13.10% | 4.85x | 3.10% | 14.96% | ✅ PASS | 79.72% | 34.68% |
-| **`MTX`** | 78/100 | -8.53% | 6.73x | 2.50% | -1.40% | ✅ PASS | 14.33% | 25.99% |
+| **`TEL`** | 85/100 | -4.77% | 13.15x | 4.45% | 21.21% | ✅ PASS | -9.43% | 37.00% |
+| **`AR`** | 70/100 | -5.58% | N/A | 0.79% | 16.90% | ❌ FAIL | 12.49% | 37.73% |
+| **`CCL`** | 92/100 | -7.23% | 8.68x | 7.67% | 11.43% | ✅ PASS | 1.14% | 49.35% |
+| **`INTU`** | 82/100 | -11.61% | 13.51x | 7.40% | 23.53% | ✅ PASS | -50.22% | 52.23% |
+| **`DLTR`** | 92/100 | -10.72% | 12.99x | 7.07% | 34.92% | ✅ PASS | 18.55% | 43.03% |
+| **`SBH`** | 92/100 | -4.22% | 7.20x | 6.62% | 19.47% | ✅ PASS | 17.42% | 44.08% |
+| **`SIG`** | 77/100 | -6.09% | 7.98x | 6.37% | 28.00% | ❌ FAIL | 18.22% | 50.94% |
+| **`SPSC`** | 92/100 | -13.10% | 14.02x | 5.97% | 14.05% | ✅ PASS | 4.54% | 41.74% |
+| **`CRUS`** | 82/100 | -5.54% | 10.46x | 5.60% | 22.80% | ✅ PASS | -9.59% | 35.94% |
+| **`BR`** | 82/100 | -3.98% | 14.01x | 5.08% | 24.43% | ✅ PASS | -20.77% | 30.17% |
+| **`IBP`** | 82/100 | -3.26% | 14.51x | 3.58% | 20.28% | ✅ PASS | -24.85% | 56.73% |
+| **`SMP`** | 92/100 | -5.47% | 5.97x | 2.97% | 12.91% | ✅ PASS | 1.28% | 32.28% |
+| **`CTS`** | 82/100 | -6.04% | 12.32x | 2.13% | 17.77% | ❌ FAIL | 30.14% | 37.06% |
+| **`RRC`** | 77/100 | -6.91% | 7.83x | 2.08% | 21.50% | ❌ FAIL | 14.17% | 36.39% |
+| **`PLNT`** | 78/100 | -5.87% | 12.45x | 14.28% | 23.22% | ✅ PASS | -51.92% | 53.38% |
+| **`GNTX`** | 78/100 | -4.58% | 6.40x | 11.69% | 20.50% | ✅ PASS | -6.25% | 25.75% |
+| **`BKNG`** | 78/100 | -8.43% | 12.63x | 11.21% | 107.29% | ✅ PASS | -18.31% | 39.50% |
+| **`KR`** | 78/100 | -11.36% | 7.99x | 11.02% | 9.44% | ✅ PASS | -2.97% | 30.15% |
+| **`PHIN`** | 88/100 | -3.49% | 6.69x | 9.06% | 12.64% | ✅ PASS | 8.61% | 37.44% |
+| **`ALV`** | 78/100 | -6.17% | 6.75x | 8.70% | 22.31% | ✅ PASS | -1.78% | 29.44% |
+| **`LPG`** | 93/100 | 4.04% | 4.57x | 7.16% | 26.96% | ✅ PASS | 120.28% | 42.38% |
+| **`HRB`** | 88/100 | -4.70% | 7.72x | 7.09% | 72.66% | ✅ PASS | 14.81% | 47.00% |
+| **`AMCR`** | 88/100 | -1.82% | 10.12x | 6.29% | 7.32% | ✅ PASS | 9.71% | 32.21% |
+| **`SCI`** | 88/100 | -2.73% | 11.32x | 5.60% | 14.91% | ✅ PASS | 3.97% | 26.23% |
+| **`PAYX`** | 88/100 | -2.85% | 14.58x | 5.04% | 32.01% | ✅ PASS | 2.97% | 31.00% |
+| **`D`** | 73/100 | -1.95% | 13.58x | 4.28% | 7.96% | ❌ FAIL | 9.44% | 21.17% |
+| **`NVST`** | 73/100 | 5.91% | 10.47x | 3.50% | 15.91% | ❌ FAIL | 18.04% | 40.00% |
+| **`SNX`** | 93/100 | 4.64% | 9.77x | 3.20% | 14.24% | ✅ PASS | 65.30% | 37.12% |
+| **`DIOD`** | 78/100 | -4.94% | 14.57x | 2.93% | 6.84% | ❌ FAIL | 85.89% | 69.60% |
+| **`ALGN`** | 88/100 | -3.96% | 11.29x | 2.35% | 16.66% | ✅ PASS | 7.42% | 40.19% |
+| **`BOOT`** | 78/100 | -2.86% | 12.05x | 2.06% | 24.42% | ✅ PASS | -29.69% | 49.52% |
+| **`PFGC`** | 78/100 | -5.68% | 14.41x | 0.12% | 9.24% | ✅ PASS | 2.84% | 32.35% |
+| **`KGS`** | 73/100 | -7.05% | 9.28x | -13.14% | 8.44% | ✅ PASS | 43.49% | 45.99% |
+| **`HGV`** | 75/100 | -0.84% | 8.65x | 16.82% | 9.92% | ✅ PASS | -9.98% | 39.90% |
+| **`ZTS`** | 75/100 | -1.90% | 10.36x | 13.61% | 27.17% | ✅ PASS | -33.27% | 39.90% |
+| **`BYD`** | 75/100 | -1.30% | 7.21x | 13.15% | 14.27% | ✅ PASS | -11.37% | 26.48% |
+| **`LEA`** | 85/100 | -5.10% | 4.72x | 13.05% | 10.83% | ✅ PASS | 16.05% | 34.83% |
+| **`GPI`** | 75/100 | -0.85% | 8.40x | 12.97% | 8.66% | ✅ PASS | -37.78% | 42.66% |
+| **`COLL`** | 75/100 | -14.31% | 4.41x | 12.71% | 8.62% | ✅ PASS | -49.57% | 42.75% |
+| **`DXC`** | 70/100 | -10.58% | 3.58x | 11.44% | 7.57% | ❌ FAIL | 5.50% | 58.78% |
+| **`WKC`** | 75/100 | -4.39% | 6.43x | 9.48% | -1.21% | ❌ FAIL | 48.65% | 27.85% |
+| **`JJSF`** | 75/100 | -8.67% | 11.45x | 8.26% | 6.92% | ✅ PASS | -1.54% | 35.25% |
+| **`ABG`** | 75/100 | -4.20% | 9.22x | 7.26% | 10.00% | ✅ PASS | -23.43% | 36.98% |
+| **`ACN`** | 75/100 | -5.43% | 11.19x | 6.87% | 28.01% | ✅ PASS | -3.64% | 50.43% |
+| **`STZ`** | 70/100 | -3.33% | 10.26x | 6.02% | 14.91% | ❌ FAIL | 3.85% | 31.96% |
+| **`G`** | 75/100 | 2.83% | 9.29x | 5.14% | 21.94% | ✅ PASS | -15.65% | 37.95% |
+| **`TSCO`** | 75/100 | -1.88% | 13.34x | 5.03% | 26.70% | ✅ PASS | -38.73% | 35.02% |
+| **`MHK`** | 70/100 | -7.43% | 6.64x | 4.75% | 4.80% | ❌ FAIL | 12.46% | 42.44% |
+| **`TSN`** | 70/100 | -4.02% | 10.12x | 4.73% | 4.70% | ❌ FAIL | 5.28% | 26.70% |
+| **`SON`** | 85/100 | -8.46% | 7.64x | 4.53% | 2.53% | ✅ PASS | 25.25% | 33.74% |
+| **`SW`** | 85/100 | -5.68% | 7.89x | 4.16% | 4.72% | ✅ PASS | 23.60% | 42.19% |
+| **`PPG`** | 85/100 | -2.10% | 11.98x | 3.94% | 15.42% | ✅ PASS | 12.74% | 31.18% |
+| **`CRH`** | 75/100 | -2.65% | 10.29x | 3.26% | 12.96% | ✅ PASS | -22.82% | 33.95% |
+| **`CVS`** | 85/100 | -2.97% | 10.11x | 2.99% | 10.75% | ✅ PASS | 21.47% | 34.87% |
+| **`RPM`** | 75/100 | -2.86% | 12.68x | 2.79% | 17.28% | ✅ PASS | -5.13% | 30.84% |
+| **`RUSHA`** | 90/100 | -1.98% | 10.21x | 2.79% | 10.47% | ✅ PASS | 44.95% | 31.54% |
+| **`NJR`** | 70/100 | -3.65% | 12.61x | 2.62% | 9.48% | ❌ FAIL | 16.22% | 18.54% |
+| **`ALSN`** | 90/100 | -5.36% | 10.61x | 2.53% | 15.37% | ✅ PASS | 38.24% | 32.89% |
+| **`SYY`** | 75/100 | -3.36% | 11.11x | 0.64% | 17.74% | ✅ PASS | 13.24% | 29.92% |
+| **`ACI`** | 72/100 | -8.62% | 6.36x | 26.76% | 4.15% | ✅ PASS | -25.64% | 40.37% |
+| **`AN`** | 72/100 | 0.94% | 11.43x | 17.60% | 10.86% | ✅ PASS | -17.74% | 34.62% |
+| **`MAT`** | 72/100 | -2.62% | 9.70x | 11.49% | 14.98% | ✅ PASS | -11.07% | 45.03% |
+| **`NVR`** | 72/100 | 3.51% | 10.86x | 11.27% | 32.29% | ✅ PASS | -18.59% | 30.01% |
+| **`OSIS`** | 72/100 | -5.51% | 14.20x | 11.03% | 12.31% | ✅ PASS | -28.72% | 42.05% |
+| **`UVV`** | 72/100 | -2.97% | 10.65x | 9.77% | 4.70% | ✅ PASS | -17.86% | 25.52% |
+| **`EXP`** | 72/100 | -6.56% | 10.46x | 7.22% | 16.51% | ✅ PASS | -15.44% | 34.58% |
+| **`PHM`** | 72/100 | 2.10% | 9.36x | 6.69% | 15.39% | ✅ PASS | -3.25% | 34.93% |
+| **`MHO`** | 72/100 | 2.61% | 8.86x | 6.29% | 9.22% | ✅ PASS | -3.25% | 35.05% |
+| **`OPCH`** | 82/100 | -3.08% | 13.86x | 5.60% | 14.03% | ✅ PASS | 9.82% | 51.01% |
+| **`AVY`** | 82/100 | -5.58% | 11.67x | 4.73% | 18.60% | ✅ PASS | 3.71% | 23.84% |
+| **`PEP`** | 72/100 | -3.28% | 12.47x | 4.47% | 20.00% | ✅ PASS | -6.19% | 21.69% |
+| **`PSN`** | 72/100 | -5.73% | 14.00x | 3.05% | 8.24% | ✅ PASS | -46.57% | 65.55% |
+| **`SCL`** | 72/100 | -4.61% | 9.65x | 2.38% | 5.82% | ❌ FAIL | 44.76% | 37.60% |
+| **`ARW`** | 72/100 | 0.54% | 7.30x | 2.31% | 14.86% | ❌ FAIL | 98.42% | 41.01% |
+| **`PVH`** | 72/100 | -9.15% | 8.16x | 0.57% | 5.49% | ✅ PASS | 9.13% | 48.41% |
+| **`HSIC`** | 78/100 | -2.31% | 13.50x | 6.82% | 11.12% | ✅ PASS | 20.93% | 24.74% |
+| **`TOL`** | 78/100 | 0.04% | 9.21x | 5.73% | 13.18% | ✅ PASS | 3.34% | 35.47% |
+| **`AEO`** | 78/100 | -6.14% | 9.49x | 5.05% | 29.27% | ✅ PASS | 5.07% | 53.52% |
+| **`HAL`** | 78/100 | -2.41% | 8.30x | 4.58% | 14.83% | ✅ PASS | 25.20% | 33.19% |
+| **`PKG`** | 78/100 | -7.98% | 12.48x | 3.18% | 12.53% | ✅ PASS | 22.69% | 28.11% |
 
 ## 3. Disqualified Assets Summary
 
-> Total Disqualified: **411** operating assets failed institutional valuation, accrual, or durability criteria (plus **2** Financial/REIT balance sheets excluded).
+> Total Disqualified: **377** operating assets failed institutional valuation, accrual, or durability criteria (plus **3** Financial/REIT balance sheets excluded).
+
+## 4. Options Desk (Actionable Cash Secured Puts)
+
+> Contracts filtered for `~$0.15` Delta (`~1` standard deviation OTM). Yields assume zero-slippage execution strictly at the **`BID`** price.
+
+| Ticker | Spot Price | Expiration | DTE | Strike | Delta | Bid Premium | IV | Open Int | Annualized Yield |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **`SIG`** | $113.98 | 2026-12-18 | 33 | $95.00 | -0.14 | $1.30 | 61.72% | 12 | **15.14%** |
+| **`ZTS`** | $83.82 | 2026-12-18 | 33 | $75.00 | -0.13 | $0.50 | 32.15% | 1173 | **7.37%** |
+| **`TOL`** | $147.85 | 2026-12-18 | 33 | $130.00 | -0.12 | $0.75 | 39.39% | 251 | **6.38%** |
+| **`TSN`** | $58.82 | 2026-12-18 | 33 | $50.00 | -0.08 | $0.20 | 39.48% | 618 | **4.42%** |
+| **`ARW`** | $192.90 | 2026-12-18 | 33 | $165.00 | -0.12 | $0.60 | 45.98% | 7 | **4.02%** |
+| **`PLNT`** | $61.18 | 2026-12-18 | 33 | $52.50 | -0.10 | $0.15 | 41.36% | 48 | **3.16%** |
+| **`PFGC`** | $111.17 | 2026-12-18 | 33 | $95.00 | -0.07 | $0.20 | 36.60% | 256 | **2.33%** |
 
 ---
 
 <details markdown="1">
-<summary><b>📖 Antigravity V3: S&P 1500 Quantitative Engine & Options Desk Methodology (`96` Operating Survivors — Click to Expand)</b></summary>
+<summary><b>📖 Antigravity V3: S&P 1500 Quantitative Engine & Options Desk Methodology (`80` Operating Survivors — Click to Expand)</b></summary>
 
 ### 1. Why Financials & REITs Are Excluded from Operating Screens
 Banks, insurance carriers, and Real Estate Investment Trusts (`SIC 6000–6799` / GICS `Financial Services` and `Real Estate`) do not report standard GAAP `EBITDA`, `Working Capital`, or `Invested Capital`. Including them in an enterprise multiple screen creates artificial `N/A` bypasses on `EV/EBITDA` and `ROIC` hurdles. By restricting the funnel strictly to operating companies, every surviving candidate in Section 2 is evaluated on apples-to-apples cash flow and invested capital math.

@@ -1,374 +1,1360 @@
-# Ranked XBRL Alias Configuration ("a = a" Rule with Strict Priority)
-# Each canonical field specifies:
-#   statement: income | balance | cashflow | shares
-#   period_type: duration | instant
-#   tags: ordered list of taxonomy:TagName (first present for a given period wins)
-#   derived: optional exact arithmetic formula when direct tags are NR (Not Reported)
-
 fields:
-  # ==========================================
-  # 1. INCOME STATEMENT (Duration)
-  # ==========================================
   Revenue:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:Revenues
-      - us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax
-      - us-gaap:SalesRevenueNet
-      - us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax
-      - us-gaap:SalesRevenueGoodsNet
-
+    - us-gaap:Revenues
+    - us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax
+    - us-gaap:SalesRevenueNet
+    - us-gaap:SalesRevenueGoodsNet
+    unit: USD
+    definition_tag: us-gaap:Revenues
+    definition: Amount of revenue recognized from goods sold, services rendered, insurance premiums, or other activities
+      that constitute an earning process. Includes, but is not limited to, investment and interest income before
+      deduction of interest expense when recognized as a component of revenue, and sales and trading gain (loss).
+    label: Revenues
+    conditional_aliases:
+      us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax:
+      - cik: 0001326380
+        accession: 0001326380-25-000098
+        start: '2025-08-03'
+        end: '2025-11-01'
+        value: 821000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638025000098/gme-20251101.htm
+      - cik: 0001326380
+        accession: 0001326380-25-000098
+        start: '2024-08-04'
+        end: '2024-11-02'
+        value: 860300000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638025000098/gme-20251101.htm
+      - cik: 0001326380
+        accession: 0001326380-25-000098
+        start: '2025-02-02'
+        end: '2025-11-01'
+        value: 2525600000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638025000098/gme-20251101.htm
+      - cik: 0001326380
+        accession: 0001326380-25-000098
+        start: '2024-02-04'
+        end: '2024-11-02'
+        value: 2540400000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638025000098/gme-20251101.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000013
+        start: '2025-02-02'
+        end: '2026-01-31'
+        value: 3629900000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/gme-20260131.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000013
+        start: '2024-02-04'
+        end: '2025-02-01'
+        value: 3823000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/gme-20260131.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000013
+        start: '2023-01-29'
+        end: '2024-02-03'
+        value: 5272800000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000013/gme-20260131.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000025
+        start: '2026-02-01'
+        end: '2026-05-02'
+        value: 835300000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000025/gme-20260502.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000025
+        start: '2025-02-02'
+        end: '2025-05-03'
+        value: 732400000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000025/gme-20260502.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000055
+        start: '2026-05-03'
+        end: '2026-08-01'
+        value: 790200000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/gme-20260801.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000055
+        start: '2025-05-04'
+        end: '2025-08-02'
+        value: 972200000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/gme-20260801.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000055
+        start: '2026-02-01'
+        end: '2026-08-01'
+        value: 1625500000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/gme-20260801.htm
+      - cik: 0001326380
+        accession: 0001326380-26-000055
+        start: '2025-02-02'
+        end: '2025-08-02'
+        value: 1704600000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1326380/000132638026000055/gme-20260801.htm
+      - cik: 0000320187
+        accession: 0000320187-26-000088
+        start: '2025-06-01'
+        end: '2026-05-31'
+        value: 46398000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm
+      - cik: 0000320187
+        accession: 0000320187-26-000088
+        start: '2024-06-01'
+        end: '2025-05-31'
+        value: 46309000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm
+      - cik: 0000320187
+        accession: 0000320187-26-000088
+        start: '2023-06-01'
+        end: '2024-05-31'
+        value: 51362000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm
+      - cik: 0000320187
+        accession: 0000320187-26-000193
+        start: '2026-06-01'
+        end: '2026-08-31'
+        value: 11213000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm
+      - cik: 0000320187
+        accession: 0000320187-26-000193
+        start: '2025-06-01'
+        end: '2025-08-31'
+        value: 11720000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2026-04-01'
+        end: '2026-06-30'
+        value: 10390000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2025-04-01'
+        end: '2025-06-30'
+        value: 6784000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2026-01-01'
+        end: '2026-06-30'
+        value: 17513000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2025-01-01'
+        end: '2025-06-30'
+        value: 13154000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2026-07-01'
+        end: '2026-09-30'
+        value: 10857000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2025-07-01'
+        end: '2025-09-30'
+        value: 7251000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2026-01-01'
+        end: '2026-09-30'
+        value: 28370000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2025-01-01'
+        end: '2025-09-30'
+        value: 20405000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000007
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 896483000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000007/tisi-20251231.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000007
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 852272000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000007/tisi-20251231.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000054
+        start: '2026-04-01'
+        end: '2026-06-30'
+        unit: USD
+        value: 228678000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000054/tisi-20260630.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000054
+        start: '2025-04-01'
+        end: '2025-06-30'
+        unit: USD
+        value: 248026000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000054/tisi-20260630.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000054
+        start: '2026-01-01'
+        end: '2026-06-30'
+        unit: USD
+        value: 443734000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000054/tisi-20260630.htm
+      - cik: 0000318833
+        accession: 0000318833-26-000054
+        start: '2025-01-01'
+        end: '2025-06-30'
+        unit: USD
+        value: 446681000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/318833/000031883326000054/tisi-20260630.htm
+      - cik: 0001606909
+        accession: 0001606909-26-000010
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 632041000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000160690926000010/panl-20251231.htm
+      - cik: 0001606909
+        accession: 0001606909-26-000010
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 536536000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000160690926000010/panl-20251231.htm
+      - cik: 0001606909
+        accession: 0001628280-26-071162
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 219057000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000162828026071162/panl-20260930.htm
+      - cik: 0001606909
+        accession: 0001628280-26-071162
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 168670000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000162828026071162/panl-20260930.htm
+      - cik: 0001606909
+        accession: 0001628280-26-071162
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 576756000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000162828026071162/panl-20260930.htm
+      - cik: 0001606909
+        accession: 0001628280-26-071162
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 448161000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1606909/000162828026071162/panl-20260930.htm
+      - cik: 0001579733
+        accession: 0001193125-26-073423
+        start: '2024-12-30'
+        end: '2025-12-28'
+        unit: USD
+        value: 759444000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526073423/vitl-20251228.htm
+      - cik: 0001579733
+        accession: 0001193125-26-073423
+        start: '2024-01-01'
+        end: '2024-12-29'
+        unit: USD
+        value: 606307000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526073423/vitl-20251228.htm
+      - cik: 0001579733
+        accession: 0001193125-26-073423
+        start: '2022-12-26'
+        end: '2023-12-31'
+        unit: USD
+        value: 471857000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526073423/vitl-20251228.htm
+      - cik: 0001579733
+        accession: 0001193125-26-444385
+        start: '2026-06-29'
+        end: '2026-09-27'
+        unit: USD
+        value: 182164000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526444385/vitl-20260927.htm
+      - cik: 0001579733
+        accession: 0001193125-26-444385
+        start: '2025-06-30'
+        end: '2025-09-28'
+        unit: USD
+        value: 198936000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526444385/vitl-20260927.htm
+      - cik: 0001579733
+        accession: 0001193125-26-444385
+        start: '2025-12-29'
+        end: '2026-09-27'
+        unit: USD
+        value: 535348000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526444385/vitl-20260927.htm
+      - cik: 0001579733
+        accession: 0001193125-26-444385
+        start: '2024-12-30'
+        end: '2025-09-28'
+        unit: USD
+        value: 545892000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1579733/000119312526444385/vitl-20260927.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000040
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 1003777000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000040
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 977134000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000040
+        start: '2023-01-01'
+        end: '2023-12-31'
+        unit: USD
+        value: 1287439000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000040/ipgp-20251231.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000182
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 287500000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000182/ipgp-20260930.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000182
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 250792000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000182/ipgp-20260930.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000182
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 831577000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000182/ipgp-20260930.htm
+      - cik: 0001111928
+        accession: 0001111928-26-000182
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 729306000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1111928/000111192826000182/ipgp-20260930.htm
+      - cik: 0000771999
+        accession: 0001493152-26-014231
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 20757000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226014231/form10-k.htm
+      - cik: 0000771999
+        accession: 0001493152-26-014231
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 19097000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226014231/form10-k.htm
+      - cik: 0000771999
+        accession: 0001493152-26-038447
+        start: '2026-04-01'
+        end: '2026-06-30'
+        unit: USD
+        value: 3604000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226038447/form10-q.htm
+      - cik: 0000771999
+        accession: 0001493152-26-038447
+        start: '2025-04-01'
+        end: '2025-06-30'
+        unit: USD
+        value: 5285000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226038447/form10-q.htm
+      - cik: 0000771999
+        accession: 0001493152-26-038447
+        start: '2026-01-01'
+        end: '2026-06-30'
+        unit: USD
+        value: 7934000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226038447/form10-q.htm
+      - cik: 0000771999
+        accession: 0001493152-26-038447
+        start: '2025-01-01'
+        end: '2025-06-30'
+        unit: USD
+        value: 10237000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/771999/000149315226038447/form10-q.htm
+      - cik: '0001640266'
+        accession: 0001104659-26-025197
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 40374000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000110465926025197/vygr-20251231x10k.htm
+      - cik: '0001640266'
+        accession: 0001104659-26-025197
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 80001000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000110465926025197/vygr-20251231x10k.htm
+      - cik: '0001640266'
+        accession: 0001104659-26-025197
+        start: '2023-01-01'
+        end: '2023-12-31'
+        unit: USD
+        value: 250008000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000110465926025197/vygr-20251231x10k.htm
+      - cik: '0001640266'
+        accession: 0001193125-26-449719
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 4014000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000119312526449719/vygr-20260930.htm
+      - cik: '0001640266'
+        accession: 0001193125-26-449719
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 13365000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000119312526449719/vygr-20260930.htm
+      - cik: '0001640266'
+        accession: 0001193125-26-449719
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 9772000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000119312526449719/vygr-20260930.htm
+      - cik: '0001640266'
+        accession: 0001193125-26-449719
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 25038000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1640266/000119312526449719/vygr-20260930.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000014
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 54633000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000014
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 54211000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000014
+        start: '2023-01-01'
+        end: '2023-12-31'
+        unit: USD
+        value: 52788000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000014/aal-20251231.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000065
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 16335000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000065/aal-20260930.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000065
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 13691000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000065/aal-20260930.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000065
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 46982000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000065/aal-20260930.htm
+      - cik: '0000006201'
+        accession: 0000006201-26-000065
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 40634000000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/6201/000000620126000065/aal-20260930.htm
+      - cik: 0001778129
+        accession: 0001193125-26-104092
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 260558000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526104092/tsndf-20251231.htm
+      - cik: 0001778129
+        accession: 0001193125-26-104092
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 268078000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526104092/tsndf-20251231.htm
+      - cik: 0001778129
+        accession: 0001193125-26-104092
+        start: '2023-01-01'
+        end: '2023-12-31'
+        unit: USD
+        value: 250509000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526104092/tsndf-20251231.htm
+      - cik: 0001778129
+        accession: 0001193125-26-449749
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 68210000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526449749/tsndf-20260930.htm
+      - cik: 0001778129
+        accession: 0001193125-26-449749
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 65101000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526449749/tsndf-20260930.htm
+      - cik: 0001778129
+        accession: 0001193125-26-449749
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 200868000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526449749/tsndf-20260930.htm
+      - cik: 0001778129
+        accession: 0001193125-26-449749
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 194410000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1778129/000119312526449749/tsndf-20260930.htm
+      - cik: 0001669779
+        accession: 0001104659-26-021548
+        start: '2025-01-01'
+        end: '2025-12-31'
+        unit: USD
+        value: 6369149000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926021548/cwh-20251231x10k.htm
+      - cik: 0001669779
+        accession: 0001104659-26-021548
+        start: '2024-01-01'
+        end: '2024-12-31'
+        unit: USD
+        value: 6099974000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926021548/cwh-20251231x10k.htm
+      - cik: 0001669779
+        accession: 0001104659-26-021548
+        start: '2023-01-01'
+        end: '2023-12-31'
+        unit: USD
+        value: 6226547000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926021548/cwh-20251231x10k.htm
+      - cik: 0001669779
+        accession: 0001104659-26-123402
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 1582910000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926123402/cwh-20260930x10q.htm
+      - cik: 0001669779
+        accession: 0001104659-26-123402
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 1806118000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926123402/cwh-20260930x10q.htm
+      - cik: 0001669779
+        accession: 0001104659-26-123402
+        start: '2026-01-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 4871554000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926123402/cwh-20260930x10q.htm
+      - cik: 0001669779
+        accession: 0001104659-26-123402
+        start: '2025-01-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 5195590000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1669779/000110465926123402/cwh-20260930x10q.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000005
+        start: '2024-12-28'
+        end: '2025-12-26'
+        unit: USD
+        value: 4149537000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000005
+        start: '2023-12-30'
+        end: '2024-12-27'
+        unit: USD
+        value: 3794212000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000005
+        start: '2022-12-31'
+        end: '2023-12-29'
+        unit: USD
+        value: 3433763000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000005/chef-20251226.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000036
+        start: '2026-06-27'
+        end: '2026-09-25'
+        unit: USD
+        value: 1135379000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000036/chef-20260925.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000036
+        start: '2025-06-28'
+        end: '2025-09-26'
+        unit: USD
+        value: 1021319000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000036/chef-20260925.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000036
+        start: '2025-12-27'
+        end: '2026-09-25'
+        unit: USD
+        value: 3363002000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000036/chef-20260925.htm
+      - cik: '0001517175'
+        accession: 0001517175-26-000036
+        start: '2024-12-28'
+        end: '2025-09-26'
+        unit: USD
+        value: 3006973000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1517175/000151717526000036/chef-20260925.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000006
+        start: '2024-12-29'
+        end: '2026-01-03'
+        unit: USD
+        value: 751583000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000006/crai-20260103.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000006
+        start: '2023-12-31'
+        end: '2024-12-28'
+        unit: USD
+        value: 687414000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000006/crai-20260103.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000006
+        start: '2023-01-01'
+        end: '2023-12-30'
+        unit: USD
+        value: 623976000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000006/crai-20260103.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000047
+        start: '2026-07-05'
+        end: '2026-10-03'
+        unit: USD
+        value: 214917000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000047
+        start: '2025-06-29'
+        end: '2025-09-27'
+        unit: USD
+        value: 185891000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000047
+        start: '2026-01-04'
+        end: '2026-10-03'
+        unit: USD
+        value: 626707000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm
+      - cik: '0001053706'
+        accession: 0001053706-26-000047
+        start: '2024-12-29'
+        end: '2025-09-27'
+        unit: USD
+        value: 554620000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1053706/000105370626000047/crai-20261003.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000022
+        start: '2025-04-01'
+        end: '2026-03-31'
+        unit: USD
+        value: 2102781000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000022/mh-20260331.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000022
+        start: '2024-04-01'
+        end: '2025-03-31'
+        unit: USD
+        value: 2101299000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000022/mh-20260331.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000022
+        start: '2023-04-01'
+        end: '2024-03-31'
+        unit: USD
+        value: 1960478000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000022/mh-20260331.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000054
+        start: '2026-07-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 632206000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000054/mh-20260930.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000054
+        start: '2025-07-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 669187000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000054/mh-20260930.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000054
+        start: '2026-04-01'
+        end: '2026-09-30'
+        unit: USD
+        value: 1182109000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000054/mh-20260930.htm
+      - cik: 0001951070
+        accession: 0001951070-26-000054
+        start: '2025-04-01'
+        end: '2025-09-30'
+        unit: USD
+        value: 1204897000.0
+        evidence: https://www.sec.gov/Archives/edgar/data/1951070/000195107026000054/mh-20260930.htm
+      us-gaap:SalesRevenueNet: []
+      us-gaap:SalesRevenueGoodsNet: []
   Cost_of_Revenue:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:CostOfRevenue
-      - us-gaap:CostOfGoodsAndServicesSold
-      - us-gaap:CostOfGoodsSold
-
+    - us-gaap:CostOfRevenue
+    - us-gaap:CostOfGoodsAndServicesSold
+    unit: USD
+    definition_tag: us-gaap:CostOfRevenue
+    definition: The aggregate cost of goods produced and sold and services rendered during the reporting period.
+    label: Cost of Revenue
+    conditional_aliases: {}
+    equivalent_aliases:
+      us-gaap:CostOfGoodsAndServicesSold: Both definitions describe aggregate goods produced/sold and services rendered
+        costs. This field is goods/services cost of revenue, not financing costs or goods-only cost. Confirmed in
+        Nike consolidated cost-of-sales rows.
   Gross_Profit:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:GrossProfit
-    derived:
-      formula: "Revenue - Cost_of_Revenue"
-      inputs: ["Revenue", "Cost_of_Revenue"]
-
+    - us-gaap:GrossProfit
+    unit: USD
+    definition_tag: us-gaap:GrossProfit
+    definition: Aggregate revenue less cost of goods and services sold or operating expenses directly attributable
+      to the revenue generation activity.
+    label: Gross Profit
   Research_and_Development:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:ResearchAndDevelopmentExpense
-      - us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost
-
+    - us-gaap:ResearchAndDevelopmentExpense
+    unit: USD
+    definition_tag: us-gaap:ResearchAndDevelopmentExpense
+    definition: The aggregate costs incurred (1) in a planned search or critical investigation aimed at discovery
+      of new knowledge with the hope that such knowledge will be useful in developing a new product or service,
+      a new process or technique, or in bringing about a significant improvement to an existing product or process;
+      or (2) to translate research findings or other knowledge into a plan or design for a new product or process
+      or for a significant improvement to an existing product or process whether intended for sale or the entity's
+      use, during the reporting period charged to research and development projects, including the costs of developing
+      computer software up to the point in time of achieving technological feasibility, and costs allocated in accounting
+      for a business combination to in-process projects deemed to have no alternative future use.
+    label: Research and Development Expense
   Selling_General_and_Admin:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:SellingGeneralAndAdministrativeExpense
-      - us-gaap:GeneralAndAdministrativeExpense
-
+    - us-gaap:SellingGeneralAndAdministrativeExpense
+    unit: USD
+    definition_tag: us-gaap:SellingGeneralAndAdministrativeExpense
+    definition: The aggregate total costs related to selling a firm's product and services, as well as all other
+      general and administrative expenses. Direct selling expenses (for example, credit, warranty, and advertising)
+      are expenses that can be directly linked to the sale of specific products. Indirect selling expenses are expenses
+      that cannot be directly linked to the sale of specific products, for example telephone expenses, Internet,
+      and postal charges. General and administrative expenses include salaries of non-sales personnel, rent, utilities,
+      communication, etc.
+    label: Selling, General and Administrative Expense
   Operating_Expenses:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:OperatingExpenses
-      - us-gaap:CostsAndExpenses
-
+    - us-gaap:OperatingExpenses
+    unit: USD
+    definition_tag: us-gaap:OperatingExpenses
+    definition: Generally recurring costs associated with normal operations except for the portion of these expenses
+      which can be clearly related to production and included in cost of sales or services. Includes selling, general
+      and administrative expense.
+    label: Operating Expenses
   Operating_Income:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:OperatingIncomeLoss
-    derived:
-      - formula: "Revenue - Operating_Expenses"
-        op: "-"
-        inputs: ["Revenue", "Operating_Expenses"]
-      - formula: "Pre_Tax_Income + Interest_Expense"
-        op: "+"
-        inputs: ["Pre_Tax_Income", "Interest_Expense"]
-
+    - us-gaap:OperatingIncomeLoss
+    unit: USD
+    definition_tag: us-gaap:OperatingIncomeLoss
+    definition: The net result for the period of deducting operating expenses from operating revenues.
+    label: Operating Income (Loss)
   Interest_Expense:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:InterestExpense
-      - us-gaap:InterestExpenseNonoperating
-      - us-gaap:InterestAndDebtExpense
-      - us-gaap:InterestExpenseDebt
-      - us-gaap:InterestPaidNet
-
+    - us-gaap:InterestExpense
+    - us-gaap:InterestExpenseNonoperating
+    unit: USD
+    definition_tag: us-gaap:InterestExpense
+    definition: Amount of the cost of borrowed funds accounted for as interest expense.
+    label: Interest Expense
+    conditional_aliases:
+      us-gaap:InterestExpenseNonoperating:
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2026-04-01'
+        end: '2026-06-30'
+        value: 20000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2025-04-01'
+        end: '2025-06-30'
+        value: 53000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2026-01-01'
+        end: '2026-06-30'
+        value: 61000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000057
+        start: '2025-01-01'
+        end: '2025-06-30'
+        value: 102000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000057/dino-20260630.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2026-07-01'
+        end: '2026-09-30'
+        value: 54000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2025-07-01'
+        end: '2025-09-30'
+        value: 51000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2026-01-01'
+        end: '2026-09-30'
+        value: 115000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001915657
+        accession: 0001915657-26-000074
+        start: '2025-01-01'
+        end: '2025-09-30'
+        value: 153000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1915657/000191565726000074/dino-20260930.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000082
+        start: '2026-04-01'
+        end: '2026-06-30'
+        value: 126000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000082
+        start: '2025-04-01'
+        end: '2025-06-30'
+        value: 114000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000082
+        start: '2026-01-01'
+        end: '2026-06-30'
+        value: 237000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000082
+        start: '2025-01-01'
+        end: '2025-06-30'
+        value: 217000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000088
+        start: '2026-07-01'
+        end: '2026-09-30'
+        value: 138000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000088
+        start: '2025-07-01'
+        end: '2025-09-30'
+        value: 113000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000088
+        start: '2026-01-01'
+        end: '2026-09-30'
+        value: 375000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm
+      - cik: 0001633917
+        accession: 0001633917-26-000088
+        start: '2025-01-01'
+        end: '2025-09-30'
+        value: 330000000.0
+        unit: USD
+        evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm
   Pre_Tax_Income:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
-      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments
-      - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic
-    derived:
-      formula: "Net_Income + Income_Tax_Expense"
-      op: "+"
-      inputs: ["Net_Income", "Income_Tax_Expense"]
-
+    - us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+    unit: USD
+    definition_tag: us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+    definition: Amount of income (loss) from continuing operations, including income (loss) from equity method investments,
+      before deduction of income tax expense (benefit), and income (loss) attributable to noncontrolling interest.
+    label: Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest
   Income_Tax_Expense:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:IncomeTaxExpenseBenefit
-
+    - us-gaap:IncomeTaxExpenseBenefit
+    unit: USD
+    definition_tag: us-gaap:IncomeTaxExpenseBenefit
+    definition: Amount of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining
+      to continuing operations.
+    label: Income Tax Expense (Benefit)
   Net_Income:
     statement: income
     period_type: duration
     tags:
-      - us-gaap:NetIncomeLoss
-      - us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic
-      - us-gaap:ProfitLoss
-
-  # ==========================================
-  # 2. BALANCE SHEET (Instant / Point-in-Time)
-  # ==========================================
+    - us-gaap:NetIncomeLoss
+    unit: USD
+    definition_tag: us-gaap:NetIncomeLoss
+    definition: The portion of profit or loss for the period, net of income taxes, which is attributable to the
+      parent.
+    label: Net Income (Loss) Attributable to Parent
   Cash_and_Equivalents:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:CashAndCashEquivalentsAtCarryingValue
-      - us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents
-      - us-gaap:Cash
-
+    - us-gaap:CashAndCashEquivalentsAtCarryingValue
+    unit: USD
+    definition_tag: us-gaap:CashAndCashEquivalentsAtCarryingValue
+    definition: Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes
+      other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term,
+      highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity
+      that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash
+      and cash equivalents within disposal group and discontinued operation.
+    label: Cash and Cash Equivalents, at Carrying Value
   Short_Term_Investments:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:ShortTermInvestments
-      - us-gaap:MarketableSecuritiesCurrent
-      - us-gaap:AvailableForSaleSecuritiesDebtSecuritiesCurrent
-      - us-gaap:DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent
-
+    - us-gaap:ShortTermInvestments
+    unit: USD
+    definition_tag: us-gaap:ShortTermInvestments
+    definition: Amount of investments including trading securities, available-for-sale securities, held-to-maturity
+      securities, and short-term investments classified as other and current.
+    label: Short-term Investments
   Accounts_Receivable:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:AccountsReceivableNetCurrent
-      - us-gaap:ReceivablesNetCurrent
-      - us-gaap:ContractWithCustomerReceivableAfterAllowanceForCreditLossCurrent
-
+    - us-gaap:AccountsReceivableNetCurrent
+    - us-gaap:ContractWithCustomerReceivableAfterAllowanceForCreditLossCurrent
+    unit: USD
+    definition_tag: us-gaap:AccountsReceivableNetCurrent
+    definition: Amount, after allowance for credit loss, of right to consideration from customer for product sold
+      and service rendered in normal course of business, classified as current.
+    label: Accounts Receivable, after Allowance for Credit Loss, Current
+    equivalent_aliases:
+      us-gaap:ContractWithCustomerReceivableAfterAllowanceForCreditLossCurrent: Both definitions describe current
+        customer trade consideration for delivered goods/services after the credit-loss allowance; neither is a
+        broader other-receivables total or a conditional contract asset.
   Inventory:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:InventoryNet
-      - us-gaap:InventoryFinishedGoodsNetOfReserves
-
+    - us-gaap:InventoryNet
+    unit: USD
+    definition_tag: us-gaap:InventoryNet
+    definition: Amount after valuation and LIFO reserves of inventory expected to be sold, or consumed within one
+      year or operating cycle, if longer.
+    label: Inventory, Net
   Total_Current_Assets:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:AssetsCurrent
-
+    - us-gaap:AssetsCurrent
+    unit: USD
+    definition_tag: us-gaap:AssetsCurrent
+    definition: Sum of the carrying amounts as of the balance sheet date of all assets that are expected to be realized
+      in cash, sold, or consumed within one year (or the normal operating cycle, if longer). Assets are probable
+      future economic benefits obtained or controlled by an entity as a result of past transactions or events.
+    label: Assets, Current
   Property_Plant_and_Equipment_Net:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:PropertyPlantAndEquipmentNet
-      - us-gaap:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
-
+    - us-gaap:PropertyPlantAndEquipmentNet
+    unit: USD
+    definition_tag: us-gaap:PropertyPlantAndEquipmentNet
+    definition: Amount after accumulated depreciation, depletion and amortization of physical assets used in the
+      normal conduct of business to produce goods and services and not intended for resale. Examples include, but
+      are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.
+    label: Property, Plant and Equipment, Net
   Goodwill:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:Goodwill
-
+    - us-gaap:Goodwill
+    unit: USD
+    definition_tag: us-gaap:Goodwill
+    definition: Amount after accumulated impairment loss of an asset representing future economic benefits arising
+      from other assets acquired in a business combination that are not individually identified and separately recognized.
+    label: Goodwill
   Intangible_Assets_Ex_Goodwill:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:IntangibleAssetsNetExcludingGoodwill
-      - us-gaap:FiniteLivedIntangibleAssetsNet
-
+    - us-gaap:IntangibleAssetsNetExcludingGoodwill
+    unit: USD
+    definition_tag: us-gaap:IntangibleAssetsNetExcludingGoodwill
+    definition: Sum of the carrying amounts of all intangible assets, excluding goodwill, as of the balance sheet
+      date, net of accumulated amortization and impairment charges.
+    label: Intangible Assets, Net (Excluding Goodwill)
   Total_Assets:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:Assets
-
+    - us-gaap:Assets
+    unit: USD
+    definition_tag: us-gaap:Assets
+    definition: Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets
+      are probable future economic benefits obtained or controlled by an entity as a result of past transactions
+      or events.
+    label: Assets
   Accounts_Payable:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:AccountsPayableCurrent
-      - us-gaap:AccountsPayableAndAccruedLiabilitiesCurrent
-
+    - us-gaap:AccountsPayableCurrent
+    unit: USD
+    definition_tag: us-gaap:AccountsPayableCurrent
+    definition: Carrying value as of the balance sheet date of liabilities incurred (and for which invoices have
+      typically been received) and payable to vendors for goods and services received that are used in an entity's
+      business. Used to reflect the current portion of the liabilities (due within one year or within the normal
+      operating cycle if longer).
+    label: Accounts Payable, Current
   Deferred_Revenue:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:ContractWithCustomerLiabilityCurrent
-      - us-gaap:DeferredRevenueCurrent
-      - us-gaap:DeferredRevenue
-
+    - us-gaap:ContractWithCustomerLiabilityCurrent
+    unit: USD
+    definition_tag: us-gaap:ContractWithCustomerLiabilityCurrent
+    definition: Amount of obligation to transfer good or service to customer for which consideration has been received
+      or is receivable, classified as current.
+    label: Contract with Customer, Liability, Current
   Short_Term_Debt:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:DebtCurrent
-      - us-gaap:ShortTermBorrowings
-      - us-gaap:LongTermDebtCurrent
-      - us-gaap:LongTermDebtAndCapitalLeaseObligationsCurrent
-      - us-gaap:NotesPayableCurrent
-
+    - us-gaap:DebtCurrent
+    unit: USD
+    definition_tag: us-gaap:DebtCurrent
+    definition: Amount of short-term debt and current maturity of long-term debt and capital lease obligations due
+      within one year or the normal operating cycle, if longer.
+    label: Debt, Current
   Operating_Lease_Liability_Current:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:OperatingLeaseLiabilityCurrent
-      - us-gaap:OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList
-
+    - us-gaap:OperatingLeaseLiabilityCurrent
+    unit: USD
+    definition_tag: us-gaap:OperatingLeaseLiabilityCurrent
+    definition: Present value of lessee's discounted obligation for lease payments from operating lease, classified
+      as current.
+    label: Operating Lease, Liability, Current
   Total_Current_Liabilities:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:LiabilitiesCurrent
-
+    - us-gaap:LiabilitiesCurrent
+    unit: USD
+    definition_tag: us-gaap:LiabilitiesCurrent
+    definition: Total obligations incurred as part of normal operations that are expected to be paid during the
+      following twelve months or within one business cycle, if longer.
+    label: Liabilities, Current
   Long_Term_Debt:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:LongTermDebtNoncurrent
-      - us-gaap:LongTermDebt
-      - us-gaap:LongTermDebtAndCapitalLeaseObligations
-      - us-gaap:LongTermNotesPayable
-
+    - us-gaap:LongTermDebtNoncurrent
+    unit: USD
+    definition_tag: us-gaap:LongTermDebtNoncurrent
+    definition: Amount after unamortized (discount) premium and debt issuance costs of long-term debt classified
+      as noncurrent and excluding amounts to be repaid within one year or the normal operating cycle, if longer.
+      Includes, but not limited to, notes payable, bonds payable, debentures, mortgage loans and commercial paper.
+      Excludes capital lease obligations.
+    label: Long-term Debt, Excluding Current Maturities
   Operating_Lease_Liability_Noncurrent:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:OperatingLeaseLiabilityNoncurrent
-      - us-gaap:OperatingLeaseLiability
-      - us-gaap:OperatingLeaseLiabilityNoncurrentStatementOfFinancialPositionExtensibleList
-
+    - us-gaap:OperatingLeaseLiabilityNoncurrent
+    unit: USD
+    definition_tag: us-gaap:OperatingLeaseLiabilityNoncurrent
+    definition: Present value of lessee's discounted obligation for lease payments from operating lease, classified
+      as noncurrent.
+    label: Operating Lease, Liability, Noncurrent
   Convertible_Debt:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:ConvertibleDebtNoncurrent
-      - us-gaap:ConvertibleLongTermNotesPayable
-      - us-gaap:ConvertibleDebtCurrent
-      - us-gaap:ConvertibleNotesPayableCurrent
-      - us-gaap:ConvertibleDebt
-      - us-gaap:ConvertibleSubordinatedDebtNoncurrent
-
+    - us-gaap:ConvertibleDebtNoncurrent
+    unit: USD
+    definition_tag: us-gaap:ConvertibleDebtNoncurrent
+    definition: Carrying amount of long-term convertible debt as of the balance sheet date, net of the amount due
+      in the next twelve months or greater than the normal operating cycle, if longer. The debt is convertible into
+      another form of financial instrument, typically the entity's common stock.
+    label: Convertible Debt, Noncurrent
   Total_Liabilities:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:Liabilities
-    derived:
-      formula: "Total_Liabilities_and_Equity - Total_Equity"
-      inputs: ["Total_Liabilities_and_Equity", "Total_Equity"]
-
+    - us-gaap:Liabilities
+    unit: USD
+    definition_tag: us-gaap:Liabilities
+    definition: Sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized.
+      Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity
+      to transfer assets or provide services to other entities in the future.
+    label: Liabilities
   Retained_Earnings:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:RetainedEarningsAccumulatedDeficit
-
+    - us-gaap:RetainedEarningsAccumulatedDeficit
+    unit: USD
+    definition_tag: us-gaap:RetainedEarningsAccumulatedDeficit
+    definition: The cumulative amount of the reporting entity's undistributed earnings or deficit.
+    label: Retained Earnings (Accumulated Deficit)
   Total_Equity:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:StockholdersEquity
-      - us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest
-
+    - us-gaap:StockholdersEquity
+    unit: USD
+    definition_tag: us-gaap:StockholdersEquity
+    definition: Total of all stockholders' equity (deficit) items, net of receivables from officers, directors,
+      owners, and affiliates of the entity which are attributable to the parent. The amount of the economic entity's
+      stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable
+      to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest,
+      minority interest). This excludes temporary equity and is sometimes called permanent equity.
+    label: Stockholders' Equity Attributable to Parent
   Total_Liabilities_and_Equity:
     statement: balance
     period_type: instant
     tags:
-      - us-gaap:LiabilitiesAndStockholdersEquity
-
-  # ==========================================
-  # 3. SHARE COUNTS (Cover Page vs Diluted)
-  # ==========================================
+    - us-gaap:LiabilitiesAndStockholdersEquity
+    unit: USD
+    definition_tag: us-gaap:LiabilitiesAndStockholdersEquity
+    definition: Amount of liabilities and equity items, including the portion of equity attributable to noncontrolling
+      interests, if any.
+    label: Liabilities and Equity
   Cover_Page_Shares_Outstanding:
     statement: shares
     period_type: instant
     tags:
-      - dei:EntityCommonStockSharesOutstanding
-      - us-gaap:CommonStockSharesOutstanding
-
+    - dei:EntityCommonStockSharesOutstanding
+    unit: shares
+    definition_tag: dei:EntityCommonStockSharesOutstanding
+    definition: Indicate number of shares or other units outstanding of each of registrant's classes of capital
+      or common stock or other ownership interests, if and as stated on cover of related periodic report. Where
+      multiple classes or units exist define each class/interest by adding class of stock items such as Common Class
+      A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity
+      Listings, Instrument.
+    label: Entity Common Stock, Shares Outstanding
   Diluted_Shares_Outstanding:
     statement: shares
     period_type: duration
     tags:
-      - us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
-      - us-gaap:WeightedAverageNumberOfSharesOutstandingBasic
-
-  # ==========================================
-  # 4. CASH FLOW STATEMENT (Duration)
-  # ==========================================
+    - us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
+    unit: shares
+    definition_tag: us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
+    definition: The average number of shares or units issued and outstanding that are used in calculating diluted
+      EPS or earnings per unit (EPU), determined based on the timing of issuance of shares or units in the period.
+    label: Weighted Average Number of Shares Outstanding, Diluted
   Operating_Cash_Flow:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:NetCashProvidedByUsedInOperatingActivities
-      - us-gaap:NetCashProvidedByOperatingActivities
-
+    - us-gaap:NetCashProvidedByUsedInOperatingActivities
+    unit: USD
+    definition_tag: us-gaap:NetCashProvidedByUsedInOperatingActivities
+    definition: Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating
+      activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing
+      activities.
+    label: Net Cash Provided by (Used in) Operating Activities
   Depreciation_and_Amortization:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:DepreciationDepletionAndAmortization
-      - us-gaap:DepreciationAndAmortization
-      - us-gaap:Depreciation
-      - us-gaap:OtherDepreciationAndAmortization
-
+    - us-gaap:DepreciationDepletionAndAmortization
+    unit: USD
+    definition_tag: us-gaap:DepreciationDepletionAndAmortization
+    definition: The aggregate expense recognized in the current period that allocates the cost of tangible assets,
+      intangible assets, or depleting assets to periods that benefit from use of the assets.
+    label: Depreciation, Depletion and Amortization
   Stock_Based_Compensation:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:ShareBasedCompensation
-      - us-gaap:AllocatedShareBasedCompensationExpense
-
+    - us-gaap:ShareBasedCompensation
+    unit: USD
+    definition_tag: us-gaap:ShareBasedCompensation
+    definition: Amount of noncash expense for share-based payment arrangement.
+    label: Share-based Payment Arrangement, Noncash Expense
   Capital_Expenditures:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
-      - us-gaap:PaymentsToAcquireProductiveAssets
-
+    - us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+    unit: USD
+    definition_tag: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+    definition: The cash outflow associated with the acquisition of long-lived, physical assets that are used in
+      the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows
+      to pay for construction of self-constructed assets.
+    label: Payments to Acquire Property, Plant, and Equipment
   Free_Cash_Flow:
     statement: cashflow
     period_type: duration
-    tags:
-      - us-gaap:FreeCashFlow
+    tags: []
     derived:
-      formula: "Operating_Cash_Flow - Capital_Expenditures"
-      inputs: ["Operating_Cash_Flow", "Capital_Expenditures"]
-
+      formula: Operating_Cash_Flow - Capital_Expenditures
+      inputs:
+      - Operating_Cash_Flow
+      - Capital_Expenditures
+    unit: USD
+    definition_tag: us-gaap:FreeCashFlow
+    definition: Operating cash flow less payments to acquire PP&E; project-defined measure.
+    label: Free_Cash_Flow
   Cash_Acquisitions:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired
-      - us-gaap:PaymentsToAcquireBusinessesGross
-
+    - us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired
+    unit: USD
+    definition_tag: us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired
+    definition: The cash outflow associated with the acquisition of a business, net of the cash acquired from the
+      purchase.
+    label: Payments to Acquire Businesses, Net of Cash Acquired
   Debt_Issued:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:ProceedsFromIssuanceOfLongTermDebt
-      - us-gaap:ProceedsFromConvertibleDebt
-      - us-gaap:ProceedsFromDebtMaturingInMoreThanThreeMonths
-      - us-gaap:ProceedsFromIssuanceOfDebt
-
+    - us-gaap:ProceedsFromIssuanceOfLongTermDebt
+    unit: USD
+    definition_tag: us-gaap:ProceedsFromIssuanceOfLongTermDebt
+    definition: The cash inflow from a debt initially having maturity due after one year or beyond the operating
+      cycle, if longer.
+    label: Proceeds from Issuance of Long-term Debt
   Debt_Repaid:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:RepaymentsOfLongTermDebt
-      - us-gaap:RepaymentsOfConvertibleDebt
-      - us-gaap:RepaymentsOfSeniorDebt
-      - us-gaap:RepaymentsOfDebtMaturingInMoreThanThreeMonths
-      - us-gaap:RepaymentsOfDebt
-
+    - us-gaap:RepaymentsOfLongTermDebt
+    unit: USD
+    definition_tag: us-gaap:RepaymentsOfLongTermDebt
+    definition: The cash outflow for debt initially having maturity due after one year or beyond the normal operating
+      cycle, if longer.
+    label: Repayments of Long-term Debt
   Stock_Issued:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:ProceedsFromIssuanceOfCommonStock
-      - us-gaap:ProceedsFromIssuanceOrSaleOfEquity
-
+    - us-gaap:ProceedsFromIssuanceOfCommonStock
+    unit: USD
+    definition_tag: us-gaap:ProceedsFromIssuanceOfCommonStock
+    definition: The cash inflow from the additional capital contribution to the entity.
+    label: Proceeds from Issuance of Common Stock
   Stock_Buybacks:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:PaymentsForRepurchaseOfCommonStock
-      - us-gaap:PaymentsForRepurchaseOfEquity
-
+    - us-gaap:PaymentsForRepurchaseOfCommonStock
+    unit: USD
+    definition_tag: us-gaap:PaymentsForRepurchaseOfCommonStock
+    definition: The cash outflow to reacquire common stock during the period.
+    label: Payments for Repurchase of Common Stock
   Dividends_Paid:
     statement: cashflow
     period_type: duration
     tags:
-      - us-gaap:PaymentsOfDividendsCommonStock
-      - us-gaap:PaymentsOfDividends
+    - us-gaap:PaymentsOfDividendsCommonStock
+    unit: USD
+    definition_tag: us-gaap:PaymentsOfDividendsCommonStock
+    definition: Amount of cash outflow in the form of ordinary dividends to common shareholders of the parent entity.
+    label: Payments of Ordinary Dividends, Common Stock
