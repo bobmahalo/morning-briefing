@@ -1,5 +1,5 @@
-# 🏛️ Antigravity V3 Universe Screening Intelligence Report (SP1500)
-**Universe:** `SP1500` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** `2026-11-15 17:56:08 UTC` | **Engine:** Antigravity V3 Core
+# 🏛️ Antigravity V3 Universe Screening Intelligence Report (`SP1500` (Operating Companies — Financials & REITs Excluded))
+**Universe:** ``SP1500` (Operating Companies — Financials & REITs Excluded)` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** ``2026-11-15 17:56:08 UTC`` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -12,7 +12,7 @@
 
 | Screening Stage | Quantitative Hurdle | Why It Protects the Portfolio |
 | :--- | :--- | :--- |
-| **1. Universe & Sector Hygiene (`1,503` → `457`)** | S&P 1500 (`SP500` + `SP400` + `SP600`), `$5M+` daily dollar volume, excluding `Financial Services` & `Real Estate (REITs)` and `DISTRIBUTING` macro sectors. | Eliminates illiquid chains, non-standard bank/REIT balance sheets (`SIC 6000–6799`), and institutional sector headwinds. |
+| **1. Universe & Sector Hygiene (`1,503` → `762`)** | S&P 1500 (`SP500` + `SP400` + `SP600`), `$5M+` daily dollar volume, excluding `Financial Services` & `Real Estate (REITs)` and `DISTRIBUTING` macro sectors. | Eliminates illiquid chains, non-standard bank/REIT balance sheets (`SIC 6000–6799`), and institutional sector headwinds. |
 | **2. Stealth Accumulation Gate (`>= 70/100`)** | Evaluates 1-year volume-price accumulation asymmetry before running fundamental scoring. | Filters out stocks experiencing active institutional distribution. |
 | **3. Layer 2 Operating Quality (`80` Survivors)** | `100`-Point Composite (`Piotroski F` 30 pts, `Sloan Accruals <= 8%` 20 pts, `Shareholder Yield` 20 pts, `3Y Durability` 15 pts, `12-1M Momentum` 15 pts) + Ruthless Trap Killers (`EV/EBITDA <= 15x`). | Ensures Cash-Secured Puts (`Engine 1: Yield Stacker`) are only written on cash-generative operating businesses you would gladly own if assigned. |
 | **4. Zero-Slippage Options Desk (`7` Contracts)** | Scans surviving operating companies for `~30–60 DTE`, `Delta <= -0.15` puts priced strictly at the **`bid`**. | Generates contractual option yield stacked on top of `~4.5%` 13-week Treasury bill collateral. |
@@ -27,8 +27,8 @@
 | :--- | :---: | :---: |
 | **Total Universe Ingested** | `1503` | 100.0% |
 | **Liquid Pre-Filter Survivors** | `1471` | 97.9% |
-| **Operating Companies Evaluated (Ex-Financials/REITs & Macro Gates)** | `457` | 31.1% |
-| **Deep Value Qualified (Layer 2)** | **`80`** | **17.5%** |
+| **Operating Companies Evaluated (Ex-Financials/REITs & Macro Gates)** | `762` | 51.8% |
+| **Deep Value Qualified (Layer 2)** | **`80`** | **10.5%** |
 
 ## 2. Fundamental Value Allocations (Deep Value Qualified)
 
@@ -117,7 +117,7 @@
 
 ## 3. Disqualified Assets Summary
 
-> Total Disqualified: **377** operating assets failed institutional valuation, accrual, or durability criteria (plus **3** Financial/REIT balance sheets excluded).
+> Total Disqualified: **682** operating assets failed institutional valuation, accrual, or durability criteria (plus **0** Financial/REIT balance sheets excluded).
 
 ## 4. Options Desk (Actionable Cash Secured Puts)
 
