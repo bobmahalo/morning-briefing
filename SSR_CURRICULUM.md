@@ -204,10 +204,11 @@ $$\text{Discipline Score} = \text{Share Change Pts (0–4)} + \text{Insider Clus
 
 | Component | Max Points | Exact Scoring Tiers |
 | :--- | :---: | :--- |
-| **1-Year Share Count Change** | `4.0 pts` | ≤ -5.0% (Aggressive Cannibal) → **4 pts**<br>-1.0% to -4.9% (Buybacks) → **3 pts**<br>-0.9% to +1.0% (Stable) → **2 pts**<br>> +1.0% (Dilution) → **0 pts** |
-| **C-Suite Form 4 Cluster Buying** | `4.0 pts` | `4.0 pts` if verified C-Suite open-market cluster buying (`Code P`)<br>`1.0 pt` baseline if quiet (0 cluster buys) |
-| **Maintenance Capex Health** | `2.0 pts` | `2.0 pts` if CapEx / D&A ≥ 0.35<br>`0.0 pts` if Capex Starvation detected (CapEx / D&A < 0.35) |
+| **1-Year Share Count Change** | `4.0 pts` | ≤ -5.0% (Aggressive Cannibal) → **4 pts**<br>-1.0% to -4.9% (Buybacks) → **3 pts**<br>-0.9% to +1.0% (Stable) → **2 pts**<br>> +1.0% (Dilution) → **0 pts**<br>`None` → `0 pts` (`Share Change NR`) |
+| **C-Suite Form 4 Cluster Buying** | `4.0 pts` | `4.0 pts` if verified C-Suite open-market cluster buying (`Code P`)<br>`1.0 pt` baseline if verified quiet (`False`)<br>`0.0 pts` (`Insider Data NR`) when `None` |
+| **Maintenance Capex Health** | `2.0 pts` | `2.0 pts` if CapEx / D&A ≥ 0.35<br>`0.0 pts` if Capex Starvation detected (`True`) or `Capex NR` (`None`) |
 
+* **Fail-Closed Zero-Midpoint Rule (`models/convergence_radar.py`):** Unpopulated metrics across all three pillars (`Piotroski`, `Altman Z`, `Beneish M`, `FCF Yield`, `Share Change`, `CapEx/D&A`, `Insider Data`, or unavailable `Share Price`) contribute **`0` points** and emit explicit `... NR` detail labels rather than fabricating synthetic neutral midpoints. Missing Form 4 insider net flow likewise renders `NR / Unavailable` instead of `$0`.
 * **⚠️ Dilutive Burn Trap Catch (`is_dilutive_burn`):** If a company has negative or zero Operating Cash Flow (OCF ≤ $0) while issuing positive Stock-Based Compensation (SBC > $0), dividing SBC by negative OCF produces a meaningless negative percentage. The engine catches this and prints **`⚠️ Dilutive Burn (OCF ≤ $0)*`**—exposing that management is paying themselves in stock while the business burns cash.
 
 ---
@@ -290,6 +291,7 @@ A shrinking retailer can lose money on every sale (Operating Income < 0), close 
 ### The Maintenance Capex Starvation Check
 $$\text{Capex-to-D\&A Ratio} = \frac{|\text{Capital Expenditures}|}{\text{Depreciation \& Amortization}}$$
 * **Gate:** If $|\text{CapEx}| / \text{D\&A} < 0.35$, the engine flags **`⚠️ WARNING: Capex starved under 35% of D&A`**. Management is cannibalizing physical plant and equipment to artificially inflate short-term Free Cash Flow.
+* **Fail-Closed & 1-Fiscal-Year Recency Cap:** When canonical `OCF`, `EBIT`, `CapEx`, or `D&A` is missing—or when the latest annual fact exceeds the `1`-fiscal-year recency cap—both cash origin classification (`UNAVAILABLE`) and CapEx starvation (`None` / `Unknown`) fail closed. Missing `CapEx` is never coerced to `$0.0` to trigger a false starvation warning, and missing shares are never defaulted to `1.0`.
 
 ---
 
@@ -313,17 +315,17 @@ Instead of relying on static debt-to-equity ratios, the engine models **Syntheti
    * **`COVERED_BY_ORGANIC_FCF`:** Cash + 2-year FCF capacity covers ≥ 100% of maturities. Zero refinancing dependency.
    * **`REFINANCING_DEPENDENCY_WARNING`:** Positive FCF, but internal liquidity leaves a deficit against maturities. Company must refinance or roll credit facilities.
    * **`ACUTE_MATURITY_WALL_DISTRESS`:** Negative FCF / cash burn with debt maturities exceeding liquid cash reserves. High risk of distress or dilution.
-4. **Secondary Corporate Bond Market Intelligence & The Credit Canary Engine (`scripts/test_bond_pull.py` & `data_lake/bonds/`):**
-   Contractual SEC 10-K footnote schedules tell us what management *owes*; the secondary corporate bond market reveals what institutional credit investors *believe* about management's ability to refinance. The engine integrates live public bond issues across CUSIPs, coupons, maturities, secondary trade prices, and yields:
-   * **Weighted Yield-to-Maturity (YTM):**
-     $$\text{Weighted YTM} = \sum_{i=1}^{N} \left( \frac{\text{Principal}_i}{\sum \text{Principal}} \times \text{YTM}_i \right)$$
-   * **Credit Spread / Option-Adjusted Spread (OAS in bps over Duration-Matched Treasuries):**
-     $$\text{Credit Spread (bps)} = (\text{Weighted YTM} - \text{Benchmark Treasury Yield}) \times 10,000$$
-   * **The Duration Discount vs. Credit Distress Canary Rule:**
-     * **Duration Discount (Benign):** When interest rates rise, long-duration corporate bonds naturally trade at discounts to par ($70\text{–}85\text{ cents on the dollar}$) simply due to interest rate duration math. If the credit spread remains tight ($< 150\text{ bps}$) and credit ratings remain prime investment grade (`A` / `BBB`), the discount is benign duration repricing—not insolvency risk.
-     * **Credit Canary (Distressed):** If secondary bond prices collapse into the $40\text{–}60\text{ cent}$ range while yields spike above $10\text{–}15\%$ and credit spreads blow out beyond $+500\text{ bps}$, institutional bondholders are pricing in severe default or restructuring probability. This acts as an unyielding **Credit Canary** that invalidates any optical "cheapness" in the equity.
-   * **Zero-Debt Equity Fallback (Cash Fortress):**
-     Companies operating with zero funded debt obligations (`CRUS`, `NRDS`) bypass bond tables gracefully. The engine renders an **Equity Shield & Cash Fortress** badge, confirming zero debt refinancing dependency and eliminating empty or broken report sections.
+4. **Secondary Corporate Bond Market Intelligence & Credit Containment (`scripts/test_bond_pull.py` [RETIRED] & `data_lake/bonds/`):**
+   Contractual SEC 10-K footnote schedules tell us what management *owes*; validated secondary corporate bond observations are intended to show how fixed-income markets price refinancing risk. Pending a sourced, observation-level bond adapter, **`scripts/test_bond_pull.py` is disabled**, legacy unvalidated `data_lake/bonds/` snapshots are withheld (`N/A`), and no credit monitoring verdict is assigned by the executive renderer:
+   * **Weighted Yield-to-Maturity (YTM, in percent):**
+     $$\text{Weighted YTM (\%)} = \sum_{i=1}^{N} \left( \frac{\text{Principal}_i}{\sum \text{Principal}} \times \text{YTM}_i \right)$$
+   * **Simple Maturity-Matched Treasury Spread (bps over Treasuries — NOT OAS):**
+     $$\text{Treasury Spread (bps)} = \left(\text{Bond YTM (\%)} - \text{Maturity-Matched Treasury Yield (\%)}\right) \times 100$$
+     *(Callable, make-whole, and convertible issues require separate option-adjusted handling and are not equivalent to a simple bullet Treasury spread.)*
+   * **Duration vs. Credit Stress Concept (Requires Validated Adapter Output):**
+     Once populated from verified execution observations (with issuer/CUSIP identity, call schedule, trade timestamp, and settlement date), tight spreads with investment-grade ratings reflect rate-duration discounting rather than distress, whereas deep discounts paired with wide spreads indicate bondholder restructuring expectations.
+   * **Missing or Zero Debt Input Handling:**
+     Missing or invalid debt is **never** treated as zero debt (`Debt data unavailable or invalid; absence of debt is not established.`). A zero upstream debt input emits `Reported debt input is zero; filing coverage is not verified.` and still requires primary filing verification rather than claiming zero default risk.
 
 ---
 
@@ -338,13 +340,14 @@ $$\sum \text{OCF}_{5\text{Y}} = \text{CapEx}_{5\text{Y}} + \text{Buybacks}_{5\te
 * **🏰 Organic Fortress Builder:** Retained Surplus_5Y / OCF_5Y ≥ 40.0%. Management stockpiles cash on the balance sheet and pays down debt.
 * **⚙️ Heavy Capital Reinvestment:** CapEx_5Y / OCF_5Y ≥ 50.0%. Heavy physical reinvestment into factories, fleet, or infrastructure.
 * **⚖️ Balanced Capital Deployment:** Balanced split across CapEx, buybacks/dividends, and balance-sheet retention.
-* **⚠️ Dilutive Cash Burn:** 5-Year Cumulative OCF ≤ 0. Operations are cash-flow negative and subsidized by selling new stock (Equity Issuance) or borrowing (Net Debt Flow).
+* **⚠️ Dilutive Cash Burn:** 5-Year Cumulative OCF verified `≤ 0`. Operations are cash-flow negative and subsidized by selling new stock (Equity Issuance) or borrowing (Net Debt Flow).
+* **`NR` (Unpopulated Multi-Year OCF):** When cumulative 5-year Operating Cash Flow is missing (`None`), the posture renders `NR` instead of defaulting to `$0` / `Dilutive Cash Burn`, and unpopulated cash-flow buckets render `N/A`.
 
 ---
 
 ## Section 4: 5-Year Historical Valuation Corridor & Multiple Mean Reversion (`models/valuation_corridor.py`)
 
-Rather than guessing what a stock's P/E "should" be using theoretical formulas, Section 4 maps where the stock trades today against **its own 5-year weekly empirical history** (`260 weekly candles`):
+Rather than guessing what a stock's P/E "should" be using theoretical formulas, Section 4 maps where the stock trades today against **its own verified 5-year weekly empirical history** (`ingestion/price_history.py`, up to `260 weekly candles`). When live or non-synthetic cached weekly candles are unavailable (or when only synthetic fallback baselines exist), derived corridor metrics are **explicitly withheld (`N/A` — Price History Unavailable)** and never fabricated:
 
 1. **The Visual 5-Year Price Corridor Bar:**
    ```text
@@ -401,6 +404,7 @@ $$\text{Volume Ratio} = \frac{\text{Mean Volume}_{20\text{d}}}{\text{Mean Volume
 * **≤ 1.10× (`PASS — Silent Accumulation Bonus +1`):** Volume is dry and quiet with verified ADDV ≥ $250k. Institutions can accumulate via passive limit orders without retail mania.
 * **1.11× to 2.49× (`NEUTRAL`):** Normal two-way turnover.
 * **≥ 2.50× (`CAUTION — Elevated Volume Exit Warning -1`):** Volume has surged ≥ 2.5× above normal. High risk of retail chasing; do not initiate fresh market buys. Exit rules scale sales into this liquidity.
+* **`N/A` (Volume / Price Unavailable):** When verified non-synthetic volume history or spot price is unavailable, `Volume Ratio` and `30d ADDV` remain explicitly `N/A` with zero fabricated baseline volume.
 
 ---
 
@@ -411,7 +415,7 @@ Hidden behind a collapsible `<details markdown="1">` drawer at the bottom of eve
 | Vault Section | What It Contains & How to Use It |
 | :--- | :--- |
 | **Sections 1–3: Income Statement, Balance Sheet & Cash Flow Statement** | Rolling **5-Year Annual History + TTM** alongside the **6 Most Recent Discrete Quarters** (`Q1/Q2/Q3/Q4`). Every cell carries a data-integrity badge: clean number = `VERIFIED` direct XBRL tag; `*` = `DERIVED` via accounting identity (e.g., Q4 = FY - (Q1 + Q2 + Q3)); `NR` = Not Reported in filing. |
-| **Section 4: Share Count & Tangible Book Value** | Tracks `Cover_Page_Shares_Outstanding` (`dei:EntityCommonStockSharesOutstanding` printed on Page 1 of the 10-K/10-Q) vs. `Diluted_Shares_Outstanding` to expose employee option overhang, plus exact Goodwill and Intangible deductions. |
+| **Section 4: Share Count & Tangible Book Value** | Tracks `Cover_Page_Shares_Outstanding` (`dei:EntityCommonStockSharesOutstanding` printed on Page 1 of the 10-K/10-Q/A, preserving raw `source_period_end` separately while aligning balance-sheet `period_end` strictly within `[-7, +75]` days and `<= filed`) vs. `Diluted_Shares_Outstanding` to expose employee option overhang, plus exact Goodwill and Intangible deductions. |
 | **Section 5: Multi-Horizon Growth (`5Y/10Y/15Y CAGR`) & Common-Size Statements** | Computes 5-year, 10-year, and 15-year CAGRs across Revenue, EBIT, Net Income, OCF, FCF, TBV, and Diluted Shares, followed by **Common-Size Income Statement (`% of Revenue`)** and **Common-Size Balance Sheet (`% of Total Assets`)** to spot margin expansion or inventory/receivables bloat at a glance. |
 | **Section 6: Financial Ratios & `5Y/10Y` Return on Capital Consistency** | Tracks Gross, Operating, Net, and FCF margins, Current/Quick ratios, Debt/Equity, Net Debt/EBITDA, and **`5Y/10Y Median vs. Min (Trough)`** for `ROIC`, `ROCE`, and `ROE`—showing how the business performed in its worst historical year. |
 | **Section 7: Quantitative Forensics & Serial Roll-Up Dilution Audit** | Full breakdown of Piotroski (0–9), Altman Z, Beneish M, SBC % of OCF, and the **Serial Acquirer Roll-Up Trap Audit** (flags companies where 5-year M&A spending exceeds 50% of 5-year FCF while Goodwill + Intangibles bloat above 40% of Total Assets). |
@@ -442,8 +446,9 @@ To prevent survivorship bias and measure forward performance rigorously, every p
 
 ## 3. Point-in-Time Statement Lag Rig (`models/statement_builder.py`)
 To eliminate lookahead bias in historical backtesting:
-* The engine accepts an `as_of_date` parameter (e.g. `build_statements(facts_df, as_of_date="2024-06-30")`).
-* Historical XBRL records are strictly lagged by their verified SEC filing date (`filed <= as_of_date`), rather than the fiscal period end date. Financial data that had not yet been filed with the SEC as of the test date is completely excluded.
+* **Full Ledger & Selection Modes:** `build_observation_ledger_from_dict()` preserves all original (`10-K`, `10-Q`), comparative, and amended (`10-K/A`, `10-Q/A`) XBRL observations, while `select_point_in_time_observations()` and `build_statements(facts_df, as_of_date="2024-06-30", selection_mode="latest_revised")` switch cleanly between field-level `"latest_revised"` amendment overlays and raw `"original"` filings.
+* **Causal Pre-Derivation Filtering:** Historical XBRL records are filtered by verified SEC filing date (`filed <= as_of_date`) **before** deduplication, YTD discrete-quarter subtraction, and cross-field derivations (`Free_Cash_Flow = Operating_Cash_Flow - Capital_Expenditures`), and every derived metric inherits `filed = max(input_filed_dates)` so no derived value can surface before its newest underlying filing.
+* **Context-Validated XBRL Extraction & Reconciliation (`ingestion/filing_context_validator.py`):** Conditional aliases across `Revenue` (`RevenueFromContractWithCustomerExcludingAssessedTax`, `SalesRevenueNet`, `SalesRevenueGoodsNet`), `Interest_Expense` (`InterestExpenseNonoperating`, `InterestExpenseDebt`, `InterestAndDebtExpense`), and `Cost_of_Revenue` (`CostOfGoodsSold`) are never blanket-promoted across companies; offline validation across both iXBRL `.htm` and legacy `FilingSummary.xml`/`R*.htm` statements verifies consolidated primary statement membership (or verified nonoperating financing-cost note tables), undimensioned entity-wide context, exact period/unit/CIK/`companyfacts` agreement, positive debit interest expense (`InterestPaidNet` strictly excluded), sole consolidated cost-of-sales without ex-D&A exclusions, and statement-bounded BS/IS reconciliations for missing `Total_Liabilities`, `Gross_Profit`, `Short_Term_Debt`, and `Long_Term_Debt` via `reconcile_missing_observation()`, routing uncertain cases to `NEEDS_REVIEW`.
 
 ---
 
@@ -458,6 +463,7 @@ Quantitative stock selection models often fall into the trap of forced capital d
   (5.5% for Compounders, 1.0% for Net-Nets, 2.8% for Turnarounds, 1.0% for Quarantined).
 * **The Dry Powder Floor:** If only 3 compounders qualify (3 × 5.5% = 16.5%), the unallocated 48.5% of the sleeve is NOT crammed into those 3 names. It defaults automatically to `plan.cash_reserve_usd` (Treasury Dry Powder earning live T-Bill yields).
 * **Concentration Capping:** Likewise, excess capital trimmed by the 2.0% ADDV liquidity limit or the 20.0% GICS sector ceiling flows directly into Treasury Dry Powder rather than being re-allocated to risk assets (Tobin's Separation Theorem).
+* **Fail-Closed Finalist Withholding:** Finalists missing a verified spot price (Stage 1 shortlist / quote / manifest) or verified 30-day volume (`volume_cache.json` / `quotes_cache.json` / live feed) are withheld in `plan.unverified_finalists` rather than filled with static price/volume tables, retaining 100% of withheld capacity in Treasury Dry Powder.
 
 ---
 
@@ -491,6 +497,7 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 * **Normal Volatility (15 ≤ VIX ≤ 25):** Standard 3-tranche ladder execution is appropriate.
 * **Elevated Volatility Caution (25 < VIX ≤ 35):** Options market makers typically operate in negative gamma positioning (though modern electronic retail-to-retail facilitation often dampens directional hedging flow). Bid-ask spreads widen and slippage increases; caution advised on market orders, recommending patient discount limit bids.
 * **Crisis / Dislocation (VIX > 35):** Severe market panic creates asymmetric deep-value opportunities (Buffett: "Be greedy when others are fearful"); deploy strictly via deep limit order ladders beneath the tape.
+* **Volatility Data Unavailable (`VIX is None` or `≤ 0`):** Returns `VOLATILITY_DATA_UNAVAILABLE` rather than defaulting to `VIX 18.5` (`NORMAL_VOLATILITY`).
 
 ---
 
@@ -511,7 +518,7 @@ Complements fundamental limit order ladders with real-time dealer option-hedging
 | **Interactive Double-Click Launcher** | Double-click [`Run_Executive_Card.command`](file:///Users/robertjenkins/.gemini/antigravity/scratch/logic-engines/Run_Executive_Card.command) and type one or more tickers (e.g., `STRT NRDS GME`). |
 | **CLI Single or Multi-Ticker Run + Web Publish** | `python3 run_ssr_v2.py STRT UEIC --publish` |
 | **Custom Position Size Override** | `python3 run_ssr_v2.py STRT --position-usd 5000` |
-| **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (automatically discovers & updates all 38+ `{TICKER}.md` cards in `Single_Stock_Web`, including newly qualified weekend survivors) |
+| **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (dynamically discovers `*.md` cards in `Single_Stock_Web` and refreshes from live/verified feeds with zero static price fallbacks) |
 | **Single-Ticker GEX Surface Radar** | Double-click `Discord_Bot/Run_Single_Ticker_GEX.command`, run Option 16 in `Run_Antigravity_V3.command`, or type `!gex [TICKER]` in Discord |
 
 ---
@@ -546,3 +553,28 @@ The mapping audit separates candidates requiring filing evidence from alternativ
 ### Source retention and contextual revenue mappings
 
 SEC source refreshes preserve prior and new content-addressed versions before replacing live caches. Existing baseline captures retain unknown original retrieval dates. Retaining bytes is distinct from implementing correct as-of observation selection, which remains separate work. Contract-revenue terminology is accepted only where verified as the total/sole consolidated operating-revenue line with matching period, unit and source observation. Sample validation does not authorize a universal alias. Evidence and missing-value states remain explicit.
+
+
+### Fail-closed reporting & lookback hygiene — November 15, 2026
+
+Legacy synthetic defaults and multi-year staleness leaks have been excised across models, strategies, and report renderers:
+
+* **No Synthetic Defaults (`NR` / `UNAVAILABLE`):** Static price and volume fallback tables (`BASELINE_VOLUME_PARAMS`, `ALL_TICKER_PRICES`), `or 1.0` share-count fallbacks, `or 0.0` cash-flow/capex defaults, `$10.00` placeholder prices, `50,000`-share volume stubs, and `VIX 18.5` assumptions are removed. Unpopulated canonical metrics render `NR` or `UNAVAILABLE`, and SSR v2 withholds limit-order ladders and forward ledger writes whenever verified spot price is missing.
+* **Recency Cap on Latest Extractions:** Current annual flow and balance-sheet extractions in `reporting/ssr_executive.py` enforce a `max_lookback_fys=1` cap (`max_lookback_fys=2` for share-count fallbacks) so decade-old unpopulated rows cannot leak into current valuation floors or CapEx starvation checks.
+* **Zero-Midpoint Scoring & Fail-Closed Stage 3:** `models/convergence_radar.py` awards `0` points with `NR` status tags for missing inputs rather than neutral midpoints. `strategies/position_sizing_and_execution.py` withholds finalists missing verified price or 30-day volume in `unverified_finalists` (retaining capacity in Treasury Dry Powder) and dynamically interpolates specialized exit bullets strictly from active positions.
+
+
+### Candidate historical lake validation & archive boundaries — November 15, 2026
+
+Backlog Task 4 validates the full archived SEC bulk universe in an isolated staging area (`data_lake/candidate/historical_lake.sqlite` and `data_lake/candidate/master_universe.sqlite`) without overwriting production `data_lake/bulk/master_universe.sqlite`:
+
+* **Universe Separation & Survivorship Boundaries:** Audits active listed (`_cik_map.json`) vs. delisted/inactive (`companyfacts.zip`-only) issuers, financial/REIT exclusions (`SIC 6000–6799`), unknown-SIC entities, and non-`10-K`/`10-Q` filers separately; pre-2009 SGML/HTML filings fall outside `companyfacts.zip` (`Pre-XBRL` floor), and context-gated tags (`RevenueFromContractWithCustomerExcludingAssessedTax`, `InterestExpenseNonoperating`, `CostOfGoodsSold`, Batch 4 HTML reconciliations) execute strictly on locally cached HTML/XML (`unknown_unavailable:filing_review_required` when uncached).
+* **Overflow Submissions & Future-Date Typo Guard:** Merges `submissions.zip` overflow arrays (`CIK*-submissions-*.json`) prior to `/A` amendment resolution and cover-page share alignment (`[-7, +75]` days, `<= filed`), and rejects corrupted future `period_end > filed + 7` days (across both GAAP and DEI cover-page facts) or GAAP `> reportDate + 14` days (`date_anomaly_end_after_filed`).
+* **Lossless Period Views & Tri-State Applicability:** Stores separate `FY`, `Q`, `YTD2`/`YTD3`, `I`, `TTM` (requiring 4 contiguous quarters within `240..315` days via `inspect_ttm_contiguity()`), `is_latest_revised`, `is_original`, and `restatement_diffs` tables, preserving `evidenced_non_applicable` states (`pre_asc842_operating_lease`, `single_step_income_statement`, `zero_total_liabilities_debt_free`, `non_operating_or_non_10kq`) separately from `unknown_unavailable` gaps.
+
+### Incremental maintenance, share-count & cohort hygiene (Backlog Task 5) — November 16, 2026
+
+* **Incremental Refresh & Indexed SQLite Speed:** `ingestion/candidate_lake.py` (`incremental_update_candidate_lake`, `scripts/rebuild_candidate_lake.py --incremental`) fingerprints ZIP `(CRC, file_size)` / file SHA-256 metadata per CIK in `issuer_maintenance_state`, separates XBRL changes from quote/insider snapshot refreshes, reuses validated HTML/XML mappings in `verified_context_cache` under explicit `(cik, accession, source_sha256, aliases_sha256, validator_version)` invalidation (`VALIDATOR_VERSION = "2026-11-16.v1"`), logs taxonomy/restatement/presentation/regime-shift deltas in `maintenance_events`, and adds composite `(cik, is_latest_revised, ...)` and `(ticker, is_latest_revised, ...)` indexes + `ANALYZE;` (reducing unchanged `21,573`-CIK refreshes from `359.25s` to `14.22s`, `25.3x` faster).
+* **Share-Count, Scale & Cohort Hygiene:** `_pick_latest_shares()` in `models/valuation.py` requires `>= 10,000` shares across `TTM` + `fy_cols[-2:]` before falling back to sub-10k stubs (`VTIX`/`QVCG`), while `models/wide_net_scoreboard.py` reconciles `1,000x` XBRL share overstatements / `< 10k` stubs against Nasdaq implied shares, sets `Latest_Period_End = max(TTM, FY, Q)`, excludes Financials/REITs (`SIC 6000–6799`) and stale/regime-shifted filers (`STALE_FILER_MAX_AGE_DAYS = 550` or superseding `15-12G`/`15-15D`/`40-8F-2`/`20-F`/`NPORT-P`) from operating buckets and Stage 1 (`select_operating_hunting_buckets_df()`, `select_stage1_convergence_df()`), and surfaces non-stale Fin/REIT buyback/insider signals separately in `Financial_REIT_Signals.csv` via `select_financial_reit_signals_df()`.
+* **Master Workbook Refresh:** `scripts/build_master_spreadsheet.py` builds `Logic_Engines_Master_Review.xlsx` directly from structured `data_lake/candidate/` exports and `SSR v2` stock vaults across 4 sheets (`Executive Watchlist`, `Stage 1 Shortlist`, `Hunting Buckets`, `Financials & REITs`), preserving `None` without `or 0.0` cash coercions.
+
