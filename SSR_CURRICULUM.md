@@ -123,7 +123,7 @@ Every stock is classified through a strict **top-down veto cascade** (`reporting
 | Archetype Badge | Tier Key | Sleeve Target | Per-Stock Target ($100k Book) | Hard Risk Ceiling | Economic Rationale & Time Horizon |
 | :--- | :--- | :---: | :---: | :---: | :--- |
 | **🟢 CORE STRUCTURAL OPERATING COMPOUNDER** | `TIER_1_COMPOUNDERS` | `65.0%` | `5.5%` (`$5,500`) | `7.0%` | Cash comes from genuine operating margins, 3-year median ROIC ≥ 15%, positive reinvestment, net cash, and share buybacks. **Time is your ally.** |
-| **🪙 CASH COW / DEEP VALUE PLAY** | `TIER_DEEP_VALUE_CASH_COW` | Unallocated Sleeve | `3.5%` (`$3,500`) | `5.0%` | High FCF yield (≥ 10.0%) and structural profits, but mature operations with lower ROIC (< 15%) or limited reinvestment. Held for multiple mean reversion. |
+| **🪙 CASH COW / DEEP VALUE PLAY** | `TIER_DEEP_VALUE_CASH_COW` | `7.0%` | `3.5%` (`$3,500`) | `5.0%` | High FCF yield (≥ 10.0%) and structural profits, but mature operations with lower ROIC (< 15%) or limited reinvestment. Held for multiple mean reversion. |
 | **🔵 MICRO-TURNAROUND & VALUE CATALYST** | `TIER_3_TURNAROUNDS` | `20.0%` | `2.8%` (`$2,800`) | `3.5%` | Beaten-down cyclical or turnaround with ≥ 8% FCF yield or verified C-Suite Form 4 cluster buying. |
 | **🟡 BENJAMIN GRAHAM NET-NET ARBITRAGE** | `TIER_2_NET_NETS` | `5.0%` | `1.0%` (`$1,000`) | `1.5%` | Classic *cigar butt* trading at a strict 33% discount to Net Current Asset Value (Price ≤ 0.67 × NCAV). Because operations may be shrinking, **time is your enemy**—diversify in small 1% positions and sell at NCAV/TBV re-rating. |
 | **🔴 QUARANTINED / ACCOUNTING MIRAGE RISK** | `TIER_QUARANTINED` | `0%` (Excluded) | `≤ 1.0%` (`≤ $1,000`) | `1.0%` | Triggered by SEC regulatory red flags (NT filings, 8-K restatements), accounting manipulation (M > -1.78), material working capital liquidation (> 20% of OCF), or operational insolvency (Z < 1.81). |
@@ -134,7 +134,7 @@ Every stock is classified through a strict **top-down veto cascade** (`reporting
 
 ## 2. The Asymmetric Payoff Profile Box (Rx : 1.0 Expectancy)
 
-Right below the archetype pill sits the monospaced **Asymmetric Payoff Profile Box**:
+Right below the archetype pill sits the monospaced **Asymmetric Payoff Profile Box** *(Illustrative Arithmetic Example)*:
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
@@ -370,7 +370,7 @@ Rather than guessing what a stock's P/E "should" be using theoretical formulas, 
 
 ## Section 5: SIC Industry Peer Benchmarking & Relative Scale
 
-Queries `master_universe.sqlite` (`5,350` active SEC operating companies) for the **top 3 competitors by Market Cap** sharing the exact same **4-digit SEC Standard Industrial Classification (`SIC`) code** (falling back to the 2-digit SIC group only if fewer than 3 companies exist in the 4-digit niche):
+Queries `master_universe.sqlite` (the active SEC operating universe, queried dynamically at runtime) for the **top 3 competitors by Market Cap** sharing the exact same **4-digit SEC Standard Industrial Classification (`SIC`) code** (falling back to the 2-digit SIC group only if fewer than 3 companies exist in the 4-digit niche):
 * Assigns relative scale badges:
   * `[Industry Leader: Nx larger]` (Peer is ≥ 2.5× the subject company's market cap)
   * `[Direct Peer: ~Nx]` (0.4× to 2.5× market cap)
@@ -502,12 +502,12 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 ---
 
 ## 6. V3 Options Gamma Exposure (GEX) Surface & Zero-Gamma Flip (`models/gex_engine.py` & `!gex [TICKER]`)
-Complements fundamental limit order ladders with real-time dealer option-hedging microstructure (`!gex [TICKER]` on Discord or Option 16 in `Run_Antigravity_V3.command`):
-* **Dual-Horizon Windowing (Closing the 15–29 DTE Blind Spot):** Splits open interest into **Tactical (`0–14 DTE`)** for immediate weekly pinning and **Structural (`15–45 DTE`)** to capture institutional monthly OpEx walls.
-* **Scale-Invariant Dollar GEX ($1\%$ Spot Move) & 24/7 Analytical $\Gamma$ Fallback:**
+Complements fundamental limit order ladders with real-time dealer option-hedging microstructure (`!gex [TICKER]` on Discord or Option 16 in `Run_Antigravity_V3.command`) under the explicitly labeled **Naive GEX (`+Call OI`, `-Put OI`)** dealer assumption:
+* **Dual-Horizon Windowing & Zero-OI Exclusion:** Splits liquid `openInterest > 0` strikes into **Tactical (`0–14 DTE`)** for immediate weekly pinning and **Structural (`15–45 DTE`)** to capture institutional monthly OpEx walls, dropping zero-OI strikes upstream. ATM walls right at spot (`strike >= spot` for Calls, `strike <= spot` for Puts) are preserved cleanly, and wall quotes track exact expiration metadata (`support_bid_exp` / `resistance_bid_exp`) without summing bids across expirations.
+* **Scale-Invariant Dollar GEX ($1\%$ Spot Move) & Fail-Closed Analytical $\Gamma$:**
   $$\text{Share GEX}_K = (\text{OI}_{\text{call}} \cdot \Gamma_{\text{call}} - \text{OI}_{\text{put}} \cdot \Gamma_{\text{put}}) \times 100, \qquad \text{Dollar GEX}_{1\%} = \text{Share GEX}_K \times S \times (0.01 \cdot S)$$
-  Automatically computes analytical Black-Scholes $\Gamma$ whenever after-hours OPRA feeds return `-999.0` sentinels.
-* **Active-Strike Zero-Gamma Flip (`ZGL`) & Single-Stock Polarity Awareness:** Interpolates the exact strike where net dealer gamma crosses zero across active strikes. While index put-selling typically pins index rallies, single-stock call speculation can invert dealer polarity during parabolic squeezes—making the `0–14 DTE` Put Wall and `ZGL` valuable tactical references when staging Tranche 2 and Tranche 3 limit bids.
+  Parameterized to the live 13-week T-Bill rate (`get_live_tbill_yield()`), the solver computes analytical Black-Scholes $\Gamma$ whenever after-hours OPRA feeds return `-999.0` sentinels **only when valid two-sided quotes (`bid > 0` and `ask >= bid`) converge**. Unsolvable/zero quotes return `0.0` $\Gamma$ (never synthetic `35%` IV or closing-price fallbacks).
+* **Active-Strike Zero-Gamma Flip (`ZGL`) & Freshness Metadata:** Interpolates the strike where net dealer gamma crosses zero across active strikes; when no active strikes exist, `ZGL` returns `None` (`N/A` in reports, never spot fallback). Single-stock runners check `data_lake/earnings_calendar_cache.json` before `yfinance` and surface `quote_source` / `is_stale_quote` flags across Discord and ASCII/Markdown reports. While index put-selling typically pins index rallies, single-stock call speculation can invert Naive GEX polarity—making the `0–14 DTE` Put Wall and `ZGL` probabilistic liquidity references when staging Tranche 2 and Tranche 3 limit bids.
 
 ---
 
@@ -577,4 +577,15 @@ Backlog Task 4 validates the full archived SEC bulk universe in an isolated stag
 * **Incremental Refresh & Indexed SQLite Speed:** `ingestion/candidate_lake.py` (`incremental_update_candidate_lake`, `scripts/rebuild_candidate_lake.py --incremental`) fingerprints ZIP `(CRC, file_size)` / file SHA-256 metadata per CIK in `issuer_maintenance_state`, separates XBRL changes from quote/insider snapshot refreshes, reuses validated HTML/XML mappings in `verified_context_cache` under explicit `(cik, accession, source_sha256, aliases_sha256, validator_version)` invalidation (`VALIDATOR_VERSION = "2026-11-16.v1"`), logs taxonomy/restatement/presentation/regime-shift deltas in `maintenance_events`, and adds composite `(cik, is_latest_revised, ...)` and `(ticker, is_latest_revised, ...)` indexes + `ANALYZE;` (reducing unchanged `21,573`-CIK refreshes from `359.25s` to `14.22s`, `25.3x` faster).
 * **Share-Count, Scale & Cohort Hygiene:** `_pick_latest_shares()` in `models/valuation.py` requires `>= 10,000` shares across `TTM` + `fy_cols[-2:]` before falling back to sub-10k stubs (`VTIX`/`QVCG`), while `models/wide_net_scoreboard.py` reconciles `1,000x` XBRL share overstatements / `< 10k` stubs against Nasdaq implied shares, sets `Latest_Period_End = max(TTM, FY, Q)`, excludes Financials/REITs (`SIC 6000–6799`) and stale/regime-shifted filers (`STALE_FILER_MAX_AGE_DAYS = 550` or superseding `15-12G`/`15-15D`/`40-8F-2`/`20-F`/`NPORT-P`) from operating buckets and Stage 1 (`select_operating_hunting_buckets_df()`, `select_stage1_convergence_df()`), and surfaces non-stale Fin/REIT buyback/insider signals separately in `Financial_REIT_Signals.csv` via `select_financial_reit_signals_df()`.
 * **Master Workbook Refresh:** `scripts/build_master_spreadsheet.py` builds `Logic_Engines_Master_Review.xlsx` directly from structured `data_lake/candidate/` exports and `SSR v2` stock vaults across 4 sheets (`Executive Watchlist`, `Stage 1 Shortlist`, `Hunting Buckets`, `Financials & REITs`), preserving `None` without `or 0.0` cash coercions.
+
+### Weekend Scans & Pre-Publication Integrity Gate (Backlog Task 7) — November 16, 2026
+
+* **Atomic Candidate Promotion & Bulk Quote Freshness:** `promote_candidate_snapshot()` (`scripts/rebuild_candidate_lake.py --promote-only`) verifies `PRAGMA integrity_check = ok`, 68-column completeness, and Stage 1 operating/dilution hygiene before backing up `.backups/pre_promote_*` and atomically replacing `data_lake/bulk/master_universe.sqlite` and `reports/*.csv` (zero reconciliation diffs). `inspect_bulk_quotes_freshness()` (`ingestion/bulk_universe.py`) reads internal `updated_at` timestamps inside `quotes_cache.json`, warns on stale fallback, and surfaces `STALE` status when quotes exceed $72\text{h}$.
+* **Pre-Publication Gate & Test/Prod Isolation:** `reporting/pre_pub_gate.py` (`validate_kramdown_markdown`, `validate_single_stock_card`, `validate_publication_bundle`) gates `data_lake_publisher.py`, `web_publisher.py`, `batch_refresh_all_cards.py`, `upgrade_morning_briefing.py`, and `reconcile_portfolio.py` against Kramdown violations, synthetic test artifacts (`EX0`), Fin/REIT Stage 1 leaks, row mismatches, and stale quotes prior to any `git push`, while keeping test runs strictly isolated from production `reports/Hunting_Buckets_Report.md`.
+
+### Standalone Deep Dossier Engine & Offline Vault Integrity (Backlog Task 8) — November 16, 2026
+
+* **Offline Period Alignment & Future-Date Guard:** `ingestion/dossier_ingestor.py` aligns `companyfacts.json` (`extract_xbrl_forward_and_inventory_stages(..., as_of_period_end=...)`) strictly to the latest cached filing's `period_end`, applies SEC form and future-date anomaly guards (`end <= filed + 7d`), computes discrete quarterly cash flows/CapEx via `compute_discrete_quarterly_flow_series()`, detects `dei:DocumentType` (`10-K` vs. `10-Q`), and loads local market state (`load_dossier_market_context()`) exclusively from verified offline vault artifacts (`price_history.json`, `quote.json`, `master_universe.sqlite` fallback, `benchmark_snapshot.json`), leaving uncached candles/peers explicitly `None`/`Unavailable` rather than fabricating synthetic drawdowns.
+* **Issuer-Matched Form 4, Dual Runway & Archetype Routing:** `parse_form4_24m_with_option_context()` enforces strict `<issuerCik>`/`<issuerTradingSymbol>` verification and share-capped `[-1, +5]` day `Code M -> Code S` pairing; `compute_pre_revenue_runway_forensics()` separates restricted cash, prevents `abs(+profit)` burn inversion, and reports CapEx-adjusted Free Cash Flow runway alongside GAAP operating burn runway; `strategies/dossier_strategy.py` and `reporting/dossier_report.py` enforce zero hardcoded figures, OMR probabilistic prose, empty-table omission, and full Kramdown compliance across all 5 accounting archetypes.
+
 

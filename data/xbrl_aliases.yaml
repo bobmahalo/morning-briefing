@@ -772,11 +772,13 @@ fields:
     tags:
     - us-gaap:CostOfRevenue
     - us-gaap:CostOfGoodsAndServicesSold
+    - us-gaap:CostOfGoodsSold
     unit: USD
     definition_tag: us-gaap:CostOfRevenue
     definition: The aggregate cost of goods produced and sold and services rendered during the reporting period.
     label: Cost of Revenue
-    conditional_aliases: {}
+    conditional_aliases:
+      us-gaap:CostOfGoodsSold: []
     equivalent_aliases:
       us-gaap:CostOfGoodsAndServicesSold: Both definitions describe aggregate goods produced/sold and services rendered
         costs. This field is goods/services cost of revenue, not financing costs or goods-only cost. Confirmed in
@@ -847,6 +849,8 @@ fields:
     tags:
     - us-gaap:InterestExpense
     - us-gaap:InterestExpenseNonoperating
+    - us-gaap:InterestExpenseDebt
+    - us-gaap:InterestAndDebtExpense
     unit: USD
     definition_tag: us-gaap:InterestExpense
     definition: Amount of the cost of borrowed funds accounted for as interest expense.
@@ -965,6 +969,8 @@ fields:
         value: 330000000.0
         unit: USD
         evidence: https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm
+      us-gaap:InterestExpenseDebt: []
+      us-gaap:InterestAndDebtExpense: []
   Pre_Tax_Income:
     statement: income
     period_type: duration

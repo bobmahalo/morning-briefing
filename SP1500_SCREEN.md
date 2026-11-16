@@ -1,5 +1,5 @@
-# 🏛️ Antigravity V3 Universe Screening Intelligence Report (`SP1500` (Operating Companies — Financials & REITs Excluded))
-**Universe:** ``SP1500` (Operating Companies — Financials & REITs Excluded)` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** ``2026-11-15 17:56:08 UTC`` | **Engine:** Antigravity V3 Core
+# 🏛️ Antigravity V3 Universe Screening Intelligence Report (SP1500)
+**Universe:** `SP1500` (Operating Companies — Financials & REITs Excluded) | **Scan Time:** `2026-11-15 17:56:08 UTC` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -15,7 +15,7 @@
 | **1. Universe & Sector Hygiene (`1,503` → `762`)** | S&P 1500 (`SP500` + `SP400` + `SP600`), `$5M+` daily dollar volume, excluding `Financial Services` & `Real Estate (REITs)` and `DISTRIBUTING` macro sectors. | Eliminates illiquid chains, non-standard bank/REIT balance sheets (`SIC 6000–6799`), and institutional sector headwinds. |
 | **2. Stealth Accumulation Gate (`>= 70/100`)** | Evaluates 1-year volume-price accumulation asymmetry before running fundamental scoring. | Filters out stocks experiencing active institutional distribution. |
 | **3. Layer 2 Operating Quality (`80` Survivors)** | `100`-Point Composite (`Piotroski F` 30 pts, `Sloan Accruals <= 8%` 20 pts, `Shareholder Yield` 20 pts, `3Y Durability` 15 pts, `12-1M Momentum` 15 pts) + Ruthless Trap Killers (`EV/EBITDA <= 15x`). | Ensures Cash-Secured Puts (`Engine 1: Yield Stacker`) are only written on cash-generative operating businesses you would gladly own if assigned. |
-| **4. Zero-Slippage Options Desk (`7` Contracts)** | Scans surviving operating companies for `~30–60 DTE`, `Delta <= -0.15` puts priced strictly at the **`bid`**. | Generates contractual option yield stacked on top of `~4.5%` 13-week Treasury bill collateral. |
+| **4. Zero-Slippage Options Desk (`5` Tier 1 / `2` Watchlist)** | Scans surviving operating companies for `~30–60 DTE`, `Delta <= -0.15` puts priced strictly at the **`bid`** (`OI >= 25`, `Spread <= 25%`). | Generates contractual option yield stacked on top of `~4.5%` 13-week Treasury bill collateral. |
 
 </details>
 
@@ -125,13 +125,21 @@
 
 | Ticker | Spot Price | Expiration | DTE | Strike | Delta | Bid Premium | IV | Open Int | Annualized Yield |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **`SIG`** | $113.98 | 2026-12-18 | 33 | $95.00 | -0.14 | $1.30 | 61.72% | 12 | **15.14%** |
 | **`ZTS`** | $83.82 | 2026-12-18 | 33 | $75.00 | -0.13 | $0.50 | 32.15% | 1173 | **7.37%** |
 | **`TOL`** | $147.85 | 2026-12-18 | 33 | $130.00 | -0.12 | $0.75 | 39.39% | 251 | **6.38%** |
 | **`TSN`** | $58.82 | 2026-12-18 | 33 | $50.00 | -0.08 | $0.20 | 39.48% | 618 | **4.42%** |
-| **`ARW`** | $192.90 | 2026-12-18 | 33 | $165.00 | -0.12 | $0.60 | 45.98% | 7 | **4.02%** |
 | **`PLNT`** | $61.18 | 2026-12-18 | 33 | $52.50 | -0.10 | $0.15 | 41.36% | 48 | **3.16%** |
 | **`PFGC`** | $111.17 | 2026-12-18 | 33 | $95.00 | -0.07 | $0.20 | 36.60% | 256 | **2.33%** |
+
+<details markdown="1">
+<summary>⚠️ <b>Tier 2 Options Watchlist (`2` Thin-OI / Wide-Spread / Put-Spread / In-DTE Contracts — Click to Expand)</b></summary>
+
+| Ticker | Spot Price | Expiration | DTE | Strike | Delta | Bid | Ask | Spread | IV | Open Int | Annualized Yield | Tier / Caveat |
+| :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
+| **`SIG`** | $113.98 | 2026-12-18 | 33 | $95.00 | -0.14 | $1.30 | N/A | — | 61.72% | 12 | **15.14%** | `TIER_2_WATCHLIST` — ⚠️ Thin OI (12) |
+| **`ARW`** | $192.90 | 2026-12-18 | 33 | $165.00 | -0.12 | $0.60 | N/A | — | 45.98% | 7 | **4.02%** | `TIER_2_WATCHLIST` — ⚠️ Thin OI (7) |
+
+</details>
 
 ---
 
@@ -155,7 +163,7 @@ Banks, insurance carriers, and Real Estate Investment Trusts (`SIC 6000–6799` 
 Even if a stock scores `>= 70/100`, it is immediately disqualified (`composite_pass = False`) if it triggers any of the four structural value-trap vetoes:
 1. **Valuation Ceiling Veto:** `$\text{EV/EBITDA} > 15.0\times$` (or missing operating `EV/EBITDA` & `ROIC`).
 2. **Inventory Bloat Veto:** Inventory YoY growth exceeds Revenue YoY growth by `$> +15.0\%$` (channel stuffing / demand slowdown warning).
-3. **Cyclical Margin Peak Veto:** Current operating margin exceeds the 3-year historical average by `$> +10.0\%$` (guards against buying peak-cycle earnings at compressed multiples).
+3. **Cyclical Margin Peak Veto:** Current operating margin exceeds the 3–4 year historical average by `$> +30.0\%$` (guards against buying peak-cycle earnings at compressed multiples).
 4. **Falling Knife Veto:** 1-Month price momentum `$< -15.0\%$` (prevents stepping in front of active institutional liquidation before support forms).
 
 ### 4. Zero-Slippage Options Desk Formula (`Engine 1: Yield Stacker`)

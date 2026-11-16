@@ -34,9 +34,9 @@ Every metric, ratio, and threshold exists to eliminate capital-destruction traps
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ LEVEL 1: THE DUAL-ENGINE STRATEGY DESKS                                │
-│ 1. Yield Stacker (CSPs + T-Bills) ── Minimum 10%–20%+ Stacked Yield    │
-│ 2. Deep-Value Convergence (Dilution Sieve + 4 Buckets) ── 38 Survivors │
+│ LEVEL 1: THE DUAL-ENGINE STRATEGY DESKS (Engine 1 & Engine 3)          │
+│ 1. Yield Stacker (CSPs + Live T-Bills) ── Minimum 10%–20%+ Yield Run   │
+│ 3. Deep-Value Convergence (Dilution Sieve + 4 Buckets) ── Dynamic Pass │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     │
                                     ▼
@@ -47,7 +47,7 @@ Every metric, ratio, and threshold exists to eliminate capital-destruction traps
 ```
 
 > **⚡ Kramdown Tabular Dropdown Architecture:**  
-> To solve the tension between exhaustive quantitative auditability and a 60-second executive reading experience, every dense reference table and deep-dive methodology guide is enclosed in a **Kramdown Tabular Dropdown Drawer** (`<details markdown="1">`). The main viewport delivers a clean, coffee-friendly dashboard while full underlying option chains (59+ contracts), 45-day catalyst schedules, and forensic scorecards remain accessible on demand without page clutter.
+> To solve the tension between exhaustive quantitative auditability and a 60-second executive reading experience, every dense reference table and deep-dive methodology guide is enclosed in a **Kramdown Tabular Dropdown Drawer** (`<details markdown="1">`). The main viewport delivers a clean, coffee-friendly dashboard while full underlying option chains, 45-day catalyst schedules, and forensic scorecards remain accessible on demand without page clutter.
 
 ---
 
@@ -181,7 +181,7 @@ The system tracks 7 deterministic market-moving releases within a 45-day horizon
   $$\text{Total Free Credit Cash} = \text{Free Credit Balances in Cash Accounts} + \text{Free Credit Balances in Margin Accounts}$$
   $$\text{Debt-to-Free-Cash Ratio} = \frac{\text{Margin Debit Balances (Borrowed Debt)}}{\text{Total Free Credit Cash}}$$
 * **The Munger Plumbing Rule — Dry Tinder vs. The Spark:**
-  Nominal margin debt naturally expands alongside S&P 500 market capitalization and has limited standalone timing value during calm uptrends. Instead, **Margin Debt vs. Free Cash (`3.41x`)** measures the **pile of dry brush**, while **VIX / HY OAS Credit Spreads / GEX Put Walls** act as the **spark**. When brokerage accounts carry `$3.41` of borrowed margin debt per `$1.00` of uninvested cash, maintenance margin calls (`FINRA Rule 4210`) act as a mechanical **downside amplifier** once a catalyst triggers a real pullback—forcing price-insensitive liquidations that fill our deep-value Tranche 2 and Tranche 3 limit orders.
+  Nominal margin debt naturally expands alongside S&P 500 market capitalization and has limited standalone timing value during calm uptrends. Instead, **Margin Debt vs. Free Cash** measures the **pile of dry brush**, while **VIX / HY OAS Credit Spreads / GEX Put Walls** act as the **spark**. When brokerage accounts carry elevated borrowed margin debt (`>= 3.0x`) per `$1.00` of uninvested cash, maintenance margin calls (`FINRA Rule 4210`) act as a mechanical **downside amplifier** once a catalyst triggers a real pullback—forcing price-insensitive liquidations that fill our deep-value Tranche 2 and Tranche 3 limit orders. If Free Credit Cash is non-positive or missing, the engine reports `N/A` rather than dividing by a synthetic fallback.
 * **The 3 Margin Leverage Regimes (`models/macro_regime.py`):**
   * **`🟢 Healthy Cash Buffer` ($< 3.0\times\text{ Free Cash}$):** Uninvested brokerage cash cushions routine pullbacks; dips are absorbed by organic buying rather than forced margin calls.
   * **`🟡 Elevated Tinder (Amplifier Armed)` ($\ge 3.0\times\text{ Free Cash}$):** Benign while VIX and HY OAS remain calm, but acts as a downside liquidation amplifier if spot breaks below structural GEX put walls.
@@ -217,18 +217,18 @@ To distinguish routine market pullbacks from systemic liquidity contagion, we mo
                             THE DOUBLE-STACK HARVEST
 ┌──────────────────────────────────────┐      ┌──────────────────────────────────────┐
 │        COLLATERAL FOUNDATION         │  +   │         SYNTHETIC OPTION PUT         │
-│  100% Backed by U.S. T-Bills (~4.5%) │      │  Out-of-the-Money (Delta <= -0.15)   │
-│  No Margin Borrowing / Zero Drag     │      │  Written on Deep-Value Survivors     │
+│  100% Backed by Live U.S. T-Bills    │      │  Out-of-the-Money (Delta <= -0.15)   │
+│  No Margin Borrowing / Zero Drag     │      │  Written on Liquid Equity Candidates │
 └──────────────────────────────────────┘      └──────────────────────────────────────┘
                                           ▼
-                      TOTAL STACKED ANNUAL YIELD (10% - 25%+)
+                      TOTAL STACKED ANNUAL YIELD (Option + Live ^IRX)
 ```
 
 ### 1. The Strategy Mandate (Independent Income Desk)
 Engine 1 operates as an **independent option-income strategy desk** across the liquid optionable S&P 1500 universe:
-* We filter for liquid option chains with elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay meaningful upfront put premiums.
-* We select out-of-the-money strikes (`Delta <= -0.15`, targeting `-0.10 to -0.15` Black-Scholes moneyness approximation).
-* Collateral is **never left uninvested**. It sits in 13-week U.S. Treasury Bills (`^IRX`, `~4.5%`) earning risk-free interest while backing the put obligation.
+* We filter for liquid option chains (`OI > 0`, verified two-sided `Bid > 0` / `Ask > 0`, strict solved IV — zero synthetic `35%` fallbacks) with elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay meaningful upfront put premiums.
+* We select out-of-the-money strikes (`Delta <= -0.15`, targeting `-0.10 to -0.15` Black-Scholes moneyness approximation) parameterized dynamically to the live risk-free rate (`get_live_tbill_yield()`).
+* Collateral is **never left uninvested**. It sits in 13-week U.S. Treasury Bills (`^IRX`, dynamically read from `macro_vitals.json`) earning risk-free interest while backing the put obligation.
 
 ### 2. The Core Mathematical Formulas
 $$\text{Cash Collateral Required} = 100 \times K \quad (K = \text{Strike Price})$$
@@ -237,14 +237,14 @@ $$\text{Annualized Option Yield} = \left( \frac{P_{\text{bid}}}{K} \right) \time
 $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasury}}$$
 *(Note: Represents the annualized income run-rate on committed collateral when held to expiration. It functions as an income harvest on target acquisition levels, not a guaranteed portfolio net return after assignment and market drawdowns).*
 
-### 3. Asymmetric Payoff Walkthrough (`INTU` Example)
-* Spot Price: $\$334.36$ | Strike: $\$280.00$ ($16.3\%$ OTM) | DTE: $37$ days | Bid: $\$3.90$ | T-Bill: $4.50\%$
+### 3. Illustrative Arithmetic Walkthrough (Hypothetical Example)
+* Suppose an equity has Spot: $\$334.36$ | Strike: $\$280.00$ ($16.3\%$ OTM) | DTE: $37$ days | Bid: $\$3.90$ | Illustrative T-Bill Rate: $4.50\%$
 * Option Return: $\frac{\$3.90}{\$280.00} = 1.393\%$ in 37 days.
 * Annualized Option Return: $1.393\% \times \frac{365}{37} = 13.74\%$.
-* **Stacked Annual Yield:** $13.74\% + 4.50\% = \mathbf{18.24\%}$.
+* **Illustrative Stacked Annual Yield:** $13.74\% + 4.50\% = \mathbf{18.24\%}$.
 * **The Two Outcomes:**
-  * *Outcome 1 (Stock stays flat, rallies, or drops slightly):* Put expires worthless. You keep the $\$390$ premium plus $\$127$ in Treasury interest. Net gain: $\$517$ on $\$28,000$ in 37 days (18.24% annualized).
-  * *Outcome 2 (Stock plunges below \$280):* You are assigned shares at a net cost basis of $\$280.00 - \$3.90 = \mathbf{\$276.10}$ (a **$17.4\%$ discount** to the original spot price), backed by cash already in your account.
+  * *Outcome 1 (Stock stays flat, rallies, or drops slightly):* Put expires worthless. You keep the $\$390$ premium plus $\$127$ in Treasury interest. Net gain: $\$517$ on $\$28,000$ in 37 days (18.24% annualized run-rate).
+  * *Outcome 2 (Stock plunges below \$280):* You are assigned shares at a net cost basis of $\$280.00 - \$3.90 = \mathbf{\$276.10}$ (a **$17.4\%$ discount** to the hypothetical spot price), backed by cash already in your account.
 
 ### 4. Two-Tier Microstructure Architecture & Execution Guardrails
 To prevent execution slippage, portfolio concentration, or binary earnings traps, Engine 1 partitions candidates into two distinct operational tiers:
@@ -255,40 +255,43 @@ To prevent execution slippage, portfolio concentration, or binary earnings traps
                                          ▼
                       ┌──────────────────────────────────────┐
                       │    Microstructure & Safety Sieve     │
-                      │  • Open Interest >= 25               │
-                      │  • Bid-Ask Spread <= 25% (or <=$0.25)│
+                      │  • Open Interest >= 25 (OI<=0 Dropped│
+                      │  • Ask > 0 & Strict Spread <= 25%    │
                       │  • Strike <= $200 (<= $20k Collat)   │
-                      │  • Earnings Outside DTE Window       │
+                      │  • Verified Clear Earnings (> DTE)   │
                       └──────────────────┬───────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
                     ▼                                         ▼
        🏆 TIER 1: PRIME-CUT LIQUID CSPs         ⚠️ TIER 2: WATCHLIST & DEFINED-RISK
-       • Top 5 Highlighted                      • Retains 100% of Fundamental Setups
+       • Top 5 Highlighted                      • Retains Verified Setups w/ Caveats
        • Collateral <= $20k per contract        • 🐂 Bull Put Credit Spreads (Strike > $200)
-       • Tight Spread / Liquid Dealer Books     • ⚠️ Thin OI (<25) / 📐 Wide Spread (>25%)
-       • 🟢 Clear Earnings (> DTE Window)       • 🚨 In-DTE Binary Earnings Quarantine
+       • Tight Spread / Verified Ask > 0        • ⚠️ Thin OI (<25) / 📐 Wide Spread (>25%)
+       • 🟢 Clear Earnings (> DTE Window)       • 🚨 In-DTE Binary Earnings / Est. Flag
 ```
 
+* **Hard Exclusion Rules (Fail-Closed):** Any contract with `openInterest <= 0`, missing/expired quote cache (`expires_at`), or unsolvable Implied Volatility (failing two-sided quote inversion) is excluded upstream—never assigned a synthetic IV (`35%`) or zero-OI placeholder.
 * **Tier 1 (Prime-Cut Liquid CSPs):** Meets all four microstructure hurdles:
   1. **Open Interest:** $\text{OI} \ge 25$ contracts (ensures active dealer participation and tight order matching).
-  2. **Bid-Ask Spread Width:** $\frac{\text{Ask} - \text{Bid}}{\text{Bid}} \le 25\%$ (with sub-\$1 options permitted if spread width is $\le \$0.25$ tick width, keeping liquid contracts like `CCL` or `PYPL` in Tier 1).
+  2. **Bid-Ask Spread Width & Verified Ask:** Requires verified `Ask > 0` and strict relative width $\frac{\text{Ask} - \text{Bid}}{\text{Bid}} \le 25\%$ (zero sub-`$1` dollar-tick bypasses, preventing artificial promotion of illiquid wide penny options).
   3. **Collateral Concentration Limit:** $\text{Strike} \le \$200.00$ ($\le \$20,000$ cash collateral per contract). Prevents a single option contract from dominating $> 20\%$ of a standard $\$100,000$ portfolio.
-  4. **Earnings Timeline:** $\text{Days to Earnings} > \text{DTE}$ (`🟢 Clear`). Ensures the position expires before the company's next earnings report.
-* **Tier 2 (Watchlist / Defined-Risk / Binary Event Quarantine):** Preserves 100% of fundamentally attractive names while isolating specific execution caveats in a collapsible drawer:
-  1. **High Collateral Strikes (`Strike > $200`):** Flagged as **Bull Put Credit Spread (`🐂 Put Spread ($XXk Collat)`)** setups (e.g., `ADBE`, `INTU`, `AZO`, `ULTA`). Allocators can buy a protective long put 1–2 strikes below to cap collateral at $\$500–\$1,000$ instead of reserving $\$20,000–\$290,000$.
+  4. **Earnings Timeline:** Verified $\text{Days to Earnings} > \text{DTE}$ (`🟢 Clear`). When earnings rely on SEC filing cadence estimation (`+129d`), rows are explicitly tagged `Est.` rather than presented as confirmed dates.
+* **Tier 2 (Watchlist / Defined-Risk / Binary Event Quarantine):** Preserves valid setups while isolating specific execution caveats in a collapsible drawer:
+  1. **High Collateral Strikes (`Strike > $200`):** Flagged as **Bull Put Credit Spread (`🐂 Put Spread ($XXk Collat)`)** setups. Allocators can buy a protective long put 1–2 strikes below to cap collateral at $\$500–\$1,000$ instead of reserving large capital blocks.
   2. **Binary Earnings Quarantine (`0 <= Days to Earnings <= DTE`):** Flagged as `🚨 Earnings in {N}d`. Selling naked puts across earnings invites severe binary gap risk (such as post-earnings gap-downs).
   3. **Microstructure Friction:** Flagged with `⚠️ Thin OI (< 25)` or `📐 Wide Spread (> 25%)`. Requires patient limit orders rather than aggressive market fills.
-* **Excision of the Dead `Mean Tested` Column:** Replaced the legacy `Mean Tested` column (which displayed `N/A` across 98% of rows due to contradictory SMA-50 and FINRA short acceleration gates) with actionable columns: **`Spread %`**, **`Earnings`**, and **`Structure / Caveat`**.
+* **Excision of the Dead `Mean Tested` Column:** Replaced the legacy `Mean Tested` column (which displayed `N/A` across most rows due to contradictory SMA-50 and FINRA short acceleration gates) with actionable columns: **`Spread %`**, **`Earnings`**, and **`Structure / Caveat`**.
 
 ---
 
-# MODULE 3: Engine 2 — Deep-Value & Multi-Bucket Convergence Radar
+# MODULE 3: Engine 3 — Deep-Value & Multi-Bucket Convergence Radar
+
+*(Note: Legacy Engine 2 "Compounder Momentum" has been formally retired so active desks remain cleanly partitioned between Engine 1 Income and Engine 3 Deep Value).*
 
 ```
                       THE MULTI-BUCKET ADVERSARIAL SIEVE
                   ┌────────────────────────────────────────┐
-                  │ 5,350 U.S. Operating Companies (EDGAR) │
+                  │ SEC EDGAR Operating Universe (Dynamic) │
                   └────────────────────────────────────────┘
                                       │
                                       ▼
@@ -311,14 +314,15 @@ To prevent execution slippage, portfolio concentration, or binary earnings traps
                                       │
                                       ▼
                   ┌────────────────────────────────────────┐
-                  │ 38 STRICT SURVIVORS (99.3% Attrition)  │
+                  │  DYNAMIC STRICT SURVIVOR COHORT        │
+                  │  (Queried live from master_universe)   │
                   └────────────────────────────────────────┘
 ```
 
 > **📐 Dynamic Funnel Selectivity Formula (`reporting/morning_briefing_section.py`):**  
 > Both the total operating universe ($N_{\text{Operating}}$) and the surviving cohort ($N_{\text{Survivors}}$) are dynamically queried from `master_universe.sqlite` on every weekend bulk scan (Option 14) and daily briefing refresh (Option 6)—never fixed to a static quota:
 > $$\text{Funnel Selectivity (\%)} = \left(1 - \frac{N_{\text{Survivors}}}{N_{\text{Operating}}}\right) \times 100$$
-> *(Current Snapshot: $1 - \frac{38}{5,350} = 99.29\% \approx \mathbf{99.3\%}$ Attrition Rate).*
+> *(Zero static survivor counts are hardcoded in the renderer; exact numerator, denominator, and selectivity percentage update dynamically from the live database snapshot).*
 
 ## 1. Step A: The Dilution Vampire Sieve (Quarantine Rules)
 Before computing valuation multiples, every company must survive 4 mathematical liquidation gates:
@@ -406,10 +410,11 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 > [!IMPORTANT]
 > **The Disciplined Sizing Rule & Tobin's Separation Theorem:**
 > * We enforce a non-negotiable **10.0% Minimum Cash Floor ($10,000)** at all times.
-> * If Tier 1 has a 50.0% sleeve target and a 5.5% target per stock, and only 3 stocks pass our screens:
+> * If Tier 1 (`TIER_1_COMPOUNDERS`) has a 65.0% sleeve target and a 5.5% target per stock, and only 3 stocks pass our screens:
 >   * We allocate $3 \times 5.5\% = 16.5\%$ of the portfolio across those 3 stocks.
->   * We **DO NOT** divide the remaining 33.5% across those 3 stocks.
->   * The unallocated sleeve capital **remains in the Treasury Floor Reserve as dry powder earning 4.50% APY risk-free interest**, generating passive daily cash flow while waiting patiently for new qualifying pitches.
+>   * We **DO NOT** divide the remaining 48.5% across those 3 stocks.
+>   * The unallocated sleeve capital **remains in the Treasury Floor Reserve as dry powder earning the live 13-week T-Bill rate (`^IRX`)**, generating passive daily cash flow while waiting patiently for new qualifying pitches.
+> * Pending buy limit-order obligations are subtracted from uncommitted cash when enforcing the 10.0% minimum cash floor, and a 30-day stop-loss wash-sale cooldown blocks immediate re-entry after a stop exit.
 > * **Fail-Closed Verification:** Stage 3 validates live/cached spot price and 30-day trading volume (`volume_cache.json` / `quotes_cache.json` / live feed) without static price/volume lookup tables. Any finalist lacking verified price or 30d volume is withheld in `unverified_finalists`, leaving 100% of withheld capacity in Treasury Dry Powder; missing `VIX` surfaces `VOLATILITY_DATA_UNAVAILABLE` rather than defaulting to `VIX 18.5`.
 > * **Automatic Ingestion Rule:** When a newly qualified Stage 3 candidate appears in the Morning Briefing, Option 15 (`reconcile_portfolio.py`) automatically evaluates available dry powder and sleeve ceilings. If compliant with the 10% floor, **it immediately establishes Tranche 1 (33.3% market entry)** and queues Tranches 2 and 3 as pending limit orders.
 
@@ -441,8 +446,8 @@ Positions are accumulated across three tranches scaled to 14-day Average True Ra
 ---
 
 ## 5. Brokerage Sweep Yield, Settlement Accrual & Dynamic Cash Accounting
-* **Active Cash Row (`CASH_USD`):** Unallocated capital and position exit proceeds are tracked directly in the Active Matrix as `CASH_USD` and backed by the stateful double-entry SQLite ledger (`data_lake/portfolio_tracker.sqlite`).
-* **Empirical Sweep Yield Calibration:** Settled cash earns an active brokerage sweep yield calibrated to the empirical **3.58% annual rate** ($+\$8.53/\text{day}$ on $\$87,000$ cash reserves), providing a steady baseline income floor that stacks on top of investment gains.
+* **Active Cash Row (`CASH_USD`):** Unallocated capital and position exit proceeds are tracked directly in the Active Matrix as `CASH_USD` and backed by the stateful double-entry SQLite ledger (`data_lake/portfolio_tracker.sqlite`). Daily reconciliation records `EXIT_STOP` / trim ledger entries cleanly (`last_reconciled_date` idempotency) and enforces read-only reporting by default unless `--reconcile` is specified.
+* **Dynamic Sweep Yield Accrual:** Settled cash earns an active brokerage sweep yield derived dynamically from the ledger's live settled cash balance and active sweep / `^IRX` T-Bill yield rate (never hardcoded static dollar/portfolio figures), providing a baseline income floor that stacks onto investment returns.
 * **SEC Rule 15c6-1 ($T+1$) Settlement Accrual:**
   * When a position is trimmed or fully closed (e.g., Target 1 50% scale-out or stop hit), the proceeds are tracked as **unsettled funds** for 1 trading session under SEC $T+1$ rules.
   * Sweep interest begins accruing automatically on day $T+2$ upon cash settlement, perfectly reflecting physical brokerage cash sweep mechanics with zero simulated leakage.
@@ -519,4 +524,17 @@ Backlog Task 4 validates the full archived SEC bulk universe in an isolated stag
 * **Incremental Refresh & Indexed SQLite Speed:** `ingestion/candidate_lake.py` (`incremental_update_candidate_lake`, `scripts/rebuild_candidate_lake.py --incremental`) fingerprints ZIP `(CRC, file_size)` / file SHA-256 metadata per CIK in `issuer_maintenance_state`, separates XBRL changes from quote/insider snapshot refreshes, reuses validated HTML/XML mappings in `verified_context_cache` under explicit `(cik, accession, source_sha256, aliases_sha256, validator_version)` invalidation (`VALIDATOR_VERSION = "2026-11-16.v1"`), logs taxonomy/restatement/presentation/regime-shift deltas in `maintenance_events`, and adds composite `(cik, is_latest_revised, ...)` and `(ticker, is_latest_revised, ...)` indexes + `ANALYZE;` (reducing unchanged `21,573`-CIK refreshes from `359.25s` to `14.22s`, `25.3x` faster).
 * **Share-Count, Scale & Period-End Guards:** `_pick_latest_shares()` in `models/valuation.py` requires `>= 10,000` shares across `TTM` + `fy_cols[-2:]` before falling back to sub-10k stubs (`VTIX`/`QVCG`), while `models/wide_net_scoreboard.py` downscales `1,000x` XBRL share overstatements and applies `shares_override` for `< 10,000` stubs or `>= 25x` Nasdaq divergence (`AVXL`/`TBLA`/`RPAY`). `Latest_Period_End` takes the newest valid period across `TTM`/`FY`/`Q` (`ALPE`), and `run_bulk_scan.py` shares Task 1–4 normalization and operating/Fin-REIT selection helpers.
 * **Master Workbook Refresh:** `scripts/build_master_spreadsheet.py` builds `Logic_Engines_Master_Review.xlsx` directly from structured `data_lake/candidate/` exports and `SSR v2` stock vaults across 4 sheets (`Executive Watchlist`, `Stage 1 Shortlist`, `Hunting Buckets`, `Financials & REITs`), preserving `None` instead of zero-coercing missing values.
+
+### Weekend Scans & Pre-Publication Integrity Gate (Backlog Task 7) — November 16, 2026
+
+* **Atomic Candidate Promotion & Bulk Quote Freshness:** `promote_candidate_snapshot()` (`scripts/rebuild_candidate_lake.py --promote-only`) verifies `PRAGMA integrity_check = ok`, 68-column completeness, and Stage 1 operating/dilution hygiene before backing up `.backups/pre_promote_*` and atomically replacing `data_lake/bulk/master_universe.sqlite` and `reports/*.csv` (zero reconciliation diffs). `inspect_bulk_quotes_freshness()` (`ingestion/bulk_universe.py`) reads internal `updated_at` timestamps inside `quotes_cache.json`, warns on stale network fallback, and surfaces quote age (`STALE` badge if $> 72\text{h}$) on `DATA_LAKE.md` and `Hunting_Buckets_Report.md`.
+* **S&P 1500 Microstructure & Missing-to-Zero Parity:** `antigravity_v3_core/models/deep_value.py` and `munger_value.py` share unified Piotroski/Sloan/Shareholder Yield math preserving `None` on missing inputs, `csp_engine.py` drops unverified `theoreticalVolatility` fallbacks, `options_desk.py` and `markdown_report.py` separate Tier 1 liquid CSPs (`OI >= 25`, verified `Ask > 0`, `Spread <= 25%`) from a collapsed Tier 2 Watchlist drawer, and `upgrade_sp1500_screen_markdown()` runs idempotently with zero hardcoded funnel defaults.
+* **Pre-Publication Verification Gate (`reporting/pre_pub_gate.py`):** Every web/data-lake publisher (`data_lake_publisher.py`, `web_publisher.py`, `batch_refresh_all_cards.py`, `upgrade_morning_briefing.py`, `reconcile_portfolio.py`) blocks `git commit` / `git push` whenever synthetic test leaks (`EX0`, `EXTRA OPERATING CO`), Kramdown `<details markdown="1">` / table blank-line errors, row-count mismatches, Fin/REIT or dilution leaks in Stage 1, or stale quotes ($> 72\text{h}$) are detected; test overrides of `web_hub_dir` never mutate production `reports/Hunting_Buckets_Report.md`.
+
+### Standalone Deep Dossier Engine & Offline Vault Integrity (Backlog Task 8) — November 16, 2026
+
+* **Offline Period Alignment & Future-Date Guard:** `ingestion/dossier_ingestor.py` aligns `companyfacts.json` (`extract_xbrl_forward_and_inventory_stages(..., as_of_period_end=...)`) strictly to the latest cached filing's `period_end`, applies SEC form and future-date anomaly guards (`end <= filed + 7d`), computes discrete quarterly cash flows/CapEx via `compute_discrete_quarterly_flow_series()`, detects `dei:DocumentType` (`10-K` vs. `10-Q`), and loads local market state (`load_dossier_market_context()`) exclusively from verified offline vault artifacts (`price_history.json`, `quote.json`, `master_universe.sqlite` fallback, `benchmark_snapshot.json`), leaving uncached candles/peers explicitly `None`/`Unavailable` rather than fabricating synthetic drawdowns.
+* **Issuer-Matched Form 4, Dual Runway & Archetype Routing:** `parse_form4_24m_with_option_context()` enforces strict `<issuerCik>`/`<issuerTradingSymbol>` verification and share-capped `[-1, +5]` day `Code M -> Code S` pairing; `compute_pre_revenue_runway_forensics()` separates restricted cash, prevents `abs(+profit)` burn inversion, and reports CapEx-adjusted Free Cash Flow runway alongside GAAP operating burn runway; `strategies/dossier_strategy.py` and `reporting/dossier_report.py` enforce zero hardcoded figures, OMR probabilistic prose, empty-table omission, and full Kramdown compliance across all 5 accounting archetypes.
+
+
 
