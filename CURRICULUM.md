@@ -270,7 +270,7 @@ To prevent execution slippage, portfolio concentration, or binary earnings traps
        • 🟢 Clear Earnings (> DTE Window)       • 🚨 In-DTE Binary Earnings / Est. Flag
 ```
 
-* **Hard Exclusion Rules (Fail-Closed):** Any contract with `openInterest <= 0`, missing/expired quote cache (`expires_at`), or unsolvable Implied Volatility (failing two-sided quote inversion) is excluded upstream—never assigned a synthetic IV (`35%`) or zero-OI placeholder.
+* **Hard Exclusion Rules (Fail-Closed):** Any contract with `openInterest <= 0`, missing/expired quote cache (`expires_at`), or unsolvable Implied Volatility (failing two-sided quote inversion) is excluded upstream—never assigned a synthetic IV (`35%`) or zero-OI placeholder. Adjusted **non-standard OPRA contracts** (`nonStandard=True`, `multiplier != 100`, adjusted numeric contract roots, or non-`100`-share / cash-augmented `deliverableNote`s arising from reverse splits, mergers, spinoffs, or capped variants) are likewise filtered out upstream via `models/option_contract_utils.py`, scanning strike lists for a standard 100-share sibling when present and surfacing excluded adjusted contracts in Section 1 and GEX diagnostics.
 * **Tier 1 (Prime-Cut Liquid CSPs):** Meets all four microstructure hurdles:
   1. **Open Interest:** $\text{OI} \ge 25$ contracts (ensures active dealer participation and tight order matching).
   2. **Bid-Ask Spread Width & Verified Ask:** Requires verified `Ask > 0` and strict relative width $\frac{\text{Ask} - \text{Bid}}{\text{Bid}} \le 25\%$ (zero sub-`$1` dollar-tick bypasses, preventing artificial promotion of illiquid wide penny options).
@@ -320,7 +320,7 @@ To prevent execution slippage, portfolio concentration, or binary earnings traps
 ```
 
 > **📐 Dynamic Funnel Selectivity Formula (`reporting/morning_briefing_section.py`):**  
-> Both the total operating universe ($N_{\text{Operating}}$) and the surviving cohort ($N_{\text{Survivors}}$) are dynamically queried from `master_universe.sqlite` on every weekend bulk scan (Option 14) and daily briefing refresh (Option 6)—never fixed to a static quota:
+> Both the total operating universe ($N_{\text{Operating}}$) and the surviving cohort ($N_{\text{Survivors}}$) are dynamically queried from `master_universe.sqlite` on every weekend bulk scan (Option 6) and daily briefing refresh (Option 1)—never fixed to a static quota:
 > $$\text{Funnel Selectivity (\%)} = \left(1 - \frac{N_{\text{Survivors}}}{N_{\text{Operating}}}\right) \times 100$$
 > *(Zero static survivor counts are hardcoded in the renderer; exact numerator, denominator, and selectivity percentage update dynamically from the live database snapshot).*
 
@@ -416,7 +416,7 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 >   * The unallocated sleeve capital **remains in the Treasury Floor Reserve as dry powder earning the live 13-week T-Bill rate (`^IRX`)**, generating passive daily cash flow while waiting patiently for new qualifying pitches.
 > * Pending buy limit-order obligations are subtracted from uncommitted cash when enforcing the 10.0% minimum cash floor, and a 30-day stop-loss wash-sale cooldown blocks immediate re-entry after a stop exit.
 > * **Fail-Closed Verification:** Stage 3 validates live/cached spot price and 30-day trading volume (`volume_cache.json` / `quotes_cache.json` / live feed) without static price/volume lookup tables. Any finalist lacking verified price or 30d volume is withheld in `unverified_finalists`, leaving 100% of withheld capacity in Treasury Dry Powder; missing `VIX` surfaces `VOLATILITY_DATA_UNAVAILABLE` rather than defaulting to `VIX 18.5`.
-> * **Automatic Ingestion Rule:** When a newly qualified Stage 3 candidate appears in the Morning Briefing, Option 15 (`reconcile_portfolio.py`) automatically evaluates available dry powder and sleeve ceilings. If compliant with the 10% floor, **it immediately establishes Tranche 1 (33.3% market entry)** and queues Tranches 2 and 3 as pending limit orders.
+> * **Automatic Ingestion Rule:** When a newly qualified Stage 3 candidate appears in the Morning Briefing, Option 2 (`reconcile_portfolio.py`) automatically evaluates available dry powder and sleeve ceilings. If compliant with the 10% floor, **it immediately establishes Tranche 1 (33.3% market entry)** and queues Tranches 2 and 3 as pending limit orders.
 
 ---
 

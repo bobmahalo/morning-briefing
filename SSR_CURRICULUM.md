@@ -502,8 +502,8 @@ Evaluates CBOE VIX levels to surface institutional advisory guidance without pro
 ---
 
 ## 6. V3 Options Gamma Exposure (GEX) Surface & Zero-Gamma Flip (`models/gex_engine.py` & `!gex [TICKER]`)
-Complements fundamental limit order ladders with real-time dealer option-hedging microstructure (`!gex [TICKER]` on Discord or Option 16 in `Run_Antigravity_V3.command`) under the explicitly labeled **Naive GEX (`+Call OI`, `-Put OI`)** dealer assumption:
-* **Dual-Horizon Windowing & Zero-OI Exclusion:** Splits liquid `openInterest > 0` strikes into **Tactical (`0–14 DTE`)** for immediate weekly pinning and **Structural (`15–45 DTE`)** to capture institutional monthly OpEx walls, dropping zero-OI strikes upstream. ATM walls right at spot (`strike >= spot` for Calls, `strike <= spot` for Puts) are preserved cleanly, and wall quotes track exact expiration metadata (`support_bid_exp` / `resistance_bid_exp`) without summing bids across expirations.
+Complements fundamental limit order ladders with real-time dealer option-hedging microstructure (`!gex [TICKER]` on Discord or Option 3 in `Run_Antigravity_V3.command`) under the explicitly labeled **Naive GEX (`+Call OI`, `-Put OI`)** dealer assumption:
+* **Dual-Horizon Windowing, Standard Deliverable & Zero-OI Exclusion:** Splits liquid `openInterest > 0` standard `100`-share contracts into **Tactical (`0–14 DTE`)** for immediate weekly pinning and **Structural (`15–45 DTE`)** to capture institutional monthly OpEx walls, dropping zero-OI strikes and excluding non-standard adjusted contracts (`nonStandard=True`, `multiplier != 100`, or non-`100`-share / cash-augmented `deliverableNote`s via `models/option_contract_utils.py`, surfaced dynamically in reports when present). ATM walls right at spot (`strike >= spot` for Calls, `strike <= spot` for Puts) are preserved cleanly, and wall quotes track exact expiration metadata (`support_bid_exp` / `resistance_bid_exp`) without summing bids across expirations.
 * **Scale-Invariant Dollar GEX ($1\%$ Spot Move) & Fail-Closed Analytical $\Gamma$:**
   $$\text{Share GEX}_K = (\text{OI}_{\text{call}} \cdot \Gamma_{\text{call}} - \text{OI}_{\text{put}} \cdot \Gamma_{\text{put}}) \times 100, \qquad \text{Dollar GEX}_{1\%} = \text{Share GEX}_K \times S \times (0.01 \cdot S)$$
   Parameterized to the live 13-week T-Bill rate (`get_live_tbill_yield()`), the solver computes analytical Black-Scholes $\Gamma$ whenever after-hours OPRA feeds return `-999.0` sentinels **only when valid two-sided quotes (`bid > 0` and `ask >= bid`) converge**. Unsolvable/zero quotes return `0.0` $\Gamma$ (never synthetic `35%` IV or closing-price fallbacks).
@@ -519,7 +519,7 @@ Complements fundamental limit order ladders with real-time dealer option-hedging
 | **CLI Single or Multi-Ticker Run + Web Publish** | `python3 run_ssr_v2.py STRT UEIC --publish` |
 | **Custom Position Size Override** | `python3 run_ssr_v2.py STRT --position-usd 5000` |
 | **Batch Refresh All Published Cards (Dynamic Discovery)** | `python3 scripts/batch_refresh_all_cards.py --push` (dynamically discovers `*.md` cards in `Single_Stock_Web` and refreshes from live/verified feeds with zero static price fallbacks) |
-| **Single-Ticker GEX Surface Radar** | Double-click `Discord_Bot/Run_Single_Ticker_GEX.command`, run Option 16 in `Run_Antigravity_V3.command`, or type `!gex [TICKER]` in Discord |
+| **Single-Ticker GEX Surface Radar** | Double-click `Discord_Bot/Run_Single_Ticker_GEX.command`, run Option 3 in `Run_Antigravity_V3.command`, or type `!gex [TICKER]` in Discord |
 
 ---
 
