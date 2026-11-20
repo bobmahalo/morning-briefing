@@ -216,16 +216,16 @@ $$\text{Discipline Score} = \text{Share Change Pts (0–4)} + \text{Insider Clus
 ## 4. Deterministic 3-Tranche Limit Order Ladder & Valuation Exits
 
 ### A. The 3-Tranche Accumulation Ladder (`build_3_tranche_ladder`)
-Never market-buy 100% of an allocation on day one. Every position is split into three mathematical tranches:
+Avoid market-buying 100% of an allocation on day one. Every position is split into three mathematical tranches with a **maximum 1 tranche fill per trading day** and **`T2`/`T3` limit targets re-anchored proportionally to the actual `T1` fill price**:
 
 | Tranche | Order Type | Entry Price Formula | Weight | Tactical Purpose |
 | :---: | :---: | :---: | :---: | :--- |
-| **T1** | `MARKET / LIMIT` | Spot Price | `33.3%` | **Baseline Entry:** Establishes immediate exposure once the forensic audit passes; eliminates FOMO if the stock trends higher immediately. |
-| **T2** | `GTC LIMIT` | Spot Price × (1 - Discount_retest) | `33.3%` | **Support Retest Bid:** Scaled dynamically to 1.0× ATR or 30-day Implied Volatility (minimum -6.0% baseline default) to capture multi-week consolidation pullbacks. |
-| **T3** | `GTC LIMIT` | Spot Price × (1 - Discount_flush) | `33.4%` | **Capitulation Wick Bid:** Scaled dynamically to 2.0× ATR or 30-day Implied Volatility (minimum -12.5% baseline default) to capture deep liquidity sweeps. |
+| **T1** | `MARKET / LIMIT` | Spot Price | `33.3%` | **Baseline Entry:** Establishes immediate exposure once the forensic audit passes and sets the entry anchor for `T2`/`T3`. |
+| **T2** | `GTC LIMIT` | `T1_Fill × (1 - Discount_retest)` | `33.3%` | **Support Retest Bid:** Scaled dynamically to 1.0× ATR or 30-day Implied Volatility (minimum -6.0% baseline default), eligible on Day 2+ after `T1`. |
+| **T3** | `GTC LIMIT` | `T1_Fill × (1 - Discount_flush)` | `33.4%` | **Capitulation Wick Bid:** Scaled dynamically to 2.0× ATR or 30-day Implied Volatility (minimum -12.5% baseline default), eligible on Day 3+ after `T2`. |
 
-* **Full-Fill Blended Cost Basis (VWAP):** If all three tranches fill, your average cost basis is automatically lowered below your initial entry price:
-  $$\text{VWAP}_{\text{ladder}} = \frac{\sum \text{Dollar Allocation}_i}{\sum \text{Target Shares}_i}$$
+* **Full-Fill Blended Cost Basis (VWAP):** Computed strictly from integer-share planned/filled cost so small allocations on high-priced equities cannot inflate VWAP above spot via fractional-share truncation:
+  $$\text{VWAP}_{\text{ladder}} = \frac{\sum (\text{Target Shares}_i \times \text{Target Price}_i)}{\sum \text{Target Shares}_i}$$
 
 ### B. Archetype-Specific Deterministic Exit Rules (`build_deterministic_exit_rules`)
 Exit targets adapt dynamically to the stock's archetype so you don't hold a decaying Net-Net like a Compounder:
@@ -599,6 +599,12 @@ Backlog Task 4 validates the full archived SEC bulk universe in an isolated stag
 
 * **Atomic `10-Q` / `10-K` Maturity Schedules & Revolver Separation (`models/debt_maturity.py`):** Anchors every debt maturity schedule to one periodic filing (`10-K`, `10-K/A`, `10-Q`, `10-Q/A`), separates fiscal-calendar schedules (`RemainderOfFiscalYear + FY+1 + FY+2`) from rolling `12M` tags, and surfaces `LineOfCreditFacilityRemainingBorrowingCapacity` separately from bank cash.
 * **Primary `.htm` Filing Cache & Macro Benchmarks (`ingestion/stock_vault.py`, `reporting/ssr_executive.py`):** `ensure_periodic_filing_htmls()` caches latest `10-K`/`10-Q` `.htm` files under `dossier/filings/` so `normalize_xbrl_facts()` runs `filing_context_validator` balance-sheet and income-statement checks (`ShortTermBorrowings`, `LongTermDebtCurrent`, `LongTermDebtAndCapitalLeaseObligations`, `InterestExpenseDebt`), while `Credit & Refinancing Watch` displays broad Treasury/FRED `BBB`/`HY` benchmark context without relaxing issuer-level secondary bond withholding (`tests/test_bond_safety.py`).
+
+### Purr Baseline Repairs: Zero Ticker Pinning, Math-Gap Ejection & 1-Tranche/Day Ladder — November 20, 2026
+
+* **Zero Hardcoded Ticker Bypass & Math-Gap Ejection:** Excised `BASKET_TIERS["tickers"]`, `DEFAULT_FINALISTS`, and `DEFAULT_SECTOR_MAP` from `strategies/position_sizing_and_execution.py` and `reporting/ssr_executive.py`, plus static finalist prose in `reporting/stage2_triage.py` and `scripts/refresh_finalists_data.py`. Stage 1 (`select_stage1_convergence_df`), Stage 3 (`classify_stage3_tier`), and `SSR v2` (`_classify_archetype`) require complete unfabricated math (`Share_Price > 0`, `Piotroski_F_Score`, `Altman_Z_Score`, `FCF_to_Price_Yield_Pct`, `Revenue_TTM_M`), ejecting incomplete-math tickers into `unverified_finalists` (`MISSING_FORENSIC_MATH`) or `UNSUITABLE / INCOMPLETE FORENSIC MATH` (`$0.00` allocation, withheld from `forward_execution_ledger.sqlite`), and bumping `run_ssr_v2.py` to `max_filings_per_form=3` for YoY `10-K` context validation.
+* **1-Tranche-Per-Day Guard & Share-Exact VWAP:** `strategies/portfolio_tracker.py` and `strategies/execution_simulator.py` enforce at most **1 buy tranche fill per trading day** and re-anchor `T2`/`T3` limits to the actual `T1` fill price; `calculate_tranche_vwap()` weights by actual integer-share cost (`target_shares * target_price`).
+* **Unified Calibration Telemetry (`Option 7 -> 3`):** `antigravity_v3_core/scripts/performance_review.py` unifies `v1.0` + `v1.1` CSP ledgers with deduplication and local `price_history.json` fallback alongside `scripts/audit_forward_ledger.py` in `Run_Antigravity_V3.command`.
 
 
 
