@@ -1,5 +1,5 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-11-20 14:44:50 UTC` | **Reconciliation Date:** `2026-11-20` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-11-22 18:10:39 UTC` | **Reconciliation Date:** `2026-11-22` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🏛️ S&P 1500 Screen](https://bobmahalo.github.io/morning-briefing/SP1500_SCREEN.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -8,8 +8,8 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-11-20 14:44 UTC | Reconciliation Date: 2026-11-20            │
-│ Total Portfolio NAV: $98,729.48 | Dry Powder: $89,627.85 (90.8%)             │
+│ Generated: 2026-11-22 18:10 UTC | Reconciliation Date: 2026-11-22            │
+│ Total Portfolio NAV: $98,724.20 | Dry Powder: $89,627.85 (90.8%)             │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -17,29 +17,77 @@
 
 | Total NAV | Cash / Dry Powder | Invested Equity | Cumulative Return | Realized P&L | Floating P&L | Dry Powder Floor |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **$98,729.48** | **$89,627.85** | **$9,101.63** | **-1.27%** | **$-1,010.42** | **$-260.10** | **🟢 HEALTHY (90.8%)** |
+| **$98,724.20** | **$89,627.85** | **$9,096.35** | **-1.28%** | **$-1,010.42** | **$-265.38** | **🟢 HEALTHY (90.8%)** |
 
 ---
 
 ## 🛡️ Active Holdings Matrix
-> Currently tracking **7 active/partially trimmed positions** under multi-tranche execution:
+> Currently tracking **10 active/partially trimmed positions** under multi-tranche execution:
 
 | Ticker | Archetype | Age (Days) | Shares | Blended VWAP | Spot Close | Market Value | % NAV | Unrealized P&L | Target 1 (Scale 50%) | Target 2 (Cleanout) | Hard Stop | Catastrophic Stop |
 | :--- | :--- | :---: | ---: | ---: | ---: | ---: | :---: | ---: | :---: | :---: | :---: | :---: |
+| **`EXE`** | `TIER_DEEP_VALUE_CASH_COW` | **0d** | 0 | $88.53 | $88.53 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $110.66 | $132.80 | $70.99 | `$66.40` |
+| **`PYPL`** | `COMPOUNDER` | **0d** | 0 | $59.28 | $59.28 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $75.80 | $94.75 | $47.22 | `$44.46` |
+| **`SND`** | `TURNAROUND` | **0d** | 0 | $4.77 | $4.77 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $5.49 | $7.14 | $3.34 | `$3.58` |
 | **`STRT`** | `COMPOUNDER` | **26d** | 30 | $61.98 | $61.06 | $1,831.80 | **1.9%** | **$-27.60 (-1.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
 | **`ZUMZ`** | `COMPOUNDER` | **26d** | 262 | $13.96 | $13.30 | $3,484.60 | **3.5%** | **$-173.13 (-4.7%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
 | **`IZEA`** | `NET_NET` | **26d** | 291 | $2.25 | $2.21 | $643.11 | **0.7%** | **$-12.60 (-1.9%)** | $2.57 | $3.08 | $1.78 | `$1.69` |
 | **`LOVE`** | `TURNAROUND` | **26d** | 124 | $14.39 | $14.01 | $1,737.24 | **1.8%** | **$-47.60 (-2.7%)** | $20.71 | $26.92 | $11.61 | `$10.79` |
 | **`CRWS`** | `TURNAROUND` | **26d** | 384 | $2.35 | $2.33 | $894.72 | **0.9%** | **$-6.72 (-0.8%)** | $3.17 | $4.12 | $1.83 | `$1.76` |
 | **`DLTH`** | `QUARANTINED` | **26d** | 83 | $4.00 | $3.92 | $325.36 | **0.3%** | **$-6.64 (-2.0%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
-| **`UEIC`** | `NET_NET` | **25d** | 33 | $5.17 | $5.60 | $184.80 | **0.2%** | **+$14.19 (+8.3%)** | $6.20 `(HIT 🎯)` | $9.53 | $5.17 | `$3.88` |
+| **`UEIC`** | `NET_NET` | **26d** | 33 | $5.17 | $5.44 | $179.52 | **0.2%** | **+$8.91 (+5.2%)** | $6.20 `(HIT 🎯)` | $9.53 | $5.17 | `$3.88` |
 | **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$89,627.85** | **90.8%** | **+$8.79/day** | — | — | — | `3.58% APY` |
-| **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$98,729.48** | **100.0%** | **$-260.10 (-1.27%)** | — | — | — | `🟢 HEALTHY` |
+| **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$98,724.20** | **100.0%** | **$-265.38 (-1.28%)** | — | — | — | `🟢 HEALTHY` |
 
 > **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **3.58% APY** (brokerage core money market cash sweep posted rate as of `2026-10-27`), generating **+$8.79 / day** (+$3,208.68/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
 
 <details markdown="1">
 <summary>🔎 <b>Click to Expand Position-Level Audit Ledgers (Fills, VWAP Ratchets & Milestones)</b></summary>
+
+### `EXE` — EXPAND ENERGY Corp (`TIER_DEEP_VALUE_CASH_COW`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$3,500.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$88.53` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$66.40`
+- **Exit Discipline:** Target 1 `$110.66` (Trim 50%) | Target 2 `$132.80` (Cleanout 100%) | Hard Stop `$70.99`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_EXE_T1_20261122` | `T1` | BUY | MARKET | $88.53 | $0.00 | 13 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_EXE_T2_20261122` | `T2` | BUY | LIMIT | $83.64 | $0.00 | 13 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_EXE_T3_20261122` | `T3` | BUY | LIMIT | $78.76 | $0.00 | 14 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `PYPL` — PayPal Holdings, Inc. (`TIER_1_COMPOUNDER`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$59.28` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$44.46`
+- **Exit Discipline:** Target 1 `$75.80` (Trim 50%) | Target 2 `$94.75` (Cleanout 100%) | Hard Stop `$47.22`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_PYPL_T1_20261122` | `T1` | BUY | MARKET | $59.28 | $0.00 | 30 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_PYPL_T2_20261122` | `T2` | BUY | LIMIT | $55.74 | $0.00 | 32 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_PYPL_T3_20261122` | `T3` | BUY | LIMIT | $52.18 | $0.00 | 35 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `SND` — Smart Sand, Inc. (`TIER_3_TURNAROUND`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$2,800.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$4.77` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$3.58`
+- **Exit Discipline:** Target 1 `$5.49` (Trim 50%) | Target 2 `$7.14` (Cleanout 100%) | Hard Stop `$3.34`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_SND_T1_20261122` | `T1` | BUY | MARKET | $4.77 | $0.00 | 195 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_SND_T2_20261122` | `T2` | BUY | LIMIT | $4.22 | $0.00 | 221 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_SND_T3_20261122` | `T3` | BUY | LIMIT | $3.68 | $0.00 | 253 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
 
 ### `STRT` — STRATTEC SECURITY CORP (`TIER_1_COMPOUNDER`)
 - **Entry Date:** `2026-10-26` | **Holding Duration:** `26 trading days`
@@ -132,8 +180,8 @@
 ---
 
 ### `UEIC` — UNIVERSAL ELECTRONICS INC (`TIER_2_NET_NET`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `25 trading days`
-- **Capital Sized:** `$1,000.00` | **Deployed:** `$170.61` | **Current NAV Value:** `$184.80`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `26 trading days`
+- **Capital Sized:** `$1,000.00` | **Deployed:** `$170.61` | **Current NAV Value:** `$179.52`
 - **Cost Basis:** `$5.17` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$3.88`
 - **Exit Discipline:** Target 1 `$6.20` (Trim 50%) | Target 2 `$9.53` (Cleanout 100%) | Hard Stop `$5.17`
 - **Current Status:** `PARTIALLY_TRIMMED` | **Realized P&L:** `$32.96`
@@ -164,6 +212,15 @@
 | **`CRWS`** | `T3` | `LIMIT` | **$2.12** | 213 sh | $451.56 | `2026-10-26` | Tranche 3 Flush Limit (-12.5%) |
 | **`DLTH`** | `T2` | `LIMIT` | **$3.73** | 89 sh | $331.97 | `2026-10-26` | Tranche 2 Retest Limit (-6.0%) |
 | **`DLTH`** | `T3` | `LIMIT` | **$3.47** | 96 sh | $333.12 | `2026-10-26` | Tranche 3 Flush Limit (-12.5%) |
+| **`EXE`** | `T1` | `MARKET` | **$88.53** | 13 sh | $1,150.89 | `2026-11-22` | Tranche 1 Market Entry |
+| **`EXE`** | `T2` | `LIMIT` | **$83.64** | 13 sh | $1,087.32 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`EXE`** | `T3` | `LIMIT` | **$78.76** | 14 sh | $1,102.64 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`PYPL`** | `T1` | `MARKET` | **$59.28** | 30 sh | $1,778.40 | `2026-11-22` | Tranche 1 Market Entry |
+| **`PYPL`** | `T2` | `LIMIT` | **$55.74** | 32 sh | $1,783.68 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`PYPL`** | `T3` | `LIMIT` | **$52.18** | 35 sh | $1,826.30 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`SND`** | `T1` | `MARKET` | **$4.77** | 195 sh | $930.15 | `2026-11-22` | Tranche 1 Market Entry |
+| **`SND`** | `T2` | `LIMIT` | **$4.22** | 221 sh | $932.62 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`SND`** | `T3` | `LIMIT` | **$3.68** | 253 sh | $931.04 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
 
 </details>
 
@@ -181,8 +238,9 @@
 
 | Portfolio Sleeve | Target Budget Cap | Current Allocated | Remaining Headroom | Sleeve Status |
 | :--- | ---: | ---: | ---: | :---: |
-| **Tier 1: COMPOUNDER** | $65,000.00 | $11,000.00 (16.9%) | $54,000.00 | 🟢 UNCONSTRAINED |
-| **Tier 3: TURNAROUND** | $20,000.00 | $4,155.20 (20.8%) | $15,844.80 | 🟢 UNCONSTRAINED |
+| **Tier 1: COMPOUNDER** | $65,000.00 | $16,500.00 (25.4%) | $48,500.00 | 🟢 UNCONSTRAINED |
+| **Tier 3: TURNAROUND** | $20,000.00 | $6,955.20 (34.8%) | $13,044.80 | 🟢 UNCONSTRAINED |
+| **Cash Cow / Deep Value** | $15,000.00 | $3,500.00 (23.3%) | $11,500.00 | 🟢 UNCONSTRAINED |
 | **Tier 2: NET_NET** | $5,000.00 | $2,000.00 (40.0%) | $3,000.00 | 🟢 UNCONSTRAINED |
 | **Quarantined (Defensive Cap)** | $1,000.00 | $1,000.00 (100.0%) | $0.00 | 🔴 FULL |
 | **Treasury Dry Powder Floor** | $10,000.00 Min (10% NAV) | $89,627.85 (90.8%) | $79,627.85 | 🟢 HEALTHY (90.8%) |

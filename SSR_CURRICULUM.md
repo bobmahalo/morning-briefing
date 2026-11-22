@@ -606,5 +606,11 @@ Backlog Task 4 validates the full archived SEC bulk universe in an isolated stag
 * **1-Tranche-Per-Day Guard & Share-Exact VWAP:** `strategies/portfolio_tracker.py` and `strategies/execution_simulator.py` enforce at most **1 buy tranche fill per trading day** and re-anchor `T2`/`T3` limits to the actual `T1` fill price; `calculate_tranche_vwap()` weights by actual integer-share cost (`target_shares * target_price`).
 * **Unified Calibration Telemetry (`Option 7 -> 3`):** `antigravity_v3_core/scripts/performance_review.py` unifies `v1.0` + `v1.1` CSP ledgers with deduplication and local `price_history.json` fallback alongside `scripts/audit_forward_ledger.py` in `Run_Antigravity_V3.command`.
 
+### Telemetry Integrity, Schwab Batch Quotes & Tranche-Unified Forward Audits — November 20, 2026
+
+* **Schwab Batch Quotes, Freshness Gate & Batch Rebuild Isolation (`run_ssr.py`, `run_ssr_v2.py`, `reporting/ssr_executive.py`, `scripts/batch_refresh_all_cards.py`):** Spot quote resolution queries authenticated `SchwabClient.get_quotes()` first (batched at 50 symbols in `batch_refresh_all_cards.py`) with Yahoo v8 fallback and explicit `> 72h` staleness metadata (`quote_is_stale`), blocking stale quotes and routine batch rebuilds (`log_to_ledger=False` default) from writing duplicate or stale entries into `forward_execution_ledger.sqlite`.
+* **Tranche-Unified Forward Ledger, Active-Lifecycle Dedup & `TIER_2_NET_NETS` Exit Guard (`reporting/forward_ledger.py`, `strategies/execution_simulator.py`, `strategies/position_sizing_and_execution.py`):** `update_forward_outcomes()` routes directly through `simulate_position_execution()` with catastrophic gap-down liquidation prior to averaging down and dynamic proportional hard-stop recalibration; `log_card_to_ledger()` prevents overlapping duplicate `ACTIVE` cards per ticker; `clean_forward_ledger()` backs up to `.backups/` and excises corrupted/stale/duplicate rows cleanly; and `TIER_2_NET_NETS` exit rules enforce `graham_ncav > price` and `tangible_book > price`.
+* **Non-Interactive Publishing & Option 4 Batch Submenu (`reporting/web_publisher.py`, `Run_Antigravity_V3.command`):** Shared `run_git_push()` enforces `GIT_TERMINAL_PROMPT=0` with explicit timeout across all GitHub Pages publishers, and Option `4 -> 3` invokes `scripts/batch_refresh_all_cards.py` directly from the operator console.
+
 
 

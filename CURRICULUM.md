@@ -227,9 +227,9 @@ To distinguish routine market pullbacks from systemic liquidity contagion, we mo
 
 ### 1. The Strategy Mandate (Independent Income Desk)
 Engine 1 operates as an **independent option-income strategy desk** across the liquid optionable S&P 1500 universe:
-* We filter for liquid option chains (`OI > 0`, verified two-sided `Bid > 0` / `Ask > 0`, strict solved IV — zero synthetic `35%` fallbacks) with elevated Implied Volatility ($\text{Absolute IV} > 30\%$) so buyers pay meaningful upfront put premiums.
-* We select out-of-the-money strikes (`Delta <= -0.15`, targeting `-0.10 to -0.15` Black-Scholes moneyness approximation) parameterized dynamically to the live risk-free rate (`get_live_tbill_yield()`).
-* Collateral is **never left uninvested**. It sits in 13-week U.S. Treasury Bills (`^IRX`, dynamically read from `macro_vitals.json`) earning risk-free interest while backing the put obligation.
+* We filter for liquid option chains (`OI > 0`, verified two-sided `Bid >= $0.25` / `Ask > 0`, strict solved IV — zero synthetic `35%` fallbacks) with elevated Implied Volatility ($\text{Absolute IV} \ge 30\%$) and a hard **$\$0.25$ minimum executable bid floor** ($\$25$ per contract, Rule 8 zero slippage) so sub-quarter nickel/dime contracts are excluded.
+* We select short-expiry (`14–45 DTE`, targeting `~30 DTE` rather than jumping out to 60-day back-month chains), out-of-the-money strikes (`-0.15 <= Delta <= -0.05`, picking the **safest qualifying strike** with the lowest `|Delta|` that satisfies `Bid >= $0.25` and liquidity) parameterized dynamically to the live risk-free rate (`get_live_tbill_yield()`).
+* Collateral is **never left uninvested**. It sits in 13-week U.S. Treasury Bills (`^IRX`, dynamically read from `macro_vitals.json`) earning risk-free interest while backing the put obligation. Stacked Annual Yield is displayed as an awareness and ranking indicator (not a hard cutoff gate).
 
 ### 2. The Core Mathematical Formulas
 $$\text{Cash Collateral Required} = 100 \times K \quad (K = \text{Strike Price})$$
@@ -248,7 +248,7 @@ $$\text{Stacked Annual Yield} = \text{Annualized Option Yield} + r_{\text{Treasu
   * *Outcome 2 (Stock plunges below \$280):* You are assigned shares at a net cost basis of $\$280.00 - \$3.90 = \mathbf{\$276.10}$ (a **$17.4\%$ discount** to the hypothetical spot price), backed by cash already in your account.
 
 ### 4. Two-Tier Microstructure Architecture & Execution Guardrails
-To prevent execution slippage, portfolio concentration, or binary earnings traps, Engine 1 partitions candidates into two distinct operational tiers:
+To prevent execution slippage, sub-quarter nickel/dime traps, or binary earnings gap risk, Engine 1 partitions candidates into two distinct operational tiers:
 
 ```
                             ENGINE 1 CANDIDATE SCREENING
@@ -256,31 +256,33 @@ To prevent execution slippage, portfolio concentration, or binary earnings traps
                                          ▼
                       ┌──────────────────────────────────────┐
                       │    Microstructure & Safety Sieve     │
+                      │  • Minimum Bid >= $0.25 (Rule 8)     │
+                      │  • Short Expiry: 14–45 DTE (~30 DTE) │
+                      │  • Safest Strike in [-0.15, -0.05]   │
                       │  • Open Interest >= 25 (OI<=0 Dropped│
                       │  • Ask > 0 & Strict Spread <= 25%    │
-                      │  • Strike <= $200 (<= $20k Collat)   │
                       │  • Verified Clear Earnings (> DTE)   │
                       └──────────────────┬───────────────────┘
                                          │
                     ┌────────────────────┴────────────────────┐
                     ▼                                         ▼
-       🏆 TIER 1: PRIME-CUT LIQUID CSPs         ⚠️ TIER 2: WATCHLIST & DEFINED-RISK
-       • Top 5 Highlighted                      • Retains Verified Setups w/ Caveats
-       • Collateral <= $20k per contract        • 🐂 Bull Put Credit Spreads (Strike > $200)
-       • Tight Spread / Verified Ask > 0        • ⚠️ Thin OI (<25) / 📐 Wide Spread (>25%)
-       • 🟢 Clear Earnings (> DTE Window)       • 🚨 In-DTE Binary Earnings / Est. Flag
+       🏆 TIER 1: PRIME-CUT LIQUID CSPs         ⚠️ TIER 2: WATCHLIST & CAVEATS
+       • Top 5 Highlighted & Logged to Ledger   • Retains Verified Setups w/ Caveats
+       • Executable Bid >= $0.25 ($25/ctr)      • ⚠️ Thin OI (<25) / 📐 Wide Spread (>25%)
+       • Tight Spread / Verified Ask > 0        • 🚨 In-DTE Binary Earnings / Est. Flag
+       • 🟢 Clear Earnings (> DTE Window)       • Cash Collateral ($Strike×100) Listed
 ```
 
-* **Hard Exclusion Rules (Fail-Closed):** Any contract with `openInterest <= 0`, missing/expired quote cache (`expires_at`), or unsolvable Implied Volatility (failing two-sided quote inversion) is excluded upstream—never assigned a synthetic IV (`35%`) or zero-OI placeholder. Adjusted **non-standard OPRA contracts** (`nonStandard=True`, `multiplier != 100`, adjusted numeric contract roots, or non-`100`-share / cash-augmented `deliverableNote`s arising from reverse splits, mergers, spinoffs, or capped variants) are likewise filtered out upstream via `models/option_contract_utils.py`, scanning strike lists for a standard 100-share sibling when present and surfacing excluded adjusted contracts in Section 1 and GEX diagnostics.
-* **Tier 1 (Prime-Cut Liquid CSPs):** Meets all four microstructure hurdles (when `0` candidates pass all four hurdles, Section 1 explicitly labels the Top 5 table and Executive Dashboard pick as a **Tier 2 Watchlist** fallback rather than mislabeling them as Liquid Tier 1 CSPs):
-  1. **Open Interest:** $\text{OI} \ge 25$ contracts (ensures active dealer participation and tight order matching).
-  2. **Bid-Ask Spread Width & Verified Ask:** Requires verified `Ask > 0` and strict relative width $\frac{\text{Ask} - \text{Bid}}{\text{Bid}} \le 25\%$ (zero sub-`$1` dollar-tick bypasses, preventing artificial promotion of illiquid wide penny options).
-  3. **Collateral Concentration Limit:** $\text{Strike} \le \$200.00$ ($\le \$20,000$ cash collateral per contract). Prevents a single option contract from dominating $> 20\%$ of a standard $\$100,000$ portfolio.
+* **Hard Exclusion Rules (Fail-Closed):** Any contract with `openInterest <= 0`, `Bid < $0.25` (nickel/dime sub-quarter bids), missing/expired quote cache (`expires_at`), or unsolvable Implied Volatility (failing two-sided quote inversion) is excluded upstream—never assigned a synthetic IV (`35%`) or zero-OI placeholder. Adjusted **non-standard OPRA contracts** (`nonStandard=True`, `multiplier != 100`, adjusted numeric contract roots, or non-`100`-share / cash-augmented `deliverableNote`s arising from reverse splits, mergers, spinoffs, or capped variants) are likewise filtered out upstream via `models/option_contract_utils.py`, scanning strike lists for a standard 100-share sibling when present and surfacing excluded adjusted contracts in Section 1 and GEX diagnostics.
+* **Tier 1 (Prime-Cut Liquid CSPs):** Meets all four microstructure hurdles (when `0` candidates pass all four hurdles, Section 1 explicitly labels the Top 5 table and Executive Dashboard pick as a **Tier 2 Watchlist** fallback rather than mislabeling them as Liquid Tier 1 CSPs; only Tier 1 candidates are recorded to the forward recommendations ledger):
+  1. **Minimum Executable Bid Floor (`Rule 8`):** $P_{\text{bid}} \ge \$0.25$ ($\$25.00$ per contract strictly at the exchange Bid).
+  2. **Open Interest:** $\text{OI} \ge 25$ contracts (ensures active dealer participation and tight order matching).
+  3. **Bid-Ask Spread Width & Verified Ask:** Requires verified `Ask > 0` and strict relative width $\frac{\text{Ask} - \text{Bid}}{\text{Bid}} \le 25\%$ (zero sub-`$1` dollar-tick bypasses, preventing artificial promotion of illiquid wide penny options).
   4. **Earnings Timeline:** Verified $\text{Days to Earnings} > \text{DTE}$ (`🟢 Clear`). When earnings rely on SEC filing cadence estimation (`+129d`), rows are explicitly tagged `Est.` rather than presented as confirmed dates.
-* **Tier 2 (Watchlist / Defined-Risk / Binary Event Quarantine):** Preserves valid setups while isolating specific execution caveats in a collapsible drawer:
-  1. **High Collateral Strikes (`Strike > $200`):** Flagged as **Bull Put Credit Spread (`🐂 Put Spread ($XXk Collat)`)** setups. Allocators can buy a protective long put 1–2 strikes below to cap collateral at $\$500–\$1,000$ instead of reserving large capital blocks.
-  2. **Binary Earnings Quarantine (`0 <= Days to Earnings <= DTE`):** Flagged as `🚨 Earnings in {N}d`. Selling naked puts across earnings invites severe binary gap risk (such as post-earnings gap-downs).
-  3. **Microstructure Friction:** Flagged with `⚠️ Thin OI (< 25)` or `📐 Wide Spread (> 25%)`. Requires patient limit orders rather than aggressive market fills.
+* **Transparent Cash Collateral (Awareness, Not a Disqualifier):** Required cash collateral ($\text{Strike} \times 100$, e.g., `✅ Liquid CSP ($28.0k)`) is explicitly listed on every candidate row so each allocator can match contract size to available capital without disqualifying liquid higher-priced compounders.
+* **Tier 2 (Watchlist / Microstructure & Binary Event Quarantine):** Preserves valid fundamental setups while isolating specific execution caveats in a collapsible drawer:
+  1. **Binary Earnings Quarantine (`0 <= Days to Earnings <= DTE`):** Flagged as `🚨 Earnings in {N}d`. Selling naked puts across earnings invites severe binary gap risk (such as post-earnings gap-downs).
+  2. **Microstructure Friction:** Flagged with `⚠️ Thin OI (< 25)` or `📐 Wide Spread (> 25%)`. Requires patient limit orders rather than aggressive market fills.
 * **Excision of the Dead `Mean Tested` Column:** Replaced the legacy `Mean Tested` column (which displayed `N/A` across most rows due to contradictory SMA-50 and FINRA short acceleration gates) with actionable columns: **`Spread %`**, **`Earnings`**, and **`Structure / Caveat`**.
 
 ---
@@ -558,6 +560,12 @@ Backlog Task 4 validates the full archived SEC bulk universe in an isolated stag
 * **Zero Hardcoded Ticker Bypass & Math-Gap Ejection:** Excised `BASKET_TIERS["tickers"]`, `DEFAULT_FINALISTS`, `DEFAULT_SECTOR_MAP`, and legacy static thesis prose from `strategies/position_sizing_and_execution.py`, `reporting/ssr_executive.py`, `reporting/stage2_triage.py`, and `scripts/refresh_finalists_data.py`. Both Stage 1 (`select_stage1_convergence_df`) and Stage 3 / SSR v2 enforce complete verified math (`Share_Price > 0`, `Piotroski_F_Score`, `Altman_Z_Score`, `FCF_to_Price_Yield_Pct`, `Revenue_TTM_M`), ejecting incomplete-math tickers into `unverified_finalists` (`MISSING_FORENSIC_MATH`) or `UNSUITABLE / INCOMPLETE FORENSIC MATH` (`$0.00` allocation, withheld from `forward_execution_ledger.sqlite`), and `format_top_deep_value_finalist_bullet()` prints `Piotroski NR` rather than substituting `9/9`.
 * **1-Tranche-Per-Day Guard, `T1` Re-Anchoring & Share-Exact Ladder VWAP:** `strategies/portfolio_tracker.py` and `strategies/execution_simulator.py` cap limit ladders at **1 buy tranche fill per trading day** and re-anchor pending `T2`/`T3` limits proportionally to the actual `T1` fill price so Day-1 gap-downs cannot dump all three tranches simultaneously. `calculate_tranche_vwap()` computes $\frac{\sum (\text{Target Shares}_i \times \text{Target Price}_i)}{\sum \text{Target Shares}_i}$ so integer-share truncation on high-priced small allocations cannot inflate VWAP above spot.
 * **Unified CSP & Forward-Ledger Telemetry (`Option 7 -> 3`):** `antigravity_v3_core/scripts/performance_review.py` now unifies `recommendations_ledger.csv` + `recommendations_ledger_v1.1.csv` with deduplication, local `price_history.json` fallback, and both Expiration OTM and Intra-Cycle Touch rates; `Run_Antigravity_V3.command` wires both `performance_review.py` and `scripts/audit_forward_ledger.py` into Option 7 (`Ops`), `run_ssr_v2.py` caches up to `3` periodic filings (`max_filings_per_form=3`) for YoY validation, and `antigravity_v3_core/.agents/skills` symlinks to canonical root `.agents/skills`.
+
+### Telemetry Integrity, Schwab Batch Quotes & Tranche-Unified Forward Audits — November 20, 2026
+
+* **Forward Ledger Excise, Active-Lifecycle Dedup & Simulator Parity (`reporting/forward_ledger.py`, `strategies/execution_simulator.py`, `scripts/audit_forward_ledger.py`):** `clean_forward_ledger()` snapshots pre-cleanup SQLite backups into `.backups/` and excises legacy `Unsuitable / Pass`, pre-fix inflated-VWAP, inverted-target, stale-quote, and batch-rebuild duplicate rows without leaving dead quarantine tables in production SQLite. `log_card_to_ledger()` blocks stale quotes (`> 72h`), `Unsuitable / Pass` cards, explicit `$0` allocations, and overlapping active lifecycles for an already-`ACTIVE` ticker. `update_forward_outcomes()` delegates directly to Layer 3 `simulate_position_execution()` (max 1 buy tranche/day, `T1` re-anchoring, catastrophic gap-down guard prior to averaging down, proportional dynamic hard-stop recalibration on multi-tranche fills, and idempotent pre-ratchet stop storage).
+* **Schwab Batch Quotes, `TIER_2_NET_NETS` Guard & Non-Interactive Publishing (`run_ssr.py`, `run_ssr_v2.py`, `scripts/batch_refresh_all_cards.py`, `strategies/position_sizing_and_execution.py`, `reporting/web_publisher.py`):** `fetch_batch_share_prices_schwab()` and `fetch_latest_share_price_with_meta()` query authenticated `SchwabClient.get_quotes()` before falling back to Yahoo v8 chart JSON and flag offline `quote.json` caches older than `72h` (`is_stale=True`) to prevent stale ledger writes. `batch_refresh_all_cards.py` defaults to `log_to_ledger=False` and is exposed as Option `4 -> 3` in `Run_Antigravity_V3.command`. `build_deterministic_exit_rules()` enforces `graham_ncav > price` and `tangible_book > price` for `TIER_2_NET_NETS`, and `run_git_push()` enforces `GIT_TERMINAL_PROMPT=0` with explicit timeouts across all 5 publishing call sites.
+* **Engine 1 Contract-Cycle Dedup, Split-Mismatch Exclusion & Realized Expectancy (`antigravity_v3_core/scripts/performance_review.py`):** Evaluates Rule-8 zero-slippage realized Net P&L ($100 \times (P_{\text{bid}} - \max(0, K - S_{\text{exp}}))$), Return on Collateral (ROC), Annualized ROC, and Average ITM Tail Loss across both **Independent Contract Cycles** (first-seen `(Engine_Version, Ticker, Strike, Exp_Date)`) and All Unique Daily Scans, while failing closed on retrospective split/corporate-action mismatches (`> 35%` Day-0 candle vs. recorded `Spot_Price` divergence).
 
 
 
