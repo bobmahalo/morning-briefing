@@ -1,5 +1,5 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-11-22 18:10:39 UTC` | **Reconciliation Date:** `2026-11-22` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-11-22 21:59:50 UTC` | **Reconciliation Date:** `2026-11-22` | **Engine:** Antigravity V3 Core
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -8,7 +8,7 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-11-22 18:10 UTC | Reconciliation Date: 2026-11-22            │
+│ Generated: 2026-11-22 21:59 UTC | Reconciliation Date: 2026-11-22            │
 │ Total Portfolio NAV: $98,724.20 | Dry Powder: $89,627.85 (90.8%)             │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -22,13 +22,17 @@
 ---
 
 ## 🛡️ Active Holdings Matrix
-> Currently tracking **10 active/partially trimmed positions** under multi-tranche execution:
+> Currently tracking **14 active/partially trimmed positions** under multi-tranche execution:
 
 | Ticker | Archetype | Age (Days) | Shares | Blended VWAP | Spot Close | Market Value | % NAV | Unrealized P&L | Target 1 (Scale 50%) | Target 2 (Cleanout) | Hard Stop | Catastrophic Stop |
 | :--- | :--- | :---: | ---: | ---: | ---: | ---: | :---: | ---: | :---: | :---: | :---: | :---: |
 | **`EXE`** | `TIER_DEEP_VALUE_CASH_COW` | **0d** | 0 | $88.53 | $88.53 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $110.66 | $132.80 | $70.99 | `$66.40` |
 | **`PYPL`** | `COMPOUNDER` | **0d** | 0 | $59.28 | $59.28 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $75.80 | $94.75 | $47.22 | `$44.46` |
 | **`SND`** | `TURNAROUND` | **0d** | 0 | $4.77 | $4.77 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $5.49 | $7.14 | $3.34 | `$3.58` |
+| **`HOG`** | `TURNAROUND` | **0d** | 0 | $32.69 | $32.69 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $44.13 | $57.37 | $24.35 | `$24.52` |
+| **`LRN`** | `COMPOUNDER` | **0d** | 0 | $76.24 | $76.24 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $122.83 | $152.83 | $60.45 | `$57.18` |
+| **`DINO`** | `TURNAROUND` | **0d** | 0 | $89.76 | $89.76 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $121.18 | $157.53 | $62.36 | `$67.32` |
+| **`ADBE`** | `COMPOUNDER` | **0d** | 0 | $221.68 | $221.68 | $0.00 | **0.0%** | **+$0.00 (+0.0%)** | $281.46 | $349.49 | $176.33 | `$166.26` |
 | **`STRT`** | `COMPOUNDER` | **26d** | 30 | $61.98 | $61.06 | $1,831.80 | **1.9%** | **$-27.60 (-1.5%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
 | **`ZUMZ`** | `COMPOUNDER` | **26d** | 262 | $13.96 | $13.30 | $3,484.60 | **3.5%** | **$-173.13 (-4.7%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
 | **`IZEA`** | `NET_NET` | **26d** | 291 | $2.25 | $2.21 | $643.11 | **0.7%** | **$-12.60 (-1.9%)** | $2.57 | $3.08 | $1.78 | `$1.69` |
@@ -86,6 +90,66 @@
 | `ORD_SND_T1_20261122` | `T1` | BUY | MARKET | $4.77 | $0.00 | 195 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
 | `ORD_SND_T2_20261122` | `T2` | BUY | LIMIT | $4.22 | $0.00 | 221 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
 | `ORD_SND_T3_20261122` | `T3` | BUY | LIMIT | $3.68 | $0.00 | 253 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `HOG` — HARLEY-DAVIDSON, INC. (`TIER_3_TURNAROUND`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$2,800.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$32.69` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$24.52`
+- **Exit Discipline:** Target 1 `$44.13` (Trim 50%) | Target 2 `$57.37` (Cleanout 100%) | Hard Stop `$24.35`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_HOG_T1_20261122` | `T1` | BUY | MARKET | $32.69 | $0.00 | 28 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_HOG_T2_20261122` | `T2` | BUY | LIMIT | $30.54 | $0.00 | 30 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_HOG_T3_20261122` | `T3` | BUY | LIMIT | $28.39 | $0.00 | 32 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `LRN` — Stride, Inc. (`TIER_1_COMPOUNDER`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$76.24` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$57.18`
+- **Exit Discipline:** Target 1 `$122.83` (Trim 50%) | Target 2 `$152.83` (Cleanout 100%) | Hard Stop `$60.45`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_LRN_T1_20261122` | `T1` | BUY | MARKET | $76.24 | $0.00 | 24 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_LRN_T2_20261122` | `T2` | BUY | LIMIT | $71.31 | $0.00 | 25 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_LRN_T3_20261122` | `T3` | BUY | LIMIT | $66.38 | $0.00 | 27 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `DINO` — HF Sinclair Corp (`TIER_3_TURNAROUND`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$2,800.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$89.76` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$67.32`
+- **Exit Discipline:** Target 1 `$121.18` (Trim 50%) | Target 2 `$157.53` (Cleanout 100%) | Hard Stop `$62.36`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_DINO_T1_20261122` | `T1` | BUY | MARKET | $89.76 | $0.00 | 10 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_DINO_T2_20261122` | `T2` | BUY | LIMIT | $78.91 | $0.00 | 11 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_DINO_T3_20261122` | `T3` | BUY | LIMIT | $68.05 | $0.00 | 13 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+
+---
+
+### `ADBE` — ADOBE INC. (`TIER_1_COMPOUNDER`)
+- **Entry Date:** `2026-11-22` | **Holding Duration:** `0 trading days`
+- **Capital Sized:** `$5,500.00` | **Deployed:** `$0.00` | **Current NAV Value:** `$0.00`
+- **Cost Basis:** `$221.68` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$166.26`
+- **Exit Discipline:** Target 1 `$281.46` (Trim 50%) | Target 2 `$349.49` (Cleanout 100%) | Hard Stop `$176.33`
+- **Current Status:** `ACTIVE` | **Realized P&L:** `$0.00`
+
+| Order ID | Tranche | Side | Type | Target Px | Fill Px | Target Sh | Filled Sh | Cash Impact | Status | Placed | Filled |
+| :--- | :---: | :---: | :---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---: |
+| `ORD_ADBE_T1_20261122` | `T1` | BUY | MARKET | $221.68 | $0.00 | 8 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_ADBE_T2_20261122` | `T2` | BUY | LIMIT | $208.38 | $0.00 | 8 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
+| `ORD_ADBE_T3_20261122` | `T3` | BUY | LIMIT | $193.97 | $0.00 | 9 | 0 | $0.00 | `PENDING` | `2026-11-22` | `-` |
 
 ---
 
@@ -221,6 +285,18 @@
 | **`SND`** | `T1` | `MARKET` | **$4.77** | 195 sh | $930.15 | `2026-11-22` | Tranche 1 Market Entry |
 | **`SND`** | `T2` | `LIMIT` | **$4.22** | 221 sh | $932.62 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
 | **`SND`** | `T3` | `LIMIT` | **$3.68** | 253 sh | $931.04 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`HOG`** | `T1` | `MARKET` | **$32.69** | 28 sh | $915.32 | `2026-11-22` | Tranche 1 Market Entry |
+| **`HOG`** | `T2` | `LIMIT` | **$30.54** | 30 sh | $916.20 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`HOG`** | `T3` | `LIMIT` | **$28.39** | 32 sh | $908.48 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`LRN`** | `T1` | `MARKET` | **$76.24** | 24 sh | $1,829.76 | `2026-11-22` | Tranche 1 Market Entry |
+| **`LRN`** | `T2` | `LIMIT` | **$71.31** | 25 sh | $1,782.75 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`LRN`** | `T3` | `LIMIT` | **$66.38** | 27 sh | $1,792.26 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`DINO`** | `T1` | `MARKET` | **$89.76** | 10 sh | $897.60 | `2026-11-22` | Tranche 1 Market Entry |
+| **`DINO`** | `T2` | `LIMIT` | **$78.91** | 11 sh | $868.01 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`DINO`** | `T3` | `LIMIT` | **$68.05** | 13 sh | $884.65 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
+| **`ADBE`** | `T1` | `MARKET` | **$221.68** | 8 sh | $1,773.44 | `2026-11-22` | Tranche 1 Market Entry |
+| **`ADBE`** | `T2` | `LIMIT` | **$208.38** | 8 sh | $1,667.04 | `2026-11-22` | Tranche 2 Retest Limit (-6.0%) |
+| **`ADBE`** | `T3` | `LIMIT` | **$193.97** | 9 sh | $1,745.73 | `2026-11-22` | Tranche 3 Flush Limit (-12.5%) |
 
 </details>
 
@@ -238,8 +314,8 @@
 
 | Portfolio Sleeve | Target Budget Cap | Current Allocated | Remaining Headroom | Sleeve Status |
 | :--- | ---: | ---: | ---: | :---: |
-| **Tier 1: COMPOUNDER** | $65,000.00 | $16,500.00 (25.4%) | $48,500.00 | 🟢 UNCONSTRAINED |
-| **Tier 3: TURNAROUND** | $20,000.00 | $6,955.20 (34.8%) | $13,044.80 | 🟢 UNCONSTRAINED |
+| **Tier 1: COMPOUNDER** | $65,000.00 | $27,500.00 (42.3%) | $37,500.00 | 🟢 UNCONSTRAINED |
+| **Tier 3: TURNAROUND** | $20,000.00 | $12,555.20 (62.8%) | $7,444.80 | 🟢 UNCONSTRAINED |
 | **Cash Cow / Deep Value** | $15,000.00 | $3,500.00 (23.3%) | $11,500.00 | 🟢 UNCONSTRAINED |
 | **Tier 2: NET_NET** | $5,000.00 | $2,000.00 (40.0%) | $3,000.00 | 🟢 UNCONSTRAINED |
 | **Quarantined (Defensive Cap)** | $1,000.00 | $1,000.00 (100.0%) | $0.00 | 🔴 FULL |
