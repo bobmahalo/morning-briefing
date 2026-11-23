@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-22 21:52:08 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-23 14:53:41 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,12 +10,12 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-22 21:52 UTC | Macro Regime: REFLATION REGIME             │
-│ VIX: 35.89 | Treasury Floor: 4.12% | Core Compounder Posture: 65%            │
+│ Generated: 2026-11-23 14:53 UTC | Macro Regime: REFLATION REGIME             │
+│ VIX: 28.66 | Treasury Floor: 4.16% | Core Compounder Posture: 65%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **🎯 Top Yield Stacker Watchlist Pick (0 Tier 1 Liquid CSPs):** `FDS` ($270.00 Strike, 26 DTE, 10.9% Stacked Yield — Tier 2 Caveats)
+- **🎯 Top Yield Stacker Watchlist Pick (0 Tier 1 Liquid CSPs):** `CBOE` ($325.00 Strike, 31 DTE, 9.2% Stacked Yield — Tier 2 Caveats)
 - **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $62.17, 15.5% FCF Yield, $27.12 Net Cash Floor, Piotroski 9/9)
 
 <details markdown="1">
@@ -23,7 +23,7 @@
 
 | Antigravity Engine | Core Strategy & Universe | Risk & Execution Discipline |
 | :--- | :--- | :--- |
-| **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on liquid S&P 1500 optionable equities, backed 100% by 13-week Treasury bills (`~4.12%`). | Collects option `bid` premium *plus* Treasury interest (contractual yield if unassigned); if assigned, acquires shares at strike minus premium. |
+| **1. Yield Stacker (CSPs)** | Sells out-of-the-money Cash-Secured Puts (`Delta ≤ -0.15`) on liquid S&P 1500 optionable equities, backed 100% by 13-week Treasury bills (`~4.16%`). | Collects option `bid` premium *plus* Treasury interest (contractual yield if unassigned); if assigned, acquires shares at strike minus premium. |
 | **2. Engine 3 (Deep-Value Convergence)** | Sifts `5,341` SEC operating filers (excluding Financials/REITs) through forensic accounting gates down to cash floors and compounders. | Executed via deterministic 3-tranche limit ladders (`T1 Market`, `T2 -1x ATR`, `T3 -2x ATR`) with strict `≤ 2% ADDV` sizing in the $100K Model Portfolio. |
 
 </details>
@@ -31,20 +31,20 @@
 ---
 
 > [!NOTE]
-> **VOLATILITY REGIME STATUS: 🚨 HIGH_VOLATILITY_DISLOCATION (VIX 35.9)**
-> Acute market dislocation and forced liquidation are observed. While severe panic creates asymmetric long-term value opportunities (Buffett: 'Be greedy when others are fearful'), order book depth is fragile. Advisory Recommendation: Deploy strictly via deep, patient limit order ladders beneath the tape. Require verified balance-sheet liquidation floors (P <= 0.67 NCAV or FCF Yield >= 15%) and pace capital allocation across consecutive weeks.
+> **VOLATILITY REGIME STATUS: ⚠️ ELEVATED_VOLATILITY_CAUTION (VIX 28.7)**
+> Market volatility is elevated (above the VIX > 23.0 structural skew tripwire). Options market makers typically operate with negative gamma positioning (though modern electronic retail-to-retail facilitation often dampens directional hedging flow). Bid-ask spreads typically widen and intraday slippage increases. Advisory Recommendation: Caution on immediate Tranche 1 market orders; consider placing discount limit bids (-2.5% to -5.0% below the tape) and stage entries over multiple trading sessions. At VIX >= 25.0, option convexity shifts into a Vega-as-a-Flow regime where dealer spreads widen dynamically and wingy put demand accelerates.
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-22 21:52 UTC (Live)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-23 14:53 UTC (Live)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ Comp**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **6,910.4** | **22,617.7** | **2,581.8** | **4.91%** | **$83.41** | **$3,515.40** | **$60,930** | **35.89** |
-| `-3.70% 🔴` | `-5.28% 🔴` | `-2.76% 🔴` | `-14 bps 🟢` | `+0.24% 🔴` | `-4.62% 🔴` | `+1.39% 🟢` | `+7.45 🔴` |
+| **7,197.9** | **23,939.0** | **2,660.5** | **4.96%** | **$81.94** | **$3,666.20** | **$62,718** | **28.66** |
+| `+4.16% 🟢` | `+5.84% 🟢` | `+3.05% 🟢` | `+5 bps 🔴` | `-2.43% 🟢` | `+4.29% 🟢` | `+2.54% 🟢` | `-7.23 🟢` |
 
 ### 🧭 Macro Regime & Economic Vitals
-> 📅 **Macro Vitals Baseline:** As of `2026-11-22` (Current)
+> 📅 **Macro Vitals Baseline:** As of `2026-11-23` (Current)
 
 ```text
 ┌───────────────────────────────────────────────────────────────────────────────┐
@@ -193,7 +193,7 @@
 
 </details>
 
-🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 12 Days: **Non-Farm Payrolls (NFP) & Unemployment** (2026-12-04) | 📅 in 17 Days: **FOMC Rate Decision & Press Conference** (2026-12-09)
+🚨 **MACRO CATALYST COUNTDOWN:** ⚠️ in 11 Days: **Non-Farm Payrolls (NFP) & Unemployment** (2026-12-04) | 📅 in 16 Days: **FOMC Rate Decision & Press Conference** (2026-12-09)
 
 <details markdown="1">
 <summary>📅 <b>Macro Event Radar: 45-Day IV Catalyst Breakdown (Click to Expand Table)</b></summary>
@@ -204,12 +204,12 @@
 
 | Date | Catalyst Event | Countdown | Impact Tier | Options IV Reaction (Transmission Mechanism) |
 | :--- | :--- | :---: | :---: | :--- |
-| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 12 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
-| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 17 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; post-decision press conference (2:30 PM ET) drives rapid IV crush. |
-| **2026-12-10** | Core CPI Inflation Data | 📅 in 18 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
-| **2026-12-11** | PPI Wholesale Inflation | 📅 in 19 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
-| **2026-12-18** | Quarterly OPEX (Triple Witching) | 📅 in 26 Days | 🔥 Critical | Simultaneous expiry of index futures, index options & stock options; massive institutional volume roll. |
-| **2027-01-01** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 40 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-12-04** | Non-Farm Payrolls (NFP) & Unemployment | ⚠️ in 11 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
+| **2026-12-09** | FOMC Rate Decision & Press Conference | 📅 in 16 Days | 🔥 Critical | Policy statement at 2:00 PM ET resets discount rate; post-decision press conference (2:30 PM ET) drives rapid IV crush. |
+| **2026-12-10** | Core CPI Inflation Data | 📅 in 17 Days | 🔥 Critical | Primary Fed inflation anchor; upside surprise drives yield spike & equity multiple compression. |
+| **2026-12-11** | PPI Wholesale Inflation | 📅 in 18 Days | ⚡ High | Upstream wholesale pricing; leading indicator for corporate gross margin compression. |
+| **2026-12-18** | Quarterly OPEX (Triple Witching) | 📅 in 25 Days | 🔥 Critical | Simultaneous expiry of index futures, index options & stock options; massive institutional volume roll. |
+| **2027-01-01** | Non-Farm Payrolls (NFP) & Unemployment | 📅 in 39 Days | ⚡ High | Labor market health gauge; sets recession vs soft-landing trajectory and front-end rate curve. |
 
 </details>
 <!-- END_MACRO_PULSE_STRIP -->
@@ -217,17 +217,17 @@
 ---
 
 # 🎯 Section 1: Yield Stacker Engine (Live Allocations)
-> **Discipline:** Cash Secured Puts on Deep Value survivors, collateralized by 4.12% Treasury Yield floor.
+> **Discipline:** Cash Secured Puts on Deep Value survivors, collateralized by 4.16% Treasury Yield floor.
 > Filtered for Absolute IV > 30%, Delta <= -0.15, OI >= 25, Spread <= 25%, Strike <= $200, and Clear Earnings Window.
 
 <details markdown="1">
 <summary>💡 <b>What is the Yield Stacker Engine? (How CSPs + Treasury Floor Work)</b></summary>
 
-> **The Double Stack Advantage (Independent Income Desk):** Operating across the liquid optionable S&P 1500 universe, collateral sits in short-term U.S. Treasury bills earning `~4.12%` while simultaneously backing short-expiry (`14–45 DTE`, target `~30 DTE`), out-of-the-money Cash-Secured Puts (`-0.15 <= Delta <= -0.05`, `Bid >= $0.25`).
+> **The Double Stack Advantage (Independent Income Desk):** Operating across the liquid optionable S&P 1500 universe, collateral sits in short-term U.S. Treasury bills earning `~4.16%` while simultaneously backing short-expiry (`14–45 DTE`, target `~30 DTE`), out-of-the-money Cash-Secured Puts (`-0.15 <= Delta <= -0.05`, `Bid >= $0.25`).
 
 | Outcome Scenario | Option Expiration Result | Portfolio Return & Capital Impact |
 | :--- | :---: | :--- |
-| **Stock Stays Flat or Rises** | Put expires worthless (`OTM`) | You keep the `~4.12%` Treasury bill yield **plus** 100% of the option `bid` premium (Contractual Stacked Yield). |
+| **Stock Stays Flat or Rises** | Put expires worthless (`OTM`) | You keep the `~4.16%` Treasury bill yield **plus** 100% of the option `bid` premium (Contractual Stacked Yield). |
 | **Stock Drops Below Strike** | Assigned shares at Strike | You acquire shares at the strike price minus the upfront premium collected (exposed to equity downside below net basis). |
 
 </details>
@@ -257,18 +257,25 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`FDS`** | $311.91 | $270.00 | 26 | -0.13 | 52.4% | $1.30 | $3.60 (277%) | **10.88%** | 774 | 🟡 ~46d (Est. Clear) | Premium (High) | 📐 Wide Spread ($3.60 / 277%) |
-| **`OKE`** | $84.75 | $75.00 | 26 | -0.11 | 37.9% | $0.25 | $0.45 (180%) | **8.80%** | 358 | 🟡 ~76d (Est. Clear) | Premium (High) | 📐 Wide Spread ($0.45 / 180%) |
+| **`CBOE`** | $361.38 | $325.00 | 31 | -0.15 | 36.3% | $1.40 | $3.30 (236%) | **9.23%** | 3 | 🟡 ~75d (Est. Clear) | Premium (High) | ⚠️ Thin OI (3) / 📐 Wide Spread ($3.30 / 236%) |
+| **`JBL`** | $242.20 | $185.00 | 31 | -0.09 | 75.5% | $0.70 | $3.40 (486%) | **8.62%** | 10 | 🟡 ~45d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($3.40 / 486%) |
+| **`DVA`** | $154.86 | $125.00 | 25 | -0.07 | 59.1% | $0.30 | $1.10 (367%) | **7.66%** | 618 | 🟡 ~75d (Est. Clear) | Discount Zone | 📐 Wide Spread ($1.10 / 367%) |
+| **`BDX`** | $213.39 | $195.00 | 25 | -0.14 | 30.4% | $0.45 | $1.60 (356%) | **7.53%** | 358 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.60 / 356%) |
+| **`COF`** | $179.95 | $155.00 | 31 | -0.13 | 48.5% | $0.35 | $2.95 (843%) | **6.82%** | 3 | 🟡 ~75d (Est. Clear) | Breakdown | ⚠️ Thin OI (3) / 📐 Wide Spread ($2.95 / 843%) |
 
 <details markdown="1">
-<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Wide-Spread &amp; Earnings-Window Plays (2 Candidates)</b></summary>
+<summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Wide-Spread &amp; Earnings-Window Plays (6 Candidates)</b></summary>
 
 > **Why Tier 2 Plays Are Separated:** Fundamentals and IV passed the primary screen, but option microstructure triggered one or more execution caveats (`OI < 25`, `Spread > 25%`, or **Earnings within the DTE window**). Work limit orders patiently.
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`FDS`** | $311.91 | $270.00 | 26 | -0.13 | 52.4% | $1.30 | $3.60 (277%) | **10.88%** | 774 | 🟡 ~46d (Est. Clear) | Premium (High) | 📐 Wide Spread ($3.60 / 277%) |
-| **`OKE`** | $84.75 | $75.00 | 26 | -0.11 | 37.9% | $0.25 | $0.45 (180%) | **8.80%** | 358 | 🟡 ~76d (Est. Clear) | Premium (High) | 📐 Wide Spread ($0.45 / 180%) |
+| **`CBOE`** | $361.38 | $325.00 | 31 | -0.15 | 36.3% | $1.40 | $3.30 (236%) | **9.23%** | 3 | 🟡 ~75d (Est. Clear) | Premium (High) | ⚠️ Thin OI (3) / 📐 Wide Spread ($3.30 / 236%) |
+| **`JBL`** | $242.20 | $185.00 | 31 | -0.09 | 75.5% | $0.70 | $3.40 (486%) | **8.62%** | 10 | 🟡 ~45d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($3.40 / 486%) |
+| **`DVA`** | $154.86 | $125.00 | 25 | -0.07 | 59.1% | $0.30 | $1.10 (367%) | **7.66%** | 618 | 🟡 ~75d (Est. Clear) | Discount Zone | 📐 Wide Spread ($1.10 / 367%) |
+| **`BDX`** | $213.39 | $195.00 | 25 | -0.14 | 30.4% | $0.45 | $1.60 (356%) | **7.53%** | 358 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.60 / 356%) |
+| **`COF`** | $179.95 | $155.00 | 31 | -0.13 | 48.5% | $0.35 | $2.95 (843%) | **6.82%** | 3 | 🟡 ~75d (Est. Clear) | Breakdown | ⚠️ Thin OI (3) / 📐 Wide Spread ($2.95 / 843%) |
+| **`STT`** | $160.78 | $140.00 | 25 | -0.12 | 47.6% | $0.25 | $2.00 (800%) | **6.77%** | 15 | 🟡 ~75d (Est. Clear) | Premium (High) | ⚠️ Thin OI (15) / 📐 Wide Spread ($2.00 / 800%) |
 
 </details>
 
