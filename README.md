@@ -1,5 +1,5 @@
 # ☕ Antigravity Morning Briefing: Executive Overview (V1.1)
-**Generated:** 2026-11-24 14:41:57 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
+**Generated:** 2026-11-24 15:23:38 UTC | **Engine:** Antigravity V3 Core (Dual-Engine System)
 
 [☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
 
@@ -10,13 +10,13 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY MORNING BRIEFING: 60-SECOND EXECUTIVE DASHBOARD                  │
-│ Generated: 2026-11-24 14:41 UTC | Macro Regime: REFLATION REGIME             │
-│ VIX: 29.34 | Treasury Floor: 4.17% | Core Compounder Posture: 65%            │
+│ Generated: 2026-11-24 15:23 UTC | Macro Regime: REFLATION REGIME             │
+│ VIX: 28.04 | Treasury Floor: 4.17% | Core Compounder Posture: 65%            │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **🎯 Top Yield Stacker Watchlist Pick (0 Tier 1 Liquid CSPs):** `JBL` ($185.00 Strike, 30 DTE, 14.0% Stacked Yield — Tier 2 Caveats)
-- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $62.17, 15.5% FCF Yield, $27.12 Net Cash Floor, Piotroski 9/9)
+- **🎯 Top Yield Stacker Watchlist Pick (0 Tier 1 Liquid CSPs):** `JBL` ($185.00 Strike, 30 DTE, 17.3% Stacked Yield — Tier 2 Caveats)
+- **🛡️ Top Deep-Value Finalist:** `STRT` (Strattec Security — $62.52, 15.4% FCF Yield, $27.12 Net Cash Floor, Piotroski 9/9)
 
 <details markdown="1">
 <summary>💡 <b>How to Trade the 2 Independent Strategy Engines in 60 Seconds (Click to Expand Guide)</b></summary>
@@ -31,17 +31,17 @@
 ---
 
 > [!NOTE]
-> **VOLATILITY REGIME STATUS: ⚠️ ELEVATED_VOLATILITY_CAUTION (VIX 29.3)**
+> **VOLATILITY REGIME STATUS: ⚠️ ELEVATED_VOLATILITY_CAUTION (VIX 28.0)**
 > Market volatility is elevated (above the VIX > 23.0 structural skew tripwire). Options market makers typically operate with negative gamma positioning (though modern electronic retail-to-retail facilitation often dampens directional hedging flow). Bid-ask spreads typically widen and intraday slippage increases. Advisory Recommendation: Caution on immediate Tranche 1 market orders; consider placing discount limit bids (-2.5% to -5.0% below the tape) and stage entries over multiple trading sessions. At VIX >= 25.0, option convexity shifts into a Vega-as-a-Flow regime where dealer spreads widen dynamically and wingy put demand accelerates.
 
 <!-- START_MACRO_PULSE_STRIP -->
 ### 🌐 Global Benchmark Strip (Daily Cross-Asset Pulse)
-> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-24 14:41 UTC (Live)
+> 📸 **SNAPSHOT:** Previous Close / Pre-Market as of 2026-11-24 15:23 UTC (Live)
 
 | **S&P 500**<br>`^GSPC` | **NASDAQ Comp**<br>`^IXIC` | **Russell 2000**<br>`^RUT` | **US 10Y Yield**<br>`^TNX` | **WTI Crude**<br>`CL=F` | **Gold**<br>`GC=F` | **Bitcoin**<br>`BTC-USD` | **VIX**<br>`^VIX` |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **7,175.3** | **23,711.4** | **2,669.7** | **4.90%** | **$81.12** | **$3,615.30** | **$60,423** | **29.34** |
-| `-0.86% 🔴` | `-1.57% 🔴` | `+3.40% 🟢` | `-1 bps 🟢` | `+1.18% 🔴` | `-0.99% 🔴` | `-1.29% 🔴` | `+2.72 🔴` |
+| **7,176.2** | **23,654.6** | **2,676.9** | **4.91%** | **$81.19** | **$3,604.10** | **$59,748** | **28.04** |
+| `-0.84% 🔴` | `-1.81% 🔴` | `+0.27% 🟢` | `-1 bps 🟢` | `+1.27% 🔴` | `-1.30% 🔴` | `-2.39% 🔴` | `+1.42 🔴` |
 
 ### 🧭 Macro Regime & Economic Vitals
 > 📅 **Macro Vitals Baseline:** As of `2026-11-24` (Current)
@@ -249,7 +249,7 @@
 
 </details>
 
-> ⚠️ **Non-Standard Adjusted Contracts Excluded (195):** `BDX` (BDX1  261218P00120000 [100 BDX, 13 WAT, $182.45], BDX1  261218P00125000 [100 BDX, 13 WAT, $182.45], BDX1  261218P00130000 [100 BDX, 13 WAT, $182.45], +58 more); `COF` (COF1  270115P00085000 [101 COF, $182.70], COF1  270115P00090000 [101 COF, $182.70], COF1  270115P00095000 [101 COF, $182.70], +17 more); `DD` (DD1   261218P00070000 [33 DD, 50 Q, $46.08], DD2   261218P00070000 [33 DD, $46.08], DD1   261218P00075000 [33 DD, 50 Q, $46.08], +53 more); `DVN` (DVN1  261218P00025000 [70 DVN], DVN1  261218P00027000 [70 DVN], DVN1  261218P00030000 [70 DVN], +55 more)
+> ⚠️ **Non-Standard Adjusted Contracts Excluded (195):** `BDX` (BDX1  261218P00125000 [100 BDX, 13 WAT, $182.45], BDX1  261218P00130000 [100 BDX, 13 WAT, $182.45], BDX1  261218P00135000 [100 BDX, 13 WAT, $182.45], +58 more); `COF` (COF1  270115P00085000 [101 COF, $182.70], COF1  270115P00090000 [101 COF, $182.70], COF1  270115P00095000 [101 COF, $182.70], +17 more); `DD` (DD1   261218P00070000 [33 DD, 50 Q, $46.08], DD2   261218P00070000 [33 DD, $46.08], DD1   261218P00075000 [33 DD, 50 Q, $46.08], +53 more); `DVN` (DVN1  261218P00025000 [70 DVN], DVN1  261218P00027000 [70 DVN], DVN1  261218P00030000 [70 DVN], +55 more)
 
 ## 🏆 Top 5 Prime-Cut Allocations (0 Liquid Tier 1 CSPs Qualified — Top 5 Tier 2 Watchlist)
 
@@ -257,11 +257,11 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`JBL`** | $232.20 | $185.00 | 30 | -0.11 | 71.3% | $1.50 | $2.60 (173%) | **14.03%** | 10 | 🟡 ~44d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($2.60 / 173%) |
-| **`COF`** | $180.94 | $155.00 | 30 | -0.10 | 41.8% | $0.55 | $0.95 (173%) | **8.49%** | 3 | 🟡 ~74d (Est. Clear) | Breakdown | ⚠️ Thin OI (3) / 📐 Wide Spread ($0.95 / 173%) |
-| **`NTRS`** | $166.60 | $150.00 | 24 | -0.13 | 36.3% | $0.40 | $1.40 (350%) | **8.23%** | 188 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.40 / 350%) |
-| **`DD`** | $150.41 | $135.00 | 24 | -0.10 | 31.4% | $0.35 | $0.55 (157%) | **8.11%** | 11 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (11) / 📐 Wide Spread ($0.55 / 157%) |
-| **`FDS`** | $318.17 | $260.00 | 24 | -0.11 | 63.4% | $0.50 | $4.90 (980%) | **7.09%** | 317 | 🟡 ~44d (Est. Clear) | Premium (High) | 📐 Wide Spread ($4.90 / 980%) |
+| **`JBL`** | $226.27 | $185.00 | 30 | -0.13 | 69.7% | $2.00 | $2.50 (125%) | **17.32%** | 10 | 🟡 ~44d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($2.50 / 125%) |
+| **`CBOE`** | $363.23 | $325.00 | 30 | -0.14 | 37.7% | $1.55 | $3.05 (197%) | **9.97%** | 3 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (3) / 📐 Wide Spread ($3.05 / 197%) |
+| **`BDX`** | $220.41 | $200.00 | 24 | -0.12 | 30.4% | $0.75 | $0.50 (67%) | **9.87%** | 37 | 🟡 ~73d (Est. Clear) | Premium (High) | 📐 Wide Spread ($0.50 / 67%) |
+| **`DD`** | $150.44 | $135.00 | 24 | -0.10 | 32.0% | $0.40 | $0.50 (125%) | **8.68%** | 11 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (11) / 📐 Wide Spread ($0.50 / 125%) |
+| **`NTRS`** | $165.76 | $150.00 | 24 | -0.13 | 35.5% | $0.40 | $1.20 (300%) | **8.23%** | 188 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.20 / 300%) |
 
 <details markdown="1">
 <summary>⚠️ <b>Click to Expand Tier 2 Watchlist: Thin-OI, Wide-Spread &amp; Earnings-Window Plays (9 Candidates)</b></summary>
@@ -270,15 +270,15 @@
 
 | Ticker | Spot Price | Strike | DTE | Delta | Absolute IV | Bid Premium | Spread % | Stacked Annual | Open Int | Earnings | Fib Zone | Structure / Caveat |
 | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`JBL`** | $232.20 | $185.00 | 30 | -0.11 | 71.3% | $1.50 | $2.60 (173%) | **14.03%** | 10 | 🟡 ~44d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($2.60 / 173%) |
-| **`COF`** | $180.94 | $155.00 | 30 | -0.10 | 41.8% | $0.55 | $0.95 (173%) | **8.49%** | 3 | 🟡 ~74d (Est. Clear) | Breakdown | ⚠️ Thin OI (3) / 📐 Wide Spread ($0.95 / 173%) |
-| **`NTRS`** | $166.60 | $150.00 | 24 | -0.13 | 36.3% | $0.40 | $1.40 (350%) | **8.23%** | 188 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.40 / 350%) |
-| **`DD`** | $150.41 | $135.00 | 24 | -0.10 | 31.4% | $0.35 | $0.55 (157%) | **8.11%** | 11 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (11) / 📐 Wide Spread ($0.55 / 157%) |
-| **`FDS`** | $318.17 | $260.00 | 24 | -0.11 | 63.4% | $0.50 | $4.90 (980%) | **7.09%** | 317 | 🟡 ~44d (Est. Clear) | Premium (High) | 📐 Wide Spread ($4.90 / 980%) |
-| **`DVA`** | $160.36 | $130.00 | 24 | -0.06 | 53.8% | $0.25 | $0.65 (260%) | **7.09%** | 472 | 🟡 ~74d (Est. Clear) | Discount Zone | 📐 Wide Spread ($0.65 / 260%) |
-| **`STT`** | $160.68 | $140.00 | 24 | -0.12 | 46.6% | $0.25 | $1.90 (760%) | **6.89%** | 15 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (15) / 📐 Wide Spread ($1.90 / 760%) |
-| **`COR`** | $340.08 | $300.00 | 24 | -0.09 | 37.4% | $0.35 | $2.20 (629%) | **5.94%** | 336 | 🟡 ~73d (Est. Clear) | Premium (High) | 📐 Wide Spread ($2.20 / 629%) |
-| **`CBOE`** | $358.77 | $310.00 | 30 | -0.10 | 39.6% | $0.30 | $3.30 (1100%) | **5.35%** | 1 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (1) / 📐 Wide Spread ($3.30 / 1100%) |
+| **`JBL`** | $226.27 | $185.00 | 30 | -0.13 | 69.7% | $2.00 | $2.50 (125%) | **17.32%** | 10 | 🟡 ~44d (Est. Clear) | Deep Discount | ⚠️ Thin OI (10) / 📐 Wide Spread ($2.50 / 125%) |
+| **`CBOE`** | $363.23 | $325.00 | 30 | -0.14 | 37.7% | $1.55 | $3.05 (197%) | **9.97%** | 3 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (3) / 📐 Wide Spread ($3.05 / 197%) |
+| **`BDX`** | $220.41 | $200.00 | 24 | -0.12 | 30.4% | $0.75 | $0.50 (67%) | **9.87%** | 37 | 🟡 ~73d (Est. Clear) | Premium (High) | 📐 Wide Spread ($0.50 / 67%) |
+| **`DD`** | $150.44 | $135.00 | 24 | -0.10 | 32.0% | $0.40 | $0.50 (125%) | **8.68%** | 11 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (11) / 📐 Wide Spread ($0.50 / 125%) |
+| **`NTRS`** | $165.76 | $150.00 | 24 | -0.13 | 35.5% | $0.40 | $1.20 (300%) | **8.23%** | 188 | 🟡 ~74d (Est. Clear) | Premium (High) | 📐 Wide Spread ($1.20 / 300%) |
+| **`FDS`** | $319.19 | $260.00 | 24 | -0.11 | 66.7% | $0.65 | $4.75 (731%) | **7.97%** | 317 | 🟡 ~44d (Est. Clear) | Premium (High) | 📐 Wide Spread ($4.75 / 731%) |
+| **`COF`** | $181.92 | $155.00 | 30 | -0.09 | 42.2% | $0.35 | $1.15 (329%) | **6.92%** | 3 | 🟡 ~74d (Est. Clear) | Breakdown | ⚠️ Thin OI (3) / 📐 Wide Spread ($1.15 / 329%) |
+| **`STT`** | $159.98 | $140.00 | 24 | -0.12 | 47.8% | $0.25 | $1.90 (760%) | **6.89%** | 15 | 🟡 ~74d (Est. Clear) | Premium (High) | ⚠️ Thin OI (15) / 📐 Wide Spread ($1.90 / 760%) |
+| **`COR`** | $343.41 | $300.00 | 24 | -0.09 | 39.8% | $0.35 | $2.20 (629%) | **5.94%** | 336 | 🟡 ~73d (Est. Clear) | Premium (High) | 📐 Wide Spread ($2.20 / 629%) |
 
 </details>
 
@@ -289,7 +289,7 @@
 > - **Step A Dilution Vampire Sieve:** Quarantines cash-burning equity diluters (`FCF < 0` AND `1Y Share Dilution > +15.0%` or `Stock Issuance ≥ 10%` of Market Cap).
 > - **The 4 Hunting Buckets:** `1_CASH` / `1_TBV` (Net Cash / NCAV / Tangible Book floor) | `2_FCF` (`≥ 12%` FCF yield operating turnaround) | `3_BUYBACK` (Aggressive share cannibal `≤ -3%` net of SBC) | `4_INSIDER` (Cluster insider buying).
 > - **Stage 1 Convergence Filter:** Requires `≥ 2` Hunting Buckets, `Piotroski F-Score ≥ 6`, `1Y Share Dilution ≤ +5.0%`, `SBC % OCF ≤ 30.0%` (or `NR` flagged for 10-K audit), `Altman Z ≥ 1.81` (or Net Cash > $0.00), `TTM Revenue ≥ $10M`, and `Market Cap ≥ $15M`.
-> - **Funnel Attrition:** Compresses `5,341` operating companies down to **`15` strict forensic survivors** (`99.7%` selectivity rate).
+> - **Funnel Attrition:** Compresses `5,341` operating companies down to **`14` strict forensic survivors** (`99.7%` selectivity rate).
 
 <details markdown="1">
 <summary>💡 <b>What is Multi-Bucket Convergence? (Vampire Sieve + 4 Hunting Buckets)</b></summary>
@@ -301,7 +301,7 @@
 | **Bucket `2_FCF`** | Trailing Free Cash Flow Yield `≥ 12.0%` & Debt Payback `≤ 4.0x` | High organic cash generation relative to market price and debt load. |
 | **Bucket `3_BUYBACK`** | Net Share Count shrinking `≤ -3.0%` YoY/5Y via cash repurchases | Management retiring diluted share count net of SBC and increasing per-share value. |
 | **Bucket `4_INSIDER`** | Form 4 C-Suite open-market cluster buying (`Code P`) | Executives deploying personal after-tax cash on the open market. |
-| **Funnel Selectivity** | `5,341` Active Filers → `15` Survivors (`99.7%` Attrition) | `Selectivity % = (1 - Survivors / Operating) × 100`. Dynamically recomputed each scan across `≥ 2` Buckets + Piotroski, Altman Z, and SBC gates. |
+| **Funnel Selectivity** | `5,341` Active Filers → `14` Survivors (`99.7%` Attrition) | `Selectivity % = (1 - Survivors / Operating) × 100`. Dynamically recomputed each scan across `≥ 2` Buckets + Piotroski, Altman Z, and SBC gates. |
 
 </details>
 
@@ -335,31 +335,31 @@
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`STRT`** | Strattec Security Corp | $62.17 | $250.5M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`9/9`** | `4.69` (Safe) | `NR` | **15.47%** | $27.12 | $43.79 | $59.03 | -3.72% | 7.11% | N/A | [STRT Card](https://bobmahalo.github.io/Single-Stock-Scan/STRT.html) |
-| **`UEIC`** | Universal Electronics In | $5.58 | $72.0M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.91` (Grey) | -3.36 | **12.51%** | $1.03 | $6.04 | $10.82 | -3.45% | 18.60% | N/A | [UEIC Card](https://bobmahalo.github.io/Single-Stock-Scan/UEIC.html) |
-| **`HOG`** | Harley-Davidson, Inc. | $32.69 | $3.3B | `1_TBV` \| `3_BUYBACK` \| `4_INSIDER` | **`8/9`** | `2.01` (Grey) | `NR` | **9.45%** | -$3.41 | $2.82 | $29.39 | -14.52% | 7.33% | $1,439,491 | [HOG Card](https://bobmahalo.github.io/Single-Stock-Scan/HOG.html) |
-| **`LRN`** | Stride, Inc. | $76.24 | $3.2B | `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`7/9`** | `5.05` (Safe) | -2.42 | **15.74%** | $2.83 | $21.29 | $33.67 | -4.13% | 4.49% | $39,585,245 | [LRN Card](https://bobmahalo.github.io/Single-Stock-Scan/LRN.html) |
-| **`EXE`** | Expand Energy Corp | $82.44 | $19.0B | `1_TBV` \| `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`7/9`** | `2.24` (Grey) | `NR` | **13.61%** | -$19.92 | -$30.94 | $78.24 | -3.03% | 0.80% | $368,020 | [EXE Card](https://bobmahalo.github.io/Single-Stock-Scan/EXE.html) |
-| **`CRMD`** | Cormedix Inc. | $5.08 | $404.1M | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`6/9`** | `1.53` (Distress) | `NR` | **76.19%** | $4.42 | $0.59 | $1.05 | +0.95% | 5.18% | $588,195 | [CRMD Card](https://bobmahalo.github.io/Single-Stock-Scan/CRMD.html) |
-| **`LOVE`** | Lovesac Co | $13.80 | $199.0M | `1_TBV` \| `2_FCF` \| `4_INSIDER` | **`6/9`** | `2.00` (Grey) | `NR` | **22.76%** | -$8.47 | -$6.25 | $14.36 | -1.28% | 6.12% | $490,146 | [LOVE Card](https://bobmahalo.github.io/Single-Stock-Scan/LOVE.html) |
-| **`DINO`** | Hf Sinclair Corp | $89.76 | $15.4B | `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`6/9`** | `4.34` (Safe) | `NR` | **21.26%** | $0.99 | $0.48 | $49.26 | -6.84% | 1.04% | $2,487,511 | [DINO Card](https://bobmahalo.github.io/Single-Stock-Scan/DINO.html) |
+| **`STRT`** | Strattec Security Corp | $62.52 | $252.0M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`9/9`** | `4.70` (Safe) | `NR` | **15.38%** | $27.12 | $43.79 | $59.03 | -3.72% | 7.11% | $286,430 | [STRT Card](https://bobmahalo.github.io/Single-Stock-Scan/STRT.html) |
+| **`UEIC`** | Universal Electronics In | $5.15 | $66.5M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.88` (Grey) | -3.36 | **13.56%** | $1.03 | $6.04 | $10.82 | -3.45% | 18.60% | $0 | [UEIC Card](https://bobmahalo.github.io/Single-Stock-Scan/UEIC.html) |
+| **`HOG`** | Harley-Davidson, Inc. | $33.62 | $3.4B | `1_TBV` \| `3_BUYBACK` \| `4_INSIDER` | **`8/9`** | `2.02` (Grey) | `NR` | **9.19%** | -$3.41 | $2.82 | $29.39 | -14.52% | 7.33% | $1,439,491 | [HOG Card](https://bobmahalo.github.io/Single-Stock-Scan/HOG.html) |
+| **`LRN`** | Stride, Inc. | $77.95 | $3.3B | `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`7/9`** | `5.10` (Safe) | -2.42 | **15.39%** | $2.83 | $21.29 | $33.67 | -4.13% | 4.49% | $39,585,245 | [LRN Card](https://bobmahalo.github.io/Single-Stock-Scan/LRN.html) |
+| **`EXE`** | Expand Energy Corp | $81.62 | $18.9B | `1_TBV` \| `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`7/9`** | `2.23` (Grey) | `NR` | **13.75%** | -$19.92 | -$30.94 | $78.24 | -3.03% | 0.80% | $368,020 | [EXE Card](https://bobmahalo.github.io/Single-Stock-Scan/EXE.html) |
+| **`CRMD`** | Cormedix Inc. | $5.54 | $440.6M | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`6/9`** | `1.58` (Distress) | `NR` | **69.87%** | $4.42 | $0.59 | $1.05 | +0.95% | 5.18% | $588,195 | [CRMD Card](https://bobmahalo.github.io/Single-Stock-Scan/CRMD.html) |
+| **`LOVE`** | Lovesac Co | $13.76 | $198.5M | `1_TBV` \| `2_FCF` \| `4_INSIDER` | **`6/9`** | `2.00` (Grey) | `NR` | **22.82%** | -$8.47 | -$6.25 | $14.36 | -1.28% | 6.12% | $490,146 | [LOVE Card](https://bobmahalo.github.io/Single-Stock-Scan/LOVE.html) |
+| **`DINO`** | Hf Sinclair Corp | $86.07 | $14.7B | `2_FCF` \| `3_BUYBACK` \| `4_INSIDER` | **`6/9`** | `4.30` (Safe) | `NR` | **22.18%** | $0.99 | $0.48 | $49.26 | -6.84% | 1.04% | $2,487,511 | [DINO Card](https://bobmahalo.github.io/Single-Stock-Scan/DINO.html) |
 
 ## 🛡️ Tier 2: Sub-`$5.00` Liquid Balance-Sheet Cash Floors & Net-Nets
 > Micro- and small-cap deep-value qualifiers trading at or near <= $5.00/sh with liquid net cash floors, high FCF yields, or insider alignment:
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | Beneish M | FCF Yield | Net Cash/Sh | Graham NCAV/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`DLTH`** | Duluth Holdings Inc. | $3.91 | $142.2M | `1_TBV` \| `2_FCF` | **`7/9`** | `2.37` (Grey) | `NR` | **40.45%** | -$1.71 | -$0.99 | $4.88 | +4.98% | 4.34% | N/A | [DLTH Card](https://bobmahalo.github.io/Single-Stock-Scan/DLTH.html) |
-| **`CRMD`** | Cormedix Inc. | $5.08 | $404.1M | `1_CASH` \| `2_FCF` \| `4_INSIDER` | **`6/9`** | `1.53` (Distress) | `NR` | **76.19%** | $4.42 | $0.59 | $1.05 | +0.95% | 5.18% | $588,195 | [CRMD Card](https://bobmahalo.github.io/Single-Stock-Scan/CRMD.html) |
-| **`SND`** | Smart Sand, Inc. | $4.81 | $209.3M | `1_TBV` \| `2_FCF` | **`6/9`** | `2.84` (Grey) | `NR` | **17.75%** | -$0.50 | -$0.24 | $5.49 | -0.08% | 6.74% | $19,998 | [SND Card](https://bobmahalo.github.io/Single-Stock-Scan/SND.html) |
+| **`UEIC`** | Universal Electronics In | $5.15 | $66.5M | `1_CASH` \| `2_FCF` \| `3_BUYBACK` | **`8/9`** | `2.88` (Grey) | -3.36 | **13.56%** | $1.03 | $6.04 | $10.82 | -3.45% | 18.60% | $0 | [UEIC Card](https://bobmahalo.github.io/Single-Stock-Scan/UEIC.html) |
+| **`DLTH`** | Duluth Holdings Inc. | $3.77 | $137.2M | `1_TBV` \| `2_FCF` | **`7/9`** | `2.36` (Grey) | `NR` | **41.95%** | -$1.71 | -$0.99 | $4.88 | +4.98% | 4.34% | $62,394 | [DLTH Card](https://bobmahalo.github.io/Single-Stock-Scan/DLTH.html) |
+| **`SND`** | Smart Sand, Inc. | $4.40 | $191.4M | `1_TBV` \| `2_FCF` | **`6/9`** | `2.74` (Grey) | `NR` | **19.40%** | -$0.50 | -$0.24 | $5.49 | -0.08% | 6.74% | $19,998 | [SND Card](https://bobmahalo.github.io/Single-Stock-Scan/SND.html) |
 
 ## 📈 Tier 3: Small-Cap High-Piotroski (`8/9`–`9/9`) Cannibal Compounders
 > Higher-liquidity compounders repurchasing up to `-15%` of their shares over the trailing year with elite Piotroski health scores:
 
 | Ticker | Company | Price | Market Cap | Buckets Matched | Piotroski | Altman Z | FCF Yield | Net Cash/Sh | TBV/Sh | 1Y Shares | SBC % OCF | 12M Insider Net Buy | SSR Dossier |
 | :--- | :--- | :-: | :-: | :--- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--- |
-| **`PYPL`** | Paypal Holdings, Inc. | $56.37 | $46.8B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `1.90` (Grey) | **13.45%** | -$4.77 | $10.25 | **-11.22%** | 13.77% | $254,537 | [PYPL Card](https://bobmahalo.github.io/Single-Stock-Scan/PYPL.html) |
-| **`ZUMZ`** | Zumiez Inc | $13.21 | $202.5M | `1_TBV` \| `3_BUYBACK` | **`8/9`** | `2.35` (Grey) | **12.38%** | -$11.54 | $16.20 | **-10.63%** | 21.28% | $134,000 | [ZUMZ Card](https://bobmahalo.github.io/Single-Stock-Scan/ZUMZ.html) |
+| **`PYPL`** | Paypal Holdings, Inc. | $56.09 | $46.6B | `2_FCF` \| `3_BUYBACK` | **`8/9`** | `1.90` (Grey) | **13.52%** | -$4.77 | $10.25 | **-11.22%** | 13.77% | $254,537 | [PYPL Card](https://bobmahalo.github.io/Single-Stock-Scan/PYPL.html) |
+| **`ZUMZ`** | Zumiez Inc | $14.00 | $214.6M | `1_TBV` \| `3_BUYBACK` | **`8/9`** | `2.37` (Grey) | **11.68%** | -$11.54 | $16.20 | **-10.63%** | 21.28% | $134,000 | [ZUMZ Card](https://bobmahalo.github.io/Single-Stock-Scan/ZUMZ.html) |
 
 > [!WARNING]
 > **Forensic Sieve Alert (Why Stage 1 Quarantined 54 Multi-Bucket Traps):**
@@ -375,27 +375,26 @@
 > - **Capital Preservation:** Overflow capital from constrained positions routes into the Treasury Yield / Dry Powder Floor.
 
 ### 1. Portfolio Allocation & Liquidity Matrix ($100k Benchmark Book)
-- **Deployed Equity Capital:** `$38,500.20` (`38.5%` across 15 finalists)
-- **Cash & Treasury Floor Reserve:** `$61,499.80` (`61.5%`)
+- **Deployed Equity Capital:** `$33,000.20` (`33.0%` across 14 finalists)
+- **Cash & Treasury Floor Reserve:** `$66,999.80` (`67.0%`)
 - **ADDV Liquidity Cap:** `2.0%` max of 30-day ADV (Zero Tape Distortion)
 
 | Ticker | Company Name | Basket Tier | Price | 30d ADDV | ADDV 2% Cap | Sized Allocation | Port Weight | Target Shares | Liquidity Status |
 | :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| **`EXE`** | EXPAND ENERGY Corp | Cash Cow / Deep Value | $82.44 | $245,094,944 | $4,901,899 | **$1,167** | **1.2%** | 14 | `PASS` |
-| **`STRT`** | STRATTEC SECURITY CORP | Cash Cow / Deep Value | $62.17 | $3,583,790 | $71,676 | **$1,167** | **1.2%** | 19 | `PASS` |
-| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Cash Cow / Deep Value | $5.58 | $709,134 | $14,183 | **$1,167** | **1.2%** | 243 | `PASS` |
-| **`HOG`** | HARLEY-DAVIDSON, INC. | Tier 3 | $32.69 | $78,611,768 | $1,572,235 | **$2,800** | **2.8%** | 90 | `PASS` |
-| **`LRN`** | Stride, Inc. | Tier 1 | $76.24 | $67,370,620 | $1,347,412 | **$5,500** | **5.5%** | 76 | `PASS` |
-| **`CRMD`** | CorMedix Inc. | Quarantined / Defensively Scaled | $5.08 | $12,494,920 | $249,898 | **$1,000** | **1.0%** | 235 | `PASS` |
-| **`LOVE`** | Lovesac Co | Tier 3 | $13.80 | $2,697,141 | $53,943 | **$2,800** | **2.8%** | 227 | `PASS` |
-| **`DINO`** | HF Sinclair Corp | Tier 3 | $89.76 | $230,327,750 | $4,606,555 | **$2,800** | **2.8%** | 34 | `PASS` |
-| **`PYPL`** | PayPal Holdings, Inc. | Tier 1 | $56.37 | $610,789,525 | $12,215,790 | **$5,500** | **5.5%** | 103 | `PASS` |
-| **`ZUMZ`** | Zumiez Inc | Cash Cow / Deep Value | $13.21 | $2,620,864 | $52,417 | **$1,167** | **1.2%** | 99 | `PASS` |
-| **`DLTH`** | DULUTH HOLDINGS INC. | Cash Cow / Deep Value | $3.91 | $215,226 | $4,305 | **$1,167** | **1.2%** | 333 | `PASS` |
-| **`M`** | Macy's, Inc. | Cash Cow / Deep Value | $23.76 | $130,524,966 | $2,610,499 | **$1,167** | **1.2%** | 52 | `PASS` |
-| **`ADBE`** | ADOBE INC. | Tier 1 | $221.68 | $948,432,387 | $18,968,648 | **$5,500** | **5.5%** | 25 | `PASS` |
-| **`UFI`** | UNIFI INC | Tier 3 | $5.62 | $889,899 | $17,798 | **$2,800** | **2.8%** | 531 | `PASS` |
-| **`SND`** | Smart Sand, Inc. | Tier 3 | $4.81 | $1,503,077 | $30,062 | **$2,800** | **2.8%** | 663 | `PASS` |
+| **`STRT`** | STRATTEC SECURITY CORP | Cash Cow / Deep Value | $62.52 | $3,603,965 | $72,079 | **$1,167** | **1.2%** | 19 | `PASS` |
+| **`EXE`** | EXPAND ENERGY Corp | Cash Cow / Deep Value | $81.62 | $242,657,076 | $4,853,142 | **$1,167** | **1.2%** | 14 | `PASS` |
+| **`UEIC`** | UNIVERSAL ELECTRONICS INC | Cash Cow / Deep Value | $5.15 | $654,488 | $13,090 | **$1,167** | **1.2%** | 268 | `PASS` |
+| **`HOG`** | HARLEY-DAVIDSON, INC. | Tier 3 | $33.62 | $80,848,199 | $1,616,964 | **$2,800** | **2.8%** | 87 | `PASS` |
+| **`LRN`** | Stride, Inc. | Tier 1 | $77.95 | $68,881,687 | $1,377,634 | **$5,500** | **5.5%** | 74 | `PASS` |
+| **`CRMD`** | CorMedix Inc. | Quarantined / Defensively Scaled | $5.54 | $13,626,350 | $272,527 | **$1,000** | **1.0%** | 214 | `PASS` |
+| **`LOVE`** | Lovesac Co | Tier 3 | $13.76 | $2,689,323 | $53,786 | **$2,800** | **2.8%** | 228 | `PASS` |
+| **`DINO`** | HF Sinclair Corp | Tier 3 | $86.07 | $220,859,063 | $4,417,181 | **$2,800** | **2.8%** | 36 | `PASS` |
+| **`PYPL`** | PayPal Holdings, Inc. | Tier 1 | $56.09 | $607,755,623 | $12,155,112 | **$5,500** | **5.5%** | 103 | `PASS` |
+| **`ZUMZ`** | Zumiez Inc | Cash Cow / Deep Value | $14.00 | $2,777,600 | $55,552 | **$1,167** | **1.2%** | 93 | `PASS` |
+| **`DLTH`** | DULUTH HOLDINGS INC. | Cash Cow / Deep Value | $3.77 | $207,520 | $4,150 | **$1,167** | **1.2%** | 348 | `PASS` |
+| **`M`** | Macy's, Inc. | Cash Cow / Deep Value | $23.89 | $131,239,118 | $2,624,782 | **$1,167** | **1.2%** | 52 | `PASS` |
+| **`UFI`** | UNIFI INC | Tier 3 | $5.60 | $886,732 | $17,735 | **$2,800** | **2.8%** | 533 | `PASS` |
+| **`SND`** | Smart Sand, Inc. | Tier 3 | $4.40 | $1,374,956 | $27,499 | **$2,800** | **2.8%** | 736 | `PASS` |
 
 ### 2. Actionable 3-Tranche Ladder Entry Orders
 > **Execution Rule:** Tranche 1 is established immediately at market upon passing Stage 2 forensic triage.
@@ -403,45 +402,43 @@
 
 | Ticker | Current Price | Total Sized | Tranche 1 (Market 33.3%) | Tranche 2 (-6.0% Retest Limit) | Tranche 3 (-12.5% Flush Limit) | Total Shares |
 | :--- | ---: | ---: | :--- | :--- | :--- | ---: |
-| **`EXE`** | $82.44 | $1,166.70 | **$82.44** (4 sh) | **$77.55** (5 sh) | **$72.67** (5 sh) | **14** |
-| **`STRT`** | $62.17 | $1,166.70 | **$62.17** (6 sh) | **$56.39** (6 sh) | **$50.62** (7 sh) | **19** |
-| **`UEIC`** | $5.58 | $1,166.70 | **$5.58** (69 sh) | **$4.84** (80 sh) | **$4.11** (94 sh) | **243** |
-| **`HOG`** | $32.69 | $2,800.00 | **$32.69** (28 sh) | **$30.54** (30 sh) | **$28.39** (32 sh) | **90** |
-| **`LRN`** | $76.24 | $5,500.00 | **$76.24** (24 sh) | **$71.31** (25 sh) | **$66.38** (27 sh) | **76** |
-| **`CRMD`** | $5.08 | $1,000.00 | **$5.08** (65 sh) | **$4.32** (77 sh) | **$3.56** (93 sh) | **235** |
-| **`LOVE`** | $13.80 | $2,800.00 | **$13.80** (67 sh) | **$12.33** (75 sh) | **$10.86** (85 sh) | **227** |
-| **`DINO`** | $89.76 | $2,800.00 | **$89.76** (10 sh) | **$78.91** (11 sh) | **$68.05** (13 sh) | **34** |
-| **`PYPL`** | $56.37 | $5,500.00 | **$56.37** (32 sh) | **$52.82** (34 sh) | **$49.27** (37 sh) | **103** |
-| **`ZUMZ`** | $13.21 | $1,166.70 | **$13.21** (29 sh) | **$11.75** (33 sh) | **$10.28** (37 sh) | **99** |
-| **`DLTH`** | $3.91 | $1,166.70 | **$3.91** (99 sh) | **$3.52** (110 sh) | **$3.12** (124 sh) | **333** |
-| **`M`** | $23.76 | $1,166.70 | **$23.76** (16 sh) | **$21.86** (17 sh) | **$19.97** (19 sh) | **52** |
-| **`ADBE`** | $221.68 | $5,500.00 | **$221.68** (8 sh) | **$208.38** (8 sh) | **$193.97** (9 sh) | **25** |
-| **`UFI`** | $5.62 | $2,800.00 | **$5.62** (166 sh) | **$5.28** (176 sh) | **$4.92** (189 sh) | **531** |
-| **`SND`** | $4.81 | $2,800.00 | **$4.81** (194 sh) | **$4.26** (219 sh) | **$3.72** (250 sh) | **663** |
+| **`STRT`** | $62.52 | $1,166.70 | **$62.52** (6 sh) | **$56.74** (6 sh) | **$50.97** (7 sh) | **19** |
+| **`EXE`** | $81.62 | $1,166.70 | **$81.62** (4 sh) | **$76.73** (5 sh) | **$71.85** (5 sh) | **14** |
+| **`UEIC`** | $5.15 | $1,166.70 | **$5.15** (75 sh) | **$4.41** (88 sh) | **$3.68** (105 sh) | **268** |
+| **`HOG`** | $33.62 | $2,800.00 | **$33.62** (27 sh) | **$31.47** (29 sh) | **$29.32** (31 sh) | **87** |
+| **`LRN`** | $77.95 | $5,500.00 | **$77.95** (23 sh) | **$73.02** (25 sh) | **$68.09** (26 sh) | **74** |
+| **`CRMD`** | $5.54 | $1,000.00 | **$5.54** (60 sh) | **$4.73** (70 sh) | **$3.93** (84 sh) | **214** |
+| **`LOVE`** | $13.76 | $2,800.00 | **$13.76** (67 sh) | **$12.29** (75 sh) | **$10.82** (86 sh) | **228** |
+| **`DINO`** | $86.07 | $2,800.00 | **$86.07** (10 sh) | **$75.22** (12 sh) | **$64.35** (14 sh) | **36** |
+| **`PYPL`** | $56.09 | $5,500.00 | **$56.09** (32 sh) | **$52.55** (34 sh) | **$48.99** (37 sh) | **103** |
+| **`ZUMZ`** | $14.00 | $1,166.70 | **$14.00** (27 sh) | **$12.54** (31 sh) | **$11.07** (35 sh) | **93** |
+| **`DLTH`** | $3.77 | $1,166.70 | **$3.77** (103 sh) | **$3.37** (115 sh) | **$2.98** (130 sh) | **348** |
+| **`M`** | $23.89 | $1,166.70 | **$23.89** (16 sh) | **$22.00** (17 sh) | **$20.10** (19 sh) | **52** |
+| **`UFI`** | $5.60 | $2,800.00 | **$5.60** (166 sh) | **$5.26** (177 sh) | **$4.90** (190 sh) | **533** |
+| **`SND`** | $4.40 | $2,800.00 | **$4.40** (212 sh) | **$3.85** (242 sh) | **$3.31** (282 sh) | **736** |
 
 ### 3. Deterministic Valuation Exits & Stop Disciplines
 
 | Ticker | Strategy Model | Target 1 (Scale 1) | Upside 1 | Target 2 (Scale 2) | Upside 2 | Hard Stop | Stop Condition |
 | :--- | :--- | :--- | ---: | :--- | ---: | :--- | :--- |
-| **`EXE`** | `DEEP_VALUE_MEAN_REVERSION` | **$103.05** (Cash Multiple Re-Rating Target) | `+25.0%` | **$123.66** (Full Historical Valuation Exit) | `+50.0%` | **$65.62** | Structural Degradation Stop (-15.0% from VWAP $77.20) |
-| **`STRT`** | `DEEP_VALUE_MEAN_REVERSION` | **$77.71** (Cash Multiple Re-Rating Target) | `+25.0%` | **$93.25** (Full Historical Valuation Exit) | `+50.0%` | **$47.68** | Structural Degradation Stop (-15.0% from VWAP $56.09) |
-| **`UEIC`** | `DEEP_VALUE_MEAN_REVERSION` | **$6.97** (Cash Multiple Re-Rating Target) | `+25.0%` | **$8.37** (Full Historical Valuation Exit) | `+50.0%` | **$4.05** | Structural Degradation Stop (-15.0% from VWAP $4.77) |
-| **`HOG`** | `TURNAROUND_CATALYST_EXIT` | **$44.13** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$57.37** (Catalyst Exuberance Target) | `+75.5%` | **$24.35** | Turnaround Failure Stop (-20.0% from VWAP $30.44) |
-| **`LRN`** | `COMPOUNDER_FCF_TRAIL` | **$122.83** (10% FCF Yield Valuation Anchor) | `+61.1%` | **$152.83** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+100.5%` | **$60.45** | Structural Degradation Stop (-15.0% from VWAP $71.12) |
-| **`CRMD`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$6.10** (Tangible Book Recovery Target) | `+20.1%` | **$7.01** (Speculative Liquidation Cleanout) | `+38.0%` | **$3.60** | Liquidation Burn Trap Stop (-15.0% from VWAP $4.23) |
-| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$14.36** (Tangible Asset / C-Suite Turnaround Target) | `+4.1%` | **$18.67** (Catalyst Exuberance Target) | `+35.3%` | **$9.77** | Turnaround Failure Stop (-20.0% from VWAP $12.21) |
-| **`DINO`** | `TURNAROUND_CATALYST_EXIT` | **$121.18** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$157.53** (Catalyst Exuberance Target) | `+75.5%` | **$62.36** | Turnaround Failure Stop (-20.0% from VWAP $77.95) |
-| **`PYPL`** | `COMPOUNDER_FCF_TRAIL` | **$75.80** (10% FCF Yield Valuation Anchor) | `+34.5%` | **$94.75** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+68.1%` | **$44.75** | Structural Degradation Stop (-15.0% from VWAP $52.65) |
-| **`ZUMZ`** | `DEEP_VALUE_MEAN_REVERSION` | **$16.51** (Cash Multiple Re-Rating Target) | `+25.0%` | **$19.82** (Full Historical Valuation Exit) | `+50.0%` | **$9.89** | Structural Degradation Stop (-15.0% from VWAP $11.63) |
-| **`DLTH`** | `DEEP_VALUE_MEAN_REVERSION` | **$4.89** (Cash Multiple Re-Rating Target) | `+25.0%` | **$5.87** (Full Historical Valuation Exit) | `+50.0%` | **$2.97** | Structural Degradation Stop (-15.0% from VWAP $3.49) |
-| **`M`** | `DEEP_VALUE_MEAN_REVERSION` | **$29.70** (Cash Multiple Re-Rating Target) | `+25.0%` | **$35.64** (Full Historical Valuation Exit) | `+50.0%` | **$18.49** | Structural Degradation Stop (-15.0% from VWAP $21.75) |
-| **`ADBE`** | `COMPOUNDER_FCF_TRAIL` | **$281.46** (10% FCF Yield Valuation Anchor) | `+27.0%` | **$349.49** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+57.7%` | **$176.33** | Structural Degradation Stop (-15.0% from VWAP $207.45) |
-| **`UFI`** | `TURNAROUND_CATALYST_EXIT` | **$7.59** (Tangible Asset / C-Suite Turnaround Target) | `+35.1%` | **$9.87** (Catalyst Exuberance Target) | `+75.6%` | **$4.21** | Turnaround Failure Stop (-20.0% from VWAP $5.26) |
-| **`SND`** | `TURNAROUND_CATALYST_EXIT` | **$5.49** (Tangible Asset / C-Suite Turnaround Target) | `+14.1%` | **$7.14** (Catalyst Exuberance Target) | `+48.4%` | **$3.38** | Turnaround Failure Stop (-20.0% from VWAP $4.22) |
+| **`STRT`** | `DEEP_VALUE_MEAN_REVERSION` | **$78.15** (Cash Multiple Re-Rating Target) | `+25.0%` | **$93.78** (Full Historical Valuation Exit) | `+50.0%` | **$47.97** | Structural Degradation Stop (-15.0% from VWAP $56.44) |
+| **`EXE`** | `DEEP_VALUE_MEAN_REVERSION` | **$102.03** (Cash Multiple Re-Rating Target) | `+25.0%` | **$122.43** (Full Historical Valuation Exit) | `+50.0%` | **$64.92** | Structural Degradation Stop (-15.0% from VWAP $76.38) |
+| **`UEIC`** | `DEEP_VALUE_MEAN_REVERSION` | **$6.44** (Cash Multiple Re-Rating Target) | `+25.0%` | **$7.73** (Full Historical Valuation Exit) | `+50.0%` | **$3.68** | Structural Degradation Stop (-15.0% from VWAP $4.33) |
+| **`HOG`** | `TURNAROUND_CATALYST_EXIT` | **$45.39** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$59.01** (Catalyst Exuberance Target) | `+75.5%` | **$25.10** | Turnaround Failure Stop (-20.0% from VWAP $31.37) |
+| **`LRN`** | `COMPOUNDER_FCF_TRAIL` | **$122.83** (10% FCF Yield Valuation Anchor) | `+57.6%` | **$152.83** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+96.1%` | **$61.90** | Structural Degradation Stop (-15.0% from VWAP $72.82) |
+| **`CRMD`** | `DEFENSIVE_LIQUIDATION_EXIT` | **$6.65** (Tangible Book Recovery Target) | `+20.0%` | **$7.65** (Speculative Liquidation Cleanout) | `+38.1%` | **$3.94** | Liquidation Burn Trap Stop (-15.0% from VWAP $4.64) |
+| **`LOVE`** | `TURNAROUND_CATALYST_EXIT` | **$14.36** (Tangible Asset / C-Suite Turnaround Target) | `+4.4%` | **$18.67** (Catalyst Exuberance Target) | `+35.7%` | **$9.74** | Turnaround Failure Stop (-20.0% from VWAP $12.17) |
+| **`DINO`** | `TURNAROUND_CATALYST_EXIT` | **$116.19** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$151.05** (Catalyst Exuberance Target) | `+75.5%` | **$59.21** | Turnaround Failure Stop (-20.0% from VWAP $74.01) |
+| **`PYPL`** | `COMPOUNDER_FCF_TRAIL` | **$75.80** (10% FCF Yield Valuation Anchor) | `+35.1%` | **$94.75** (8% FCF Yield / Zero-Growth Intrinsic Value) | `+68.9%` | **$44.51** | Structural Degradation Stop (-15.0% from VWAP $52.37) |
+| **`ZUMZ`** | `DEEP_VALUE_MEAN_REVERSION` | **$17.50** (Cash Multiple Re-Rating Target) | `+25.0%` | **$21.00** (Full Historical Valuation Exit) | `+50.0%` | **$10.55** | Structural Degradation Stop (-15.0% from VWAP $12.41) |
+| **`DLTH`** | `DEEP_VALUE_MEAN_REVERSION` | **$4.71** (Cash Multiple Re-Rating Target) | `+25.0%` | **$5.66** (Full Historical Valuation Exit) | `+50.0%` | **$2.84** | Structural Degradation Stop (-15.0% from VWAP $3.34) |
+| **`M`** | `DEEP_VALUE_MEAN_REVERSION` | **$29.86** (Cash Multiple Re-Rating Target) | `+25.0%` | **$35.84** (Full Historical Valuation Exit) | `+50.0%` | **$18.61** | Structural Degradation Stop (-15.0% from VWAP $21.89) |
+| **`UFI`** | `TURNAROUND_CATALYST_EXIT` | **$7.56** (Tangible Asset / C-Suite Turnaround Target) | `+35.0%` | **$9.83** (Catalyst Exuberance Target) | `+75.5%` | **$4.19** | Turnaround Failure Stop (-20.0% from VWAP $5.24) |
+| **`SND`** | `TURNAROUND_CATALYST_EXIT` | **$5.49** (Tangible Asset / C-Suite Turnaround Target) | `+24.8%` | **$7.14** (Catalyst Exuberance Target) | `+62.3%` | **$3.04** | Turnaround Failure Stop (-20.0% from VWAP $3.80) |
 
 #### Specialized Exit Disciplines by Hunting Bucket
 - **Graham Net-Nets (None active):** Scale out 50% at 100% Graham NCAV; scale out remaining 50% at Tangible Book Value (TBV). Hard stop if operational burn erodes > 20% of net current assets.
-- **Core Compounders & Turnarounds (`HOG`, `LRN`, `LOVE`, `DINO`, `PYPL`, `ADBE`, `UFI`, `SND`):** Target 1 anchored to the `10.0%` Ex-Cash FCF Yield boundary ($P_{\text{T1}} = \text{FCF}_{\text{ps}}/0.10 + \max(0, \text{Net Cash}_{\text{ps}})$); Target 2 anchored to the `8.0%` FCF Yield exit trigger or Zero-Growth Intrinsic DCF Value ($P_{\text{T2}} = \max(P_{\text{ZG}}, \text{FCF}_{\text{ps}}/0.08 + \max(0, \text{Net Cash}_{\text{ps}}))$). Exit if FCF yield degrades < 8.0% or 2 consecutive quarters of negative OCF.
+- **Core Compounders & Turnarounds (`HOG`, `LRN`, `LOVE`, `DINO`, `PYPL`, `UFI`, `SND`):** Target 1 anchored to the `10.0%` Ex-Cash FCF Yield boundary ($P_{\text{T1}} = \text{FCF}_{\text{ps}}/0.10 + \max(0, \text{Net Cash}_{\text{ps}})$); Target 2 anchored to the `8.0%` FCF Yield exit trigger or Zero-Growth Intrinsic DCF Value ($P_{\text{T2}} = \max(P_{\text{ZG}}, \text{FCF}_{\text{ps}}/0.08 + \max(0, \text{Net Cash}_{\text{ps}}))$). Exit if FCF yield degrades < 8.0% or 2 consecutive quarters of negative OCF.
 - **Elevated Volume Exit Trigger:** If 30-day volume surges to **>= 3.0x ADDV** into upper valuation corridor bounds, scale out 50% directly into elevated market liquidity.
 - **Quarantined Assets (`CRMD`):** Scale out 75% at live Tangible Book Value (`CRMD` (TBV $1.05)) and 25% on final cleanout. Immediate stop if capex starvation accelerates.
 ---
