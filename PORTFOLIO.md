@@ -1,14 +1,15 @@
 # 📈 Antigravity $100K Model Portfolio Hub
-**Generated:** `2026-11-27 14:47:41 UTC` | **Reconciliation Date:** `2026-11-27` | **Engine:** Antigravity V3 Core
+**Generated:** `2026-11-28 14:44:20 UTC` | **Reconciliation Date:** `2026-11-28` | **Engine:** Antigravity V3 Core
 
-[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)  
+[🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [📘 Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html)
 
 > **🏛️ Capital Preservation & Systematic Execution:** This paper model portfolio operates strictly under deterministic Munger/Graham risk disciplines. Capital is deployed via 3-tranche limit ladders, scaled out at intrinsic value targets (+30% / +65%), protected by dynamic VWAP stops and a non-negotiable -25% catastrophic stop, and anchored by Tobin's Separation Theorem (minimum 10% Treasury Dry Powder).
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ ANTIGRAVITY $100K MODEL PORTFOLIO: EXECUTIVE PERFORMANCE DASHBOARD           │
-│ Generated: 2026-11-27 14:47 UTC | Reconciliation Date: 2026-11-27            │
+│ Generated: 2026-11-28 14:44 UTC | Reconciliation Date: 2026-11-28            │
 │ Total Portfolio NAV: $99,652.96 | Dry Powder: $79,246.96 (79.5%)             │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -37,13 +38,30 @@
 | **`STRT`** | `COMPOUNDER` | **33d** | 30 | $61.98 | $63.06 | $1,891.80 | **1.9%** | **+$32.40 (+1.7%)** | $78.61 | $99.78 | $48.70 | `$46.48` |
 | **`ZUMZ`** | `COMPOUNDER` | **33d** | 262 | $13.96 | $13.99 | $3,665.38 | **3.7%** | **+$7.65 (+0.2%)** | $18.68 | $23.71 | $11.52 | `$10.47` |
 | **`LOVE`** | `TURNAROUND` | **33d** | 193 | $14.05 | $14.24 | $2,748.32 | **2.8%** | **+$37.50 (+1.4%)** | $20.71 | $26.92 | $11.61 | `$10.54` |
-| **`CRWS`** | `TURNAROUND` | **31d** | 384 | $2.35 | $2.34 | $898.56 | **0.9%** | **$-2.88 (-0.3%)** | $3.17 | $4.12 | $1.83 | `$1.76` |
+| **`CRWS`** | `TURNAROUND` | **33d** | 384 | $2.35 | $2.34 | $898.56 | **0.9%** | **$-2.88 (-0.3%)** | $3.17 | $4.12 | $1.83 | `$1.76` |
 | **`DLTH`** | `QUARANTINED` | **33d** | 83 | $4.00 | $3.79 | $314.57 | **0.3%** | **$-17.43 (-5.2%)** | $4.87 | $5.60 | $3.20 | `$3.00` |
 | **`IZEA`** | `NET_NET` | **33d** | 146 | $2.25 | $2.60 | $379.60 | **0.4%** | **+$50.14 (+15.2%)** | $2.57 `(HIT 🎯)` | $3.08 | $2.25 | `$1.69` |
 | **`CASH_USD`** | `TREASURY_MMF` | **Active** | — | $1.00 | $1.00 | **$79,246.96** | **79.5%** | **+$7.74/day** | — | — | — | `3.58% APY` |
 | **TOTAL** | `PORTFOLIO_NAV` | — | — | — | — | **$99,652.96** | **100.0%** | **$616.98 (-0.35%)** | — | — | — | `🟢 HEALTHY` |
 
 > **💡 Money Market Fund (MMF) Accounting & Settlement Formula:** Cash sweep balance earns **3.58% APY** (brokerage core money market cash sweep posted rate as of `2026-10-27`), generating **+$7.74 / day** (+$2,823.70/yr) on settled dry powder. Under SEC $T+1$ rules, proceeds from liquidated equity positions settle for 1 business day (2 calendar days) before sweeping into interest-bearing MMF.
+
+---
+
+## 🎯 Tactical Dry-Powder Waterfall & Pullback Radar Bridge (Read-Only Overlay)
+> **Liquidity Firewall Discipline:** Before evaluating any broad-index (`SPY`) or metals (`GLDM`/`GLD`) pullback sleeve, the system ring-fences the hard Tobin survival floor and all pending Engine 3 single-stock `T2`/`T3` limit orders. Full triggers, vetoes, and gold confirmations live on the [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) ([📘 Read the Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html)).
+
+| Tactical Posture | `SPY` Spot (`vs 200D`) | `^VIX` / `VIX3M` | `HY OAS` | `SPY` (`T1 / T2 / T3`) | `Gold` (`Scout / Scale`) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **`HOLIDAY_THIN_BOOK_WAIT`** | `$728.32` (`-0.68%`) | `23.81` (`1.000x`) | `372 bps` | 🔴 VETOED / 🔴 VETOED / 🟡 LOCKED | 🟢 READY / 🟡 LOCKED |
+
+| Cash Waterfall Layer | Dollar Allocation | Rule / Share | Role in Capital Stack |
+| :--- | ---: | :---: | :--- |
+| **Live Cash Balance (`portfolio_tracker.sqlite`)** | **$79,246.96** | `79.5% NAV` | Settled + pending MMF cash sweep |
+| Less: Hard Tobin Survival Floor | -$10,000.00 | `max($10k, 10% NAV)` | Permanent dry-powder reserve |
+| Less: Ring-Fenced Engine 3 Pending `T2`/`T3` Buys | -$26,752.58 | `23 PENDING BUY orders` | Protects single-stock GTC ladders |
+| **Truly Unencumbered Tactical Pool** | **$42,494.38** | **`100.0%` Pool** | Deployable without touching Engine 3 |
+| → Shopping-Spree Reserve (`50%`) / `SPY` (`35%`) / `Gold` (`15%`) | **$21,247.19** / **$14,873.03** / **$6,374.16** | `50 / 35 / 15` | [Open Full Tactical Dip Radar →](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) |
 
 <details markdown="1">
 <summary>🔎 <b>Click to Expand Position-Level Audit Ledgers (Fills, VWAP Ratchets & Milestones)</b></summary>
@@ -214,7 +232,7 @@
 ---
 
 ### `CRWS` — CROWN CRAFTS INC (`TIER_3_TURNAROUND`)
-- **Entry Date:** `2026-10-26` | **Holding Duration:** `31 trading days`
+- **Entry Date:** `2026-10-26` | **Holding Duration:** `33 trading days`
 - **Capital Sized:** `$1,355.20` | **Deployed:** `$901.44` | **Current NAV Value:** `$898.56`
 - **Cost Basis:** `$2.35` (VWAP) | **Catastrophic Stop (-25% VWAP):** `$1.76`
 - **Exit Discipline:** Target 1 `$3.17` (Trim 50%) | Target 2 `$4.12` (Cleanout 100%) | Hard Stop `$1.83`
@@ -332,6 +350,7 @@
 ### 3. Portfolio Sleeve Budgeting & Tobin's Separation Theorem
 - **Sleeve Allocation Limits:** Compounders capped at 65.0% total (5.5% target / 7.0% hard cap per stock); Turnarounds capped at 20.0% total (2.8% target / 3.5% hard cap); Net-Nets capped at 5.0% total (1.0% target / 1.5% hard cap).
 - **Dynamic Cash Floor:** $\max(\$10,000.00, 10.0\% \times \text{NAV})$ is permanently preserved. Unallocated sleeve capital remains in Treasury dry powder.
+- **Read-Only Tactical Dry-Powder Waterfall:** Truly unencumbered cash above both the Tobin floor and all pending Engine 3 `T2`/`T3` BUY limit orders is split `50%` Shopping Spree / `35%` `SPY` / `15%` `Gold` strictly as a read-only overlay on the [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) ([📘 Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html)), without mutating Engine 3 single-stock accounting.
 - **ADDV Liquidity Guardrail:** Position sizes are strictly capped at <= 2.0% of 30-day Average Daily Dollar Volume to ensure 1–2 day normal-volume liquidation.
 
 ### 4. Deterministic Archetype Valuation Exits & Stop Disciplines

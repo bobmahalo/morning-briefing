@@ -5,7 +5,8 @@
 **System:** Antigravity V3 Core (Dual-Engine System)  
 **Methodology:** Zero Discretion | Adversarial Accounting | Deterministic Execution  
 
-[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)  
+[🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [📘 Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html)
 
 > **🏛️ True Stock Ownership & Custody Education:** Holding shares in broker "Street Name" means you only hold a beneficial entitlement while Cede & Co. holds legal title. Learn how Direct Registration (DRS) protects your shares from broker insolvency and short-lending at **[WhyDRS.org](https://www.whydrs.org)** ([Advocacy](https://www.whydrs.org/advocacy) | [Free Resources](https://www.whydrs.org/free-resources)).
 
@@ -410,8 +411,7 @@ $$\text{TTM FCF Yield} = \frac{\text{TTM Operating Cash Flow} - \text{TTM Capex}
 ---
 
 ## 2. Capital Allocation & The Dry Powder Mandate
-> [!IMPORTANT]
-> **The Disciplined Sizing Rule & Tobin's Separation Theorem:**
+> **📌 The Disciplined Sizing Rule & Tobin's Separation Theorem:**
 > * We enforce a non-negotiable **10.0% Minimum Cash Floor ($10,000)** at all times.
 > * If Tier 1 (`TIER_1_COMPOUNDERS`) has a 45.0% sleeve target (5.5% target per stock) and Cash Cow / Deep Value (`TIER_DEEP_VALUE_CASH_COW`) has a 25.0% sleeve target (3.5% target per stock), and only 3 Tier 1 stocks pass our screens:
 >   * We allocate $3 \times 5.5\% = 16.5\%$ of the portfolio across those 3 stocks.
@@ -457,13 +457,13 @@ Positions are accumulated across three tranches scaled to 14-day Average True Ra
 * **Dynamic Dry Powder Floor Formula:**
   $$\text{Required Cash Floor} = \max(\$10,000.00, 10.0\% \times \text{Portfolio NAV})$$
   As the portfolio compounds in net asset value, the absolute dollar value of the dry powder reserve scales proportionally, guaranteeing that the fund always retains sufficient liquidity to exploit deep market panics without forced selling.
+* **Read-Only Tactical Dry-Powder Waterfall Overlay:** Truly unencumbered cash above both the Tobin floor and all pending Engine 3 `T2`/`T3` BUY limit orders is monitored strictly read-only (`mode=ro`) on the [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) and surfaced as a compact bridge inside `PORTFOLIO.html` (auto-refreshed atomically by Option `2` without mutating Engine 3 accounting). See the dedicated [📘 Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html) for the `50/35/15` split, `SPY` `20/50/30` confirmation math, Gold `100W SMA` + `2/3` confirmations, and credit/volatility vetoes.
 
 ---
 
 # MODULE 5: Architecture Integrity & Technical Debt Post-Mortem
 
-> [!NOTE]
-> **Engineering Case Study: Why the Incubation Radar Was Decommissioned (The Munger Law of Technical Debt):**
+> **ℹ️ Engineering Case Study: Why the Incubation Radar Was Decommissioned (The Munger Law of Technical Debt):**
 > * Charlie Munger famously taught: *"Part of what you must learn is how to handle mistakes and new facts that change the odds. When you find yourself in a hole, stop digging."*
 > * The legacy "Incubation Radar" attempted to dynamically unearth hidden supply-chain bottleneck suppliers from SEC 10-K filings using regex and spaCy NLP.
 > * **The Regulatory Reality:** SEC Regulation S-K Item 101 only mandates disclosure of customers representing $>10\%$ of revenue; companies are legally exempt from disclosing small component suppliers. Scraping 10-Ks yielded mostly mega-cap conglomerates (`MSFT`, `AMD`) or zero suppliers.

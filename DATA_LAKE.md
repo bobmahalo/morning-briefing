@@ -1,7 +1,8 @@
 # 🗄️ Open SEC XBRL Data Lake & Wide-Net Market Scanner
 **Generated:** 2026-11-22 21:26 UTC | **Coverage:** `5,341` Active `10-K`/`10-Q` Operating Companies (`68` Normalized Columns) | **Quotes:** `2026-11-22 19:42:29 UTC` (`Fresh`)
 
-[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html) | [🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)
+[☕ Daily Morning Briefing](https://bobmahalo.github.io/morning-briefing/) | [📈 $100K Model Portfolio](https://bobmahalo.github.io/morning-briefing/PORTFOLIO.html) | [🎯 Tactical Dip Radar](https://bobmahalo.github.io/morning-briefing/TACTICAL_DIP.html) | [🗂️ Single Stock Directory](https://bobmahalo.github.io/Single-Stock-Scan/)  
+[🎓 Master Curriculum](https://bobmahalo.github.io/morning-briefing/CURRICULUM.html) | [🔬 SSR Executive Curriculum](https://bobmahalo.github.io/morning-briefing/SSR_CURRICULUM.html) | [📘 Tactical Dip Curriculum](https://bobmahalo.github.io/morning-briefing/TACTICAL_CURRICULUM.html) | [🗄️ Open SEC Data Lake](https://bobmahalo.github.io/morning-briefing/DATA_LAKE.html)
 
 > **🏛️ True Stock Ownership & Custody Education:** Holding shares in broker "Street Name" means you only hold a beneficial entitlement while Cede & Co. holds legal title. Learn how Direct Registration (DRS) protects your shares from broker insolvency and short-lending at **[WhyDRS.org](https://www.whydrs.org)** ([Advocacy](https://www.whydrs.org/advocacy) | [Free Resources](https://www.whydrs.org/free-resources)).
 
